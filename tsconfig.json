@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "ES2017",
+      "dom"
+    ],
+    "strict": false
+  },
+  "extends": "./temp/tsconfig.cocos.json"
+}

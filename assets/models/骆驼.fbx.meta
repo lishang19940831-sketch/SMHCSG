@@ -1,0 +1,96 @@
+{
+  "ver": "2.3.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "84849604-e9dc-62d5-38da-aa8c5b133e1f",
+  "files": [],
+  "subMetas": {
+    "95966": {
+      "importer": "gltf-scene",
+      "uuid": "84849604-e9dc-62d5-38da-aa8c5b133e1f@95966",
+      "displayName": "",
+      "id": "95966",
+      "name": "骆驼.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d7507": {
+      "importer": "gltf-mesh",
+      "uuid": "84849604-e9dc-62d5-38da-aa8c5b133e1f@d7507",
+      "displayName": "",
+      "id": "d7507",
+      "name": "luotuo.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 4258
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "56b5f": {
+      "importer": "gltf-material",
+      "uuid": "84849604-e9dc-62d5-38da-aa8c5b133e1f@56b5f",
+      "displayName": "",
+      "id": "56b5f",
+      "name": "luotuo.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "84849604-e9dc-62d5-38da-aa8c5b133e1f@d7507"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "84849604-e9dc-62d5-38da-aa8c5b133e1f@56b5f"
+      ],
+      "scenes": [
+        "84849604-e9dc-62d5-38da-aa8c5b133e1f@95966"
+      ]
+    }
+  }
+}

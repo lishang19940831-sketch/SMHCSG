@@ -1,0 +1,96 @@
+{
+  "ver": "2.3.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "30486ccd-0ff6-83a1-5940-7801036511fd",
+  "files": [],
+  "subMetas": {
+    "45418": {
+      "importer": "gltf-mesh",
+      "uuid": "30486ccd-0ff6-83a1-5940-7801036511fd@45418",
+      "displayName": "",
+      "id": "45418",
+      "name": "ren001.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 2268
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "94669": {
+      "importer": "gltf-scene",
+      "uuid": "30486ccd-0ff6-83a1-5940-7801036511fd@94669",
+      "displayName": "",
+      "id": "94669",
+      "name": "人.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "823a8": {
+      "importer": "gltf-material",
+      "uuid": "30486ccd-0ff6-83a1-5940-7801036511fd@823a8",
+      "displayName": "",
+      "id": "823a8",
+      "name": "ren.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "30486ccd-0ff6-83a1-5940-7801036511fd@45418"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "30486ccd-0ff6-83a1-5940-7801036511fd@823a8"
+      ],
+      "scenes": [
+        "30486ccd-0ff6-83a1-5940-7801036511fd@94669"
+      ]
+    }
+  }
+}

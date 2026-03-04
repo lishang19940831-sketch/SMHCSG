@@ -1,0 +1,146 @@
+{
+  "ver": "2.3.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "3c9db89f-57f0-f7c3-39dc-9fb0f9269aab",
+  "files": [],
+  "subMetas": {
+    "9f1e3": {
+      "importer": "gltf-mesh",
+      "uuid": "3c9db89f-57f0-f7c3-39dc-9fb0f9269aab@9f1e3",
+      "displayName": "",
+      "id": "9f1e3",
+      "name": "Stone_02.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 145
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "32d96": {
+      "importer": "gltf-embeded-image",
+      "uuid": "3c9db89f-57f0-f7c3-39dc-9fb0f9269aab@32d96",
+      "displayName": "",
+      "id": "32d96",
+      "name": "Map #0.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "ab932": {
+      "importer": "texture",
+      "uuid": "3c9db89f-57f0-f7c3-39dc-9fb0f9269aab@ab932",
+      "displayName": "",
+      "id": "ab932",
+      "name": "Map #0.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "3c9db89f-57f0-f7c3-39dc-9fb0f9269aab@32d96"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "482f8": {
+      "importer": "gltf-material",
+      "uuid": "3c9db89f-57f0-f7c3-39dc-9fb0f9269aab@482f8",
+      "displayName": "",
+      "id": "482f8",
+      "name": "Material #51.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "19e94": {
+      "importer": "gltf-scene",
+      "uuid": "3c9db89f-57f0-f7c3-39dc-9fb0f9269aab@19e94",
+      "displayName": "",
+      "id": "19e94",
+      "name": "石头_黄_02.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Map #0",
+        "uri": "3c9db89f-57f0-f7c3-39dc-9fb0f9269aab@32d96"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "3c9db89f-57f0-f7c3-39dc-9fb0f9269aab@9f1e3"
+      ],
+      "skeletons": [],
+      "textures": [
+        "3c9db89f-57f0-f7c3-39dc-9fb0f9269aab@ab932"
+      ],
+      "materials": [
+        "3c9db89f-57f0-f7c3-39dc-9fb0f9269aab@482f8"
+      ],
+      "scenes": [
+        "3c9db89f-57f0-f7c3-39dc-9fb0f9269aab@19e94"
+      ]
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "ver": "2.3.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "9de3a866-c3cd-ffa2-7d7e-340a5b9bd70a",
+  "files": [],
+  "subMetas": {
+    "66254": {
+      "importer": "gltf-material",
+      "uuid": "9de3a866-c3cd-ffa2-7d7e-340a5b9bd70a@66254",
+      "displayName": "",
+      "id": "66254",
+      "name": "M_一级围墙_Inst.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fbcc2": {
+      "importer": "gltf-mesh",
+      "uuid": "9de3a866-c3cd-ffa2-7d7e-340a5b9bd70a@fbcc2",
+      "displayName": "",
+      "id": "fbcc2",
+      "name": "新_一级围墙5.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 584
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "49db8": {
+      "importer": "gltf-scene",
+      "uuid": "9de3a866-c3cd-ffa2-7d7e-340a5b9bd70a@49db8",
+      "displayName": "",
+      "id": "49db8",
+      "name": "木制围墙组04.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "9de3a866-c3cd-ffa2-7d7e-340a5b9bd70a@fbcc2"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "9de3a866-c3cd-ffa2-7d7e-340a5b9bd70a@66254"
+      ],
+      "scenes": [
+        "9de3a866-c3cd-ffa2-7d7e-340a5b9bd70a@49db8"
+      ]
+    }
+  }
+}

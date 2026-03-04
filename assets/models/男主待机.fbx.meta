@@ -1,0 +1,14 @@
+{
+  "ver": "2.3.14",
+  "importer": "fbx",
+  "imported": false,
+  "uuid": "be1ee28a-a46c-366d-0e2f-6072b7edf49b",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    }
+  }
+}

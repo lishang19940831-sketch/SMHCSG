@@ -1,0 +1,187 @@
+{
+  "ver": "2.3.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "7405b2bd-676e-1851-3415-39ce59132fe2",
+  "files": [
+    "__original-animation-0.bin"
+  ],
+  "subMetas": {
+    "105a2": {
+      "importer": "gltf-mesh",
+      "uuid": "7405b2bd-676e-1851-3415-39ce59132fe2@105a2",
+      "displayName": "",
+      "id": "105a2",
+      "name": "Low_Log.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 30
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "73b7f": {
+      "importer": "gltf-animation",
+      "uuid": "7405b2bd-676e-1851-3415-39ce59132fe2@73b7f",
+      "displayName": "",
+      "id": "73b7f",
+      "name": "Take 001.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 3.3333332538604736
+        },
+        "events": []
+      },
+      "ver": "1.0.18",
+      "imported": true,
+      "files": [
+        ".bin"
+      ],
+      "subMetas": {}
+    },
+    "1cdc4": {
+      "importer": "gltf-embeded-image",
+      "uuid": "7405b2bd-676e-1851-3415-39ce59132fe2@1cdc4",
+      "displayName": "",
+      "id": "1cdc4",
+      "name": "贴图 #3.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "bfae8": {
+      "importer": "texture",
+      "uuid": "7405b2bd-676e-1851-3415-39ce59132fe2@bfae8",
+      "displayName": "",
+      "id": "bfae8",
+      "name": "贴图 #3.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "7405b2bd-676e-1851-3415-39ce59132fe2@1cdc4"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "022b4": {
+      "importer": "gltf-material",
+      "uuid": "7405b2bd-676e-1851-3415-39ce59132fe2@022b4",
+      "displayName": "",
+      "id": "022b4",
+      "name": "huodui.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e49ba": {
+      "importer": "gltf-scene",
+      "uuid": "7405b2bd-676e-1851-3415-39ce59132fe2@e49ba",
+      "displayName": "",
+      "id": "e49ba",
+      "name": "mutou.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "贴图 #3",
+        "uri": "7405b2bd-676e-1851-3415-39ce59132fe2@1cdc4"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 3.3333332538604736,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Take 001",
+            "from": 0,
+            "to": 3.3333332538604736,
+            "wrapMode": 2,
+            "previousId": "73b7f"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "7405b2bd-676e-1851-3415-39ce59132fe2@105a2"
+      ],
+      "skeletons": [],
+      "textures": [
+        "7405b2bd-676e-1851-3415-39ce59132fe2@bfae8"
+      ],
+      "materials": [
+        "7405b2bd-676e-1851-3415-39ce59132fe2@022b4"
+      ],
+      "scenes": [
+        "7405b2bd-676e-1851-3415-39ce59132fe2@e49ba"
+      ]
+    }
+  }
+}

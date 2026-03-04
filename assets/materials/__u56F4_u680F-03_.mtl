@@ -1,0 +1,32 @@
+{
+  "__type__": "cc.Material",
+  "_defines": [
+    {
+      "USE_ALBEDO_MAP": true
+    }
+  ],
+  "_effectAsset": {
+    "__uuid__": "c8f66d17-351a-48da-a12c-0212d28575c4"
+  },
+  "_name": "\"\\u56F4\\u680F-03\"",
+  "_native": "",
+  "_objFlags": 0,
+  "_props": [
+    {
+      "mainColor": {
+        "__type__": "cc.Color",
+        "a": 255,
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "mainTexture": {
+        "__expectedType__": "cc.Texture2D",
+        "__uuid__": "90adbe44-5bc5-c094-422a-95289ea0390b@6c48a"
+      },
+      "metallic": 0,
+      "roughness": 0.8
+    }
+  ],
+  "_techIdx": 0
+}

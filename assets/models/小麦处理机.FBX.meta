@@ -1,0 +1,152 @@
+{
+  "ver": "2.3.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "e44349a1-e82f-5ad3-fad5-706b8fcfce61",
+  "files": [],
+  "subMetas": {
+    "30732": {
+      "importer": "gltf-skeleton",
+      "uuid": "e44349a1-e82f-5ad3-fad5-706b8fcfce61@30732",
+      "displayName": "",
+      "id": "30732",
+      "name": "UnnamedSkeleton-0.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 2
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "60929": {
+      "importer": "gltf-mesh",
+      "uuid": "e44349a1-e82f-5ad3-fad5-706b8fcfce61@60929",
+      "displayName": "",
+      "id": "60929",
+      "name": "XiaoMai.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 1290
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8b27a": {
+      "importer": "gltf-mesh",
+      "uuid": "e44349a1-e82f-5ad3-fad5-706b8fcfce61@8b27a",
+      "displayName": "",
+      "id": "8b27a",
+      "name": "JiQi.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 804
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f1394": {
+      "importer": "gltf-skeleton",
+      "uuid": "e44349a1-e82f-5ad3-fad5-706b8fcfce61@f1394",
+      "displayName": "",
+      "id": "f1394",
+      "name": "UnnamedSkeleton-1.skeleton",
+      "userData": {
+        "gltfIndex": 1,
+        "jointsLength": 19
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9d093": {
+      "importer": "gltf-material",
+      "uuid": "e44349a1-e82f-5ad3-fad5-706b8fcfce61@9d093",
+      "displayName": "",
+      "id": "9d093",
+      "name": "Material #25.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "20afc": {
+      "importer": "gltf-scene",
+      "uuid": "e44349a1-e82f-5ad3-fad5-706b8fcfce61@20afc",
+      "displayName": "",
+      "id": "20afc",
+      "name": "小麦处理机.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "e44349a1-e82f-5ad3-fad5-706b8fcfce61@8b27a",
+        "e44349a1-e82f-5ad3-fad5-706b8fcfce61@60929"
+      ],
+      "skeletons": [
+        "e44349a1-e82f-5ad3-fad5-706b8fcfce61@30732",
+        "e44349a1-e82f-5ad3-fad5-706b8fcfce61@f1394"
+      ],
+      "textures": [],
+      "materials": [
+        "e44349a1-e82f-5ad3-fad5-706b8fcfce61@9d093"
+      ],
+      "scenes": [
+        "e44349a1-e82f-5ad3-fad5-706b8fcfce61@20afc"
+      ]
+    }
+  }
+}

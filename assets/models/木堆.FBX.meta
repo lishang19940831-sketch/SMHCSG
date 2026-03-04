@@ -1,0 +1,203 @@
+{
+  "ver": "2.3.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "8d152416-186e-f6ae-e412-d7e82732ac55",
+  "files": [],
+  "subMetas": {
+    "53442": {
+      "importer": "gltf-mesh",
+      "uuid": "8d152416-186e-f6ae-e412-d7e82732ac55@53442",
+      "displayName": "",
+      "id": "53442",
+      "name": "SM_木堆-3.mesh",
+      "userData": {
+        "gltfIndex": 3,
+        "triangleCount": 340
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5d233": {
+      "importer": "gltf-mesh",
+      "uuid": "8d152416-186e-f6ae-e412-d7e82732ac55@5d233",
+      "displayName": "",
+      "id": "5d233",
+      "name": "SM_木堆-0.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 2856
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "96dac": {
+      "importer": "gltf-mesh",
+      "uuid": "8d152416-186e-f6ae-e412-d7e82732ac55@96dac",
+      "displayName": "",
+      "id": "96dac",
+      "name": "SM_木堆-1.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 1428
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "248ba": {
+      "importer": "gltf-mesh",
+      "uuid": "8d152416-186e-f6ae-e412-d7e82732ac55@248ba",
+      "displayName": "",
+      "id": "248ba",
+      "name": "SM_木堆-2.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 714
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f6e23": {
+      "importer": "gltf-embeded-image",
+      "uuid": "8d152416-186e-f6ae-e412-d7e82732ac55@f6e23",
+      "displayName": "",
+      "id": "f6e23",
+      "name": "T_CampFire_N.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "cec8e": {
+      "importer": "texture",
+      "uuid": "8d152416-186e-f6ae-e412-d7e82732ac55@cec8e",
+      "displayName": "",
+      "id": "cec8e",
+      "name": "T_CampFire_N.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "8d152416-186e-f6ae-e412-d7e82732ac55@f6e23"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b549b": {
+      "importer": "gltf-material",
+      "uuid": "8d152416-186e-f6ae-e412-d7e82732ac55@b549b",
+      "displayName": "",
+      "id": "b549b",
+      "name": "MI_Campfire.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3d1c1": {
+      "importer": "gltf-scene",
+      "uuid": "8d152416-186e-f6ae-e412-d7e82732ac55@3d1c1",
+      "displayName": "",
+      "id": "3d1c1",
+      "name": "木堆.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "T_CampFire_N",
+        "uri": "8d152416-186e-f6ae-e412-d7e82732ac55@f6e23"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "8d152416-186e-f6ae-e412-d7e82732ac55@5d233",
+        "8d152416-186e-f6ae-e412-d7e82732ac55@96dac",
+        "8d152416-186e-f6ae-e412-d7e82732ac55@248ba",
+        "8d152416-186e-f6ae-e412-d7e82732ac55@53442"
+      ],
+      "skeletons": [],
+      "textures": [
+        "8d152416-186e-f6ae-e412-d7e82732ac55@cec8e"
+      ],
+      "materials": [
+        "8d152416-186e-f6ae-e412-d7e82732ac55@b549b"
+      ],
+      "scenes": [
+        "8d152416-186e-f6ae-e412-d7e82732ac55@3d1c1"
+      ]
+    }
+  }
+}

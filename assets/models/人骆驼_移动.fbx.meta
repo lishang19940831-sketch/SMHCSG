@@ -1,0 +1,277 @@
+{
+  "ver": "2.3.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "203ba9cb-2c2a-3657-d1a7-57277dba6aa0",
+  "files": [
+    "__original-animation-0.bin"
+  ],
+  "subMetas": {
+    "30732": {
+      "importer": "gltf-skeleton",
+      "uuid": "203ba9cb-2c2a-3657-d1a7-57277dba6aa0@30732",
+      "displayName": "",
+      "id": "30732",
+      "name": "UnnamedSkeleton-0.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 55
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "45418": {
+      "importer": "gltf-mesh",
+      "uuid": "203ba9cb-2c2a-3657-d1a7-57277dba6aa0@45418",
+      "displayName": "",
+      "id": "45418",
+      "name": "ren001.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 2268
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d7507": {
+      "importer": "gltf-mesh",
+      "uuid": "203ba9cb-2c2a-3657-d1a7-57277dba6aa0@d7507",
+      "displayName": "",
+      "id": "d7507",
+      "name": "luotuo.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 4258
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c6160": {
+      "importer": "gltf-mesh",
+      "uuid": "203ba9cb-2c2a-3657-d1a7-57277dba6aa0@c6160",
+      "displayName": "",
+      "id": "c6160",
+      "name": "Cylinder001.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 130
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "73b7f": {
+      "importer": "gltf-animation",
+      "uuid": "203ba9cb-2c2a-3657-d1a7-57277dba6aa0@73b7f",
+      "displayName": "",
+      "id": "73b7f",
+      "name": "Take 001.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.0666667222976685
+        },
+        "events": []
+      },
+      "ver": "1.0.18",
+      "imported": true,
+      "files": [
+        ".bin"
+      ],
+      "subMetas": {}
+    },
+    "f1394": {
+      "importer": "gltf-skeleton",
+      "uuid": "203ba9cb-2c2a-3657-d1a7-57277dba6aa0@f1394",
+      "displayName": "",
+      "id": "f1394",
+      "name": "UnnamedSkeleton-1.skeleton",
+      "userData": {
+        "gltfIndex": 1,
+        "jointsLength": 42
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "75ee4": {
+      "importer": "gltf-skeleton",
+      "uuid": "203ba9cb-2c2a-3657-d1a7-57277dba6aa0@75ee4",
+      "displayName": "",
+      "id": "75ee4",
+      "name": "UnnamedSkeleton-2.skeleton",
+      "userData": {
+        "gltfIndex": 2,
+        "jointsLength": 8
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a96a6": {
+      "importer": "texture",
+      "uuid": "203ba9cb-2c2a-3657-d1a7-57277dba6aa0@a96a6",
+      "displayName": "",
+      "id": "a96a6",
+      "name": "贴图 #1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/textures/人_BC.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9d093": {
+      "importer": "gltf-material",
+      "uuid": "203ba9cb-2c2a-3657-d1a7-57277dba6aa0@9d093",
+      "displayName": "",
+      "id": "9d093",
+      "name": "Material #25.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "56b5f": {
+      "importer": "gltf-material",
+      "uuid": "203ba9cb-2c2a-3657-d1a7-57277dba6aa0@56b5f",
+      "displayName": "",
+      "id": "56b5f",
+      "name": "luotuo.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fc1b3": {
+      "importer": "gltf-scene",
+      "uuid": "203ba9cb-2c2a-3657-d1a7-57277dba6aa0@fc1b3",
+      "displayName": "",
+      "id": "fc1b3",
+      "name": "人骆驼_移动.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "贴图 #1",
+        "uri": "db://assets/textures/人_BC.png"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 1.0666667222976685,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Take 001",
+            "from": 0,
+            "to": 1.0666667222976685,
+            "wrapMode": 2,
+            "previousId": "73b7f"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "203ba9cb-2c2a-3657-d1a7-57277dba6aa0@45418",
+        "203ba9cb-2c2a-3657-d1a7-57277dba6aa0@d7507",
+        "203ba9cb-2c2a-3657-d1a7-57277dba6aa0@c6160"
+      ],
+      "skeletons": [
+        "203ba9cb-2c2a-3657-d1a7-57277dba6aa0@30732",
+        "203ba9cb-2c2a-3657-d1a7-57277dba6aa0@f1394",
+        "203ba9cb-2c2a-3657-d1a7-57277dba6aa0@75ee4"
+      ],
+      "textures": [
+        "203ba9cb-2c2a-3657-d1a7-57277dba6aa0@a96a6"
+      ],
+      "materials": [
+        "203ba9cb-2c2a-3657-d1a7-57277dba6aa0@9d093",
+        "203ba9cb-2c2a-3657-d1a7-57277dba6aa0@56b5f"
+      ],
+      "scenes": [
+        "203ba9cb-2c2a-3657-d1a7-57277dba6aa0@fc1b3"
+      ]
+    }
+  }
+}

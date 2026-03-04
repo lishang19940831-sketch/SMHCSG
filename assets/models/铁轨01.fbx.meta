@@ -1,0 +1,96 @@
+{
+  "ver": "2.3.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "b80e293a-91c0-68d7-7552-60e116a344c7",
+  "files": [],
+  "subMetas": {
+    "e4e41": {
+      "importer": "gltf-mesh",
+      "uuid": "b80e293a-91c0-68d7-7552-60e116a344c7@e4e41",
+      "displayName": "",
+      "id": "e4e41",
+      "name": "fbx_city_kt_guidao_01.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 371
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "db133": {
+      "importer": "gltf-material",
+      "uuid": "b80e293a-91c0-68d7-7552-60e116a344c7@db133",
+      "displayName": "",
+      "id": "db133",
+      "name": "m_city_kt_guidao.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a6b7b": {
+      "importer": "gltf-scene",
+      "uuid": "b80e293a-91c0-68d7-7552-60e116a344c7@a6b7b",
+      "displayName": "",
+      "id": "a6b7b",
+      "name": "铁轨01.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "b80e293a-91c0-68d7-7552-60e116a344c7@e4e41"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "b80e293a-91c0-68d7-7552-60e116a344c7@db133"
+      ],
+      "scenes": [
+        "b80e293a-91c0-68d7-7552-60e116a344c7@a6b7b"
+      ]
+    }
+  }
+}

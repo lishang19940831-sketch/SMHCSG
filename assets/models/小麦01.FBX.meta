@@ -1,0 +1,154 @@
+{
+  "ver": "2.3.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "a82ad81d-7ca6-a568-6a77-9953e2728810",
+  "files": [],
+  "subMetas": {
+    "ada2a": {
+      "importer": "gltf-mesh",
+      "uuid": "a82ad81d-7ca6-a568-6a77-9953e2728810@ada2a",
+      "displayName": "",
+      "id": "ada2a",
+      "name": "XiaoMai_1.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 230
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ab932": {
+      "importer": "texture",
+      "uuid": "a82ad81d-7ca6-a568-6a77-9953e2728810@ab932",
+      "displayName": "",
+      "id": "ab932",
+      "name": "Map #0.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/textures/XiaoMai_1.tga"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6e70c": {
+      "importer": "texture",
+      "uuid": "a82ad81d-7ca6-a568-6a77-9953e2728810@6e70c",
+      "displayName": "",
+      "id": "6e70c",
+      "name": "Map #1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/textures/XiaoMai_1.tga"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5c895": {
+      "importer": "gltf-material",
+      "uuid": "a82ad81d-7ca6-a568-6a77-9953e2728810@5c895",
+      "displayName": "",
+      "id": "5c895",
+      "name": "Material #2.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9d39b": {
+      "importer": "gltf-scene",
+      "uuid": "a82ad81d-7ca6-a568-6a77-9953e2728810@9d39b",
+      "displayName": "",
+      "id": "9d39b",
+      "name": "小麦01.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Map #0",
+        "uri": "db://assets/textures/XiaoMai_1.tga"
+      },
+      {
+        "name": "Map #1",
+        "uri": "db://assets/textures/XiaoMai_1.tga"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "a82ad81d-7ca6-a568-6a77-9953e2728810@ada2a"
+      ],
+      "skeletons": [],
+      "textures": [
+        "a82ad81d-7ca6-a568-6a77-9953e2728810@ab932",
+        "a82ad81d-7ca6-a568-6a77-9953e2728810@6e70c"
+      ],
+      "materials": [
+        "a82ad81d-7ca6-a568-6a77-9953e2728810@5c895"
+      ],
+      "scenes": [
+        "a82ad81d-7ca6-a568-6a77-9953e2728810@9d39b"
+      ]
+    }
+  }
+}

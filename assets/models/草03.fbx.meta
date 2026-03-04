@@ -1,0 +1,96 @@
+{
+  "ver": "2.3.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "b54cc201-c9e5-1629-d1b0-5b732a82474f",
+  "files": [],
+  "subMetas": {
+    "45e61": {
+      "importer": "gltf-mesh",
+      "uuid": "b54cc201-c9e5-1629-d1b0-5b732a82474f@45e61",
+      "displayName": "",
+      "id": "45e61",
+      "name": "fbx_glass.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 208
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2deab": {
+      "importer": "gltf-material",
+      "uuid": "b54cc201-c9e5-1629-d1b0-5b732a82474f@2deab",
+      "displayName": "",
+      "id": "2deab",
+      "name": "Default_Material.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c55fc": {
+      "importer": "gltf-scene",
+      "uuid": "b54cc201-c9e5-1629-d1b0-5b732a82474f@c55fc",
+      "displayName": "",
+      "id": "c55fc",
+      "name": "草03.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "b54cc201-c9e5-1629-d1b0-5b732a82474f@45e61"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "b54cc201-c9e5-1629-d1b0-5b732a82474f@2deab"
+      ],
+      "scenes": [
+        "b54cc201-c9e5-1629-d1b0-5b732a82474f@c55fc"
+      ]
+    }
+  }
+}

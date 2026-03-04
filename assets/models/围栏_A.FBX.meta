@@ -1,0 +1,260 @@
+{
+  "ver": "2.3.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "d5d548a1-ff2e-3d91-c724-039072741f86",
+  "files": [],
+  "subMetas": {
+    "a2f66": {
+      "importer": "gltf-mesh",
+      "uuid": "d5d548a1-ff2e-3d91-c724-039072741f86@a2f66",
+      "displayName": "",
+      "id": "a2f66",
+      "name": "MuBan5.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 38
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8e53c": {
+      "importer": "gltf-mesh",
+      "uuid": "d5d548a1-ff2e-3d91-c724-039072741f86@8e53c",
+      "displayName": "",
+      "id": "8e53c",
+      "name": "MuBan6.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 38
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e9ef8": {
+      "importer": "gltf-mesh",
+      "uuid": "d5d548a1-ff2e-3d91-c724-039072741f86@e9ef8",
+      "displayName": "",
+      "id": "e9ef8",
+      "name": "MuBan7.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 38
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c4e7b": {
+      "importer": "gltf-mesh",
+      "uuid": "d5d548a1-ff2e-3d91-c724-039072741f86@c4e7b",
+      "displayName": "",
+      "id": "c4e7b",
+      "name": "MuBan4.mesh",
+      "userData": {
+        "gltfIndex": 3,
+        "triangleCount": 38
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "06dbf": {
+      "importer": "gltf-mesh",
+      "uuid": "d5d548a1-ff2e-3d91-c724-039072741f86@06dbf",
+      "displayName": "",
+      "id": "06dbf",
+      "name": "MuBan3.mesh",
+      "userData": {
+        "gltfIndex": 4,
+        "triangleCount": 38
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "14a91": {
+      "importer": "gltf-mesh",
+      "uuid": "d5d548a1-ff2e-3d91-c724-039072741f86@14a91",
+      "displayName": "",
+      "id": "14a91",
+      "name": "MuBan2.mesh",
+      "userData": {
+        "gltfIndex": 5,
+        "triangleCount": 38
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f3574": {
+      "importer": "gltf-mesh",
+      "uuid": "d5d548a1-ff2e-3d91-c724-039072741f86@f3574",
+      "displayName": "",
+      "id": "f3574",
+      "name": "MuBan1.mesh",
+      "userData": {
+        "gltfIndex": 6,
+        "triangleCount": 38
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a7257": {
+      "importer": "gltf-embeded-image",
+      "uuid": "d5d548a1-ff2e-3d91-c724-039072741f86@a7257",
+      "displayName": "",
+      "id": "a7257",
+      "name": "Map #3.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "6b9e5": {
+      "importer": "texture",
+      "uuid": "d5d548a1-ff2e-3d91-c724-039072741f86@6b9e5",
+      "displayName": "",
+      "id": "6b9e5",
+      "name": "Map #3.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "d5d548a1-ff2e-3d91-c724-039072741f86@a7257"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7ff75": {
+      "importer": "gltf-material",
+      "uuid": "d5d548a1-ff2e-3d91-c724-039072741f86@7ff75",
+      "displayName": "",
+      "id": "7ff75",
+      "name": "Material #27.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "913a0": {
+      "importer": "gltf-scene",
+      "uuid": "d5d548a1-ff2e-3d91-c724-039072741f86@913a0",
+      "displayName": "",
+      "id": "913a0",
+      "name": "围栏_A.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Map #3",
+        "uri": "d5d548a1-ff2e-3d91-c724-039072741f86@a7257"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "d5d548a1-ff2e-3d91-c724-039072741f86@a2f66",
+        "d5d548a1-ff2e-3d91-c724-039072741f86@8e53c",
+        "d5d548a1-ff2e-3d91-c724-039072741f86@e9ef8",
+        "d5d548a1-ff2e-3d91-c724-039072741f86@c4e7b",
+        "d5d548a1-ff2e-3d91-c724-039072741f86@06dbf",
+        "d5d548a1-ff2e-3d91-c724-039072741f86@14a91",
+        "d5d548a1-ff2e-3d91-c724-039072741f86@f3574"
+      ],
+      "skeletons": [],
+      "textures": [
+        "d5d548a1-ff2e-3d91-c724-039072741f86@6b9e5"
+      ],
+      "materials": [
+        "d5d548a1-ff2e-3d91-c724-039072741f86@7ff75"
+      ],
+      "scenes": [
+        "d5d548a1-ff2e-3d91-c724-039072741f86@913a0"
+      ]
+    }
+  }
+}

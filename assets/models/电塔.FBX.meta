@@ -1,0 +1,146 @@
+{
+  "ver": "2.3.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "d6795a23-5b5d-5b0f-e1c6-ca1b305da11a",
+  "files": [],
+  "subMetas": {
+    "a7d36": {
+      "importer": "gltf-mesh",
+      "uuid": "d6795a23-5b5d-5b0f-e1c6-ca1b305da11a@a7d36",
+      "displayName": "",
+      "id": "a7d36",
+      "name": "DianTaShengJi.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 3077
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d4f45": {
+      "importer": "gltf-embeded-image",
+      "uuid": "d6795a23-5b5d-5b0f-e1c6-ca1b305da11a@d4f45",
+      "displayName": "",
+      "id": "d4f45",
+      "name": "Map #2.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "1da29": {
+      "importer": "texture",
+      "uuid": "d6795a23-5b5d-5b0f-e1c6-ca1b305da11a@1da29",
+      "displayName": "",
+      "id": "1da29",
+      "name": "Map #2.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "d6795a23-5b5d-5b0f-e1c6-ca1b305da11a@d4f45"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c28f0": {
+      "importer": "gltf-material",
+      "uuid": "d6795a23-5b5d-5b0f-e1c6-ca1b305da11a@c28f0",
+      "displayName": "",
+      "id": "c28f0",
+      "name": "Material #26.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5ebd8": {
+      "importer": "gltf-scene",
+      "uuid": "d6795a23-5b5d-5b0f-e1c6-ca1b305da11a@5ebd8",
+      "displayName": "",
+      "id": "5ebd8",
+      "name": "电塔.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Map #2",
+        "uri": "d6795a23-5b5d-5b0f-e1c6-ca1b305da11a@d4f45"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "d6795a23-5b5d-5b0f-e1c6-ca1b305da11a@a7d36"
+      ],
+      "skeletons": [],
+      "textures": [
+        "d6795a23-5b5d-5b0f-e1c6-ca1b305da11a@1da29"
+      ],
+      "materials": [
+        "d6795a23-5b5d-5b0f-e1c6-ca1b305da11a@c28f0"
+      ],
+      "scenes": [
+        "d6795a23-5b5d-5b0f-e1c6-ca1b305da11a@5ebd8"
+      ]
+    }
+  }
+}
