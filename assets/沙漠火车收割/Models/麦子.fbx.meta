@@ -1,0 +1,126 @@
+{
+  "ver": "2.3.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "85bb8f79-0021-491a-9d0a-6c0e4ea9738e",
+  "files": [],
+  "subMetas": {
+    "9d0fb": {
+      "importer": "gltf-mesh",
+      "uuid": "85bb8f79-0021-491a-9d0a-6c0e4ea9738e@9d0fb",
+      "displayName": "",
+      "id": "9d0fb",
+      "name": "maizi.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 2742
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "291d4": {
+      "importer": "texture",
+      "uuid": "85bb8f79-0021-491a-9d0a-6c0e4ea9738e@291d4",
+      "displayName": "",
+      "id": "291d4",
+      "name": "贴图 #6.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/沙漠火车收割/Textures/麦子_BC.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c3ea7": {
+      "importer": "gltf-material",
+      "uuid": "85bb8f79-0021-491a-9d0a-6c0e4ea9738e@c3ea7",
+      "displayName": "",
+      "id": "c3ea7",
+      "name": "maizi.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5b07b": {
+      "importer": "gltf-scene",
+      "uuid": "85bb8f79-0021-491a-9d0a-6c0e4ea9738e@5b07b",
+      "displayName": "",
+      "id": "5b07b",
+      "name": "麦子.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "贴图 #6",
+        "uri": "db://assets/沙漠火车收割/Textures/麦子_BC.png"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "85bb8f79-0021-491a-9d0a-6c0e4ea9738e@9d0fb"
+      ],
+      "skeletons": [],
+      "textures": [
+        "85bb8f79-0021-491a-9d0a-6c0e4ea9738e@291d4"
+      ],
+      "materials": [
+        "85bb8f79-0021-491a-9d0a-6c0e4ea9738e@c3ea7"
+      ],
+      "scenes": [
+        "85bb8f79-0021-491a-9d0a-6c0e4ea9738e@5b07b"
+      ]
+    }
+  }
+}

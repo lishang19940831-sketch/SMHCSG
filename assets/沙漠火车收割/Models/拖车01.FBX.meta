@@ -1,0 +1,149 @@
+{
+  "ver": "2.3.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "eb27cde0-7383-bc34-8482-a456ffcbb392",
+  "files": [],
+  "subMetas": {
+    "95558": {
+      "importer": "gltf-material",
+      "uuid": "eb27cde0-7383-bc34-8482-a456ffcbb392@95558",
+      "displayName": "",
+      "id": "95558",
+      "name": "火车.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1f187": {
+      "importer": "gltf-mesh",
+      "uuid": "eb27cde0-7383-bc34-8482-a456ffcbb392@1f187",
+      "displayName": "",
+      "id": "1f187",
+      "name": "火车_7_polySurface131.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 18860
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bdd80": {
+      "importer": "gltf-mesh",
+      "uuid": "eb27cde0-7383-bc34-8482-a456ffcbb392@bdd80",
+      "displayName": "",
+      "id": "bdd80",
+      "name": "UCX_火车_7_polySurface131.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 60
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4f3cb": {
+      "importer": "gltf-material",
+      "uuid": "eb27cde0-7383-bc34-8482-a456ffcbb392@4f3cb",
+      "displayName": "",
+      "id": "4f3cb",
+      "name": "火车3.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c6aae": {
+      "importer": "gltf-material",
+      "uuid": "eb27cde0-7383-bc34-8482-a456ffcbb392@c6aae",
+      "displayName": "",
+      "id": "c6aae",
+      "name": "火车6.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1705a": {
+      "importer": "gltf-scene",
+      "uuid": "eb27cde0-7383-bc34-8482-a456ffcbb392@1705a",
+      "displayName": "",
+      "id": "1705a",
+      "name": "拖车01.FBX.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "eb27cde0-7383-bc34-8482-a456ffcbb392@1f187",
+        "eb27cde0-7383-bc34-8482-a456ffcbb392@bdd80"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "eb27cde0-7383-bc34-8482-a456ffcbb392@95558",
+        "eb27cde0-7383-bc34-8482-a456ffcbb392@4f3cb",
+        "eb27cde0-7383-bc34-8482-a456ffcbb392@c6aae"
+      ],
+      "scenes": [
+        "eb27cde0-7383-bc34-8482-a456ffcbb392@1705a"
+      ]
+    }
+  }
+}

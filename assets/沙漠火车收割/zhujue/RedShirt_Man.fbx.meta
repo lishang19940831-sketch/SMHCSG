@@ -1,0 +1,334 @@
+{
+  "ver": "2.3.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "8c634093-6c2d-4ab5-8733-ec1570314a45",
+  "files": [
+    "__original-animation-0.bin"
+  ],
+  "subMetas": {
+    "16dec": {
+      "importer": "gltf-mesh",
+      "uuid": "8c634093-6c2d-4ab5-8733-ec1570314a45@16dec",
+      "displayName": "",
+      "id": "16dec",
+      "name": "RedShirt_Man.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 4916
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a8912": {
+      "importer": "gltf-mesh",
+      "uuid": "8c634093-6c2d-4ab5-8733-ec1570314a45@a8912",
+      "displayName": "",
+      "id": "a8912",
+      "name": "axe1.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 144
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e2bea": {
+      "importer": "gltf-mesh",
+      "uuid": "8c634093-6c2d-4ab5-8733-ec1570314a45@e2bea",
+      "displayName": "",
+      "id": "e2bea",
+      "name": "chuzi.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 504
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "73b7f": {
+      "importer": "gltf-animation",
+      "uuid": "8c634093-6c2d-4ab5-8733-ec1570314a45@73b7f",
+      "displayName": "",
+      "id": "73b7f",
+      "name": "Take 001.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.5333333015441895
+        },
+        "events": []
+      },
+      "ver": "1.0.18",
+      "imported": true,
+      "files": [
+        ".bin"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "8c634093-6c2d-4ab5-8733-ec1570314a45@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 52
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "dfe29": {
+      "importer": "gltf-embeded-image",
+      "uuid": "8c634093-6c2d-4ab5-8733-ec1570314a45@dfe29",
+      "displayName": "",
+      "id": "dfe29",
+      "name": "file3.image",
+      "userData": {
+        "gltfIndex": 2,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "f9f48": {
+      "importer": "texture",
+      "uuid": "8c634093-6c2d-4ab5-8733-ec1570314a45@f9f48",
+      "displayName": "",
+      "id": "f9f48",
+      "name": "Redshirt_man_rig:hongge_man_CM9_1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/沙漠火车收割/zhujue/RedShirt_Man_CM.jpg"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "168ea": {
+      "importer": "texture",
+      "uuid": "8c634093-6c2d-4ab5-8733-ec1570314a45@168ea",
+      "displayName": "",
+      "id": "168ea",
+      "name": "pasted__file7.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/沙漠火车收割/zhujue/Axe00_diff.jpg"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a562b": {
+      "importer": "texture",
+      "uuid": "8c634093-6c2d-4ab5-8733-ec1570314a45@a562b",
+      "displayName": "",
+      "id": "a562b",
+      "name": "file3.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "8c634093-6c2d-4ab5-8733-ec1570314a45@dfe29"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9c406": {
+      "importer": "gltf-material",
+      "uuid": "8c634093-6c2d-4ab5-8733-ec1570314a45@9c406",
+      "displayName": "",
+      "id": "9c406",
+      "name": "Redshirt_man_rig:blinn2.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5844c": {
+      "importer": "gltf-material",
+      "uuid": "8c634093-6c2d-4ab5-8733-ec1570314a45@5844c",
+      "displayName": "",
+      "id": "5844c",
+      "name": "FreeWeapons1:Axe00_mat1.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "49f8f": {
+      "importer": "gltf-material",
+      "uuid": "8c634093-6c2d-4ab5-8733-ec1570314a45@49f8f",
+      "displayName": "",
+      "id": "49f8f",
+      "name": "chuizi.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "76d78": {
+      "importer": "gltf-scene",
+      "uuid": "8c634093-6c2d-4ab5-8733-ec1570314a45@76d78",
+      "displayName": "",
+      "id": "76d78",
+      "name": "RedShirt_Man.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Redshirt_man_rig:hongge_man_CM9_1",
+        "uri": "db://assets/沙漠火车收割/zhujue/RedShirt_Man_CM.jpg"
+      },
+      {
+        "name": "pasted__file7",
+        "uri": "db://assets/沙漠火车收割/zhujue/Axe00_diff.jpg"
+      },
+      {
+        "name": "file3",
+        "uri": "8c634093-6c2d-4ab5-8733-ec1570314a45@dfe29"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 2.5333333015441895,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Take 001",
+            "from": 0,
+            "to": 2.5333333015441895,
+            "wrapMode": 2,
+            "previousId": "73b7f"
+          }
+        ]
+      }
+    ],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "8c634093-6c2d-4ab5-8733-ec1570314a45@16dec",
+        "8c634093-6c2d-4ab5-8733-ec1570314a45@a8912",
+        "8c634093-6c2d-4ab5-8733-ec1570314a45@e2bea"
+      ],
+      "skeletons": [
+        "8c634093-6c2d-4ab5-8733-ec1570314a45@438fe"
+      ],
+      "textures": [
+        "8c634093-6c2d-4ab5-8733-ec1570314a45@f9f48",
+        "8c634093-6c2d-4ab5-8733-ec1570314a45@168ea",
+        "8c634093-6c2d-4ab5-8733-ec1570314a45@a562b"
+      ],
+      "materials": [
+        "8c634093-6c2d-4ab5-8733-ec1570314a45@9c406",
+        "8c634093-6c2d-4ab5-8733-ec1570314a45@5844c",
+        "8c634093-6c2d-4ab5-8733-ec1570314a45@49f8f"
+      ],
+      "scenes": [
+        "8c634093-6c2d-4ab5-8733-ec1570314a45@76d78"
+      ]
+    }
+  }
+}
