@@ -2,14 +2,14 @@
   "ver": "2.3.14",
   "importer": "fbx",
   "imported": true,
-  "uuid": "bd8841b0-c0a7-aab4-2303-1999da12fc33",
+  "uuid": "7f90833d-c296-4eed-ac4f-052f2fce58ec",
   "files": [
     "__original-animation-0.bin"
   ],
   "subMetas": {
     "25266": {
       "importer": "gltf-mesh",
-      "uuid": "bd8841b0-c0a7-aab4-2303-1999da12fc33@25266",
+      "uuid": "7f90833d-c296-4eed-ac4f-052f2fce58ec@25266",
       "displayName": "",
       "id": "25266",
       "name": "Lun03.mesh",
@@ -27,7 +27,7 @@
     },
     "8b38b": {
       "importer": "gltf-mesh",
-      "uuid": "bd8841b0-c0a7-aab4-2303-1999da12fc33@8b38b",
+      "uuid": "7f90833d-c296-4eed-ac4f-052f2fce58ec@8b38b",
       "displayName": "",
       "id": "8b38b",
       "name": "Lun_02.mesh",
@@ -45,7 +45,7 @@
     },
     "ca3a1": {
       "importer": "gltf-mesh",
-      "uuid": "bd8841b0-c0a7-aab4-2303-1999da12fc33@ca3a1",
+      "uuid": "7f90833d-c296-4eed-ac4f-052f2fce58ec@ca3a1",
       "displayName": "",
       "id": "ca3a1",
       "name": "HuoCheTou.mesh",
@@ -63,7 +63,7 @@
     },
     "73b7f": {
       "importer": "gltf-animation",
-      "uuid": "bd8841b0-c0a7-aab4-2303-1999da12fc33@73b7f",
+      "uuid": "7f90833d-c296-4eed-ac4f-052f2fce58ec@73b7f",
       "displayName": "",
       "id": "73b7f",
       "name": "Take 001.animation",
@@ -86,7 +86,7 @@
     },
     "873ed": {
       "importer": "gltf-embeded-image",
-      "uuid": "bd8841b0-c0a7-aab4-2303-1999da12fc33@873ed",
+      "uuid": "7f90833d-c296-4eed-ac4f-052f2fce58ec@873ed",
       "displayName": "",
       "id": "873ed",
       "name": "Map #6.image",
@@ -106,7 +106,7 @@
     },
     "53e01": {
       "importer": "texture",
-      "uuid": "bd8841b0-c0a7-aab4-2303-1999da12fc33@53e01",
+      "uuid": "7f90833d-c296-4eed-ac4f-052f2fce58ec@53e01",
       "displayName": "",
       "id": "53e01",
       "name": "Map #6.texture",
@@ -118,7 +118,7 @@
         "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "bd8841b0-c0a7-aab4-2303-1999da12fc33@873ed"
+        "imageUuidOrDatabaseUri": "7f90833d-c296-4eed-ac4f-052f2fce58ec@873ed"
       },
       "ver": "1.0.22",
       "imported": true,
@@ -129,7 +129,7 @@
     },
     "2f02e": {
       "importer": "gltf-material",
-      "uuid": "bd8841b0-c0a7-aab4-2303-1999da12fc33@2f02e",
+      "uuid": "7f90833d-c296-4eed-ac4f-052f2fce58ec@2f02e",
       "displayName": "",
       "id": "2f02e",
       "name": "M_火车1.material",
@@ -145,7 +145,7 @@
     },
     "9f3e5": {
       "importer": "gltf-material",
-      "uuid": "bd8841b0-c0a7-aab4-2303-1999da12fc33@9f3e5",
+      "uuid": "7f90833d-c296-4eed-ac4f-052f2fce58ec@9f3e5",
       "displayName": "",
       "id": "9f3e5",
       "name": "Material #161.material",
@@ -161,10 +161,10 @@
     },
     "757a9": {
       "importer": "gltf-scene",
-      "uuid": "bd8841b0-c0a7-aab4-2303-1999da12fc33@757a9",
+      "uuid": "7f90833d-c296-4eed-ac4f-052f2fce58ec@757a9",
       "displayName": "",
       "id": "757a9",
-      "name": "车头.FBX.prefab",
+      "name": "车头.prefab",
       "userData": {
         "gltfIndex": 0
       },
@@ -180,7 +180,7 @@
     "imageMetas": [
       {
         "name": "Map #6",
-        "uri": "bd8841b0-c0a7-aab4-2303-1999da12fc33@873ed"
+        "uri": "7f90833d-c296-4eed-ac4f-052f2fce58ec@873ed"
       }
     ],
     "fbx": {
@@ -222,20 +222,20 @@
     },
     "assetFinder": {
       "meshes": [
-        "bd8841b0-c0a7-aab4-2303-1999da12fc33@25266",
-        "bd8841b0-c0a7-aab4-2303-1999da12fc33@8b38b",
-        "bd8841b0-c0a7-aab4-2303-1999da12fc33@ca3a1"
+        "7f90833d-c296-4eed-ac4f-052f2fce58ec@25266",
+        "7f90833d-c296-4eed-ac4f-052f2fce58ec@8b38b",
+        "7f90833d-c296-4eed-ac4f-052f2fce58ec@ca3a1"
       ],
       "skeletons": [],
       "textures": [
-        "bd8841b0-c0a7-aab4-2303-1999da12fc33@53e01"
+        "7f90833d-c296-4eed-ac4f-052f2fce58ec@53e01"
       ],
       "materials": [
-        "bd8841b0-c0a7-aab4-2303-1999da12fc33@2f02e",
-        "bd8841b0-c0a7-aab4-2303-1999da12fc33@9f3e5"
+        "7f90833d-c296-4eed-ac4f-052f2fce58ec@2f02e",
+        "7f90833d-c296-4eed-ac4f-052f2fce58ec@9f3e5"
       ],
       "scenes": [
-        "bd8841b0-c0a7-aab4-2303-1999da12fc33@757a9"
+        "7f90833d-c296-4eed-ac4f-052f2fce58ec@757a9"
       ]
     }
   }

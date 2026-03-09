@@ -2,14 +2,14 @@
   "ver": "1.0.27",
   "importer": "image",
   "imported": true,
-  "uuid": "c49f9de4-73b0-a13c-e00b-ed411cfd8616",
+  "uuid": "9ee9557c-a6ee-4c9b-90de-0a7e330644a9",
   "files": [
     ".json",
     ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "displayName": "流沙地表.PNG",
+      "displayName": "流沙地表",
       "files": [
         ".json"
       ],
@@ -20,7 +20,7 @@
       "subMetas": {},
       "userData": {
         "anisotropy": 0,
-        "imageUuidOrDatabaseUri": "c49f9de4-73b0-a13c-e00b-ed411cfd8616",
+        "imageUuidOrDatabaseUri": "9ee9557c-a6ee-4c9b-90de-0a7e330644a9",
         "isUuid": true,
         "magfilter": "linear",
         "minfilter": "linear",
@@ -29,7 +29,7 @@
         "wrapModeS": "repeat",
         "wrapModeT": "repeat"
       },
-      "uuid": "c49f9de4-73b0-a13c-e00b-ed411cfd8616@6c48a",
+      "uuid": "9ee9557c-a6ee-4c9b-90de-0a7e330644a9@6c48a",
       "ver": "1.0.22"
     }
   },
@@ -37,6 +37,6 @@
     "type": "texture",
     "fixAlphaTransparencyArtifacts": false,
     "hasAlpha": false,
-    "redirect": "c49f9de4-73b0-a13c-e00b-ed411cfd8616@6c48a"
+    "redirect": "9ee9557c-a6ee-4c9b-90de-0a7e330644a9@6c48a"
   }
 }

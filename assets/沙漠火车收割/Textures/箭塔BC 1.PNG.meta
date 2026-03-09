@@ -2,14 +2,14 @@
   "ver": "1.0.27",
   "importer": "image",
   "imported": true,
-  "uuid": "0bd7d68c-2fbc-2260-062b-5e8aac7b9e11",
+  "uuid": "2560c9bb-4a75-4467-8d9d-1c0bb74f4eef",
   "files": [
     ".json",
     ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "displayName": "箭塔BC 1.PNG",
+      "displayName": "箭塔BC 1",
       "files": [
         ".json"
       ],
@@ -20,7 +20,7 @@
       "subMetas": {},
       "userData": {
         "anisotropy": 0,
-        "imageUuidOrDatabaseUri": "0bd7d68c-2fbc-2260-062b-5e8aac7b9e11",
+        "imageUuidOrDatabaseUri": "2560c9bb-4a75-4467-8d9d-1c0bb74f4eef",
         "isUuid": true,
         "magfilter": "linear",
         "minfilter": "linear",
@@ -29,7 +29,7 @@
         "wrapModeS": "repeat",
         "wrapModeT": "repeat"
       },
-      "uuid": "0bd7d68c-2fbc-2260-062b-5e8aac7b9e11@6c48a",
+      "uuid": "2560c9bb-4a75-4467-8d9d-1c0bb74f4eef@6c48a",
       "ver": "1.0.22"
     }
   },
@@ -37,6 +37,6 @@
     "type": "texture",
     "fixAlphaTransparencyArtifacts": false,
     "hasAlpha": false,
-    "redirect": "0bd7d68c-2fbc-2260-062b-5e8aac7b9e11@6c48a"
+    "redirect": "2560c9bb-4a75-4467-8d9d-1c0bb74f4eef@6c48a"
   }
 }

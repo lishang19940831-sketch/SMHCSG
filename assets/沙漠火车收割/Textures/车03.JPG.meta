@@ -2,14 +2,14 @@
   "ver": "1.0.27",
   "importer": "image",
   "imported": true,
-  "uuid": "92f85486-1ad6-8d39-00b1-50a2465b5491",
+  "uuid": "32643cac-4576-49d0-b9a4-ab074018743e",
   "files": [
     ".jpg",
     ".json"
   ],
   "subMetas": {
     "6c48a": {
-      "displayName": "车03.JPG",
+      "displayName": "车03",
       "files": [
         ".json"
       ],
@@ -20,7 +20,7 @@
       "subMetas": {},
       "userData": {
         "anisotropy": 0,
-        "imageUuidOrDatabaseUri": "92f85486-1ad6-8d39-00b1-50a2465b5491",
+        "imageUuidOrDatabaseUri": "32643cac-4576-49d0-b9a4-ab074018743e",
         "isUuid": true,
         "magfilter": "linear",
         "minfilter": "linear",
@@ -29,7 +29,7 @@
         "wrapModeS": "repeat",
         "wrapModeT": "repeat"
       },
-      "uuid": "92f85486-1ad6-8d39-00b1-50a2465b5491@6c48a",
+      "uuid": "32643cac-4576-49d0-b9a4-ab074018743e@6c48a",
       "ver": "1.0.22"
     }
   },
@@ -37,6 +37,6 @@
     "type": "texture",
     "fixAlphaTransparencyArtifacts": false,
     "hasAlpha": false,
-    "redirect": "92f85486-1ad6-8d39-00b1-50a2465b5491@6c48a"
+    "redirect": "32643cac-4576-49d0-b9a4-ab074018743e@6c48a"
   }
 }

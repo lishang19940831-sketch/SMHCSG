@@ -2,12 +2,12 @@
   "ver": "2.3.14",
   "importer": "fbx",
   "imported": true,
-  "uuid": "da26ea49-c055-88dc-63d4-a1446c1bf742",
+  "uuid": "c94066aa-f13d-4928-83a0-e1a3b2e19a88",
   "files": [],
   "subMetas": {
     "ae6a9": {
       "importer": "gltf-mesh",
-      "uuid": "da26ea49-c055-88dc-63d4-a1446c1bf742@ae6a9",
+      "uuid": "c94066aa-f13d-4928-83a0-e1a3b2e19a88@ae6a9",
       "displayName": "",
       "id": "ae6a9",
       "name": "小桌子.mesh",
@@ -25,7 +25,7 @@
     },
     "48b02": {
       "importer": "gltf-embeded-image",
-      "uuid": "da26ea49-c055-88dc-63d4-a1446c1bf742@48b02",
+      "uuid": "c94066aa-f13d-4928-83a0-e1a3b2e19a88@48b02",
       "displayName": "",
       "id": "48b02",
       "name": "base_color_texture.image",
@@ -45,7 +45,7 @@
     },
     "7d6ab": {
       "importer": "texture",
-      "uuid": "da26ea49-c055-88dc-63d4-a1446c1bf742@7d6ab",
+      "uuid": "c94066aa-f13d-4928-83a0-e1a3b2e19a88@7d6ab",
       "displayName": "",
       "id": "7d6ab",
       "name": "base_color_texture.texture",
@@ -57,7 +57,7 @@
         "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "da26ea49-c055-88dc-63d4-a1446c1bf742@48b02"
+        "imageUuidOrDatabaseUri": "c94066aa-f13d-4928-83a0-e1a3b2e19a88@48b02"
       },
       "ver": "1.0.22",
       "imported": true,
@@ -68,7 +68,7 @@
     },
     "4cd55": {
       "importer": "gltf-material",
-      "uuid": "da26ea49-c055-88dc-63d4-a1446c1bf742@4cd55",
+      "uuid": "c94066aa-f13d-4928-83a0-e1a3b2e19a88@4cd55",
       "displayName": "",
       "id": "4cd55",
       "name": "Boards_1_pipe_Mat_2_Inst.material",
@@ -84,10 +84,10 @@
     },
     "920b2": {
       "importer": "gltf-scene",
-      "uuid": "da26ea49-c055-88dc-63d4-a1446c1bf742@920b2",
+      "uuid": "c94066aa-f13d-4928-83a0-e1a3b2e19a88@920b2",
       "displayName": "",
       "id": "920b2",
-      "name": "小桌子.FBX.prefab",
+      "name": "小桌子.prefab",
       "userData": {
         "gltfIndex": 0
       },
@@ -103,7 +103,7 @@
     "imageMetas": [
       {
         "name": "base_color_texture",
-        "uri": "da26ea49-c055-88dc-63d4-a1446c1bf742@48b02"
+        "uri": "c94066aa-f13d-4928-83a0-e1a3b2e19a88@48b02"
       }
     ],
     "fbx": {
@@ -129,17 +129,17 @@
     },
     "assetFinder": {
       "meshes": [
-        "da26ea49-c055-88dc-63d4-a1446c1bf742@ae6a9"
+        "c94066aa-f13d-4928-83a0-e1a3b2e19a88@ae6a9"
       ],
       "skeletons": [],
       "textures": [
-        "da26ea49-c055-88dc-63d4-a1446c1bf742@7d6ab"
+        "c94066aa-f13d-4928-83a0-e1a3b2e19a88@7d6ab"
       ],
       "materials": [
-        "da26ea49-c055-88dc-63d4-a1446c1bf742@4cd55"
+        "c94066aa-f13d-4928-83a0-e1a3b2e19a88@4cd55"
       ],
       "scenes": [
-        "da26ea49-c055-88dc-63d4-a1446c1bf742@920b2"
+        "c94066aa-f13d-4928-83a0-e1a3b2e19a88@920b2"
       ]
     }
   }

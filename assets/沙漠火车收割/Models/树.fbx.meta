@@ -23,26 +23,6 @@
       ],
       "subMetas": {}
     },
-    "3b1d8": {
-      "importer": "gltf-embeded-image",
-      "uuid": "ebae9ba1-8c80-4a96-86a0-97f7a7b51103@3b1d8",
-      "displayName": "",
-      "id": "3b1d8",
-      "name": "贴图 #7.image",
-      "userData": {
-        "gltfIndex": 0,
-        "fixAlphaTransparencyArtifacts": true,
-        "hasAlpha": false,
-        "type": "texture"
-      },
-      "ver": "1.0.3",
-      "imported": true,
-      "files": [
-        ".json",
-        ".png"
-      ],
-      "subMetas": {}
-    },
     "4b8d7": {
       "importer": "texture",
       "uuid": "ebae9ba1-8c80-4a96-86a0-97f7a7b51103@4b8d7",
@@ -56,8 +36,8 @@
         "magfilter": "linear",
         "mipfilter": "none",
         "anisotropy": 0,
-        "isUuid": true,
-        "imageUuidOrDatabaseUri": "ebae9ba1-8c80-4a96-86a0-97f7a7b51103@3b1d8"
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/沙漠火车收割/Textures/树_BC.png"
       },
       "ver": "1.0.22",
       "imported": true,
@@ -103,7 +83,7 @@
     "imageMetas": [
       {
         "name": "贴图 #7",
-        "uri": "ebae9ba1-8c80-4a96-86a0-97f7a7b51103@3b1d8"
+        "uri": "db://assets/沙漠火车收割/Textures/树_BC.png"
       }
     ],
     "fbx": {

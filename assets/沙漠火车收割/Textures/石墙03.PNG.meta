@@ -2,14 +2,14 @@
   "ver": "1.0.27",
   "importer": "image",
   "imported": true,
-  "uuid": "7c72e17f-2c65-37be-5294-27c12fe8347d",
+  "uuid": "a5eae653-305c-421e-b3c7-d95176b26605",
   "files": [
     ".json",
     ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "displayName": "石墙03.PNG",
+      "displayName": "石墙03",
       "files": [
         ".json"
       ],
@@ -20,7 +20,7 @@
       "subMetas": {},
       "userData": {
         "anisotropy": 0,
-        "imageUuidOrDatabaseUri": "7c72e17f-2c65-37be-5294-27c12fe8347d",
+        "imageUuidOrDatabaseUri": "a5eae653-305c-421e-b3c7-d95176b26605",
         "isUuid": true,
         "magfilter": "linear",
         "minfilter": "linear",
@@ -29,7 +29,7 @@
         "wrapModeS": "repeat",
         "wrapModeT": "repeat"
       },
-      "uuid": "7c72e17f-2c65-37be-5294-27c12fe8347d@6c48a",
+      "uuid": "a5eae653-305c-421e-b3c7-d95176b26605@6c48a",
       "ver": "1.0.22"
     }
   },
@@ -37,6 +37,6 @@
     "type": "texture",
     "fixAlphaTransparencyArtifacts": false,
     "hasAlpha": true,
-    "redirect": "7c72e17f-2c65-37be-5294-27c12fe8347d@6c48a"
+    "redirect": "a5eae653-305c-421e-b3c7-d95176b26605@6c48a"
   }
 }

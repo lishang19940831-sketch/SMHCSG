@@ -2,14 +2,14 @@
   "ver": "1.0.27",
   "importer": "image",
   "imported": true,
-  "uuid": "9cdbf0d3-48c4-b165-4626-d8cd5c899619",
+  "uuid": "2c93f930-f720-4439-abd6-786e9405a207",
   "files": [
     ".json",
     ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "displayName": "货运列车01_BC.PNG",
+      "displayName": "货运列车01_BC",
       "files": [
         ".json"
       ],
@@ -20,7 +20,7 @@
       "subMetas": {},
       "userData": {
         "anisotropy": 0,
-        "imageUuidOrDatabaseUri": "9cdbf0d3-48c4-b165-4626-d8cd5c899619",
+        "imageUuidOrDatabaseUri": "2c93f930-f720-4439-abd6-786e9405a207",
         "isUuid": true,
         "magfilter": "linear",
         "minfilter": "linear",
@@ -29,7 +29,7 @@
         "wrapModeS": "repeat",
         "wrapModeT": "repeat"
       },
-      "uuid": "9cdbf0d3-48c4-b165-4626-d8cd5c899619@6c48a",
+      "uuid": "2c93f930-f720-4439-abd6-786e9405a207@6c48a",
       "ver": "1.0.22"
     }
   },
@@ -37,6 +37,6 @@
     "type": "texture",
     "fixAlphaTransparencyArtifacts": false,
     "hasAlpha": true,
-    "redirect": "9cdbf0d3-48c4-b165-4626-d8cd5c899619@6c48a"
+    "redirect": "2c93f930-f720-4439-abd6-786e9405a207@6c48a"
   }
 }

@@ -2,14 +2,14 @@
   "ver": "1.0.27",
   "importer": "image",
   "imported": true,
-  "uuid": "232e95df-9950-8c96-45f6-ffaeff82f816",
+  "uuid": "11b08b85-0df9-4972-ac9b-3d2631b266cc",
   "files": [
     ".json",
     ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "displayName": "地扣02_BC 2.PNG",
+      "displayName": "地扣02_BC 2",
       "files": [
         ".json"
       ],
@@ -20,7 +20,7 @@
       "subMetas": {},
       "userData": {
         "anisotropy": 0,
-        "imageUuidOrDatabaseUri": "232e95df-9950-8c96-45f6-ffaeff82f816",
+        "imageUuidOrDatabaseUri": "11b08b85-0df9-4972-ac9b-3d2631b266cc",
         "isUuid": true,
         "magfilter": "linear",
         "minfilter": "linear",
@@ -29,7 +29,7 @@
         "wrapModeS": "repeat",
         "wrapModeT": "repeat"
       },
-      "uuid": "232e95df-9950-8c96-45f6-ffaeff82f816@6c48a",
+      "uuid": "11b08b85-0df9-4972-ac9b-3d2631b266cc@6c48a",
       "ver": "1.0.22"
     }
   },
@@ -37,6 +37,6 @@
     "type": "texture",
     "fixAlphaTransparencyArtifacts": false,
     "hasAlpha": true,
-    "redirect": "232e95df-9950-8c96-45f6-ffaeff82f816@6c48a"
+    "redirect": "11b08b85-0df9-4972-ac9b-3d2631b266cc@6c48a"
   }
 }

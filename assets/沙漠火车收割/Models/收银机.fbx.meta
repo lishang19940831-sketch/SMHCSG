@@ -2,12 +2,12 @@
   "ver": "2.3.14",
   "importer": "fbx",
   "imported": true,
-  "uuid": "33f21cf2-f5ac-754f-b3d5-321aa5fb9a0a",
+  "uuid": "ee95e1e2-dfda-4e04-aef3-61cd5cadb9c8",
   "files": [],
   "subMetas": {
     "52310": {
       "importer": "gltf-scene",
-      "uuid": "33f21cf2-f5ac-754f-b3d5-321aa5fb9a0a@52310",
+      "uuid": "ee95e1e2-dfda-4e04-aef3-61cd5cadb9c8@52310",
       "displayName": "",
       "id": "52310",
       "name": "收银机.prefab",
@@ -23,7 +23,7 @@
     },
     "cf4d8": {
       "importer": "gltf-mesh",
-      "uuid": "33f21cf2-f5ac-754f-b3d5-321aa5fb9a0a@cf4d8",
+      "uuid": "ee95e1e2-dfda-4e04-aef3-61cd5cadb9c8@cf4d8",
       "displayName": "",
       "id": "cf4d8",
       "name": "shouyingji.mesh",
@@ -41,7 +41,7 @@
     },
     "d20e9": {
       "importer": "texture",
-      "uuid": "33f21cf2-f5ac-754f-b3d5-321aa5fb9a0a@d20e9",
+      "uuid": "ee95e1e2-dfda-4e04-aef3-61cd5cadb9c8@d20e9",
       "displayName": "",
       "id": "d20e9",
       "name": "file1.texture",
@@ -64,7 +64,7 @@
     },
     "ab7d2": {
       "importer": "gltf-material",
-      "uuid": "33f21cf2-f5ac-754f-b3d5-321aa5fb9a0a@ab7d2",
+      "uuid": "ee95e1e2-dfda-4e04-aef3-61cd5cadb9c8@ab7d2",
       "displayName": "",
       "id": "ab7d2",
       "name": "shouyingji1.material",
@@ -109,17 +109,17 @@
     },
     "assetFinder": {
       "meshes": [
-        "33f21cf2-f5ac-754f-b3d5-321aa5fb9a0a@cf4d8"
+        "ee95e1e2-dfda-4e04-aef3-61cd5cadb9c8@cf4d8"
       ],
       "skeletons": [],
       "textures": [
-        "33f21cf2-f5ac-754f-b3d5-321aa5fb9a0a@d20e9"
+        "ee95e1e2-dfda-4e04-aef3-61cd5cadb9c8@d20e9"
       ],
       "materials": [
-        "33f21cf2-f5ac-754f-b3d5-321aa5fb9a0a@ab7d2"
+        "ee95e1e2-dfda-4e04-aef3-61cd5cadb9c8@ab7d2"
       ],
       "scenes": [
-        "33f21cf2-f5ac-754f-b3d5-321aa5fb9a0a@52310"
+        "ee95e1e2-dfda-4e04-aef3-61cd5cadb9c8@52310"
       ]
     }
   }

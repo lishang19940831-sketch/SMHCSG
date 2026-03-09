@@ -2,14 +2,14 @@
   "ver": "1.0.27",
   "importer": "image",
   "imported": true,
-  "uuid": "a7185b03-bb71-7949-8853-2f9ad504275a",
+  "uuid": "d40ace19-0e69-4b5f-ae06-42dbb3eb454f",
   "files": [
     ".json",
     ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "displayName": "火车头.PNG",
+      "displayName": "火车头",
       "files": [
         ".json"
       ],
@@ -20,7 +20,7 @@
       "subMetas": {},
       "userData": {
         "anisotropy": 0,
-        "imageUuidOrDatabaseUri": "a7185b03-bb71-7949-8853-2f9ad504275a",
+        "imageUuidOrDatabaseUri": "d40ace19-0e69-4b5f-ae06-42dbb3eb454f",
         "isUuid": true,
         "magfilter": "linear",
         "minfilter": "linear",
@@ -29,7 +29,7 @@
         "wrapModeS": "repeat",
         "wrapModeT": "repeat"
       },
-      "uuid": "a7185b03-bb71-7949-8853-2f9ad504275a@6c48a",
+      "uuid": "d40ace19-0e69-4b5f-ae06-42dbb3eb454f@6c48a",
       "ver": "1.0.22"
     }
   },
@@ -37,6 +37,6 @@
     "type": "texture",
     "fixAlphaTransparencyArtifacts": false,
     "hasAlpha": true,
-    "redirect": "a7185b03-bb71-7949-8853-2f9ad504275a@6c48a"
+    "redirect": "d40ace19-0e69-4b5f-ae06-42dbb3eb454f@6c48a"
   }
 }

@@ -2,12 +2,12 @@
   "ver": "2.3.14",
   "importer": "fbx",
   "imported": true,
-  "uuid": "8d152416-186e-f6ae-e412-d7e82732ac55",
+  "uuid": "ade45fd0-c754-47e0-8dd0-f7f679856b33",
   "files": [],
   "subMetas": {
     "53442": {
       "importer": "gltf-mesh",
-      "uuid": "8d152416-186e-f6ae-e412-d7e82732ac55@53442",
+      "uuid": "ade45fd0-c754-47e0-8dd0-f7f679856b33@53442",
       "displayName": "",
       "id": "53442",
       "name": "SM_木堆-3.mesh",
@@ -25,7 +25,7 @@
     },
     "5d233": {
       "importer": "gltf-mesh",
-      "uuid": "8d152416-186e-f6ae-e412-d7e82732ac55@5d233",
+      "uuid": "ade45fd0-c754-47e0-8dd0-f7f679856b33@5d233",
       "displayName": "",
       "id": "5d233",
       "name": "SM_木堆-0.mesh",
@@ -43,7 +43,7 @@
     },
     "96dac": {
       "importer": "gltf-mesh",
-      "uuid": "8d152416-186e-f6ae-e412-d7e82732ac55@96dac",
+      "uuid": "ade45fd0-c754-47e0-8dd0-f7f679856b33@96dac",
       "displayName": "",
       "id": "96dac",
       "name": "SM_木堆-1.mesh",
@@ -61,7 +61,7 @@
     },
     "248ba": {
       "importer": "gltf-mesh",
-      "uuid": "8d152416-186e-f6ae-e412-d7e82732ac55@248ba",
+      "uuid": "ade45fd0-c754-47e0-8dd0-f7f679856b33@248ba",
       "displayName": "",
       "id": "248ba",
       "name": "SM_木堆-2.mesh",
@@ -79,7 +79,7 @@
     },
     "f6e23": {
       "importer": "gltf-embeded-image",
-      "uuid": "8d152416-186e-f6ae-e412-d7e82732ac55@f6e23",
+      "uuid": "ade45fd0-c754-47e0-8dd0-f7f679856b33@f6e23",
       "displayName": "",
       "id": "f6e23",
       "name": "T_CampFire_N.image",
@@ -99,7 +99,7 @@
     },
     "cec8e": {
       "importer": "texture",
-      "uuid": "8d152416-186e-f6ae-e412-d7e82732ac55@cec8e",
+      "uuid": "ade45fd0-c754-47e0-8dd0-f7f679856b33@cec8e",
       "displayName": "",
       "id": "cec8e",
       "name": "T_CampFire_N.texture",
@@ -111,7 +111,7 @@
         "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "8d152416-186e-f6ae-e412-d7e82732ac55@f6e23"
+        "imageUuidOrDatabaseUri": "ade45fd0-c754-47e0-8dd0-f7f679856b33@f6e23"
       },
       "ver": "1.0.22",
       "imported": true,
@@ -122,7 +122,7 @@
     },
     "b549b": {
       "importer": "gltf-material",
-      "uuid": "8d152416-186e-f6ae-e412-d7e82732ac55@b549b",
+      "uuid": "ade45fd0-c754-47e0-8dd0-f7f679856b33@b549b",
       "displayName": "",
       "id": "b549b",
       "name": "MI_Campfire.material",
@@ -138,10 +138,10 @@
     },
     "3d1c1": {
       "importer": "gltf-scene",
-      "uuid": "8d152416-186e-f6ae-e412-d7e82732ac55@3d1c1",
+      "uuid": "ade45fd0-c754-47e0-8dd0-f7f679856b33@3d1c1",
       "displayName": "",
       "id": "3d1c1",
-      "name": "木堆.FBX.prefab",
+      "name": "木堆.prefab",
       "userData": {
         "gltfIndex": 0
       },
@@ -157,7 +157,7 @@
     "imageMetas": [
       {
         "name": "T_CampFire_N",
-        "uri": "8d152416-186e-f6ae-e412-d7e82732ac55@f6e23"
+        "uri": "ade45fd0-c754-47e0-8dd0-f7f679856b33@f6e23"
       }
     ],
     "fbx": {
@@ -183,20 +183,20 @@
     },
     "assetFinder": {
       "meshes": [
-        "8d152416-186e-f6ae-e412-d7e82732ac55@5d233",
-        "8d152416-186e-f6ae-e412-d7e82732ac55@96dac",
-        "8d152416-186e-f6ae-e412-d7e82732ac55@248ba",
-        "8d152416-186e-f6ae-e412-d7e82732ac55@53442"
+        "ade45fd0-c754-47e0-8dd0-f7f679856b33@5d233",
+        "ade45fd0-c754-47e0-8dd0-f7f679856b33@96dac",
+        "ade45fd0-c754-47e0-8dd0-f7f679856b33@248ba",
+        "ade45fd0-c754-47e0-8dd0-f7f679856b33@53442"
       ],
       "skeletons": [],
       "textures": [
-        "8d152416-186e-f6ae-e412-d7e82732ac55@cec8e"
+        "ade45fd0-c754-47e0-8dd0-f7f679856b33@cec8e"
       ],
       "materials": [
-        "8d152416-186e-f6ae-e412-d7e82732ac55@b549b"
+        "ade45fd0-c754-47e0-8dd0-f7f679856b33@b549b"
       ],
       "scenes": [
-        "8d152416-186e-f6ae-e412-d7e82732ac55@3d1c1"
+        "ade45fd0-c754-47e0-8dd0-f7f679856b33@3d1c1"
       ]
     }
   }

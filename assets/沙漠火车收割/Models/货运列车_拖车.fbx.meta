@@ -2,12 +2,12 @@
   "ver": "2.3.14",
   "importer": "fbx",
   "imported": true,
-  "uuid": "f6e001f8-142d-5ff3-9b0f-b10b76e0e700",
+  "uuid": "4d85f98d-0dd9-464a-8cb4-eeec8016a249",
   "files": [],
   "subMetas": {
     "882dd": {
       "importer": "gltf-mesh",
-      "uuid": "f6e001f8-142d-5ff3-9b0f-b10b76e0e700@882dd",
+      "uuid": "4d85f98d-0dd9-464a-8cb4-eeec8016a249@882dd",
       "displayName": "",
       "id": "882dd",
       "name": "货运列车2.mesh",
@@ -25,7 +25,7 @@
     },
     "5bbab": {
       "importer": "gltf-material",
-      "uuid": "f6e001f8-142d-5ff3-9b0f-b10b76e0e700@5bbab",
+      "uuid": "4d85f98d-0dd9-464a-8cb4-eeec8016a249@5bbab",
       "displayName": "",
       "id": "5bbab",
       "name": "M_火车2.material",
@@ -41,7 +41,7 @@
     },
     "1cac7": {
       "importer": "gltf-scene",
-      "uuid": "f6e001f8-142d-5ff3-9b0f-b10b76e0e700@1cac7",
+      "uuid": "4d85f98d-0dd9-464a-8cb4-eeec8016a249@1cac7",
       "displayName": "",
       "id": "1cac7",
       "name": "货运列车_拖车.prefab",
@@ -81,15 +81,15 @@
     },
     "assetFinder": {
       "meshes": [
-        "f6e001f8-142d-5ff3-9b0f-b10b76e0e700@882dd"
+        "4d85f98d-0dd9-464a-8cb4-eeec8016a249@882dd"
       ],
       "skeletons": [],
       "textures": [],
       "materials": [
-        "f6e001f8-142d-5ff3-9b0f-b10b76e0e700@5bbab"
+        "4d85f98d-0dd9-464a-8cb4-eeec8016a249@5bbab"
       ],
       "scenes": [
-        "f6e001f8-142d-5ff3-9b0f-b10b76e0e700@1cac7"
+        "4d85f98d-0dd9-464a-8cb4-eeec8016a249@1cac7"
       ]
     }
   }

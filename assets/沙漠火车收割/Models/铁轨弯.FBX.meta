@@ -2,12 +2,12 @@
   "ver": "2.3.14",
   "importer": "fbx",
   "imported": true,
-  "uuid": "4cc7e3cd-a84d-72c1-0e93-3ba86143d67b",
+  "uuid": "9d22778b-a1f5-4cb6-9590-f05ed8eab834",
   "files": [],
   "subMetas": {
     "85999": {
       "importer": "gltf-mesh",
-      "uuid": "4cc7e3cd-a84d-72c1-0e93-3ba86143d67b@85999",
+      "uuid": "9d22778b-a1f5-4cb6-9590-f05ed8eab834@85999",
       "displayName": "",
       "id": "85999",
       "name": "TieGui_Wan.mesh",
@@ -25,7 +25,7 @@
     },
     "a2364": {
       "importer": "gltf-embeded-image",
-      "uuid": "4cc7e3cd-a84d-72c1-0e93-3ba86143d67b@a2364",
+      "uuid": "9d22778b-a1f5-4cb6-9590-f05ed8eab834@a2364",
       "displayName": "",
       "id": "a2364",
       "name": "Map #1.image",
@@ -45,7 +45,7 @@
     },
     "6e70c": {
       "importer": "texture",
-      "uuid": "4cc7e3cd-a84d-72c1-0e93-3ba86143d67b@6e70c",
+      "uuid": "9d22778b-a1f5-4cb6-9590-f05ed8eab834@6e70c",
       "displayName": "",
       "id": "6e70c",
       "name": "Map #1.texture",
@@ -57,7 +57,7 @@
         "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "4cc7e3cd-a84d-72c1-0e93-3ba86143d67b@a2364"
+        "imageUuidOrDatabaseUri": "9d22778b-a1f5-4cb6-9590-f05ed8eab834@a2364"
       },
       "ver": "1.0.22",
       "imported": true,
@@ -68,7 +68,7 @@
     },
     "6b2ee": {
       "importer": "gltf-material",
-      "uuid": "4cc7e3cd-a84d-72c1-0e93-3ba86143d67b@6b2ee",
+      "uuid": "9d22778b-a1f5-4cb6-9590-f05ed8eab834@6b2ee",
       "displayName": "",
       "id": "6b2ee",
       "name": "Material #83.material",
@@ -84,10 +84,10 @@
     },
     "ebc99": {
       "importer": "gltf-scene",
-      "uuid": "4cc7e3cd-a84d-72c1-0e93-3ba86143d67b@ebc99",
+      "uuid": "9d22778b-a1f5-4cb6-9590-f05ed8eab834@ebc99",
       "displayName": "",
       "id": "ebc99",
-      "name": "铁轨弯.FBX.prefab",
+      "name": "铁轨弯.prefab",
       "userData": {
         "gltfIndex": 0
       },
@@ -103,7 +103,7 @@
     "imageMetas": [
       {
         "name": "Map #1",
-        "uri": "4cc7e3cd-a84d-72c1-0e93-3ba86143d67b@a2364"
+        "uri": "9d22778b-a1f5-4cb6-9590-f05ed8eab834@a2364"
       }
     ],
     "fbx": {
@@ -129,17 +129,17 @@
     },
     "assetFinder": {
       "meshes": [
-        "4cc7e3cd-a84d-72c1-0e93-3ba86143d67b@85999"
+        "9d22778b-a1f5-4cb6-9590-f05ed8eab834@85999"
       ],
       "skeletons": [],
       "textures": [
-        "4cc7e3cd-a84d-72c1-0e93-3ba86143d67b@6e70c"
+        "9d22778b-a1f5-4cb6-9590-f05ed8eab834@6e70c"
       ],
       "materials": [
-        "4cc7e3cd-a84d-72c1-0e93-3ba86143d67b@6b2ee"
+        "9d22778b-a1f5-4cb6-9590-f05ed8eab834@6b2ee"
       ],
       "scenes": [
-        "4cc7e3cd-a84d-72c1-0e93-3ba86143d67b@ebc99"
+        "9d22778b-a1f5-4cb6-9590-f05ed8eab834@ebc99"
       ]
     }
   }

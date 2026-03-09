@@ -2,12 +2,12 @@
   "ver": "2.3.14",
   "importer": "fbx",
   "imported": true,
-  "uuid": "f46864e9-56b9-0188-bde7-d39fa8cdb347",
+  "uuid": "b527953c-5455-4f11-859c-fd41567c6657",
   "files": [],
   "subMetas": {
     "fa435": {
       "importer": "gltf-mesh",
-      "uuid": "f46864e9-56b9-0188-bde7-d39fa8cdb347@fa435",
+      "uuid": "b527953c-5455-4f11-859c-fd41567c6657@fa435",
       "displayName": "",
       "id": "fa435",
       "name": "YOU.mesh",
@@ -25,7 +25,7 @@
     },
     "8a29d": {
       "importer": "gltf-mesh",
-      "uuid": "f46864e9-56b9-0188-bde7-d39fa8cdb347@8a29d",
+      "uuid": "b527953c-5455-4f11-859c-fd41567c6657@8a29d",
       "displayName": "",
       "id": "8a29d",
       "name": "ZUO.mesh",
@@ -43,7 +43,7 @@
     },
     "43c71": {
       "importer": "gltf-embeded-image",
-      "uuid": "f46864e9-56b9-0188-bde7-d39fa8cdb347@43c71",
+      "uuid": "b527953c-5455-4f11-859c-fd41567c6657@43c71",
       "displayName": "",
       "id": "43c71",
       "name": "file1.image",
@@ -63,7 +63,7 @@
     },
     "d20e9": {
       "importer": "texture",
-      "uuid": "f46864e9-56b9-0188-bde7-d39fa8cdb347@d20e9",
+      "uuid": "b527953c-5455-4f11-859c-fd41567c6657@d20e9",
       "displayName": "",
       "id": "d20e9",
       "name": "file1.texture",
@@ -75,7 +75,7 @@
         "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "f46864e9-56b9-0188-bde7-d39fa8cdb347@43c71"
+        "imageUuidOrDatabaseUri": "b527953c-5455-4f11-859c-fd41567c6657@43c71"
       },
       "ver": "1.0.22",
       "imported": true,
@@ -86,7 +86,7 @@
     },
     "030f0": {
       "importer": "gltf-material",
-      "uuid": "f46864e9-56b9-0188-bde7-d39fa8cdb347@030f0",
+      "uuid": "b527953c-5455-4f11-859c-fd41567c6657@030f0",
       "displayName": "",
       "id": "030f0",
       "name": "M_新_伐木场资源田_室内.material",
@@ -102,7 +102,7 @@
     },
     "7e061": {
       "importer": "gltf-scene",
-      "uuid": "f46864e9-56b9-0188-bde7-d39fa8cdb347@7e061",
+      "uuid": "b527953c-5455-4f11-859c-fd41567c6657@7e061",
       "displayName": "",
       "id": "7e061",
       "name": "门02.prefab",
@@ -121,7 +121,7 @@
     "imageMetas": [
       {
         "name": "file1",
-        "uri": "f46864e9-56b9-0188-bde7-d39fa8cdb347@43c71"
+        "uri": "b527953c-5455-4f11-859c-fd41567c6657@43c71"
       }
     ],
     "fbx": {
@@ -147,18 +147,18 @@
     },
     "assetFinder": {
       "meshes": [
-        "f46864e9-56b9-0188-bde7-d39fa8cdb347@fa435",
-        "f46864e9-56b9-0188-bde7-d39fa8cdb347@8a29d"
+        "b527953c-5455-4f11-859c-fd41567c6657@fa435",
+        "b527953c-5455-4f11-859c-fd41567c6657@8a29d"
       ],
       "skeletons": [],
       "textures": [
-        "f46864e9-56b9-0188-bde7-d39fa8cdb347@d20e9"
+        "b527953c-5455-4f11-859c-fd41567c6657@d20e9"
       ],
       "materials": [
-        "f46864e9-56b9-0188-bde7-d39fa8cdb347@030f0"
+        "b527953c-5455-4f11-859c-fd41567c6657@030f0"
       ],
       "scenes": [
-        "f46864e9-56b9-0188-bde7-d39fa8cdb347@7e061"
+        "b527953c-5455-4f11-859c-fd41567c6657@7e061"
       ]
     }
   }

@@ -2,14 +2,14 @@
   "ver": "1.0.27",
   "importer": "image",
   "imported": true,
-  "uuid": "a03f9f51-722f-5de1-5520-4573bf9109fd",
+  "uuid": "4d1575bb-6b95-402a-9caa-3f35ba82ee95",
   "files": [
     ".json",
     ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "displayName": "箭塔底座BC.PNG",
+      "displayName": "箭塔底座BC",
       "files": [
         ".json"
       ],
@@ -20,7 +20,7 @@
       "subMetas": {},
       "userData": {
         "anisotropy": 0,
-        "imageUuidOrDatabaseUri": "a03f9f51-722f-5de1-5520-4573bf9109fd",
+        "imageUuidOrDatabaseUri": "4d1575bb-6b95-402a-9caa-3f35ba82ee95",
         "isUuid": true,
         "magfilter": "linear",
         "minfilter": "linear",
@@ -29,7 +29,7 @@
         "wrapModeS": "repeat",
         "wrapModeT": "repeat"
       },
-      "uuid": "a03f9f51-722f-5de1-5520-4573bf9109fd@6c48a",
+      "uuid": "4d1575bb-6b95-402a-9caa-3f35ba82ee95@6c48a",
       "ver": "1.0.22"
     }
   },
@@ -37,6 +37,6 @@
     "type": "texture",
     "fixAlphaTransparencyArtifacts": false,
     "hasAlpha": false,
-    "redirect": "a03f9f51-722f-5de1-5520-4573bf9109fd@6c48a"
+    "redirect": "4d1575bb-6b95-402a-9caa-3f35ba82ee95@6c48a"
   }
 }

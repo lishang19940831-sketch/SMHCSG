@@ -2,14 +2,14 @@
   "ver": "1.0.27",
   "importer": "image",
   "imported": true,
-  "uuid": "5bafddbc-a09a-76ac-bfd5-e87eccd877af",
+  "uuid": "9d6e0a20-5a3a-40a0-a322-8bc54d28169b",
   "files": [
     ".json",
     ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "displayName": "木堆.PNG",
+      "displayName": "木堆",
       "files": [
         ".json"
       ],
@@ -20,7 +20,7 @@
       "subMetas": {},
       "userData": {
         "anisotropy": 0,
-        "imageUuidOrDatabaseUri": "5bafddbc-a09a-76ac-bfd5-e87eccd877af",
+        "imageUuidOrDatabaseUri": "9d6e0a20-5a3a-40a0-a322-8bc54d28169b",
         "isUuid": true,
         "magfilter": "linear",
         "minfilter": "linear",
@@ -29,7 +29,7 @@
         "wrapModeS": "repeat",
         "wrapModeT": "repeat"
       },
-      "uuid": "5bafddbc-a09a-76ac-bfd5-e87eccd877af@6c48a",
+      "uuid": "9d6e0a20-5a3a-40a0-a322-8bc54d28169b@6c48a",
       "ver": "1.0.22"
     }
   },
@@ -37,6 +37,6 @@
     "type": "texture",
     "fixAlphaTransparencyArtifacts": false,
     "hasAlpha": true,
-    "redirect": "5bafddbc-a09a-76ac-bfd5-e87eccd877af@6c48a"
+    "redirect": "9d6e0a20-5a3a-40a0-a322-8bc54d28169b@6c48a"
   }
 }
