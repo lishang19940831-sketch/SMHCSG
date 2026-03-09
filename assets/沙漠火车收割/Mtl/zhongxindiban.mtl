@@ -69,9 +69,9 @@
     {
       "mainColor": {
         "__type__": "cc.Color",
-        "r": 96,
-        "g": 168,
-        "b": 77,
+        "r": 77,
+        "g": 128,
+        "b": 62,
         "a": 255
       },
       "albedoScale": {
@@ -83,6 +83,13 @@
       "alphaThreshold": 0,
       "roughness": 0,
       "specularIntensity": 0,
+      "emissive": {
+        "__type__": "cc.Color",
+        "r": 51,
+        "g": 77,
+        "b": 34,
+        "a": 255
+      },
       "mainTexture": {
         "__uuid__": "232e95df-9950-8c96-45f6-ffaeff82f816@6c48a",
         "__expectedType__": "cc.Texture2D"

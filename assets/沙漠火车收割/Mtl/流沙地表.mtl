@@ -79,25 +79,25 @@
     {
       "tilingOffset": {
         "__type__": "cc.Vec4",
-        "x": 20,
-        "y": 20,
+        "x": 30,
+        "y": 30,
         "z": 0,
         "w": 0
       },
       "mainColor": {
         "__type__": "cc.Color",
-        "r": 253,
-        "g": 157,
-        "b": 149,
+        "r": 236,
+        "g": 146,
+        "b": 139,
         "a": 255
       },
       "roughness": 0,
       "specularIntensity": 0,
       "emissive": {
         "__type__": "cc.Color",
-        "r": 160,
-        "g": 68,
-        "b": 17,
+        "r": 92,
+        "g": 69,
+        "b": 29,
         "a": 255
       },
       "mainTexture": {

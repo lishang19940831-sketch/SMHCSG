@@ -2,14 +2,14 @@
   "ver": "2.3.14",
   "importer": "fbx",
   "imported": true,
-  "uuid": "b1cf22d8-c530-4121-a1ea-a3584ce859d2",
+  "uuid": "8ac83d3d-e8fc-4e43-ac3a-1a84246f048d",
   "files": [
     "__original-animation-0.bin"
   ],
   "subMetas": {
     "054dd": {
       "importer": "gltf-mesh",
-      "uuid": "b1cf22d8-c530-4121-a1ea-a3584ce859d2@054dd",
+      "uuid": "8ac83d3d-e8fc-4e43-ac3a-1a84246f048d@054dd",
       "displayName": "",
       "id": "054dd",
       "name": "Grass_01.mesh",
@@ -27,7 +27,7 @@
     },
     "73b7f": {
       "importer": "gltf-animation",
-      "uuid": "b1cf22d8-c530-4121-a1ea-a3584ce859d2@73b7f",
+      "uuid": "8ac83d3d-e8fc-4e43-ac3a-1a84246f048d@73b7f",
       "displayName": "",
       "id": "73b7f",
       "name": "Take 001.animation",
@@ -50,7 +50,7 @@
     },
     "a7257": {
       "importer": "gltf-embeded-image",
-      "uuid": "b1cf22d8-c530-4121-a1ea-a3584ce859d2@a7257",
+      "uuid": "8ac83d3d-e8fc-4e43-ac3a-1a84246f048d@a7257",
       "displayName": "",
       "id": "a7257",
       "name": "Map #3.image",
@@ -70,7 +70,7 @@
     },
     "ace8f": {
       "importer": "gltf-embeded-image",
-      "uuid": "b1cf22d8-c530-4121-a1ea-a3584ce859d2@ace8f",
+      "uuid": "8ac83d3d-e8fc-4e43-ac3a-1a84246f048d@ace8f",
       "displayName": "",
       "id": "ace8f",
       "name": "Map #4.image",
@@ -90,7 +90,7 @@
     },
     "6b9e5": {
       "importer": "texture",
-      "uuid": "b1cf22d8-c530-4121-a1ea-a3584ce859d2@6b9e5",
+      "uuid": "8ac83d3d-e8fc-4e43-ac3a-1a84246f048d@6b9e5",
       "displayName": "",
       "id": "6b9e5",
       "name": "Map #3.texture",
@@ -102,7 +102,7 @@
         "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "b1cf22d8-c530-4121-a1ea-a3584ce859d2@a7257"
+        "imageUuidOrDatabaseUri": "8ac83d3d-e8fc-4e43-ac3a-1a84246f048d@a7257"
       },
       "ver": "1.0.22",
       "imported": true,
@@ -113,7 +113,7 @@
     },
     "f8008": {
       "importer": "texture",
-      "uuid": "b1cf22d8-c530-4121-a1ea-a3584ce859d2@f8008",
+      "uuid": "8ac83d3d-e8fc-4e43-ac3a-1a84246f048d@f8008",
       "displayName": "",
       "id": "f8008",
       "name": "Map #4.texture",
@@ -125,7 +125,7 @@
         "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "b1cf22d8-c530-4121-a1ea-a3584ce859d2@ace8f"
+        "imageUuidOrDatabaseUri": "8ac83d3d-e8fc-4e43-ac3a-1a84246f048d@ace8f"
       },
       "ver": "1.0.22",
       "imported": true,
@@ -136,7 +136,7 @@
     },
     "7ff75": {
       "importer": "gltf-material",
-      "uuid": "b1cf22d8-c530-4121-a1ea-a3584ce859d2@7ff75",
+      "uuid": "8ac83d3d-e8fc-4e43-ac3a-1a84246f048d@7ff75",
       "displayName": "",
       "id": "7ff75",
       "name": "Material #27.material",
@@ -152,7 +152,7 @@
     },
     "3db51": {
       "importer": "gltf-scene",
-      "uuid": "b1cf22d8-c530-4121-a1ea-a3584ce859d2@3db51",
+      "uuid": "8ac83d3d-e8fc-4e43-ac3a-1a84246f048d@3db51",
       "displayName": "",
       "id": "3db51",
       "name": "草.prefab",
@@ -171,11 +171,11 @@
     "imageMetas": [
       {
         "name": "Map #3",
-        "uri": "b1cf22d8-c530-4121-a1ea-a3584ce859d2@a7257"
+        "uri": "8ac83d3d-e8fc-4e43-ac3a-1a84246f048d@a7257"
       },
       {
         "name": "Map #4",
-        "uri": "b1cf22d8-c530-4121-a1ea-a3584ce859d2@ace8f"
+        "uri": "8ac83d3d-e8fc-4e43-ac3a-1a84246f048d@ace8f"
       }
     ],
     "fbx": {
@@ -217,18 +217,18 @@
     },
     "assetFinder": {
       "meshes": [
-        "b1cf22d8-c530-4121-a1ea-a3584ce859d2@054dd"
+        "8ac83d3d-e8fc-4e43-ac3a-1a84246f048d@054dd"
       ],
       "skeletons": [],
       "textures": [
-        "b1cf22d8-c530-4121-a1ea-a3584ce859d2@6b9e5",
-        "b1cf22d8-c530-4121-a1ea-a3584ce859d2@f8008"
+        "8ac83d3d-e8fc-4e43-ac3a-1a84246f048d@6b9e5",
+        "8ac83d3d-e8fc-4e43-ac3a-1a84246f048d@f8008"
       ],
       "materials": [
-        "b1cf22d8-c530-4121-a1ea-a3584ce859d2@7ff75"
+        "8ac83d3d-e8fc-4e43-ac3a-1a84246f048d@7ff75"
       ],
       "scenes": [
-        "b1cf22d8-c530-4121-a1ea-a3584ce859d2@3db51"
+        "8ac83d3d-e8fc-4e43-ac3a-1a84246f048d@3db51"
       ]
     }
   }

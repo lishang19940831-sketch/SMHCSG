@@ -2,12 +2,12 @@
   "ver": "2.3.14",
   "importer": "fbx",
   "imported": true,
-  "uuid": "1896f950-a4e2-4775-bf18-44cbf5270b26",
+  "uuid": "21172496-e2d5-4dbc-a1d2-83c045def434",
   "files": [],
   "subMetas": {
     "95558": {
       "importer": "gltf-material",
-      "uuid": "1896f950-a4e2-4775-bf18-44cbf5270b26@95558",
+      "uuid": "21172496-e2d5-4dbc-a1d2-83c045def434@95558",
       "displayName": "",
       "id": "95558",
       "name": "火车.material",
@@ -23,7 +23,7 @@
     },
     "1f187": {
       "importer": "gltf-mesh",
-      "uuid": "1896f950-a4e2-4775-bf18-44cbf5270b26@1f187",
+      "uuid": "21172496-e2d5-4dbc-a1d2-83c045def434@1f187",
       "displayName": "",
       "id": "1f187",
       "name": "火车_7_polySurface131.mesh",
@@ -41,7 +41,7 @@
     },
     "bdd80": {
       "importer": "gltf-mesh",
-      "uuid": "1896f950-a4e2-4775-bf18-44cbf5270b26@bdd80",
+      "uuid": "21172496-e2d5-4dbc-a1d2-83c045def434@bdd80",
       "displayName": "",
       "id": "bdd80",
       "name": "UCX_火车_7_polySurface131.mesh",
@@ -59,7 +59,7 @@
     },
     "4f3cb": {
       "importer": "gltf-material",
-      "uuid": "1896f950-a4e2-4775-bf18-44cbf5270b26@4f3cb",
+      "uuid": "21172496-e2d5-4dbc-a1d2-83c045def434@4f3cb",
       "displayName": "",
       "id": "4f3cb",
       "name": "火车3.material",
@@ -75,7 +75,7 @@
     },
     "c6aae": {
       "importer": "gltf-material",
-      "uuid": "1896f950-a4e2-4775-bf18-44cbf5270b26@c6aae",
+      "uuid": "21172496-e2d5-4dbc-a1d2-83c045def434@c6aae",
       "displayName": "",
       "id": "c6aae",
       "name": "火车6.material",
@@ -91,7 +91,7 @@
     },
     "1705a": {
       "importer": "gltf-scene",
-      "uuid": "1896f950-a4e2-4775-bf18-44cbf5270b26@1705a",
+      "uuid": "21172496-e2d5-4dbc-a1d2-83c045def434@1705a",
       "displayName": "",
       "id": "1705a",
       "name": "拖车01.prefab",
@@ -131,18 +131,18 @@
     },
     "assetFinder": {
       "meshes": [
-        "1896f950-a4e2-4775-bf18-44cbf5270b26@1f187",
-        "1896f950-a4e2-4775-bf18-44cbf5270b26@bdd80"
+        "21172496-e2d5-4dbc-a1d2-83c045def434@1f187",
+        "21172496-e2d5-4dbc-a1d2-83c045def434@bdd80"
       ],
       "skeletons": [],
       "textures": [],
       "materials": [
-        "1896f950-a4e2-4775-bf18-44cbf5270b26@95558",
-        "1896f950-a4e2-4775-bf18-44cbf5270b26@4f3cb",
-        "1896f950-a4e2-4775-bf18-44cbf5270b26@c6aae"
+        "21172496-e2d5-4dbc-a1d2-83c045def434@95558",
+        "21172496-e2d5-4dbc-a1d2-83c045def434@4f3cb",
+        "21172496-e2d5-4dbc-a1d2-83c045def434@c6aae"
       ],
       "scenes": [
-        "1896f950-a4e2-4775-bf18-44cbf5270b26@1705a"
+        "21172496-e2d5-4dbc-a1d2-83c045def434@1705a"
       ]
     }
   }

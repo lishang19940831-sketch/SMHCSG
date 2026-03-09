@@ -2,14 +2,14 @@
   "ver": "2.3.14",
   "importer": "fbx",
   "imported": true,
-  "uuid": "dfc521b1-b906-44d1-9027-3e43d2c84349",
+  "uuid": "9fc41bd6-c8fd-45e6-b3c3-d7e94fd8c3fb",
   "files": [
     "__original-animation-0.bin"
   ],
   "subMetas": {
     "ec8a4": {
       "importer": "gltf-mesh",
-      "uuid": "dfc521b1-b906-44d1-9027-3e43d2c84349@ec8a4",
+      "uuid": "9fc41bd6-c8fd-45e6-b3c3-d7e94fd8c3fb@ec8a4",
       "displayName": "",
       "id": "ec8a4",
       "name": "arrow.mesh",
@@ -27,7 +27,7 @@
     },
     "6b081": {
       "importer": "gltf-mesh",
-      "uuid": "dfc521b1-b906-44d1-9027-3e43d2c84349@6b081",
+      "uuid": "9fc41bd6-c8fd-45e6-b3c3-d7e94fd8c3fb@6b081",
       "displayName": "",
       "id": "6b081",
       "name": "arrow_tower.mesh",
@@ -45,7 +45,7 @@
     },
     "c60b9": {
       "importer": "gltf-mesh",
-      "uuid": "dfc521b1-b906-44d1-9027-3e43d2c84349@c60b9",
+      "uuid": "9fc41bd6-c8fd-45e6-b3c3-d7e94fd8c3fb@c60b9",
       "displayName": "",
       "id": "c60b9",
       "name": "bow.mesh",
@@ -63,7 +63,7 @@
     },
     "830b1": {
       "importer": "gltf-mesh",
-      "uuid": "dfc521b1-b906-44d1-9027-3e43d2c84349@830b1",
+      "uuid": "9fc41bd6-c8fd-45e6-b3c3-d7e94fd8c3fb@830b1",
       "displayName": "",
       "id": "830b1",
       "name": "towerbase_wood.mesh",
@@ -81,7 +81,7 @@
     },
     "73b7f": {
       "importer": "gltf-animation",
-      "uuid": "dfc521b1-b906-44d1-9027-3e43d2c84349@73b7f",
+      "uuid": "9fc41bd6-c8fd-45e6-b3c3-d7e94fd8c3fb@73b7f",
       "displayName": "",
       "id": "73b7f",
       "name": "Take 001.animation",
@@ -104,7 +104,7 @@
     },
     "5e49e": {
       "importer": "gltf-embeded-image",
-      "uuid": "dfc521b1-b906-44d1-9027-3e43d2c84349@5e49e",
+      "uuid": "9fc41bd6-c8fd-45e6-b3c3-d7e94fd8c3fb@5e49e",
       "displayName": "",
       "id": "5e49e",
       "name": "base_color_texture-0.image",
@@ -124,7 +124,7 @@
     },
     "ef396": {
       "importer": "gltf-embeded-image",
-      "uuid": "dfc521b1-b906-44d1-9027-3e43d2c84349@ef396",
+      "uuid": "9fc41bd6-c8fd-45e6-b3c3-d7e94fd8c3fb@ef396",
       "displayName": "",
       "id": "ef396",
       "name": "base_color_texture-1.image",
@@ -144,7 +144,7 @@
     },
     "0a1ef": {
       "importer": "texture",
-      "uuid": "dfc521b1-b906-44d1-9027-3e43d2c84349@0a1ef",
+      "uuid": "9fc41bd6-c8fd-45e6-b3c3-d7e94fd8c3fb@0a1ef",
       "displayName": "",
       "id": "0a1ef",
       "name": "base_color_texture-0.texture",
@@ -156,7 +156,7 @@
         "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "dfc521b1-b906-44d1-9027-3e43d2c84349@5e49e"
+        "imageUuidOrDatabaseUri": "9fc41bd6-c8fd-45e6-b3c3-d7e94fd8c3fb@5e49e"
       },
       "ver": "1.0.22",
       "imported": true,
@@ -167,7 +167,7 @@
     },
     "05da8": {
       "importer": "texture",
-      "uuid": "dfc521b1-b906-44d1-9027-3e43d2c84349@05da8",
+      "uuid": "9fc41bd6-c8fd-45e6-b3c3-d7e94fd8c3fb@05da8",
       "displayName": "",
       "id": "05da8",
       "name": "base_color_texture-1.texture",
@@ -179,7 +179,7 @@
         "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "dfc521b1-b906-44d1-9027-3e43d2c84349@ef396"
+        "imageUuidOrDatabaseUri": "9fc41bd6-c8fd-45e6-b3c3-d7e94fd8c3fb@ef396"
       },
       "ver": "1.0.22",
       "imported": true,
@@ -190,7 +190,7 @@
     },
     "da712": {
       "importer": "gltf-material",
-      "uuid": "dfc521b1-b906-44d1-9027-3e43d2c84349@da712",
+      "uuid": "9fc41bd6-c8fd-45e6-b3c3-d7e94fd8c3fb@da712",
       "displayName": "",
       "id": "da712",
       "name": "M_TM.material",
@@ -206,7 +206,7 @@
     },
     "48d2b": {
       "importer": "gltf-material",
-      "uuid": "dfc521b1-b906-44d1-9027-3e43d2c84349@48d2b",
+      "uuid": "9fc41bd6-c8fd-45e6-b3c3-d7e94fd8c3fb@48d2b",
       "displayName": "",
       "id": "48d2b",
       "name": "MI_一级箭塔基座.material",
@@ -222,7 +222,7 @@
     },
     "f9ccf": {
       "importer": "gltf-scene",
-      "uuid": "dfc521b1-b906-44d1-9027-3e43d2c84349@f9ccf",
+      "uuid": "9fc41bd6-c8fd-45e6-b3c3-d7e94fd8c3fb@f9ccf",
       "displayName": "",
       "id": "f9ccf",
       "name": "箭塔.prefab",
@@ -241,11 +241,11 @@
     "imageMetas": [
       {
         "name": "base_color_texture",
-        "uri": "dfc521b1-b906-44d1-9027-3e43d2c84349@5e49e"
+        "uri": "9fc41bd6-c8fd-45e6-b3c3-d7e94fd8c3fb@5e49e"
       },
       {
         "name": "base_color_texture",
-        "uri": "dfc521b1-b906-44d1-9027-3e43d2c84349@ef396"
+        "uri": "9fc41bd6-c8fd-45e6-b3c3-d7e94fd8c3fb@ef396"
       }
     ],
     "fbx": {
@@ -287,22 +287,22 @@
     },
     "assetFinder": {
       "meshes": [
-        "dfc521b1-b906-44d1-9027-3e43d2c84349@ec8a4",
-        "dfc521b1-b906-44d1-9027-3e43d2c84349@6b081",
-        "dfc521b1-b906-44d1-9027-3e43d2c84349@c60b9",
-        "dfc521b1-b906-44d1-9027-3e43d2c84349@830b1"
+        "9fc41bd6-c8fd-45e6-b3c3-d7e94fd8c3fb@ec8a4",
+        "9fc41bd6-c8fd-45e6-b3c3-d7e94fd8c3fb@6b081",
+        "9fc41bd6-c8fd-45e6-b3c3-d7e94fd8c3fb@c60b9",
+        "9fc41bd6-c8fd-45e6-b3c3-d7e94fd8c3fb@830b1"
       ],
       "skeletons": [],
       "textures": [
-        "dfc521b1-b906-44d1-9027-3e43d2c84349@0a1ef",
-        "dfc521b1-b906-44d1-9027-3e43d2c84349@05da8"
+        "9fc41bd6-c8fd-45e6-b3c3-d7e94fd8c3fb@0a1ef",
+        "9fc41bd6-c8fd-45e6-b3c3-d7e94fd8c3fb@05da8"
       ],
       "materials": [
-        "dfc521b1-b906-44d1-9027-3e43d2c84349@da712",
-        "dfc521b1-b906-44d1-9027-3e43d2c84349@48d2b"
+        "9fc41bd6-c8fd-45e6-b3c3-d7e94fd8c3fb@da712",
+        "9fc41bd6-c8fd-45e6-b3c3-d7e94fd8c3fb@48d2b"
       ],
       "scenes": [
-        "dfc521b1-b906-44d1-9027-3e43d2c84349@f9ccf"
+        "9fc41bd6-c8fd-45e6-b3c3-d7e94fd8c3fb@f9ccf"
       ]
     }
   }

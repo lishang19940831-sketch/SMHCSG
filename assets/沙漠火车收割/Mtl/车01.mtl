@@ -99,6 +99,12 @@
         "b": 224,
         "a": 255
       },
+      "albedoScale": {
+        "__type__": "cc.Vec3",
+        "x": 0.4,
+        "y": 0.7,
+        "z": 0.8
+      },
       "roughness": 0.423,
       "metallic": 0.311,
       "specularIntensity": 0,

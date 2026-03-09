@@ -2,12 +2,12 @@
   "ver": "2.3.14",
   "importer": "fbx",
   "imported": true,
-  "uuid": "c38853a3-b1c9-4a51-a4ea-f568bb89577c",
+  "uuid": "4088b16b-49f9-47b1-8448-63387494387e",
   "files": [],
   "subMetas": {
     "2203c": {
       "importer": "gltf-mesh",
-      "uuid": "c38853a3-b1c9-4a51-a4ea-f568bb89577c@2203c",
+      "uuid": "4088b16b-49f9-47b1-8448-63387494387e@2203c",
       "displayName": "",
       "id": "2203c",
       "name": "oven_01_LOD0.mesh",
@@ -26,7 +26,7 @@
     },
     "43c71": {
       "importer": "gltf-embeded-image",
-      "uuid": "c38853a3-b1c9-4a51-a4ea-f568bb89577c@43c71",
+      "uuid": "4088b16b-49f9-47b1-8448-63387494387e@43c71",
       "displayName": "",
       "id": "43c71",
       "name": "file1.image",
@@ -46,7 +46,7 @@
     },
     "d20e9": {
       "importer": "texture",
-      "uuid": "c38853a3-b1c9-4a51-a4ea-f568bb89577c@d20e9",
+      "uuid": "4088b16b-49f9-47b1-8448-63387494387e@d20e9",
       "displayName": "",
       "id": "d20e9",
       "name": "file1.texture",
@@ -58,7 +58,7 @@
         "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "c38853a3-b1c9-4a51-a4ea-f568bb89577c@43c71"
+        "imageUuidOrDatabaseUri": "4088b16b-49f9-47b1-8448-63387494387e@43c71"
       },
       "ver": "1.0.22",
       "imported": true,
@@ -69,7 +69,7 @@
     },
     "3a51d": {
       "importer": "gltf-material",
-      "uuid": "c38853a3-b1c9-4a51-a4ea-f568bb89577c@3a51d",
+      "uuid": "4088b16b-49f9-47b1-8448-63387494387e@3a51d",
       "displayName": "",
       "id": "3a51d",
       "name": "a.material",
@@ -85,7 +85,7 @@
     },
     "a2c81": {
       "importer": "gltf-scene",
-      "uuid": "c38853a3-b1c9-4a51-a4ea-f568bb89577c@a2c81",
+      "uuid": "4088b16b-49f9-47b1-8448-63387494387e@a2c81",
       "displayName": "",
       "id": "a2c81",
       "name": "烤架001.prefab",
@@ -104,7 +104,7 @@
     "imageMetas": [
       {
         "name": "file1",
-        "uri": "c38853a3-b1c9-4a51-a4ea-f568bb89577c@43c71"
+        "uri": "4088b16b-49f9-47b1-8448-63387494387e@43c71"
       }
     ],
     "fbx": {
@@ -122,17 +122,17 @@
     },
     "assetFinder": {
       "meshes": [
-        "c38853a3-b1c9-4a51-a4ea-f568bb89577c@2203c"
+        "4088b16b-49f9-47b1-8448-63387494387e@2203c"
       ],
       "skeletons": [],
       "textures": [
-        "c38853a3-b1c9-4a51-a4ea-f568bb89577c@d20e9"
+        "4088b16b-49f9-47b1-8448-63387494387e@d20e9"
       ],
       "materials": [
-        "c38853a3-b1c9-4a51-a4ea-f568bb89577c@3a51d"
+        "4088b16b-49f9-47b1-8448-63387494387e@3a51d"
       ],
       "scenes": [
-        "c38853a3-b1c9-4a51-a4ea-f568bb89577c@a2c81"
+        "4088b16b-49f9-47b1-8448-63387494387e@a2c81"
       ]
     }
   }

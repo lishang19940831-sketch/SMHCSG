@@ -92,13 +92,19 @@
     {
       "mainColor": {
         "__type__": "cc.Color",
-        "r": 160,
-        "g": 170,
-        "b": 147,
+        "r": 131,
+        "g": 131,
+        "b": 131,
         "a": 255
       },
+      "albedoScale": {
+        "__type__": "cc.Vec3",
+        "x": 0.8,
+        "y": 1.1,
+        "z": 1
+      },
       "roughness": 0,
-      "specularIntensity": 0,
+      "specularIntensity": 0.086,
       "mainTexture": {
         "__uuid__": "7c72e17f-2c65-37be-5294-27c12fe8347d@6c48a",
         "__expectedType__": "cc.Texture2D"

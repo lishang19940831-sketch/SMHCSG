@@ -2,12 +2,12 @@
   "ver": "2.3.14",
   "importer": "fbx",
   "imported": true,
-  "uuid": "afb3e77c-a65a-4f99-9366-9a69095cc267",
+  "uuid": "35aca9d5-0ee6-4234-9b97-ad5424164d7f",
   "files": [],
   "subMetas": {
     "a7d36": {
       "importer": "gltf-mesh",
-      "uuid": "afb3e77c-a65a-4f99-9366-9a69095cc267@a7d36",
+      "uuid": "35aca9d5-0ee6-4234-9b97-ad5424164d7f@a7d36",
       "displayName": "",
       "id": "a7d36",
       "name": "DianTaShengJi.mesh",
@@ -25,7 +25,7 @@
     },
     "d4f45": {
       "importer": "gltf-embeded-image",
-      "uuid": "afb3e77c-a65a-4f99-9366-9a69095cc267@d4f45",
+      "uuid": "35aca9d5-0ee6-4234-9b97-ad5424164d7f@d4f45",
       "displayName": "",
       "id": "d4f45",
       "name": "Map #2.image",
@@ -45,7 +45,7 @@
     },
     "1da29": {
       "importer": "texture",
-      "uuid": "afb3e77c-a65a-4f99-9366-9a69095cc267@1da29",
+      "uuid": "35aca9d5-0ee6-4234-9b97-ad5424164d7f@1da29",
       "displayName": "",
       "id": "1da29",
       "name": "Map #2.texture",
@@ -57,7 +57,7 @@
         "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "afb3e77c-a65a-4f99-9366-9a69095cc267@d4f45"
+        "imageUuidOrDatabaseUri": "35aca9d5-0ee6-4234-9b97-ad5424164d7f@d4f45"
       },
       "ver": "1.0.22",
       "imported": true,
@@ -68,7 +68,7 @@
     },
     "c28f0": {
       "importer": "gltf-material",
-      "uuid": "afb3e77c-a65a-4f99-9366-9a69095cc267@c28f0",
+      "uuid": "35aca9d5-0ee6-4234-9b97-ad5424164d7f@c28f0",
       "displayName": "",
       "id": "c28f0",
       "name": "Material #26.material",
@@ -84,7 +84,7 @@
     },
     "5ebd8": {
       "importer": "gltf-scene",
-      "uuid": "afb3e77c-a65a-4f99-9366-9a69095cc267@5ebd8",
+      "uuid": "35aca9d5-0ee6-4234-9b97-ad5424164d7f@5ebd8",
       "displayName": "",
       "id": "5ebd8",
       "name": "电塔.prefab",
@@ -103,7 +103,7 @@
     "imageMetas": [
       {
         "name": "Map #2",
-        "uri": "afb3e77c-a65a-4f99-9366-9a69095cc267@d4f45"
+        "uri": "35aca9d5-0ee6-4234-9b97-ad5424164d7f@d4f45"
       }
     ],
     "fbx": {
@@ -129,17 +129,17 @@
     },
     "assetFinder": {
       "meshes": [
-        "afb3e77c-a65a-4f99-9366-9a69095cc267@a7d36"
+        "35aca9d5-0ee6-4234-9b97-ad5424164d7f@a7d36"
       ],
       "skeletons": [],
       "textures": [
-        "afb3e77c-a65a-4f99-9366-9a69095cc267@1da29"
+        "35aca9d5-0ee6-4234-9b97-ad5424164d7f@1da29"
       ],
       "materials": [
-        "afb3e77c-a65a-4f99-9366-9a69095cc267@c28f0"
+        "35aca9d5-0ee6-4234-9b97-ad5424164d7f@c28f0"
       ],
       "scenes": [
-        "afb3e77c-a65a-4f99-9366-9a69095cc267@5ebd8"
+        "35aca9d5-0ee6-4234-9b97-ad5424164d7f@5ebd8"
       ]
     }
   }

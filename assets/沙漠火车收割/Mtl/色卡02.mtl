@@ -94,15 +94,15 @@
     {
       "mainColor": {
         "__type__": "cc.Color",
-        "r": 104,
-        "g": 79,
-        "b": 76,
+        "r": 105,
+        "g": 83,
+        "b": 81,
         "a": 255
       },
       "albedoScale": {
         "__type__": "cc.Vec3",
-        "x": 0.9,
-        "y": 1,
+        "x": 0.7,
+        "y": 0.8,
         "z": 1
       },
       "roughness": 0,

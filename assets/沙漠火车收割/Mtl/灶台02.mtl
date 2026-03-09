@@ -103,6 +103,9 @@
         "y": 1.2,
         "z": 1
       },
+      "roughness": 0.756,
+      "metallic": 0.472,
+      "specularIntensity": 0.021,
       "mainTexture": {
         "__uuid__": "b08fa7ac-8ba8-502d-1364-0e9d28c57880@6c48a",
         "__expectedType__": "cc.Texture2D"
