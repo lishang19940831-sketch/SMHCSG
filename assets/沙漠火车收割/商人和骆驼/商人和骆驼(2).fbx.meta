@@ -2,20 +2,20 @@
   "ver": "2.3.14",
   "importer": "fbx",
   "imported": true,
-  "uuid": "9e4274d4-3f97-4b17-8a7f-07d38532806b",
+  "uuid": "5e210bb1-0c0d-4399-8ec2-182e0e33169c",
   "files": [
     "__original-animation-0.bin"
   ],
   "subMetas": {
     "30732": {
       "importer": "gltf-skeleton",
-      "uuid": "9e4274d4-3f97-4b17-8a7f-07d38532806b@30732",
+      "uuid": "5e210bb1-0c0d-4399-8ec2-182e0e33169c@30732",
       "displayName": "",
       "id": "30732",
       "name": "UnnamedSkeleton-0.skeleton",
       "userData": {
         "gltfIndex": 0,
-        "jointsLength": 55
+        "jointsLength": 42
       },
       "ver": "1.0.1",
       "imported": true,
@@ -26,13 +26,13 @@
     },
     "45418": {
       "importer": "gltf-mesh",
-      "uuid": "9e4274d4-3f97-4b17-8a7f-07d38532806b@45418",
+      "uuid": "5e210bb1-0c0d-4399-8ec2-182e0e33169c@45418",
       "displayName": "",
       "id": "45418",
       "name": "ren001.mesh",
       "userData": {
-        "gltfIndex": 0,
-        "triangleCount": 2268
+        "gltfIndex": 2,
+        "triangleCount": 2308
       },
       "ver": "1.1.1",
       "imported": true,
@@ -44,12 +44,12 @@
     },
     "d7507": {
       "importer": "gltf-mesh",
-      "uuid": "9e4274d4-3f97-4b17-8a7f-07d38532806b@d7507",
+      "uuid": "5e210bb1-0c0d-4399-8ec2-182e0e33169c@d7507",
       "displayName": "",
       "id": "d7507",
       "name": "luotuo.mesh",
       "userData": {
-        "gltfIndex": 1,
+        "gltfIndex": 0,
         "triangleCount": 4258
       },
       "ver": "1.1.1",
@@ -62,12 +62,12 @@
     },
     "c6160": {
       "importer": "gltf-mesh",
-      "uuid": "9e4274d4-3f97-4b17-8a7f-07d38532806b@c6160",
+      "uuid": "5e210bb1-0c0d-4399-8ec2-182e0e33169c@c6160",
       "displayName": "",
       "id": "c6160",
       "name": "Cylinder001.mesh",
       "userData": {
-        "gltfIndex": 2,
+        "gltfIndex": 1,
         "triangleCount": 130
       },
       "ver": "1.1.1",
@@ -80,7 +80,7 @@
     },
     "73b7f": {
       "importer": "gltf-animation",
-      "uuid": "9e4274d4-3f97-4b17-8a7f-07d38532806b@73b7f",
+      "uuid": "5e210bb1-0c0d-4399-8ec2-182e0e33169c@73b7f",
       "displayName": "",
       "id": "73b7f",
       "name": "Take 001.animation",
@@ -103,13 +103,13 @@
     },
     "f1394": {
       "importer": "gltf-skeleton",
-      "uuid": "9e4274d4-3f97-4b17-8a7f-07d38532806b@f1394",
+      "uuid": "5e210bb1-0c0d-4399-8ec2-182e0e33169c@f1394",
       "displayName": "",
       "id": "f1394",
       "name": "UnnamedSkeleton-1.skeleton",
       "userData": {
         "gltfIndex": 1,
-        "jointsLength": 26
+        "jointsLength": 8
       },
       "ver": "1.0.1",
       "imported": true,
@@ -120,13 +120,13 @@
     },
     "75ee4": {
       "importer": "gltf-skeleton",
-      "uuid": "9e4274d4-3f97-4b17-8a7f-07d38532806b@75ee4",
+      "uuid": "5e210bb1-0c0d-4399-8ec2-182e0e33169c@75ee4",
       "displayName": "",
       "id": "75ee4",
       "name": "UnnamedSkeleton-2.skeleton",
       "userData": {
         "gltfIndex": 2,
-        "jointsLength": 7
+        "jointsLength": 25
       },
       "ver": "1.0.1",
       "imported": true,
@@ -135,35 +135,12 @@
       ],
       "subMetas": {}
     },
-    "a96a6": {
-      "importer": "texture",
-      "uuid": "9e4274d4-3f97-4b17-8a7f-07d38532806b@a96a6",
-      "displayName": "",
-      "id": "a96a6",
-      "name": "贴图 #1.texture",
-      "userData": {
-        "wrapModeS": "repeat",
-        "wrapModeT": "repeat",
-        "minfilter": "linear",
-        "magfilter": "linear",
-        "mipfilter": "none",
-        "anisotropy": 0,
-        "isUuid": false,
-        "imageUuidOrDatabaseUri": "db://assets/沙漠火车收割/商人和骆驼/人_BC.png"
-      },
-      "ver": "1.0.22",
-      "imported": true,
-      "files": [
-        ".json"
-      ],
-      "subMetas": {}
-    },
-    "9d093": {
+    "56b5f": {
       "importer": "gltf-material",
-      "uuid": "9e4274d4-3f97-4b17-8a7f-07d38532806b@9d093",
+      "uuid": "5e210bb1-0c0d-4399-8ec2-182e0e33169c@56b5f",
       "displayName": "",
-      "id": "9d093",
-      "name": "Material #25.material",
+      "id": "56b5f",
+      "name": "luotuo.material",
       "userData": {
         "gltfIndex": 0
       },
@@ -174,12 +151,12 @@
       ],
       "subMetas": {}
     },
-    "56b5f": {
+    "823a8": {
       "importer": "gltf-material",
-      "uuid": "9e4274d4-3f97-4b17-8a7f-07d38532806b@56b5f",
+      "uuid": "5e210bb1-0c0d-4399-8ec2-182e0e33169c@823a8",
       "displayName": "",
-      "id": "56b5f",
-      "name": "luotuo.material",
+      "id": "823a8",
+      "name": "ren.material",
       "userData": {
         "gltfIndex": 1
       },
@@ -190,12 +167,12 @@
       ],
       "subMetas": {}
     },
-    "27d12": {
+    "defc6": {
       "importer": "gltf-scene",
-      "uuid": "9e4274d4-3f97-4b17-8a7f-07d38532806b@27d12",
+      "uuid": "5e210bb1-0c0d-4399-8ec2-182e0e33169c@defc6",
       "displayName": "",
-      "id": "27d12",
-      "name": "商人和骆驼.prefab",
+      "id": "defc6",
+      "name": "商人和骆驼(2).prefab",
       "userData": {
         "gltfIndex": 0
       },
@@ -208,12 +185,7 @@
     }
   },
   "userData": {
-    "imageMetas": [
-      {
-        "name": "贴图 #1",
-        "uri": "db://assets/沙漠火车收割/商人和骆驼/人_BC.png"
-      }
-    ],
+    "imageMetas": [],
     "fbx": {
       "smartMaterialEnabled": true
     },
@@ -253,24 +225,22 @@
     },
     "assetFinder": {
       "meshes": [
-        "9e4274d4-3f97-4b17-8a7f-07d38532806b@45418",
-        "9e4274d4-3f97-4b17-8a7f-07d38532806b@d7507",
-        "9e4274d4-3f97-4b17-8a7f-07d38532806b@c6160"
+        "5e210bb1-0c0d-4399-8ec2-182e0e33169c@d7507",
+        "5e210bb1-0c0d-4399-8ec2-182e0e33169c@c6160",
+        "5e210bb1-0c0d-4399-8ec2-182e0e33169c@45418"
       ],
       "skeletons": [
-        "9e4274d4-3f97-4b17-8a7f-07d38532806b@30732",
-        "9e4274d4-3f97-4b17-8a7f-07d38532806b@f1394",
-        "9e4274d4-3f97-4b17-8a7f-07d38532806b@75ee4"
+        "5e210bb1-0c0d-4399-8ec2-182e0e33169c@30732",
+        "5e210bb1-0c0d-4399-8ec2-182e0e33169c@f1394",
+        "5e210bb1-0c0d-4399-8ec2-182e0e33169c@75ee4"
       ],
-      "textures": [
-        "9e4274d4-3f97-4b17-8a7f-07d38532806b@a96a6"
-      ],
+      "textures": [],
       "materials": [
-        "9e4274d4-3f97-4b17-8a7f-07d38532806b@9d093",
-        "9e4274d4-3f97-4b17-8a7f-07d38532806b@56b5f"
+        "5e210bb1-0c0d-4399-8ec2-182e0e33169c@56b5f",
+        "5e210bb1-0c0d-4399-8ec2-182e0e33169c@823a8"
       ],
       "scenes": [
-        "9e4274d4-3f97-4b17-8a7f-07d38532806b@27d12"
+        "5e210bb1-0c0d-4399-8ec2-182e0e33169c@defc6"
       ]
     }
   }

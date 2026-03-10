@@ -92,6 +92,13 @@
       "lineWidth": 3.5
     },
     {
+      "mainColor": {
+        "__type__": "cc.Color",
+        "r": 175,
+        "g": 158,
+        "b": 140,
+        "a": 255
+      },
       "roughness": 0,
       "specularIntensity": 0,
       "mainTexture": {

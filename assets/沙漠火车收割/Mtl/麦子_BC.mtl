@@ -10,9 +10,7 @@
   },
   "_techIdx": 0,
   "_defines": [
-    {
-      "USE_OUTLINE_PASS": true
-    },
+    {},
     {
       "USE_ALBEDO_MAP": true
     },
@@ -94,18 +92,18 @@
     {
       "mainColor": {
         "__type__": "cc.Color",
-        "r": 179,
-        "g": 151,
-        "b": 112,
+        "r": 255,
+        "g": 205,
+        "b": 7,
         "a": 255
       },
       "roughness": 0,
       "specularIntensity": 0,
       "emissive": {
         "__type__": "cc.Color",
-        "r": 194,
-        "g": 88,
-        "b": 79,
+        "r": 173,
+        "g": 117,
+        "b": 66,
         "a": 255
       },
       "mainTexture": {

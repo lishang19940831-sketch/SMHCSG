@@ -92,21 +92,27 @@
     {
       "mainColor": {
         "__type__": "cc.Color",
-        "r": 131,
-        "g": 131,
-        "b": 131,
+        "r": 137,
+        "g": 127,
+        "b": 250,
         "a": 255
       },
-      "albedoScale": {
-        "__type__": "cc.Vec3",
-        "x": 0.8,
-        "y": 1.1,
-        "z": 1
+      "roughness": 0.704,
+      "metallic": 0.5,
+      "specularIntensity": 0,
+      "emissive": {
+        "__type__": "cc.Color",
+        "r": 140,
+        "g": 0,
+        "b": 175,
+        "a": 255
       },
-      "roughness": 0,
-      "specularIntensity": 0.086,
       "mainTexture": {
-        "__uuid__": "be1c6546-76e7-4c56-9848-0ac9e1c6ec4b@6c48a",
+        "__uuid__": "099fa2a0-c8b8-4819-8d48-d7265b8591de@6c48a",
+        "__expectedType__": "cc.Texture2D"
+      },
+      "emissiveMap": {
+        "__uuid__": "099fa2a0-c8b8-4819-8d48-d7265b8591de@6c48a",
         "__expectedType__": "cc.Texture2D"
       }
     },

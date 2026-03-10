@@ -88,25 +88,32 @@
     }
   ],
   "_props": [
-    {},
+    {
+      "lineWidth": 17
+    },
     {
       "mainColor": {
         "__type__": "cc.Color",
-        "r": 131,
-        "g": 131,
-        "b": 131,
+        "r": 194,
+        "g": 194,
+        "b": 194,
         "a": 255
       },
       "albedoScale": {
         "__type__": "cc.Vec3",
-        "x": 0.8,
-        "y": 1.1,
-        "z": 1
+        "x": 0.6,
+        "y": 1,
+        "z": 2
       },
-      "roughness": 0,
-      "specularIntensity": 0.086,
+      "roughness": 0.545,
+      "metallic": 0.494,
+      "specularIntensity": 0,
       "mainTexture": {
-        "__uuid__": "be1c6546-76e7-4c56-9848-0ac9e1c6ec4b@6c48a",
+        "__uuid__": "aa99504b-2837-472c-b05e-0050e8bb6b9b@6c48a",
+        "__expectedType__": "cc.Texture2D"
+      },
+      "emissiveMap": {
+        "__uuid__": "828ec79e-7805-bb8b-40a5-7c2dd45928b6@6c48a",
         "__expectedType__": "cc.Texture2D"
       }
     },

@@ -90,13 +90,6 @@
   "_props": [
     {},
     {
-      "mainColor": {
-        "__type__": "cc.Color",
-        "r": 66,
-        "g": 233,
-        "b": 255,
-        "a": 255
-      },
       "albedoScale": {
         "__type__": "cc.Vec3",
         "x": 0.5,
