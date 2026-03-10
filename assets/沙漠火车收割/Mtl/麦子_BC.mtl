@@ -87,7 +87,14 @@
   ],
   "_props": [
     {
-      "lineWidth": 5
+      "lineWidth": 5,
+      "baseColor": {
+        "__type__": "cc.Color",
+        "r": 219,
+        "g": 135,
+        "b": 7,
+        "a": 255
+      }
     },
     {
       "mainColor": {
