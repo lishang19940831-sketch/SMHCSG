@@ -10,8 +10,11 @@
   },
   "_techIdx": 0,
   "_defines": [
-    {},
     {
+      "USE_INSTANCING": true
+    },
+    {
+      "USE_INSTANCING": true,
       "USE_ALBEDO_MAP": true
     },
     {},

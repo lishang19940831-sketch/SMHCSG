@@ -1,0 +1,102 @@
+{
+  "ver": "2.3.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "bcb09c73-9de1-4665-8f57-df976644407a",
+  "files": [],
+  "subMetas": {
+    "bc9e0": {
+      "importer": "gltf-mesh",
+      "uuid": "bcb09c73-9de1-4665-8f57-df976644407a@bc9e0",
+      "displayName": "",
+      "id": "bc9e0",
+      "name": "JinBiPD.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 392
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a21bc": {
+      "importer": "gltf-material",
+      "uuid": "bcb09c73-9de1-4665-8f57-df976644407a@a21bc",
+      "displayName": "",
+      "id": "a21bc",
+      "name": "JB_mat.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f44e2": {
+      "importer": "gltf-scene",
+      "uuid": "bcb09c73-9de1-4665-8f57-df976644407a@f44e2",
+      "displayName": "",
+      "id": "f44e2",
+      "name": "JinBiPD.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "bcb09c73-9de1-4665-8f57-df976644407a@bc9e0"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "bcb09c73-9de1-4665-8f57-df976644407a@a21bc"
+      ],
+      "scenes": [
+        "bcb09c73-9de1-4665-8f57-df976644407a@f44e2"
+      ]
+    },
+    "meshCompress": {
+      "encode": false,
+      "compress": true,
+      "quantize": true,
+      "enable": true
+    }
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "ver": "2.3.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "04f5a2a9-9135-4e13-a6bb-4e9fb69a7c1a",
+  "files": [],
+  "subMetas": {
+    "e7278": {
+      "importer": "gltf-mesh",
+      "uuid": "04f5a2a9-9135-4e13-a6bb-4e9fb69a7c1a@e7278",
+      "displayName": "",
+      "id": "e7278",
+      "name": "fbx_jianta_01.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 574
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "822d3": {
+      "importer": "gltf-mesh",
+      "uuid": "04f5a2a9-9135-4e13-a6bb-4e9fb69a7c1a@822d3",
+      "displayName": "",
+      "id": "822d3",
+      "name": "fbx_jianta_02.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 274
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3810d": {
+      "importer": "gltf-mesh",
+      "uuid": "04f5a2a9-9135-4e13-a6bb-4e9fb69a7c1a@3810d",
+      "displayName": "",
+      "id": "3810d",
+      "name": "fbx_jianta_03.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 212
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "df7df": {
+      "importer": "gltf-embeded-image",
+      "uuid": "04f5a2a9-9135-4e13-a6bb-4e9fb69a7c1a@df7df",
+      "displayName": "",
+      "id": "df7df",
+      "name": "贴图 #1.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "a96a6": {
+      "importer": "texture",
+      "uuid": "04f5a2a9-9135-4e13-a6bb-4e9fb69a7c1a@a96a6",
+      "displayName": "",
+      "id": "a96a6",
+      "name": "贴图 #1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "04f5a2a9-9135-4e13-a6bb-4e9fb69a7c1a@df7df"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9d093": {
+      "importer": "gltf-material",
+      "uuid": "04f5a2a9-9135-4e13-a6bb-4e9fb69a7c1a@9d093",
+      "displayName": "",
+      "id": "9d093",
+      "name": "Material #25.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "79c56": {
+      "importer": "gltf-scene",
+      "uuid": "04f5a2a9-9135-4e13-a6bb-4e9fb69a7c1a@79c56",
+      "displayName": "",
+      "id": "79c56",
+      "name": "jianta.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "贴图 #1",
+        "uri": "04f5a2a9-9135-4e13-a6bb-4e9fb69a7c1a@df7df"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "04f5a2a9-9135-4e13-a6bb-4e9fb69a7c1a@e7278",
+        "04f5a2a9-9135-4e13-a6bb-4e9fb69a7c1a@822d3",
+        "04f5a2a9-9135-4e13-a6bb-4e9fb69a7c1a@3810d"
+      ],
+      "skeletons": [],
+      "textures": [
+        "04f5a2a9-9135-4e13-a6bb-4e9fb69a7c1a@a96a6"
+      ],
+      "materials": [
+        "04f5a2a9-9135-4e13-a6bb-4e9fb69a7c1a@9d093"
+      ],
+      "scenes": [
+        "04f5a2a9-9135-4e13-a6bb-4e9fb69a7c1a@79c56"
+      ]
+    },
+    "meshCompress": {
+      "encode": false,
+      "compress": true,
+      "quantize": true,
+      "enable": true
+    }
+  }
+}

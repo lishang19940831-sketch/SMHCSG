@@ -1,0 +1,208 @@
+{
+  "ver": "2.3.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "134189ce-9666-46a3-a72e-d9d0ff0bc169",
+  "files": [],
+  "subMetas": {
+    "30732": {
+      "importer": "gltf-skeleton",
+      "uuid": "134189ce-9666-46a3-a72e-d9d0ff0bc169@30732",
+      "displayName": "",
+      "id": "30732",
+      "name": "UnnamedSkeleton-0.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 4
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "85d9d": {
+      "importer": "gltf-mesh",
+      "uuid": "134189ce-9666-46a3-a72e-d9d0ff0bc169@85d9d",
+      "displayName": "",
+      "id": "85d9d",
+      "name": "Narcia_Hair_Geo.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 1474
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8ea36": {
+      "importer": "gltf-mesh",
+      "uuid": "134189ce-9666-46a3-a72e-d9d0ff0bc169@8ea36",
+      "displayName": "",
+      "id": "8ea36",
+      "name": "Narcia_Body_Geo001.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 4348
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f1394": {
+      "importer": "gltf-skeleton",
+      "uuid": "134189ce-9666-46a3-a72e-d9d0ff0bc169@f1394",
+      "displayName": "",
+      "id": "f1394",
+      "name": "UnnamedSkeleton-1.skeleton",
+      "userData": {
+        "gltfIndex": 1,
+        "jointsLength": 23
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a2364": {
+      "importer": "gltf-embeded-image",
+      "uuid": "134189ce-9666-46a3-a72e-d9d0ff0bc169@a2364",
+      "displayName": "",
+      "id": "a2364",
+      "name": "Map #1.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "6e70c": {
+      "importer": "texture",
+      "uuid": "134189ce-9666-46a3-a72e-d9d0ff0bc169@6e70c",
+      "displayName": "",
+      "id": "6e70c",
+      "name": "Map #1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "134189ce-9666-46a3-a72e-d9d0ff0bc169@a2364"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d90a4": {
+      "importer": "gltf-material",
+      "uuid": "134189ce-9666-46a3-a72e-d9d0ff0bc169@d90a4",
+      "displayName": "",
+      "id": "d90a4",
+      "name": "01 - Default.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cd996": {
+      "importer": "gltf-scene",
+      "uuid": "134189ce-9666-46a3-a72e-d9d0ff0bc169@cd996",
+      "displayName": "",
+      "id": "cd996",
+      "name": "npc_skin.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Map #1",
+        "uri": "134189ce-9666-46a3-a72e-d9d0ff0bc169@a2364"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "134189ce-9666-46a3-a72e-d9d0ff0bc169@85d9d",
+        "134189ce-9666-46a3-a72e-d9d0ff0bc169@8ea36"
+      ],
+      "skeletons": [
+        "134189ce-9666-46a3-a72e-d9d0ff0bc169@30732",
+        "134189ce-9666-46a3-a72e-d9d0ff0bc169@f1394"
+      ],
+      "textures": [
+        "134189ce-9666-46a3-a72e-d9d0ff0bc169@6e70c"
+      ],
+      "materials": [
+        "134189ce-9666-46a3-a72e-d9d0ff0bc169@d90a4"
+      ],
+      "scenes": [
+        "134189ce-9666-46a3-a72e-d9d0ff0bc169@cd996"
+      ]
+    },
+    "meshCompress": {
+      "encode": false,
+      "compress": true,
+      "quantize": true,
+      "enable": true
+    }
+  }
+}
