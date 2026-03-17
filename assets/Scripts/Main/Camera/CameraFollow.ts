@@ -77,10 +77,6 @@ export class CameraFollow extends Component {
 
     start() {
         CameraFollow.instance = this;
-        if (!this.target) {
-            //console.error(' CameraFollow: 未设置跟随目标！');
-            return;
-        }
 
         // 获取相机组件
         this.camera = this.node.getComponent(Camera);
@@ -92,30 +88,24 @@ export class CameraFollow extends Component {
 
         // 保存正常状态的正交高度
         this.normalOrthoHeight = this.camera.orthoHeight;
-        //console.log(`[CameraFollow] 正常正交高度: ${this.normalOrthoHeight}`);
-
-        //console.log('=== CameraFollow 初始化 ===');
-        //console.log('跟随目标:', this.target.name);
-        //console.log('目标世界位置:', this.target.worldPosition);
-        //console.log('相机世界位置:', this.node.worldPosition);
 
         // 自动计算初始偏移量（使用世界坐标）
         if (this.autoCalculateOffset) {
-            const targetWorld = this.target.worldPosition;
-            const cameraWorld = this.node.worldPosition;
-            this.initialOffset.set(
-                cameraWorld.x - targetWorld.x,
-                cameraWorld.y - targetWorld.y,
-                cameraWorld.z - targetWorld.z
-            );
-            //console.log(' 自动计算偏移:', this.initialOffset);
+            if (this.target) {
+                const targetWorld = this.target.worldPosition;
+                const cameraWorld = this.node.worldPosition;
+                this.initialOffset.set(
+                    cameraWorld.x - targetWorld.x,
+                    cameraWorld.y - targetWorld.y,
+                    cameraWorld.z - targetWorld.z
+                );
+            } else {
+                // target 未绑定时，用固定 offset 作为初始值，等 setTarget 时再重算
+                this.initialOffset.set(this.offset);
+            }
         } else {
             this.initialOffset.set(this.offset);
-            //console.log(' 使用固定偏移:', this.initialOffset);
         }
-
-     
-     
     }
 
     lateUpdate(deltaTime: number) {

@@ -68,6 +68,8 @@ export class WheatContainer extends Component {
         if (pickupComponent) {
             this.pickupComponents.set(node.uuid, pickupComponent);
             this.interactionTimers.set(node.uuid, 0);
+            //踩上麦子，heroY轴抬高0.5
+            manager.game.hero.node.getChildByName("ModelNode").setPosition(0,0.8,0);
         }
     }
 
@@ -76,6 +78,8 @@ export class WheatContainer extends Component {
         if (node && this.pickupComponents.has(node.uuid)) {
             this.pickupComponents.delete(node.uuid);
             this.interactionTimers.delete(node.uuid);
+            //离开麦子，heroY轴恢复为0
+            manager.game.hero.node.getChildByName("ModelNode").setPosition(0,0,0);
         }
     }
 
@@ -173,7 +177,7 @@ export class WheatContainer extends Component {
      * @param fromPosition 麦子的起始位置
      * @returns 是否成功接收
      */
-    public receive(fromPosition: Vec3): boolean {
+    public receive(fromPosition: Vec3, onArrived?: () => void): boolean {
         const wheat = manager.pool.getNode(ObjectType.DropItemCornKernel);
         if (!wheat) {
             return false;
@@ -207,13 +211,17 @@ export class WheatContainer extends Component {
             node: wheat,
             target: targetPos,
             callback: () => {
-                if (!wheat.isValid) return;
+                if (!wheat.isValid) {
+                    onArrived?.();
+                    return;
+                }
 
                 if (this.unlimitedMode && !isContainerFull && layoutPos) {
                     const currentVisualCount = this.wheatLayout.getItemCount();
                     if (this._virtualWheatCount <= currentVisualCount) {
                         manager.pool.putNode(wheat);
                         this.wheatLayout.removeItem(layoutPos);
+                        onArrived?.();
                         return;
                     }
                 }
@@ -224,6 +232,7 @@ export class WheatContainer extends Component {
                     this.wheatLayout.addItemToReserve(wheat, layoutPos);
                     wheat.setRotationFromEuler(0, 0, 0);
                 }
+                onArrived?.();
             }
         });
 

@@ -1,4 +1,4 @@
-import { _decorator, Collider, Component, easing, ITriggerEvent, Node, Prefab, tween, Tween, v3, Vec3, instantiate, Enum, math, RigidBody, ERigidBodyType } from 'cc';
+import { _decorator, Collider, Component, easing, ITriggerEvent, Node, Prefab, tween, Tween, v3, Vec2, Vec3, instantiate, Enum, math, RigidBody, ERigidBodyType } from 'cc';
 import { ItemLayout } from '../Tools/ItemLayout';
 import { PickupComponent } from '../Components/PickupComponent';
 import { Config } from '../Common/Config';
@@ -78,6 +78,9 @@ export class ShopCommon extends Component {
     private isSpawning: boolean = false;
     interactionDuration: number = 1;
 
+    /** 玩家是否已经操作过（进入触发器），用于控制前2个顾客的图标切换 */
+    private _playerHasInteracted: boolean = false;
+
     public get SellNode(): Node {
         return this.shopCollider.node;
     }
@@ -139,8 +142,26 @@ export class ShopCommon extends Component {
             }
             // 开始生成顾客
             this.startSpawningCustomers();
+
+            // 监听摇杆输入：玩家首次拨动摇杆时，将前2个顾客从饥饿切换为需求
+            app.event.on(CommonEvent.joystickInput, this._onJoystickInput, this);
         } else {
        //console.log('[ShopCommon] 仓库模式启用，顾客系统已禁用');
+        }
+    }
+
+    protected onDestroy(): void {
+        app.event.off(CommonEvent.joystickInput, this._onJoystickInput);
+    }
+
+    private _onJoystickInput = (input: Vec2): void => {
+        if (this._playerHasInteracted) return;
+        // 有效拨动（非零输入）才触发
+        if (input.length() > 0) {
+            this._playerHasInteracted = true;
+            this.updateNeedDisplay();
+            // 只需响应一次，注销监听
+            app.event.off(CommonEvent.joystickInput, this._onJoystickInput);
         }
     }
     protected start(): void {
@@ -191,7 +212,6 @@ export class ShopCommon extends Component {
             // 添加到Map中跟踪
             this.pickupComponents.set(node.uuid, pickupComponent);
             this.interactionTimers.set(node.uuid, 0);
-          
         } else {
           
         }
@@ -554,18 +574,22 @@ export class ShopCommon extends Component {
     }
     
     /**
-     * 更新需求节点显示：只有队列第一个顾客显示需求节点
+     * 更新需求节点显示：
+     * - 玩家未操作前：前2个顾客显示饥饿节点
+     * - 玩家操作后：前2个顾客显示需求节点
+     * - 其余顾客始终显示不高兴节点
      */
     private updateNeedDisplay(): void {
-        //现在改为前2个显示需求节点
-        let showCount = 2;
+        const showCount = 2;
         for (let i = 0; i < this.waitList.length; i++) {
             const customer = this.waitList[i];
             if (i < showCount) {
-                // 队列第一个顾客显示需求节点
-                customer.showNeed();
+                if (this._playerHasInteracted) {
+                    customer.showNeed();
+                } else {
+                    customer.showHungry();
+                }
             } else {
-                // 其他顾客隐藏需求节点
                 customer.showUnhappy();
             }
         }
@@ -698,6 +722,15 @@ export class ShopCommon extends Component {
             this.node.active = false;
             this.tableNode.active = false;
             this.tableNode.setScale(0, 0, 0);
+        }
+
+        // 重置玩家交互标记，下局游戏前2个顾客重新显示饥饿状态
+        this._playerHasInteracted = false;
+
+        // 重新注册摇杆监听，确保下局能再次触发切换
+        if (!this.isWarehouseMode) {
+            app.event.off(CommonEvent.joystickInput, this._onJoystickInput);
+            app.event.on(CommonEvent.joystickInput, this._onJoystickInput, this);
         }
         
         // 仓库模式下不清空顾客队列（因为没有顾客系统）

@@ -170,7 +170,7 @@ export class FlatbreadContainer extends Component {
      * @param fromPosition 大饼的起始位置
      * @returns 是否成功接收
      */
-    public receive(fromPosition: Vec3): boolean {
+    public receive(fromPosition: Vec3, onArrived?: () => void): boolean {
         const flatbread = manager.pool.getNode(ObjectType.DropItemFlatbread);
         if (!flatbread) {
             return false;
@@ -204,13 +204,17 @@ export class FlatbreadContainer extends Component {
             node: flatbread,
             target: targetPos,
             callback: () => {
-                if (!flatbread.isValid) return;
+                if (!flatbread.isValid) {
+                    onArrived?.();
+                    return;
+                }
 
                 if (this.unlimitedMode && !isContainerFull && layoutPos) {
                     const currentVisualCount = this.flatbreadLayout.getItemCount();
                     if (this._virtualFlatbreadCount <= currentVisualCount) {
                         manager.pool.putNode(flatbread);
                         this.flatbreadLayout.removeItem(layoutPos);
+                        onArrived?.();
                         return;
                     }
                 }
@@ -221,6 +225,7 @@ export class FlatbreadContainer extends Component {
                     this.flatbreadLayout.addItemToReserve(flatbread, layoutPos);
                     flatbread.setRotationFromEuler(0, 0, 0);
                 }
+                onArrived?.();
             }
         });
 

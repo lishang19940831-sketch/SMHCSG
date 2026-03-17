@@ -3,7 +3,9 @@ import { CommonEvent } from '../Common/CommonEnum';
 import { TrainTrack } from './TrainTrack';
 import { TrainCar } from './TrainCar';
 import { ObjectType } from '../Common/CommonEnum';
-import { TrainUnloadManager } from './TrainUnloadManager';
+import { TrainUnloadManager, IResourceContainer } from './TrainUnloadManager';
+import { ResourceFieldManager } from './ResourceFieldManager';
+import { WheatCrop } from './WheatCrop';
 
 const { ccclass, property } = _decorator;
 
@@ -427,6 +429,29 @@ export class Train extends Component {
     }
 
     /**
+     * 统一显示/隐藏火车头及所有关联车厢节点
+     * TrainManager 切换火车时应调用此方法，而非直接操作 node.active，
+     * 确保车厢节点（独立于火车头节点树之外）同步跟随。
+     */
+    public setVisible(visible: boolean): void {
+        // 显示时：先激活车厢，再激活火车头（触发 onEnable 时车厢已就绪）
+        // 隐藏时：先隐藏火车头（触发 onDisable），再隐藏车厢
+        if (visible) {
+            if (this.headCar?.node?.isValid) this.headCar.node.active = true;
+            for (const car of this.trainCars) {
+                if (car?.node?.isValid) car.node.active = true;
+            }
+            this.node.active = true;
+        } else {
+            this.node.active = false;
+            for (const car of this.trainCars) {
+                if (car?.node?.isValid) car.node.active = false;
+            }
+            if (this.headCar?.node?.isValid) this.headCar.node.active = false;
+        }
+    }
+
+    /**
      * 重置火车到站台初始状态
      */
     public reset(): void {
@@ -532,14 +557,25 @@ export class Train extends Component {
         const execute = () => {
             this._state = TrainState.Unloading;
 
+            // ── 在卸货前快照所有已被收割的作物，用于后续分帧再生 ──
+            const rfm = ResourceFieldManager.instance;
+            console.log(`[Train] _doUnload execute: autoRun=${this.autoRun}, RFM存在=${!!rfm}`);
+            const harvestedCrops: WheatCrop[] = rfm ? rfm.collectHarvestedCrops() : [];
+            console.log(`[Train] _doUnload: 快照已收割作物 ${harvestedCrops.length} 棵`);
+
             // ── 阶段1：收集所有车厢资源节点到 _pendingItems ──
             this._collectPendingItems();
 
-            // ── 阶段2：将 _pendingItems 内节点按类型送入对应仓库 ──
-            this._flushPendingItems();
+            // ── 阶段2：将 _pendingItems 内节点按类型送入对应仓库，等所有飞行动画落地后再继续 ──
+            this._flushPendingItems(() => {
+                // ── 阶段3：分帧触发已收割作物的再生计时器 ──
+                if (harvestedCrops.length > 0) {
+                    ResourceFieldManager.instance?.startBatchRegrow(harvestedCrops);
+                }
 
-            // 卸货完成，切回 Idle
-            this.finishUnload();
+                // 所有飞行动画完成，切回 Idle 并（自动模式下）重新出发
+                this.finishUnload();
+            });
         };
 
         if (delay > 0) {
@@ -609,29 +645,54 @@ export class Train extends Component {
      * 阶段2：发送阶段
      * 遍历 _pendingItems，按 type 查找对应容器（WheatContainer / WoodContainer），
      * 按 count 次调用 container.receive()，播放飞行动画放入仓库。
-     * 发送完毕后清空容器。
+     * 所有飞行动画完成后调用 onAllArrived；若没有任何资源则立即调用。
+     * @param onAllArrived 所有飞行动画落地后的回调
      */
-    private _flushPendingItems(): void {
+    private _flushPendingItems(onAllArrived: () => void): void {
         const totalCount = this._pendingItems.reduce((s, it) => s + it.count, 0);
         console.log(`[Train] _flushPendingItems 开始，共 ${totalCount} 个资源待发送`);
 
+        if (totalCount === 0) {
+            this._pendingItems = [];
+            console.log('[Train] _flushPendingItems 无资源，直接完成');
+            onAllArrived();
+            return;
+        }
+
         const fromPosition = this.node.getWorldPosition();
+        let remaining = 0;
 
         for (const item of this._pendingItems) {
-            const container = this.unloadManager?.getContainer(item.type) ?? null;
+            const container: IResourceContainer | null = this.unloadManager?.getContainer(item.type) ?? null;
             if (!container) {
                 console.warn(`[Train] ⚠️ 未找到类型 ${item.type} 的容器（WheatContainer/WoodContainer），跳过 ${item.count} 个资源`);
                 continue;
             }
-            // 播放飞行动画放入仓库
             for (let i = 0; i < item.count; i++) {
-                container.receive(fromPosition);
+                const accepted = container.receive(fromPosition, () => {
+                    remaining--;
+                    if (remaining <= 0) {
+                        console.log('[Train] _flushPendingItems 所有飞行动画完成');
+                        onAllArrived();
+                    }
+                });
+                if (accepted) {
+                    remaining++;
+                }
             }
         }
 
         // 清空容器，释放引用
         this._pendingItems = [];
-        console.log('[Train] _flushPendingItems 完成');
+
+        // 若所有 receive 均返回 false（对象池耗尽），直接完成
+        if (remaining <= 0) {
+            console.log('[Train] _flushPendingItems 所有 receive 未成功，直接完成');
+            onAllArrived();
+            return;
+        }
+
+        console.log(`[Train] _flushPendingItems 等待 ${remaining} 个飞行动画完成`);
     }
 
     /**

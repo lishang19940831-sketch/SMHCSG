@@ -8,10 +8,8 @@ const { ccclass, property } = _decorator;
 export enum TrackPhase {
     /** 初始小圈：仅覆盖麦田 */
     Phase1 = 0,
-    /** 中圈：麦田 + 树林（Step3 丧尸出现后扩张） */
+    /** 大圈：扩张后的完整路径 */
     Phase2 = 1,
-    /** 大圈：更大范围（Lv.3 升级后扩张） */
-    Phase3 = 2,
 }
 
 /**
@@ -61,13 +59,6 @@ export class TrainTrack extends Component {
     public phase2Waypoints: Node[] = [];
 
     @property({
-        type: [Node],
-        displayName: 'Phase3 路径点',
-        tooltip: 'Lv.3 升级后的完整路径点（最大圈，闭合路径）'
-    })
-    public phase3Waypoints: Node[] = [];
-
-    @property({
         type: Node,
         displayName: '站台标记节点',
         tooltip: '放在站台位置的空节点，用于自动计算站台进度。留空则默认使用第一个路径点'
@@ -90,6 +81,12 @@ export class TrainTrack extends Component {
     })
     public bezierSamples: number = 12;
 
+    @property({
+        type: [Node],
+        displayName: '铁轨节点',
+        tooltip: '铁轨节点'
+    })
+    public trackNodes: Node[] = [];
     // ─────────────────────────────────────────────
     // 运行时数据
     // ─────────────────────────────────────────────
@@ -116,6 +113,7 @@ export class TrainTrack extends Component {
     onLoad() {
         this._buildPath(this._getWaypointsByPhase(TrackPhase.Phase1));
         this._stationProgress = this._calcStationProgress();
+        this._applyTrackNodeVisibility(TrackPhase.Phase1);
     }
 
     // ─────────────────────────────────────────────
@@ -137,6 +135,7 @@ export class TrainTrack extends Component {
         this._currentPhase = phase;
         this._buildPath(this._getWaypointsByPhase(phase));
         this._stationProgress = this._calcStationProgress();
+        this._applyTrackNodeVisibility(phase);
         // 预留：如需扩张动画可在此处加 tween，当前直接回调
         onComplete && onComplete();
     }
@@ -237,12 +236,24 @@ export class TrainTrack extends Component {
     // 私有工具
     // ─────────────────────────────────────────────
 
+    /**
+     * 根据阶段切换 trackNodes 的显隐
+     * Phase1：trackNodes[0] trackNodes[1] 显示，trackNodes[2] 隐藏
+     * Phase2+：trackNodes[2] 显示，trackNodes[0] trackNodes[1] 隐藏
+     */
+    private _applyTrackNodeVisibility(phase: TrackPhase): void {
+        if (this.trackNodes.length < 3) return;
+        const isPhase1 = phase === TrackPhase.Phase1;
+        this.trackNodes[0].active = isPhase1;
+        this.trackNodes[1].active = isPhase1;
+        this.trackNodes[2].active = !isPhase1;
+    }
+
     /** 根据阶段获取对应的路径点节点数组 */
     private _getWaypointsByPhase(phase: TrackPhase): Node[] {
         switch (phase) {
             case TrackPhase.Phase1: return this.phase1Waypoints;
             case TrackPhase.Phase2: return this.phase2Waypoints;
-            case TrackPhase.Phase3: return this.phase3Waypoints;
         }
     }
 

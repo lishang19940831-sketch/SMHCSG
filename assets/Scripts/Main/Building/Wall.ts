@@ -31,6 +31,9 @@ export class Wall extends Component {
     /** 场景中的所有墙体段信息 */
     private wallMap: Map<Node, {initWPos:Vec3, initEul:Vec3, initScale:Vec3, health: HealthComponent}> = new Map();
 
+    /** 每个墙段节点树中所有 MeshRenderer 的初始颜色（节点uuid → Color[]） */
+    private _initColorMap: Map<string, Color[]> = new Map();
+
     onLoad(): void {
         // 遍历所有 wallParent 元素（每个都带有 HealthComponent）
         this.wallParent.forEach((wallSegment) => {
@@ -52,7 +55,9 @@ export class Wall extends Component {
                 wallSegment.setScale(0, 0, 0);
                 wallSegment.setWorldPosition(initWPos.x, initWPos.y + 3, initWPos.z);
             }
-            this.setWallColor(wallSegment, Color.WHITE);
+
+            // 收集并缓存该墙段节点树中所有 MeshRenderer 的初始颜色
+            this._cacheInitColors(wallSegment);
 
             // 为每个墙段注册事件
             if (health) {
@@ -154,7 +159,7 @@ export class Wall extends Component {
             })
             .delay(0.1)
             .call(() => {
-                this.setWallColor(wallSegment, Color.WHITE);
+                this.restoreWallColor(wallSegment);
             })
             .start();
     }
@@ -177,36 +182,58 @@ export class Wall extends Component {
     }
 
     /**
-     * 设置墙体颜色
-     * @param node 墙段节点
-     * @param color 要设置的颜色
+     * 递归收集节点树中所有 MeshRenderer 的初始颜色，存入 _initColorMap
      */
-    private setWallColor(node: Node, color: Color): void {
-        if (!this.wallParent || this.wallParent.length === 0) return;
-        
-        // 递归设置所有子节点的颜色
-        this.setNodeColor(node, color);
+    private _cacheInitColors(node: Node): void {
+        const meshRenderer = node.getComponent(MeshRenderer);
+        if (meshRenderer) {
+            const colors: Color[] = [];
+            const count = meshRenderer.sharedMaterials.length;
+            for (let i = 0; i < count; i++) {
+                const mat = meshRenderer.getMaterialInstance(i);
+                // mainColor 可能不存在（材质未暴露该属性），默认存 WHITE 作为兜底
+                const raw = mat?.getProperty('mainColor');
+                const color = (raw instanceof Color) ? raw.clone() : new Color(255, 255, 255, 255);
+                colors.push(color);
+            }
+            this._initColorMap.set(node.uuid, colors);
+        }
+        for (const child of node.children) {
+            this._cacheInitColors(child);
+        }
     }
 
     /**
-     * 递归设置节点及其子节点的颜色
-     * @param node 要设置颜色的节点
-     * @param color 要设置的颜色
+     * 递归设置节点及其子节点 MeshRenderer 的颜色（使用专属材质实例）
      */
-    private setNodeColor(node: Node, color: Color): void {
-        // 获取节点的MeshRenderer组件并设置颜色
+    private setWallColor(node: Node, color: Color): void {
         const meshRenderer = node.getComponent(MeshRenderer);
         if (meshRenderer) {
-            // 通过材质设置颜色
-            const material = meshRenderer.material;
-            if (material) {
-                material.setProperty('mainColor', color);
+            const count = meshRenderer.sharedMaterials.length;
+            for (let i = 0; i < count; i++) {
+                meshRenderer.getMaterialInstance(i)?.setProperty('mainColor', color);
             }
         }
-        
-        // 递归处理子节点
         for (const child of node.children) {
-            this.setNodeColor(child, color);
+            this.setWallColor(child, color);
+        }
+    }
+
+    /**
+     * 恢复节点树中所有 MeshRenderer 的初始颜色
+     */
+    private restoreWallColor(node: Node): void {
+        const meshRenderer = node.getComponent(MeshRenderer);
+        if (meshRenderer) {
+            const colors = this._initColorMap.get(node.uuid);
+            const count = meshRenderer.sharedMaterials.length;
+            for (let i = 0; i < count; i++) {
+                const initColor = colors?.[i] ?? Color.WHITE;
+                meshRenderer.getMaterialInstance(i)?.setProperty('mainColor', initColor);
+            }
+        }
+        for (const child of node.children) {
+            this.restoreWallColor(child);
         }
     }
 

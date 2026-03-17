@@ -319,7 +319,7 @@ export class PickupComponent extends BaseComponet {
             
             if (itemCount > 0) {
                 // 只有数量大于0的容器才参与排列
-                const zPosition = 0.45 + (arrangeIndex * 0.55) + this.offset;
+                const zPosition = 0.35 + (arrangeIndex * 0.35) + this.offset;
                 const currentPos = container.itemNode.position;
                 const targetPos = new Vec3(currentPos.x, currentPos.y, zPosition);
                 

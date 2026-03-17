@@ -42,6 +42,8 @@ export class Customer extends PoolObjectBase {
     @property({type: Node, displayName: '不高兴节点'})
     private unhappyNode: Node = null!;
 
+    @property({type: Node, displayName: '饥饿节点'})
+    private hungryNode: Node = null!;
     @property({type: Label, displayName: '剩余需要数量'})
     private needObjectCountLabel: Label = null!;
 
@@ -160,8 +162,25 @@ export class Customer extends PoolObjectBase {
         this.happyNode.active = false;
         this.unhappyNode.active = true;
         this.unhappyNode.setScale(0,0,0)
+        this.hungryNode.active = false;
         tween(this.unhappyNode).to(0.5, {
-            scale: v3(0.006,0.006,0.006)
+            scale: v3(0.004,0.004,0.004)
+        }, {
+            easing: easing.backOut
+        }).start();
+    }
+    /**显示饥饿节点 */
+    public showHungry(): void {
+        if(this.hungryNode.active){
+            return;
+        }
+        this.hungryNode.active = true;
+        this.hungryNode.setScale(0,0,0)
+        this.angryNode.active = false;
+        this.happyNode.active = false;
+        this.unhappyNode.active = false;
+        tween(this.hungryNode).to(0.5, {
+            scale: v3(0.004,0.004,0.004)
         }, {
             easing: easing.backOut
         }).start();
@@ -170,11 +189,13 @@ export class Customer extends PoolObjectBase {
         this.angryNode.active = true;
         this.happyNode.active = false;
         this.unhappyNode.active = false;
+        this.hungryNode.active = false;
         this.happyNode.setScale(0,0,0)
         this.unhappyNode.setScale(0,0,0)
+        this.hungryNode.setScale(0,0,0)
 
         tween(this.happyNode).to(0.5, {
-            scale: v3(0.006,0.006,0.006)
+            scale: v3(0.004,0.004,0.004)
         }, {
             easing: easing.backOut
         }).start();
@@ -185,6 +206,7 @@ export class Customer extends PoolObjectBase {
         this.angryNode.active = false;
         this.happyNode.active = true;
         this.unhappyNode.active = false;
+        this.hungryNode.active = false;
         this.happyNode.setScale(0,0,0)
 
         tween(this.happyNode).to(0.5, {
@@ -198,6 +220,7 @@ export class Customer extends PoolObjectBase {
         this.angryNode.active = false;
         this.happyNode.active = false;
         this.unhappyNode.active = false;
+        this.hungryNode.active = false;
     }
 
     /**

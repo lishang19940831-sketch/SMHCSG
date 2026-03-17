@@ -47,6 +47,8 @@ export class TrainBoardingTrigger extends Component {
     @property({ type: Node, displayName: '下车点节点' })
     public alightPoint: Node = null!;
 
+    @property({ type: Node, displayName: '上车Sprite节点' })
+    public boardingSpriteNode: Node = null!;
     // ── 运行时 ──
     private _isPlayerOnTrain: boolean = false;
     /** 玩家当前是否处于站台触发区域内（用于卸货结束后补触发上车） */
@@ -109,13 +111,14 @@ export class TrainBoardingTrigger extends Component {
         // 尝试上车（Lv3 自动模式返回 false）
         const success = this._trainManager.tryBoardTrain();
         if (!success) return;
-
+        this.boardingSpriteNode.active = true;
         this._boardTrain();
     }
 
     /** 站台碰撞触发器：离开 */
     private _onTriggerExit(event: ITriggerEvent): void {
         this._isInTriggerZone = false;
+        this.boardingSpriteNode.active = false;
     }
 
     /**

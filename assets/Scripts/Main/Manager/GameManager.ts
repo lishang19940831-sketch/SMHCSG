@@ -4,6 +4,7 @@ import { Hero } from '../Role/Hero';
 import { Enemy, EnemyAIState } from '../Role/Enemy';
 import { BuildingType, BuildUnlockState, CommonEvent, GameResult, ObjectType, PHY_GROUP, CharacterState } from '../Common/CommonEnum';
 import { ShopCommon } from '../Building/ShopCommon';
+import { TrainManager, TrainLevel } from '../Train/TrainManager';
 import super_html_playable from '../../super_html_playable';
 
 const { ccclass, property } = _decorator;
@@ -74,6 +75,11 @@ export class GameManager extends Component {
         displayName: 'Boss位置点'
     })
     public bossPos: Node = null!;
+    @property({
+        type: Node,
+        displayName: '摄像机开始目标点'
+    })
+    public cameraStartTargetPos: Node = null!;
     
         @property({
             type: Node,
@@ -97,6 +103,9 @@ export class GameManager extends Component {
 
     @property({type: Node, displayName: 'targetWall'})
     public targetWallNodes: Node[] = [];
+
+    @property({ type: TrainManager, displayName: '火车管理器' })
+    public trainManager: TrainManager = null!;
     private _isGamePause: boolean = false;
     private _isGameStart: boolean = false;
     private _gameResult: GameResult = GameResult.None;
@@ -123,6 +132,9 @@ export class GameManager extends Component {
                 app.audio.setEffectSwitch(true);
             }
             app.audio.playMusic('resources/audio/休闲BGM');
+         
+         
+            
         }
         this._isGameStart = value;
     }
@@ -180,10 +192,10 @@ export class GameManager extends Component {
             //@ts-ignore
             const gameUrl = isIos ? super_html_playable.appstore_url : super_html_playable.google_play_url;
             //保证客户/制片在本地可以看到跳转链接是否正确
-            window.open(gameUrl)
+            // window.open(gameUrl)
         } finally {
         //调用插件的的download()
-            super_html_playable.download();
+            // super_html_playable.download();
         }
     }
         //@ts-ignore
@@ -205,7 +217,14 @@ export class GameManager extends Component {
     }
 
     protected start(): void {
-        
+        this.hero.setMovementEnabled(false);
+        manager.cameraFollow.setTarget(null);
+        manager.cameraFollow.moveToTarget(this.cameraStartTargetPos,1,()=>{
+            manager.cameraFollow.moveToTarget(this.hero.node,1,()=>{
+                manager.cameraFollow.setTarget(this.hero.node);
+                this.hero.setMovementEnabled(true);
+            });
+        },1);
     }
 
     protected onDestroy(): void {
@@ -315,8 +334,8 @@ export class GameManager extends Component {
                 // }
                 break;
             case BuildingType.ArrowTower3:
-                
                 break;
+       
             case BuildingType.Turret:
                 app.event.emit(CommonEvent.ShowOver);
                 this.isShowOver = true;

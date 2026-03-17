@@ -30,14 +30,86 @@
       "uuid": "273760af-16a4-498b-9932-82ef287ddcfb@73b7f",
       "displayName": "",
       "id": "73b7f",
-      "name": "Take 001.animation",
+      "name": "idle.animation",
       "userData": {
         "gltfIndex": 0,
         "wrapMode": 2,
         "sample": 30,
         "span": {
           "from": 0,
+          "to": 1.3333333333333333
+        },
+        "events": []
+      },
+      "ver": "1.0.18",
+      "imported": true,
+      "files": [
+        ".bin"
+      ],
+      "subMetas": {}
+    },
+    "989ed": {
+      "importer": "gltf-animation",
+      "uuid": "273760af-16a4-498b-9932-82ef287ddcfb@989ed",
+      "displayName": "",
+      "id": "989ed",
+      "name": "attack.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "speed": 1,
+        "sample": 30,
+        "span": {
+          "from": 1.5,
+          "to": 2.5
+        },
+        "events": []
+      },
+      "ver": "1.0.18",
+      "imported": true,
+      "files": [
+        ".bin"
+      ],
+      "subMetas": {}
+    },
+    "cf5ee": {
+      "importer": "gltf-animation",
+      "uuid": "273760af-16a4-498b-9932-82ef287ddcfb@cf5ee",
+      "displayName": "",
+      "id": "cf5ee",
+      "name": "run.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "speed": 1,
+        "sample": 30,
+        "span": {
+          "from": 5,
           "to": 5.800000190734863
+        },
+        "events": []
+      },
+      "ver": "1.0.18",
+      "imported": true,
+      "files": [
+        ".bin"
+      ],
+      "subMetas": {}
+    },
+    "b4251": {
+      "importer": "gltf-animation",
+      "uuid": "273760af-16a4-498b-9932-82ef287ddcfb@b4251",
+      "displayName": "",
+      "id": "b4251",
+      "name": "die.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "speed": 1,
+        "sample": 30,
+        "span": {
+          "from": 3.5,
+          "to": 4.833333333333333
         },
         "events": []
       },
@@ -158,11 +230,35 @@
         "fps": 30,
         "splits": [
           {
-            "name": "Take 001",
+            "name": "idle",
             "from": 0,
-            "to": 5.800000190734863,
+            "to": 1.3333333333333333,
             "wrapMode": 2,
             "previousId": "73b7f"
+          },
+          {
+            "name": "attack",
+            "from": 1.5,
+            "to": 2.5,
+            "wrapMode": 1,
+            "speed": 1,
+            "previousId": "989ed"
+          },
+          {
+            "name": "run",
+            "from": 5,
+            "to": 5.800000190734863,
+            "wrapMode": 2,
+            "speed": 1,
+            "previousId": "cf5ee"
+          },
+          {
+            "name": "die",
+            "from": 3.5,
+            "to": 4.833333333333333,
+            "wrapMode": 1,
+            "speed": 1,
+            "previousId": "b4251"
           }
         ]
       }

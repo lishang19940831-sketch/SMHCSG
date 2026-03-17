@@ -125,6 +125,8 @@ export class WheatCrop extends Component {
 
     /**
      * 执行收割
+     * 收割后不自动启动再生计时，由外部（火车到站/玩家下车时）
+     * 通过 ResourceFieldManager.startBatchRegrow() 分帧统一触发。
      * @returns 产出的资源类型和数量，已收割则返回 null
      */
     public harvest(): { type: ObjectType; amount: number } | null {
@@ -136,18 +138,41 @@ export class WheatCrop extends Component {
 
         // 隐藏节点视觉
         this.node.active = false;
-
-        // 若设置了再生时间，则定时恢复
-        if (this.regrowTime > 0) {
-            this.scheduleOnce(() => {
-                this._harvested = false;
-                this.node.active = true;
-                // 更新世界坐标（防止父节点移动过）
-                this.node.getWorldPosition(this._worldPos);
-            }, this.regrowTime);
-        }
+        console.log(`[WheatCrop] harvest: node=${this.node.name} active=false parent=${this.node.parent?.name} parentActive=${this.node.parent?.active}`);
 
         return { type: this.resourceType, amount: this.harvestAmount };
+    }
+
+    /**
+     * 外部触发再生（由 ResourceFieldManager.startBatchRegrow 分帧调用）
+     *
+     * 注意：不能用 this.scheduleOnce，因为 harvest() 执行了 node.active = false，
+     * 节点非激活时组件的 schedule 会停止计时，导致再生回调永远不触发。
+     * 因此计时器必须交给外部始终激活的节点（ResourceFieldManager）来驱动，
+     * 本方法只暴露再生所需的回调，由 ResourceFieldManager 持有并调度。
+     *
+     * @returns 再生回调函数和延迟时间，供 ResourceFieldManager 调度
+     */
+    public buildRegrowCallback(): { delay: number; callback: () => void } {
+        const delay = this.regrowTime > 0 ? this.regrowTime : 0;
+        const nodeName = this.node.name;
+        console.log(`[WheatCrop] buildRegrowCallback node=${nodeName} delay=${delay} nodeActive=${this.node.active} parentActive=${this.node.parent?.active}`);
+        return {
+            delay,
+            callback: () => {
+                console.log(`[WheatCrop] callback触发 node=${nodeName} isValid=${this.node?.isValid} harvested=${this._harvested}`);
+                if (!this.node?.isValid) return;
+                this._harvested = false;
+                this.node.active = true;
+                this.node.getWorldPosition(this._worldPos);
+                console.log(`[WheatCrop] 已再生 node=${nodeName} active=${this.node.active}`);
+            }
+        };
+    }
+
+    /** @deprecated 请使用 buildRegrowCallback() 代替，直接调用此方法无效（节点非激活时 schedule 停止） */
+    public triggerRegrow(): void {
+        // 保留空实现兼容旧调用，实际由 ResourceFieldManager 通过 buildRegrowCallback 调度
     }
 
     /**

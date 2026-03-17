@@ -1,9 +1,10 @@
-import { _decorator, Component, Node, Vec3, CCFloat, MeshRenderer, Material, utils, gfx, Color, tween, Tween, v3 } from 'cc';
+import { _decorator, Component, Node, Vec3, CCFloat, MeshRenderer, Material, utils, gfx, Color, Tween, tween, v3 } from 'cc';
 import { CommonEvent } from '../Common/CommonEnum';
 import { ResourceFieldManager } from './ResourceFieldManager';
 import { TrainManager } from './TrainManager';
 import { Train, TrainState } from './Train';
-
+import { ObjectType } from '../Common/CommonEnum';
+import { TrainCar } from './TrainCar';
 const { ccclass, property } = _decorator;
 
 /**
@@ -86,6 +87,30 @@ export class Chainsaw extends Component {
     public maxHarvestPerFrame: number = 5;
 
     @property({
+        type: CCFloat,
+        displayName: '飞行弧线高度（米）',
+        tooltip: '抛物线顶点额外叠加的高度，0 = 直线飞行',
+        min: 0
+    })
+    public flyArcHeight: number = 2.5;
+
+    @property({
+        type: CCFloat,
+        displayName: '飞行起点Y偏移（米）',
+        tooltip: '起飞位置在麦子Y坐标基础上额外抬高的高度，解决起点贴地问题',
+        min: 0
+    })
+    public flyStartYOffset: number = 1.0;
+
+    @property({
+        type: CCFloat,
+        displayName: '飞行时长（秒）',
+        tooltip: '麦子从收割位置飞到车厢的总时长',
+        min: 0.05
+    })
+    public flyDuration: number = 0.4;
+
+    @property({
         displayName: '调试模式（Console）',
         tooltip: '开启后在 Console 打印每帧收割信息'
     })
@@ -121,6 +146,7 @@ export class Chainsaw extends Component {
 
     /** 正在飞行中的节点集合（到站时强制回收，防止节点泄漏） */
     private _flyingNodes: Set<Node> = new Set();
+
 
     // ─────────────────────────────────────────────
     // 调试可视化（MeshRenderer 方案，兼容 WebPipeline）
@@ -300,54 +326,66 @@ export class Chainsaw extends Component {
     // ─────────────────────────────────────────────
 
     /**
-     * 从对象池取出物品节点，在收割位置生成，tween 弧线飞入目标车厢后放入 ItemLayout
+     * 从对象池取出物品节点，沿抛物线飞入目标车厢
+     *
+     * 复刻 EffectManager.flyNodeInParabola 方案：
+     *   - tween 驱动 progressObj.progress 0→1
+     *   - onUpdate 每帧回调中实时取目标坐标，计算抛物线位置后 setWorldPosition
+     *   - XZ 线性插值，Y 叠加抛物线偏移：4 * height * t * (1-t)
+     *   - target 为 TrainCar，每帧调用 getTargetWorldPos() 获取实时坐标
      */
     private _spawnAndFlyToCar(
-        type: import('../Common/CommonEnum').ObjectType,
+        type: ObjectType,
         fromWorldPos: Vec3,
-        targetCar: import('./TrainCar').TrainCar | null,
+        targetCar: TrainCar | null,
         targetPos: Vec3 | null
     ): void {
-        // 从对象池取节点，挂到场景根
         const itemNode = manager.pool.getNode(type);
         if (!itemNode) return;
 
-        const scene = this.node.scene;
-        itemNode.setParent(scene);
+        itemNode.setParent(this.node.scene);
         itemNode.setWorldPosition(fromWorldPos);
-        itemNode.setScale(v3(0.5, 0.5, 0.5));
 
-        // 若没有目标位置（车厢无 ItemLayout），直接回收
         if (!targetPos || !targetCar) {
             manager.pool.putNode(itemNode);
             return;
         }
 
-        // 弧线飞行：先上升再落入车厢
-        const midPos = new Vec3(
-            (fromWorldPos.x + targetPos.x) * 0.5,
-            Math.max(fromWorldPos.y, targetPos.y) + 2.0,
-            (fromWorldPos.z + targetPos.z) * 0.5
-        );
-
-        const flyDuration = 0.4;
-
-        // 追踪飞行中的节点，防止到站时节点泄漏
         this._flyingNodes.add(itemNode);
 
-        tween(itemNode)
-            .to(flyDuration * 0.5, { worldPosition: midPos }, { easing: 'quadOut' })
-            .to(flyDuration * 0.5, { worldPosition: targetPos }, { easing: 'quadIn' })
+        // 起点 Y 抬高，避免从地面贴地飞出
+        const startPos = new Vec3(fromWorldPos.x, fromWorldPos.y + this.flyStartYOffset, fromWorldPos.z);
+        // 每帧实时更新的目标坐标（Vec3 复用，减少 GC）
+        const liveTarget = targetPos.clone();
+        const progressObj = { progress: 0 };
+
+        tween(progressObj)
+            .to(this.flyDuration, { progress: 1 }, {
+                onUpdate: () => {
+                    if (!itemNode.isValid) return;
+                    const t = progressObj.progress;
+
+                    // 实时取目标车厢坐标
+                    const pos = targetCar.getTargetWorldPos();
+                    if (pos) liveTarget.set(pos);
+
+                    // XZ 线性插值
+                    const x = startPos.x + (liveTarget.x - startPos.x) * t;
+                    const z = startPos.z + (liveTarget.z - startPos.z) * t;
+                    // Y：线性插值 + 抛物线高度偏移
+                    const y = startPos.y + (liveTarget.y - startPos.y) * t
+                            + 4 * this.flyArcHeight * t * (1 - t);
+
+                    itemNode.setWorldPosition(x, y, z);
+                }
+            })
             .call(() => {
                 this._flyingNodes.delete(itemNode);
-                // 飞行结束：放入车厢 ItemLayout
-                if (itemNode.isValid) {
-                    if (targetCar && targetCar.itemLayout) {
-                        targetCar.addItemNode(itemNode);
-                    } else {
-                        // 车厢无 ItemLayout，回收节点
-                        manager.pool.putNode(itemNode);
-                    }
+                if (!itemNode.isValid) return;
+                if (targetCar.itemLayout) {
+                    targetCar.addItemNode(itemNode);
+                } else {
+                    manager.pool.putNode(itemNode);
                 }
             })
             .start();
@@ -553,6 +591,7 @@ export class Chainsaw extends Component {
             }
             this._flyingNodes.clear();
         }
+
 
         // 到站后等卸载完成再恢复收割
         this.scheduleOnce(() => {

@@ -166,5 +166,77 @@ export class ResourceFieldManager extends Component {
             if (crop?.node?.isValid) crop.reset();
         }
     }
+
+    // ─────────────────────────────────────────────
+    // 分帧再生
+    // ─────────────────────────────────────────────
+
+    /**
+     * 收集当前所有已被收割的作物列表（快照）
+     * 供 Train 在停靠/下车时记录需要再生的作物
+     */
+    public collectHarvestedCrops(): WheatCrop[] {
+        const all = this._allCrops.length;
+        const harvested = this._allCrops.filter(c => c.harvested && c.node?.isValid);
+        console.log(`[RFM] collectHarvestedCrops: 注册总数=${all}, 已收割有效=${harvested.length}`);
+        harvested.forEach((c, i) => {
+            console.log(`[RFM]   [${i}] node=${c.node.name} regrowTime=${c.regrowTime} nodeActive=${c.node.active}`);
+        });
+        return harvested;
+    }
+
+    /**
+     * 对指定作物列表执行分帧再生
+     *
+     * 核心设计：WheatCrop 收割后 node.active = false，
+     * 导致其组件上的 scheduleOnce 停止计时，无法自行恢复。
+     * 因此所有再生计时器统一由 ResourceFieldManager（始终激活）持有和调度，
+     * 通过 crop.buildRegrowCallback() 取得回调后在此节点上 scheduleOnce。
+     *
+     * 分帧机制：每帧仅注册 perFrameCount 棵作物的计时器，
+     * 避免同一帧内批量调用 scheduleOnce 产生峰值开销。
+     *
+     * @param crops         需要再生的作物列表（由 collectHarvestedCrops 返回）
+     * @param perFrameCount 每帧注册的作物数量，默认 3
+     */
+    public startBatchRegrow(crops: WheatCrop[], perFrameCount: number = 3): void {
+        if (crops.length === 0) return;
+
+        const pending = crops.filter(c => c.harvested && c.node?.isValid);
+        if (pending.length === 0) return;
+
+        console.log(`[ResourceFieldManager] startBatchRegrow: 共 ${pending.length} 棵作物待再生，每帧 ${perFrameCount} 棵`);
+
+        // 用 schedule 间隔=0 逐帧推进，避免 scheduleOnce 同一函数引用被覆盖的问题
+        let index = 0;
+        let frameToken = 0; // 每次 startBatchRegrow 生成唯一 token，防止多次调用互相干扰
+
+        const tick = () => {
+            if (!this.node?.isValid) return;
+            console.log(`[RFM] tick: index=${index}/${pending.length}`);
+
+            const end = Math.min(index + perFrameCount, pending.length);
+            for (; index < end; index++) {
+                const crop = pending[index];
+                if (!crop?.node?.isValid || !crop.harvested) {
+                    console.log(`[RFM]   [${index}] 跳过`);
+                    continue;
+                }
+                const { delay, callback } = crop.buildRegrowCallback();
+                console.log(`[RFM]   [${index}] 注册再生: node=${crop.node.name} delay=${delay}s`);
+                // callback 本身是不同的闭包，不会触发 scheduler 覆盖
+                this.scheduleOnce(callback, delay);
+            }
+
+            if (index >= pending.length) {
+                console.log('[RFM] startBatchRegrow: 全部注册完毕');
+                this.unschedule(tick);
+            }
+        };
+
+        console.log(`[RFM] startBatchRegrow: 开始分帧注册，RFM节点active=${this.node.active}`);
+        // 用 schedule(interval=0) 每帧执行 tick，直到 tick 内部 unschedule 自身
+        this.schedule(tick, 0);
+    }
 }
 

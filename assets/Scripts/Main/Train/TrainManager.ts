@@ -1,9 +1,8 @@
 import { _decorator, Component, Node } from 'cc';
-import { CommonEvent } from '../Common/CommonEnum';
+import { BuildingType, BuildUnlockState, CommonEvent, ObjectType } from '../Common/CommonEnum';
 import { TrainTrack, TrackPhase } from './TrainTrack';
 import { Train, TrainState } from './Train';
 import { TrainCar } from './TrainCar';
-import { ObjectType } from '../Common/CommonEnum';
 const { ccclass, property } = _decorator;
 
 /**
@@ -83,17 +82,73 @@ export class TrainManager extends Component {
     // 生命周期
     // ─────────────────────────────────────────────
 
+    /** 是否已因第一次获得金币而升级到 Lv2 */
+    private _hasUpgradedOnFirstCoin: boolean = false;
+
+    /** 记录哪些售货员已解锁（用于判断两个都解锁后升级 Lv3） */
+    private _unlockedSalesman: Set<BuildingType> = new Set();
+
+    /** 记录已解锁的箭塔（4个全部解锁后开启全自动模式） */
+    private _unlockedArrowTowers: Set<BuildingType> = new Set();
+    private static readonly _ARROW_TOWER_TYPES: BuildingType[] = [
+        BuildingType.ArrowTower,
+        BuildingType.ArrowTower1,
+        BuildingType.ArrowTower2,
+        BuildingType.ArrowTower3,
+    ];
+
     onLoad() {
-        // 初始只激活 Lv1，其余隐藏
-        this.trainLv1.node.active = true;
-        this.trainLv2.node.active = false;
-        this.trainLv3.node.active = false;
-        this._activeTrain = this.trainLv1;
+        // 初始只激活 Lv1，其余隐藏（含各自车厢）
         this._level = TrainLevel.Lv1;
+        //根据等级显示对应的火车
+        this._getTrainByLevel(this._level).setVisible(true);
+        this._activeTrain = this._getTrainByLevel(this._level);
+
+        // 监听玩家第一次拾取金币事件，触发后升级到 Lv2
+        app.event.on(CommonEvent.PickupCoin, this._onFirstPickupCoin, this);
+        // 监听建筑解锁完成事件，两个售货员都解锁后升级到 Lv3
+        app.event.on(CommonEvent.UnlockFinished, this._onUnlockFinished, this);
     }
+
+    onDestroy() {
+        app.event.offAllByTarget(this);
+    }
+
     protected start(): void {
         // 自动行驶由 Train.autoRun 属性控制，在 Inspector 勾选即可，无需在此手动调用
         // 若需要运行时动态切换模式，调用 activeTrain.startAutoRun() 或 activeTrain.startManualRun()
+    }
+
+    private _onFirstPickupCoin(): void {
+        if (this._hasUpgradedOnFirstCoin) return;
+        this._hasUpgradedOnFirstCoin = true;
+        this.upgradeTo(TrainLevel.Lv2);
+        //解锁onlickitem
+        if(manager.game.unlockItemMap.get(BuildingType.Salesperson1)?.unlockState == BuildUnlockState.NoActive){
+            app.event.emit(CommonEvent.SetUnlockStatue, {type: BuildingType.Salesperson1, state: BuildUnlockState.Active});
+        }
+    }
+
+    private _onUnlockFinished(type: BuildingType): void {
+        // ── 售货员：两个都解锁 → 升级 Lv3 ──
+        if (type === BuildingType.Salesperson1 || type === BuildingType.Salesperson2) {
+            this._unlockedSalesman.add(type);
+            if (
+                this._unlockedSalesman.has(BuildingType.Salesperson1) &&
+                this._unlockedSalesman.has(BuildingType.Salesperson2)
+            ) {
+                this.upgradeTo(TrainLevel.Lv3);
+            }
+            return;
+        }
+
+        // ── 箭塔：4个全部解锁 → 当前火车开启全自动 ──
+        if (TrainManager._ARROW_TOWER_TYPES.includes(type)) {
+            this._unlockedArrowTowers.add(type);
+            if (this._unlockedArrowTowers.size >= TrainManager._ARROW_TOWER_TYPES.length) {
+                this.startAutoRun();
+            }
+        }
     }
     // ─────────────────────────────────────────────
     // 公开接口
@@ -125,10 +180,10 @@ export class TrainManager extends Component {
         // 发送升级事件（供特效系统处理光扫动画）
         app.event.emit(CommonEvent.TrainUpgraded, level);
 
-        // 切换到新火车
+        // 切换到新火车（含各自车厢同步显隐）
         const nextTrain = this._getTrainByLevel(level);
-        prevTrain.node.active = false;
-        nextTrain.node.active = true;
+        prevTrain.setVisible(false);
+        nextTrain.setVisible(true);
         this._activeTrain = nextTrain;
 
         // 新火车从旧火车当前位置继续行驶，避免瞬移
@@ -136,10 +191,10 @@ export class TrainManager extends Component {
 
         // Lv3 升级时扩张轨道到 Phase3，扩张完成后同步所有火车的站台进度
         if (level === TrainLevel.Lv3) {
-            this.track.expandToPhase(TrackPhase.Phase3, () => {
-                this._syncAllStationProgress();
-                onComplete && onComplete();
-            });
+            // this.track.expandToPhase(TrackPhase.Phase3, () => {
+            //     this._syncAllStationProgress();
+            // });
+            onComplete && onComplete();
         } else {
             onComplete && onComplete();
         }
