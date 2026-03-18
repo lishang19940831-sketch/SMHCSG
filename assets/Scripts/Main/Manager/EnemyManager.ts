@@ -772,13 +772,21 @@ export class EnemyManager extends Component {
     //         this.onGameWin();
     //     }
     // }
+    public endGame(){
+        this.scheduleOnce(() => {
+                this.stopEnemySpawn();
+            }, 2);
 
+            this.scheduleOnce(() => {
+                this.onGameWin();
+            }, 0.5);
+    }
     private onGameWin(): void {
         // 标记游戏结束逻辑已执行，防止重复调用
         this._gameOverExecuted = true;
         
         manager.game.hero.pickupComponent.magnetPickup(9999).then(() => {
-            this.startEnemySpawn();
+            // this.startEnemySpawn();
             this.scheduleOnce(() => {
                 // app.event.emit(CommonEvent.UnlockItem, BuildingType.Wall1);
                 // app.event.emit(CommonEvent.SetUnlockStatue, {type: BuildingType.Wall1, state: BuildUnlockState.Unlocked});

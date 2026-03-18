@@ -1,0 +1,103 @@
+{
+  "ver": "2.3.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "8ea2087a-bdab-47bf-a55b-143e4a9ff0c3",
+  "files": [],
+  "subMetas": {
+    "9a32c": {
+      "importer": "gltf-mesh",
+      "uuid": "8ea2087a-bdab-47bf-a55b-143e4a9ff0c3@9a32c",
+      "displayName": "",
+      "id": "9a32c",
+      "name": "pi.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 6
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d8b49": {
+      "importer": "gltf-material",
+      "uuid": "8ea2087a-bdab-47bf-a55b-143e4a9ff0c3@d8b49",
+      "displayName": "",
+      "id": "d8b49",
+      "name": "standardSurface1.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2f22c": {
+      "importer": "gltf-scene",
+      "uuid": "8ea2087a-bdab-47bf-a55b-143e4a9ff0c3@2f22c",
+      "displayName": "",
+      "id": "2f22c",
+      "name": "line.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "assetFinder": {
+      "meshes": [
+        "8ea2087a-bdab-47bf-a55b-143e4a9ff0c3@9a32c"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "8ea2087a-bdab-47bf-a55b-143e4a9ff0c3@d8b49"
+      ],
+      "scenes": [
+        "8ea2087a-bdab-47bf-a55b-143e4a9ff0c3@2f22c"
+      ]
+    },
+    "fbx": {
+      "smartMaterialEnabled": false,
+      "matchMeshNames": false
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "meshCompress": {
+      "enable": false,
+      "compress": true,
+      "quantize": true
+    }
+  }
+}

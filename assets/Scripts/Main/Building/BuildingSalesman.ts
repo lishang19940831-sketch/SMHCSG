@@ -32,7 +32,7 @@ export class BuildingSalesman extends BuildingBase {
     protected workStationPos: Node = null!;
 
     @property({ type: Salesman, displayName: '售货员' })
-    protected salesman: Salesman = null!;
+    public salesman: Salesman = null!;
 
     // ──────────────────────────────────────────────
     // 生命周期

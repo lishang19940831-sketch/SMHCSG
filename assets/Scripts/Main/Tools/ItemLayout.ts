@@ -303,22 +303,25 @@ export class ItemLayout extends Component {
      * 获取最外层物品
      */
     public getOuterItems(num: number): Node[] {
-        const items: Node[] = [];
-        for(let layer = this.maxLayer - 1; layer >= 0; layer--){
-            for(let row = this.rows - 1; row >= 0; row--){
-                for(let column = this.columns - 1; column >= 0; column--){
-                    const key = this.getKey({row, column, layer});
+        const result: Node[] = [];
+        if (num <= 0) {
+            return result;
+        }
+        for (let layer = this.maxLayer - 1; layer >= 0; layer--) {
+            for (let row = this.rows - 1; row >= 0; row--) {
+                for (let column = this.columns - 1; column >= 0; column--) {
+                    const key = this.getKey({ row, column, layer });
                     const item = this.items.get(key);
-                    if (item && item.isFull && item.isAdded) {
-                        num--;
-                        if (num === 0) {
-                            items.push(item.node);
+                    if (item && item.isFull && item.isAdded && item.node) {
+                        result.push(item.node);
+                        if (result.length >= num) {
+                            return result;
                         }
                     }
                 }
             }
         }
-        return items;
+        return result;
     }
 
     public getItemCount(): number {

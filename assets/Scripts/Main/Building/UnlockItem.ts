@@ -512,6 +512,7 @@ export class UnlockItem extends Component {
     getDisplayRemainGold() {
         return Math.max(0, this.remainGold - this.reservedGold);
     }
+    get
     
     /**
      * 获取预留的资源数量

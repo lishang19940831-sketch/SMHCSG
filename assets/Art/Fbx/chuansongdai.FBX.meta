@@ -1,0 +1,96 @@
+{
+  "ver": "2.3.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "64efafae-7a76-4b27-9f36-be793fabedb8",
+  "files": [],
+  "subMetas": {
+    "160f3": {
+      "importer": "gltf-mesh",
+      "uuid": "64efafae-7a76-4b27-9f36-be793fabedb8@160f3",
+      "displayName": "",
+      "id": "160f3",
+      "name": "chuansongdai.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 398
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3d485": {
+      "importer": "gltf-material",
+      "uuid": "64efafae-7a76-4b27-9f36-be793fabedb8@3d485",
+      "displayName": "",
+      "id": "3d485",
+      "name": "01.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5cba6": {
+      "importer": "gltf-scene",
+      "uuid": "64efafae-7a76-4b27-9f36-be793fabedb8@5cba6",
+      "displayName": "",
+      "id": "5cba6",
+      "name": "chuansongdai.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "64efafae-7a76-4b27-9f36-be793fabedb8@160f3"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "64efafae-7a76-4b27-9f36-be793fabedb8@3d485"
+      ],
+      "scenes": [
+        "64efafae-7a76-4b27-9f36-be793fabedb8@5cba6"
+      ]
+    }
+  }
+}

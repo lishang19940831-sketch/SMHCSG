@@ -17,7 +17,7 @@ export class FlatbreadContainer extends Component {
     private unlimitedMode: boolean = false;
 
     @property({ type: Collider, displayName: '大饼容器触发器' })
-    private flatbreadContainerCollider: Collider = null!;
+    public flatbreadContainerCollider: Collider = null!;
 
     private pickupComponents: Map<string, PickupComponent> = new Map();
     private interactionTimers: Map<string, number> = new Map();

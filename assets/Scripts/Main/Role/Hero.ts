@@ -33,7 +33,6 @@ export class Hero extends Character {
 
     /** 是否处于安全区 */
     public isSafeArea: boolean = true;
-
     onLoad() {
         super.onLoad();
 

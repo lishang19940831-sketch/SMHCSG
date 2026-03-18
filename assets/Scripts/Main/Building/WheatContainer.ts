@@ -23,6 +23,7 @@ export class WheatContainer extends Component {
     private interactionTimers: Map<string, number> = new Map();
     private checkTimer: number = 0.1;
     private _virtualWheatCount: number = 0;
+    private _busyItems: Set<Node> = new Set();
 
     public get WheatLayout(): ItemLayout {
         return this.wheatLayout;
@@ -152,8 +153,8 @@ export class WheatContainer extends Component {
             return true;
 
         } else {
-            const items = this.wheatLayout.getOuterItems(1);
-            if (items.length === 0) {
+            const item = this._chooseOuterItem();
+            if (!item) {
                 return false;
             }
 
@@ -161,15 +162,68 @@ export class WheatContainer extends Component {
                 return false;
             }
 
-            const wheatItem = items[0];
-            const dropItemCom = wheatItem.getComponent(DropItemCom);
+            const dropItemCom = item.getComponent(DropItemCom);
             if (dropItemCom) {
-                this.wheatLayout.removeItemByNode(wheatItem);
+                this._busyItems.add(item);
+                this.wheatLayout.removeItemByNode(item);
+                this._busyItems.delete(item);
                 pickupComponent.pickupItem(dropItemCom);
                 return true;
             }
             return false;
         }
+    }
+
+    public takeForConveyor(): Node | null {
+        if (this.unlimitedMode) {
+            if (this._virtualWheatCount <= 0) {
+                return null;
+            }
+            const visualCount = this.wheatLayout.getItemCount();
+            let wheatItem: Node | null = null;
+            const shouldRemoveVisual = this._virtualWheatCount <= visualCount;
+            if (shouldRemoveVisual) {
+                const item = this._chooseOuterItem();
+                if (item) {
+                    this._busyItems.add(item);
+                    this.wheatLayout.removeItemByNode(item);
+                    this._busyItems.delete(item);
+                    wheatItem = item;
+                }
+            }
+            if (!wheatItem) {
+                const outer = this.wheatLayout.getOuterItems(1);
+                const spawnPos = outer.length > 0 ? outer[0].getWorldPosition() : this.node.getWorldPosition();
+                wheatItem = manager.pool.getNode(ObjectType.DropItemCornKernel);
+                if (!wheatItem) {
+                    return null;
+                }
+                wheatItem.setWorldPosition(spawnPos);
+                wheatItem.setWorldRotation(outer.length > 0 ? outer[0].getWorldRotation() : this.node.getWorldRotation());
+            }
+            this._virtualWheatCount--;
+            this.onWheatCountChanged(this._virtualWheatCount);
+            return wheatItem;
+        } else {
+            const item = this._chooseOuterItem();
+            if (!item) return null;
+            const dropItemCom = item.getComponent(DropItemCom);
+            if (!dropItemCom) return null;
+            this._busyItems.add(item);
+            this.wheatLayout.removeItemByNode(item);
+            this._busyItems.delete(item);
+            return item;
+        }
+    }
+
+    private _chooseOuterItem(): Node | null {
+        const items = this.wheatLayout.getOuterItems(1);
+        for (const it of items) {
+            if (it && it.isValid && !this._busyItems.has(it)) {
+                return it;
+            }
+        }
+        return null;
     }
 
     /**

@@ -50,6 +50,7 @@ export class TrainBoardingTrigger extends Component {
     @property({ type: Node, displayName: '上车Sprite节点' })
     public boardingSpriteNode: Node = null!;
     // ── 运行时 ──
+    /** 是否玩家在车上 */
     private _isPlayerOnTrain: boolean = false;
     /** 玩家当前是否处于站台触发区域内（用于卸货结束后补触发上车） */
     private _isInTriggerZone: boolean = false;
@@ -93,7 +94,9 @@ export class TrainBoardingTrigger extends Component {
         const trainHeadPos = this._trainManager.activeTrain.node.getWorldPosition();
         this.heroNode.setWorldPosition(trainHeadPos);
     }
-
+    public getIsPlayerOnTrain(): boolean {
+        return this._isPlayerOnTrain;
+    }
     // ────────────────────────────────────────────
     // 私有方法
     // ────────────────────────────────────────────

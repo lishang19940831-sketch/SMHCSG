@@ -3,6 +3,8 @@ import { BuildingType, BuildUnlockState, CommonEvent, ObjectType } from '../Comm
 import { TrainTrack, TrackPhase } from './TrainTrack';
 import { Train, TrainState } from './Train';
 import { TrainCar } from './TrainCar';
+import { TrainBoardingTrigger } from './TrainBoardingTrigger';
+import { TrainUnloadManager } from './TrainUnloadManager';
 const { ccclass, property } = _decorator;
 
 /**
@@ -67,7 +69,20 @@ export class TrainManager extends Component {
         tooltip: '场景中的 TrainTrack 节点（3辆火车共享）'
     })
     public track: TrainTrack = null!;
+@property({
+        type: TrainBoardingTrigger,
+        displayName: '轨道上车触发组件',
+        tooltip: '场景中的 TrainBoardingTrigger '    
+    })
+    public trainBoardingTrigger: TrainBoardingTrigger = null!;
 
+@property({
+        type: TrainUnloadManager,
+        displayName: '火车到站卸货管理器',
+        tooltip: '场景中的 TrainUnloadManager '    
+    })
+    public trainUnloadManager: TrainUnloadManager = null!;
+    
     // ─────────────────────────────────────────────
     // 运行时数据
     // ─────────────────────────────────────────────
@@ -96,6 +111,11 @@ export class TrainManager extends Component {
         BuildingType.ArrowTower2,
         BuildingType.ArrowTower3,
     ];
+    /** 检查箭塔是否全部解锁 */
+    public getIsAllArrowTowersUnlocked(): boolean {
+
+        return this._unlockedArrowTowers.size >= TrainManager._ARROW_TOWER_TYPES.length;
+    }   
 
     onLoad() {
         // 初始只激活 Lv1，其余隐藏（含各自车厢）
@@ -113,7 +133,9 @@ export class TrainManager extends Component {
     onDestroy() {
         app.event.offAllByTarget(this);
     }
-
+    public getLevel(): TrainLevel{
+        return this._level;
+    }
     protected start(): void {
         // 自动行驶由 Train.autoRun 属性控制，在 Inspector 勾选即可，无需在此手动调用
         // 若需要运行时动态切换模式，调用 activeTrain.startAutoRun() 或 activeTrain.startManualRun()
@@ -122,33 +144,44 @@ export class TrainManager extends Component {
     private _onFirstPickupCoin(): void {
         if (this._hasUpgradedOnFirstCoin) return;
         this._hasUpgradedOnFirstCoin = true;
-        this.upgradeTo(TrainLevel.Lv2);
-        //解锁onlickitem
+        //解锁unlockitem
         if(manager.game.unlockItemMap.get(BuildingType.Salesperson1)?.unlockState == BuildUnlockState.NoActive){
             app.event.emit(CommonEvent.SetUnlockStatue, {type: BuildingType.Salesperson1, state: BuildUnlockState.Active});
+        }
+        //解锁火车升级unlockitem
+        if(manager.game.unlockItemMap.get(BuildingType.Train1)?.unlockState == BuildUnlockState.NoActive){
+            app.event.emit(CommonEvent.SetUnlockStatue, {type: BuildingType.Train1, state: BuildUnlockState.Active});
         }
     }
 
     private _onUnlockFinished(type: BuildingType): void {
         // ── 售货员：两个都解锁 → 升级 Lv3 ──
-        if (type === BuildingType.Salesperson1 || type === BuildingType.Salesperson2) {
-            this._unlockedSalesman.add(type);
-            if (
-                this._unlockedSalesman.has(BuildingType.Salesperson1) &&
-                this._unlockedSalesman.has(BuildingType.Salesperson2)
-            ) {
-                this.upgradeTo(TrainLevel.Lv3);
-            }
-            return;
-        }
+        // if (type === BuildingType.Salesperson1 || type === BuildingType.Salesperson2) {
+        //     this._unlockedSalesman.add(type);
+        //     if (
+        //         this._unlockedSalesman.has(BuildingType.Salesperson1) &&
+        //         this._unlockedSalesman.has(BuildingType.Salesperson2)
+        //     ) {
+        //         // this.upgradeTo(TrainLevel.Lv3);
+        //     }
+        //     return;
+        // }
 
         // ── 箭塔：4个全部解锁 → 当前火车开启全自动 ──
         if (TrainManager._ARROW_TOWER_TYPES.includes(type)) {
             this._unlockedArrowTowers.add(type);
-            if (this._unlockedArrowTowers.size >= TrainManager._ARROW_TOWER_TYPES.length) {
-                this.startAutoRun();
-            }
+         
         }
+        console.log("已解锁的箭塔数量:", this._unlockedArrowTowers.size,this._level)
+        //检查列车等级是否为3
+        if (this._unlockedArrowTowers.size >= TrainManager._ARROW_TOWER_TYPES.length&&this._level == TrainLevel.Lv3) {
+            this.startAutoRun();
+            // 传送带出现并启用
+            manager.game.showConveyors()
+            app.event.emit(CommonEvent.SetUnlockStatue, {type: BuildingType.EndGame, state: BuildUnlockState.Active});
+        }
+
+        
     }
     // ─────────────────────────────────────────────
     // 公开接口
@@ -188,6 +221,11 @@ export class TrainManager extends Component {
 
         // 新火车从旧火车当前位置继续行驶，避免瞬移
         nextTrain.initAtProgress(prevProgress);
+
+        // 继承自动/手动模式；Lv3 默认确保自动行驶
+        if (prevTrain.autoRun && level === TrainLevel.Lv3) {
+            nextTrain.startAutoRun();
+        }
 
         // Lv3 升级时扩张轨道到 Phase3，扩张完成后同步所有火车的站台进度
         if (level === TrainLevel.Lv3) {

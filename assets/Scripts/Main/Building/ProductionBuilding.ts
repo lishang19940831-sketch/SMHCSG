@@ -33,7 +33,7 @@ export class ProductionBuilding extends Component {
     private itemLayout: ItemLayout = null!;
 
     @property({ type: Collider, displayName: '触发器' })
-    private productionCollider: Collider = null!;
+    public productionCollider: Collider = null!;
 
     @property({ type: Node, displayName: '触发状态显示节点' })
     private triggerStateNode: Node = null!;
@@ -253,6 +253,48 @@ export class ProductionBuilding extends Component {
         return this.itemLayout.getItemCount();
     }
 
+    public receiveRawMaterial(fromPosition: Vec3, type: ObjectType): boolean {
+        if (type !== this.rawMaterialType) {
+            return false;
+        }
+        const item = manager.pool.getNode(type);
+        if (!item) return false;
+        Tween.stopAllByTarget(item);
+        const layoutPos = this.itemLayout.getCurrEmptyPosition();
+        let targetPos: Vec3;
+        let isFull = false;
+        if (!layoutPos) {
+            const lastPos = this.itemLayout.getLastValidPosition();
+            targetPos = this.itemLayout.getItemPosition(lastPos);
+            isFull = true;
+        } else {
+            targetPos = this.itemLayout.getItemPosition(layoutPos);
+            this.itemLayout.reserveItem(layoutPos);
+        }
+        const startPos = fromPosition.clone();
+        startPos.y += 1;
+        item.setWorldPosition(startPos);
+        manager.effect.addToEffectLayer(item);
+        manager.effect.flyNodeInParabola({
+            node: item,
+            target: targetPos,
+            callback: () => {
+                if (!item.isValid) return;
+                if (isFull) {
+                    manager.pool.putNode(item);
+                } else {
+                    this.itemLayout.addItemToReserve(item, layoutPos!);
+                    item.setRotationFromEuler(0, 0, 0);
+                    tween(item)
+                        .to(0.1, { scale: v3(1.2, 1.2, 1.2) }, { easing: easing.sineOut })
+                        .to(0.1, { scale: v3(1, 1, 1) }, { easing: easing.sineOut })
+                        .start();
+                }
+            }
+        });
+        return true;
+    }
+
     /** 重置（关卡重置时调用） */
     public reset(): void {
         this.itemLayout.reset();
@@ -262,4 +304,3 @@ export class ProductionBuilding extends Component {
         this.checkTimer = 0;
     }
 }
-

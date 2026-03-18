@@ -20,6 +20,7 @@
   ],
   "_states": [
     {
+      "priority": 5,
       "rasterizerState": {},
       "depthStencilState": {},
       "blendState": {

@@ -5,7 +5,12 @@ import { Enemy, EnemyAIState } from '../Role/Enemy';
 import { BuildingType, BuildUnlockState, CommonEvent, GameResult, ObjectType, PHY_GROUP, CharacterState } from '../Common/CommonEnum';
 import { ShopCommon } from '../Building/ShopCommon';
 import { TrainManager, TrainLevel } from '../Train/TrainManager';
+import { ConveyorBelt } from '../Building/ConveyorBelt';
 import super_html_playable from '../../super_html_playable';
+import { SpecialCustomer } from '../Building/SpecialCustomer';
+import { ProductionBuilding } from '../Building/ProductionBuilding';
+import { BuildingSalesman } from '../Building/BuildingSalesman';
+import { ArrowTower } from '../Building/ArrowTower';
 
 const { ccclass, property } = _decorator;
 
@@ -106,6 +111,27 @@ export class GameManager extends Component {
 
     @property({ type: TrainManager, displayName: '火车管理器' })
     public trainManager: TrainManager = null!;
+    @property({ type: ConveyorBelt, displayName: '传送带节点' })
+    public conveyors: ConveyorBelt = null!;
+
+
+    @property({ type: SpecialCustomer, displayName: '特殊客户节点' })
+    public specialCustomer: SpecialCustomer = null!;
+    
+    @property({ type: ProductionBuilding, displayName: 'ProductionBuilding' })
+    public productionBuilding: ProductionBuilding = null!;
+    
+    @property({ type: ShopCommon, displayName: '大饼商店' })
+    public flatbreadShop: ShopCommon = null!;
+
+    @property({ type: BuildingSalesman, displayName: '售货员1' })
+    public salesman1: BuildingSalesman = null!;
+    @property({ type: BuildingSalesman, displayName: '售货员2' })
+    public salesman2: BuildingSalesman = null!;
+    
+    @property({ type: ArrowTower, displayName: '箭塔1' })
+    public arrowTower1: ArrowTower = null!;
+
     private _isGamePause: boolean = false;
     private _isGameStart: boolean = false;
     private _gameResult: GameResult = GameResult.None;
@@ -211,6 +237,9 @@ export class GameManager extends Component {
         // 注册事件监听
         this.registerEvents();
 
+        // this.conveyors.hideAndDisable();
+       
+
         game.frameRate = 60;
 
         // PhysicsSystem.instance.debugDrawFlags = EPhysicsDrawFlags.WIRE_FRAME
@@ -225,6 +254,12 @@ export class GameManager extends Component {
                 this.hero.setMovementEnabled(true);
             });
         },1);
+    }
+
+    public showConveyors(): void {
+        
+        this.conveyors.showAndEnable();
+    
     }
 
     protected onDestroy(): void {
@@ -335,7 +370,15 @@ export class GameManager extends Component {
                 break;
             case BuildingType.ArrowTower3:
                 break;
-       
+            case BuildingType.EndGame:
+                app.event.emit(CommonEvent.ShowOver);
+                this.isShowOver = true;
+                manager.enemy.endGame();
+                //镜头平滑拉高
+                manager.cameraFollow.bossSpawn(this.hero.node);
+                //特殊客户移动到目标点
+                this.specialCustomer.moveToTarget();
+                break;
             case BuildingType.Turret:
                 app.event.emit(CommonEvent.ShowOver);
                 this.isShowOver = true;
@@ -395,6 +438,26 @@ export class GameManager extends Component {
                 //     });
                 // }
 
+                break;
+                
+            case BuildingType.Train1:   
+
+                
+                this.trainManager.upgradeTo(TrainLevel.Lv2);
+                this.trainManager.expandTrackPhase2();
+                
+                app.event.emit(CommonEvent.SetUnlockStatue, {type: BuildingType.ArrowTower, state: BuildUnlockState.Active});
+                app.event.emit(CommonEvent.SetUnlockStatue, {type: BuildingType.ArrowTower1, state: BuildUnlockState.Active});
+                app.event.emit(CommonEvent.SetUnlockStatue, {type: BuildingType.ArrowTower2, state: BuildUnlockState.Active});
+                app.event.emit(CommonEvent.SetUnlockStatue, {type: BuildingType.ArrowTower3, state: BuildUnlockState.Active});
+                manager.enemy.startEnemySpawn();
+                break;
+            case BuildingType.Train2:   
+                this.trainManager.upgradeTo(TrainLevel.Lv3);
+                //如果火车等级到3并且4个箭塔全部解锁 则激活endGame类型的 unlockitem
+                if(this.trainManager.getIsAllArrowTowersUnlocked()){
+                    app.event.emit(CommonEvent.SetUnlockStatue, {type: BuildingType.EndGame, state: BuildUnlockState.Active});
+                }
                 break;
             default:
                 break;
@@ -487,7 +550,7 @@ export class GameManager extends Component {
             }
         }
         
-        return groundHeight > -100 ? groundHeight : 0;
+        return groundHeight > -100 ? groundHeight : 5;
     }
 
     public isCanHunted(node: Node): boolean {

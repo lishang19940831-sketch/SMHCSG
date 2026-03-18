@@ -221,6 +221,12 @@ export enum BuildingType {
     Salesperson1 = 'Salesperson1',
     /** 售货员2 */
     Salesperson2 = 'Salesperson2',
+    /** 火车1 */
+    Train1 = 'Train1',
+    /** 火车2 */
+    Train2 = 'Train2',
+    /** 扩张场地 结束游戏 */
+    EndGame = 'EndGame',
 }
 
 /**

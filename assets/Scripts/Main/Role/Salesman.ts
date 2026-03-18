@@ -88,7 +88,10 @@ public salesmanType: BuildingType = BuildingType.Salesperson1;
     // ──────────────────────────────────────────────
     // 生命周期
     // ──────────────────────────────────────────────
-
+    /**是否激活 */
+    getIsActive(){
+        return this._state !== SalesmanState.Inactive;
+    }
     onLoad() {
         super.onLoad();
 

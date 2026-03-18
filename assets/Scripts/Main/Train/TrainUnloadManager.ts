@@ -31,6 +31,7 @@ export class TrainUnloadManager extends Component {
     @property({ type: WoodContainer, displayName: '木头容器' })
     public woodContainer: WoodContainer = null!;
 
+    public heroInTrain: boolean = false;
     /** 是否已经第一次上车（用于只触发一次显示逻辑） */
     private _hasFirstBoarded: boolean = false;
 
