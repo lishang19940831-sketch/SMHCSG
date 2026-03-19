@@ -92,15 +92,22 @@
     {
       "mainColor": {
         "__type__": "cc.Color",
-        "r": 199,
-        "g": 171,
-        "b": 171,
+        "r": 221,
+        "g": 143,
+        "b": 143,
         "a": 255
       },
+      "albedoScale": {
+        "__type__": "cc.Vec3",
+        "x": 5,
+        "y": 4,
+        "z": 3
+      },
       "roughness": 0,
+      "metallic": 0.185,
       "specularIntensity": 0,
       "mainTexture": {
-        "__uuid__": "01e2f51d-13aa-4716-8e13-6c3c0bafd22b@6c48a",
+        "__uuid__": "e353f6f5-c56a-4016-9278-8e563b6c724f@6c48a",
         "__expectedType__": "cc.Texture2D"
       }
     },
