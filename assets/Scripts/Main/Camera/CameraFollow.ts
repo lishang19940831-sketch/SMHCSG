@@ -197,12 +197,34 @@ export class CameraFollow extends Component {
 
         // 创建缓动对象
         const tweenTarget = { height: this.camera.orthoHeight };
-        if(target){
-            this.target = target;
-        }
         // 使用缓动平滑过渡
         tween(tweenTarget)
             .to(this.zoomDuration, { height: targetHeight }, {
+                easing: 'sineInOut',
+                onUpdate: () => {
+                    if (this.camera) {
+                        this.camera.orthoHeight = tweenTarget.height;
+                    }
+                    if(this.cameraParticle){
+                        this.cameraParticle.orthoHeight = tweenTarget.height;
+                    }
+                }
+            })
+            .call(() => {
+                //console.log('[CameraFollow]  镜头拉高完成');
+            })
+            .start();
+    }
+    private onBossSpawn2(target: Node = null, duration: number = 1.2): void {
+     
+        // 计算目标正交高度
+        const targetHeight = this.normalOrthoHeight;
+
+        // 创建缓动对象
+        const tweenTarget = { height: this.camera.orthoHeight };
+        // 使用缓动平滑过渡
+        tween(tweenTarget)
+            .to(duration, { height: targetHeight }, {
                 easing: 'sineInOut',
                 onUpdate: () => {
                     if (this.camera) {
@@ -236,11 +258,6 @@ export class CameraFollow extends Component {
                 this.cameraParticleNode && this.cameraParticleNode.setWorldPosition(tweenTarget.x, tweenTarget.y, tweenTarget.z);
             
              }})
-            .call(() => {
-                if (this.target) {
-                    this.setTarget(this.target);
-                }
-            })
             .delay(delay)
             .call(() => {
                 if (onComplete) onComplete();
@@ -256,8 +273,16 @@ export class CameraFollow extends Component {
      * @param delay 延迟时间（秒）
      */
     public moveToTarget(targetNode: Node, duration: number = 1.0, onComplete?: () => void, delay: number = 0): void {
+        if (!targetNode || !targetNode.isValid) {
+            if (onComplete) onComplete();
+            return;
+        }
         const targetWorld = targetNode.worldPosition;
-        const offsetPos = targetWorld.add(this.initialOffset);
+        const offsetPos = new Vec3(
+            targetWorld.x + this.initialOffset.x,
+            targetWorld.y + this.initialOffset.y,
+            targetWorld.z + this.initialOffset.z
+        );
         this.moveTo(offsetPos, duration, onComplete, delay);    
         
     }
@@ -277,6 +302,34 @@ export class CameraFollow extends Component {
     public bossSpawn(target: Node = null): void {
         this.onBossSpawn(target);
     }
+    /**
+     * 镜像方法：平滑拉低镜头（恢复到正常高度），可同时设置跟随目标
+     */
+    public bossSpawn2(target: Node = null, duration: number = this.zoomDuration): void {
+        if (!this.camera) return;
+     
+        // 使用当前相机高度作为起点，缓动到 normalOrthoHeight
+        const tweenTarget = { height: this.camera.orthoHeight };
+        const targetHeight = this.normalOrthoHeight;
+        tween(tweenTarget)
+            .to(duration, { height: targetHeight }, {
+                easing: 'sineInOut',
+                onUpdate: () => {
+                    if (this.camera) {
+                        this.camera.orthoHeight = tweenTarget.height;
+                    }
+                    if (this.cameraParticle) {
+                        this.cameraParticle.orthoHeight = tweenTarget.height;
+                    }
+                }
+            })
+            .call(() => {
+                // 归位后关闭Boss模式标记
+                this.isBossMode = false;
+            })
+            .start();
+    }
+      
     /**
      * 手动恢复镜头（由外部调用）
      */

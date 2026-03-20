@@ -108,7 +108,6 @@ class AudioMgr {
      * @returns Promise<void> 播放完成后的Promise
      */
     public async playMusic(path: string, loop: boolean = true, volume: number = 1.0): Promise<void> {
-        return;
         if (!this.musicSwitch) return;
         
         let clip: AudioClip;
@@ -152,7 +151,6 @@ class AudioMgr {
      * @returns Promise<void> 播放完成后的Promise
      */
     public async playEffect(path: string, volume: number = 1.0, ignoreCooldown: boolean = false): Promise<void> {
-        return;
         if (!this.effectSwitch) return;
         
         // 检查防重复播放

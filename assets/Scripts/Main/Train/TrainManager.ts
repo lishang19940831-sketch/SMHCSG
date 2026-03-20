@@ -116,7 +116,9 @@ export class TrainManager extends Component {
 
         return this._unlockedArrowTowers.size >= TrainManager._ARROW_TOWER_TYPES.length;
     }   
-
+    getTrain(): Train{
+        return this._activeTrain;
+    }
     onLoad() {
         // 初始只激活 Lv1，其余隐藏（含各自车厢）
         this._level = TrainLevel.Lv1;
@@ -205,6 +207,7 @@ export class TrainManager extends Component {
     public upgradeTo(level: TrainLevel, onComplete?: () => void): void {
         if (level <= this._level) return;
 
+        app.audio.playEffect('resources/audio/UPLV', 0.6);
         const prevTrain = this._activeTrain;
         const prevProgress = prevTrain.progress;
 

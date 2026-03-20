@@ -193,6 +193,8 @@ export class ProductionBuilding extends Component {
             target: targetPos,
             callback: () => {
                 if (!item.isValid) return;
+                
+                app.audio.playEffect('resources/audio/SetRes', 0.6);
                 if (isFull) {
                     manager.pool.putNode(item);
                 } else {
@@ -280,6 +282,8 @@ export class ProductionBuilding extends Component {
             target: targetPos,
             callback: () => {
                 if (!item.isValid) return;
+                
+                app.audio.playEffect('resources/audio/SetRes', 0.6);
                 if (isFull) {
                     manager.pool.putNode(item);
                 } else {

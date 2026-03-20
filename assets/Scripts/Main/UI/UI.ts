@@ -9,12 +9,14 @@ const { ccclass, property } = _decorator;
 export class UI extends Component {
     @property({type: Camera, displayName: '主相机'})
     private mainCamera: Camera = null!;
-    @property({type: Label, displayName: '木头数量'})
-    private woodLabel: Label = null!;
+    @property({type: Label, displayName: '麦子数量'})
+    private cornKernelLabel: Label = null!;
     @property({type: Label, displayName: '金币数量'})
     private goldLabel: Label = null!;
-    @property({type: Label, displayName: '肉数量'})
-    private meatLabel: Label = null!;
+    @property({type: Label, displayName: '木头数量'})
+    private woodLabel: Label = null!;
+    @property({type: Label, displayName: '大饼数量'})
+    private flatbreadLabel: Label = null!;
     @property({type: Node, displayName: '胜利面板'})
     private winPanel: Node = null!;
     @property({type: Node, displayName: '失败面板'})
@@ -35,7 +37,8 @@ export class UI extends Component {
         app.event.on(CommonEvent.ShowWinUI, this.onShowWinUI, this);
         app.event.on(CommonEvent.ShowFailUI, this.onShowFailUI, this);
         app.event.on(CommonEvent.HeroHurt, this.onHeroHurt, this);
-
+        app.event.on(CommonEvent.ShowFlashRed, this.onShowFlashRed, this);
+        
         const opacity = this.heroHurtRed.getComponent(UIOpacity)!;
         tween(opacity)
             .to(0.3, { opacity: 255 })
@@ -51,7 +54,8 @@ export class UI extends Component {
 
         this.woodLabel.string = "0";
         this.goldLabel.string = "0";
-        this.meatLabel.string = "0";
+        this.cornKernelLabel.string = "0";
+        this.flatbreadLabel.string = "0";
 
         // this.tipLabel.node.active = SuperPackage.Instance.isKR;
     }
@@ -73,8 +77,10 @@ export class UI extends Component {
             this.goldLabel.string = data.count.toString();
         }else if(data.type === ObjectType.DropItemWood){
             this.woodLabel.string = data.count.toString();
-        }else if(data.type === ObjectType.DropItemMeat){
-            this.meatLabel.string = data.count.toString();
+        }else if(data.type === ObjectType.DropItemCornKernel){
+            this.cornKernelLabel.string = data.count.toString();
+        }else if(data.type === ObjectType.DropItemFlatbread){
+            this.flatbreadLabel.string = data.count.toString();
         }
     }
 
@@ -94,6 +100,16 @@ export class UI extends Component {
             this.heroHurtRed.active = false;
         }, 1);
     }
+
+    /** 显示闪红特效 */
+    private onShowFlashRed(): void {
+        this.heroHurtRed.active = true;
+         this.scheduleOnce(() => {
+            this.heroHurtRed.active = false;
+        }, 2);
+    }
+
+   
 
     private onShowWinUI(): void {
         if(this.isShowResult) return;

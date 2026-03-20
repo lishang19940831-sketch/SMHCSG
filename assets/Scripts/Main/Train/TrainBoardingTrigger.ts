@@ -57,7 +57,7 @@ export class TrainBoardingTrigger extends Component {
     private _joystick: JoystickControl = null!;
     private _hero: Hero = null!;
     private _trainManager: TrainManager = null!;
-
+  
     onLoad() {
         this._joystick = this.joystickNode.getComponent(JoystickControl)!;
         this._hero = this.heroNode.getComponent(Hero)!;
@@ -86,7 +86,14 @@ export class TrainBoardingTrigger extends Component {
         }
         app.event.offAllByTarget(this);
     }
-
+    /**禁用玩家操作 */
+    public _disablePlayerControl(): void {
+        this._joystick.setEnabled(false);
+    }
+    /**启用玩家操作 */
+    public _enablePlayerControl(): void {
+        this._joystick.setEnabled(true);
+    }
     update(_dt: number): void {
         if (!this._isPlayerOnTrain) return;
 
@@ -103,6 +110,7 @@ export class TrainBoardingTrigger extends Component {
 
     /** 站台碰撞触发器：进入 */
     private _onTriggerEnter(event: ITriggerEvent): void {
+        if (manager.game.isInteractionLocked) return;
         this._isInTriggerZone = true;
 
         // 已在车上，忽略

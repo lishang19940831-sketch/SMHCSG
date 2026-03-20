@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, Vec3, CCFloat, CCInteger, input, Input, EventTouch } from 'cc';
+import { _decorator, Component, Node, Vec3, CCFloat, CCInteger, input, Input, EventTouch, Animation } from 'cc';
 import { CommonEvent } from '../Common/CommonEnum';
 import { TrainTrack } from './TrainTrack';
 import { TrainCar } from './TrainCar';
@@ -130,6 +130,21 @@ export class Train extends Component {
     })
     public unloadManager: TrainUnloadManager = null!;
 
+    @property({
+        type: [Node],
+        displayName: '特效节点',
+        tooltip: '用于播放火车运行时的特效'
+    })
+    public effectNodes: Node[] = [];
+    @property({
+        displayName: '是否Lv1',
+    })
+    public isLv1: boolean = false;
+    @property({
+        type: Animation,
+        displayName: 'Lv1动画',
+    })
+    public lv1Animation: Animation = null!;
     // ─────────────────────────────────────────────
     // 运行时数据
     // ─────────────────────────────────────────────
@@ -181,6 +196,29 @@ export class Train extends Component {
     private get _allCars(): TrainCar[] {
         return this.headCar ? [this.headCar, ...this.trainCars] : this.trainCars;
     }
+    private _sawLoopRunning: boolean = false;
+    private _playSawSound = (): void => {
+        if (!this.node.active) {
+            this._stopSawLoop();
+            return;
+        }
+        app.audio.playEffect('resources/audio/电锯', 0.6);
+    };
+    private _startSawLoop(): void {
+        if (this._sawLoopRunning) return;
+        this.unschedule(this._playSawSound);
+        this._playSawSound();
+        this.schedule(this._playSawSound, 3);
+        this._sawLoopRunning = true;
+    }
+    private _stopSawLoop(): void {
+        if (!this._sawLoopRunning) return;
+        this.unschedule(this._playSawSound);
+        this._sawLoopRunning = false;
+    }
+    private _onGameOverStop = (): void => {
+        this._stopSawLoop();
+    };
 
     // ─────────────────────────────────────────────
     // 生命周期
@@ -200,8 +238,11 @@ export class Train extends Component {
         if (this.autoRun) {
             // 自动模式：激活时立即开始行驶
             this._startAutoRun();
+            this._startSawLoop();
         }
         // 手动模式：不在这里注册触摸，等玩家上车后由 onPlayerBoard() 注册
+        app.event.on(CommonEvent.ShowOver, this._onGameOverStop, this);
+        app.event.on(CommonEvent.GameWin, this._onGameOverStop, this);
     }
 
     onDisable() {
@@ -211,6 +252,14 @@ export class Train extends Component {
         input.off(Input.EventType.TOUCH_CANCEL, this._onTouchEnd,   this);
         this._isTouching = false;
         this._hasPlayer = false;
+        this._stopSawLoop();
+        app.event.off(CommonEvent.ShowOver, this._onGameOverStop, this);
+        app.event.off(CommonEvent.GameWin, this._onGameOverStop, this);
+    }
+    onDestroy() {
+        this._stopSawLoop();
+        app.event.off(CommonEvent.ShowOver, this._onGameOverStop, this);
+        app.event.off(CommonEvent.GameWin, this._onGameOverStop, this);
     }
 
     update(dt: number) {
@@ -356,6 +405,8 @@ export class Train extends Component {
         input.on(Input.EventType.TOUCH_START,  this._onTouchStart, this);
         input.on(Input.EventType.TOUCH_END,    this._onTouchEnd,   this);
         input.on(Input.EventType.TOUCH_CANCEL, this._onTouchEnd,   this);
+        this._applyBoardEffects(true);
+        if (this.node.active) this._startSawLoop();
     }
 
     /**
@@ -370,10 +421,12 @@ export class Train extends Component {
     public onPlayerAlight(): void {
         this._hasPlayer = false;
         this._isTouching = false;
+        this._applyBoardEffects(false);
         input.off(Input.EventType.TOUCH_START,  this._onTouchStart, this);
         input.off(Input.EventType.TOUCH_END,    this._onTouchEnd,   this);
         input.off(Input.EventType.TOUCH_CANCEL, this._onTouchEnd,   this);
         app.event.emit(CommonEvent.HeroAlighted);
+        this._stopSawLoop();
 
         // 站外下车：若有货则触发卸货
         // 到站时 _arriveStation 先调用本函数，此时 _unloadFired 尚为 false，
@@ -413,6 +466,7 @@ export class Train extends Component {
         input.off(Input.EventType.TOUCH_END,    this._onTouchEnd,   this);
         input.off(Input.EventType.TOUCH_CANCEL, this._onTouchEnd,   this);
         this._startAutoRun();
+        this._startSawLoop();
     }
 
     /**
@@ -443,6 +497,7 @@ export class Train extends Component {
             }
             this.node.active = true;
         } else {
+            this._applyBoardEffects(false);
             this.node.active = false;
             for (const car of this.trainCars) {
                 if (car?.node?.isValid) car.node.active = false;
@@ -501,6 +556,19 @@ export class Train extends Component {
     private _stopTrain(): void {
         if (this._state !== TrainState.Moving) return;
         this._state = TrainState.Idle;
+    }
+
+    private _applyBoardEffects(active: boolean): void {
+        if (this.isLv1) {
+            if (this.lv1Animation) {
+                if (active) this.lv1Animation.play();
+                else this.lv1Animation.stop();
+            }
+            return;
+        }
+        for (const n of this.effectNodes) {
+            if (n && n.isValid) n.active = active;
+        }
     }
 
     /** 到达站台处理 */

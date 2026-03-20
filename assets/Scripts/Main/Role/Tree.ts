@@ -115,7 +115,7 @@ export class Tree extends Component {
         this.createFragments()
         //材质闪白
         this.flashWhite();
-        app.audio.playEffect('resources/audio/挖矿')
+        // app.audio.playEffect('resources/audio/挖矿')
     }
     /** 闪白标记 */
     private flashWhiteMark: boolean = false;

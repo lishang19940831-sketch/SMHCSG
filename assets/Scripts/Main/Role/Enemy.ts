@@ -496,7 +496,7 @@ export class Enemy extends Character {
 
             // 十分之一的概率播放熊攻击音效
             if (Math.random() < 0.3) {
-                app.audio.playEffect('resources/audio/熊攻击', 0.4);
+                app.audio.playEffect('resources/audio/hit', 0.4);
             }
 
             // app.event.emit(CommonEvent.ShakeCamera, {
@@ -521,7 +521,7 @@ export class Enemy extends Character {
         super.onHurt(damageData);
         // 十分之一的概率播放熊受击音效
         if (Math.random() < 0.3) {
-            app.audio.playEffect('resources/audio/熊受击', 0.4);
+            // app.audio.playEffect('resources/audio/hit', 0.4);
         }
     }
 
@@ -534,13 +534,13 @@ export class Enemy extends Character {
         this.scheduleOnce(() => {
             app.event.emit(CommonEvent.EnemyDeadFinish, this.node)
         }, 2);
-        app.audio.playEffect('resources/audio/熊死亡', 0.4);
+        // app.audio.playEffect('resources/audio/熊死亡', 0.4);
 
         // 直接将金币掉落在地上
         this.schedule(()=>{
             if(Math.random() < 0.8) {
                 // 使用DropManager的spawnParabolicItem方法让金币掉落在地上
-                manager.drop.spawnParabolicItem(ObjectType.DropItemMeat, this.node.getWorldPosition(), 2);
+                manager.drop.spawnParabolicItem(ObjectType.DropItemCoin, this.node.getWorldPosition(), 2);
             }
         }, 0.05, 2)
     }

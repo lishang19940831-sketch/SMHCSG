@@ -382,7 +382,7 @@ export class ShopCommon extends Component {
             targetWorldRotation: tarWorldRot,
             callback: () => {
 
-                app.audio.playEffect('resources/audio/投入资源', 0.6);
+                app.audio.playEffect('resources/audio/SetRes', 0.6);
                 
                 if (isContainerFull) {
                     // 容器满了（实际上限已满或仓库模式满了），回收
@@ -485,7 +485,7 @@ export class ShopCommon extends Component {
             const dropItemCom = item.getComponent(DropItemCom);
             if (dropItemCom) {
                 customer.pickUpItem(dropItemCom, () => {
-                    app.audio.playEffect('resources/audio/投入资源', 0.6);
+                    app.audio.playEffect('resources/audio/SetRes', 0.6);
                     let isFinish = customer.GetNeedObjectCount() <= 0;
                     if (isFinish) {
                         // 立即从等待队列中移除顾客，让队伍往前排

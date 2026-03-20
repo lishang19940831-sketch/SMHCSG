@@ -51,7 +51,7 @@ export class LosePanel extends Component {
      * 显示失败动画
      */
     public showLoseAni(): void {
-        app.audio.playEffect('resources/audio/失败')
+        app.audio.playEffect('resources/audio/Win')
         // 初始化所有元素状态
         const blackBgOpacity = this.blackBg.getComponent(UIOpacity) || this.blackBg.addComponent(UIOpacity);
         blackBgOpacity.opacity = 0;

@@ -1,0 +1,78 @@
+{
+  "ver": "2.3.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "af047684-f1d3-4e81-aa9e-dbb8c0acd0ab",
+  "files": [],
+  "subMetas": {
+    "452f7": {
+      "importer": "gltf-mesh",
+      "uuid": "af047684-f1d3-4e81-aa9e-dbb8c0acd0ab@452f7",
+      "displayName": "",
+      "id": "452f7",
+      "name": "fbx_jupian01.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 1056
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a7a5b": {
+      "importer": "gltf-scene",
+      "uuid": "af047684-f1d3-4e81-aa9e-dbb8c0acd0ab@a7a5b",
+      "displayName": "",
+      "id": "a7a5b",
+      "name": "fbx_jupian01.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "af047684-f1d3-4e81-aa9e-dbb8c0acd0ab@452f7"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "af047684-f1d3-4e81-aa9e-dbb8c0acd0ab@a7a5b"
+      ]
+    }
+  }
+}

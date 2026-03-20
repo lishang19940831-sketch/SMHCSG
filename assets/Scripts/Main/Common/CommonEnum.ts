@@ -126,6 +126,9 @@ export enum CommonEvent{
     HeroBoarded = "HeroBoarded",
     /** 玩家下车事件（payload: 无） */
     HeroAlighted = "HeroAlighted",
+
+    /** 显示闪红特效事件 */
+    ShowFlashRed = "ShowFlashRed",
 }
 
 /**

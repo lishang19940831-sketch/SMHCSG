@@ -77,8 +77,8 @@ const GuideConfig: Partial<Record<GuideStep, GuideStepConfig>> = {
         },
         arrowTopHeight: 1.5,
         condition: () => {
-            console.log(`[GuideManager] 检查是否在火车上: ${manager.game.trainManager.trainBoardingTrigger.getIsPlayerOnTrain()}`);
-            return !manager.game.trainManager.trainBoardingTrigger.getIsPlayerOnTrain();
+            //如果火车已经进入了自动状态 则不提示
+            return !manager.game.trainManager.trainBoardingTrigger.getIsPlayerOnTrain() && manager.game.trainManager.getTrain().autoRun;
         }
     },
     /**指引去麦子仓库 */

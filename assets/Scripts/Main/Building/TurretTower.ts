@@ -299,7 +299,7 @@ export class TurretTower extends BuildingBase {
         // 发射箭矢
         const direction = this._calculateFireDirection();
         arrow.fire(firePos, direction);
-        app.audio.playEffect('resources/audio/射箭攻击', 0.6);
+        app.audio.playEffect('resources/audio/射箭', 0.6);
 
         // 播放发射特效（可选）
         this._playFireEffect();

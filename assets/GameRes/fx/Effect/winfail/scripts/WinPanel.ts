@@ -39,7 +39,7 @@ export class WinPanel extends Component {
     }
     
     public showWinAni(): void {
-        app.audio.playEffect('resources/audio/胜利')
+        app.audio.playEffect('resources/audio/Win')
         // 初始化所有元素状态
         const blackBgOpacity = this.blackBg.getComponent(UIOpacity) || this.blackBg.addComponent(UIOpacity);
         blackBgOpacity.opacity = 0;

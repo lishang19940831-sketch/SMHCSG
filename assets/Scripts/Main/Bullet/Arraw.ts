@@ -38,7 +38,7 @@ export class Arrow extends BulletBase {
                 const targetWpos = targetNode.getWorldPosition();
                 const hitPos = new Vec3((selfWpos.x + targetWpos.x) / 2, (selfWpos.y + targetWpos.y) / 2, (selfWpos.z + targetWpos.z) / 2);
                 // 在碰撞点播放特效
-                // manager.effect.playEffect(manager.effect.effectType.Archer_Attack, hitPos);
+                // manager.effect.playEffect(manager.effect.effectType.Bleeding, hitPos);
                 manager.effect.playEffect(EffectType.Hurt, v3(hitPos.x, hitPos.y + 1, hitPos.z));
                 manager.effect.playEffect(EffectType.Bleeding, v3(hitPos.x, hitPos.y + 1, hitPos.z));
 

@@ -66,6 +66,7 @@ export class UnlockItem extends Component {
     private currentStageIndex: number = 0; // 当前解锁阶段索引
     private isLabelScaling: boolean = false; // 标记remainGoldLbl是否正在缩放
     private isWorkerBreathing: boolean = false; // 标记解锁项是否正在呼吸
+    private _canInteract: boolean = true; // 需要先离开再进入，避免连续阶段自动交付
     
     private oldNodeScale: Vec3 = v3(1, 1, 1); // 将在onLoad中保存实际的原始缩放值
     public get ItemType(): BuildingType {
@@ -134,6 +135,8 @@ export class UnlockItem extends Component {
         // 重置当前阶段的资源需求
         this.remainGold = config.cost;
         this.reservedGold = 0;
+        // 若正处在触发器内，要求先离开再进入
+        this._canInteract = false;
         
         // 更新UI
         this.remainGoldLbl.string = this.remainGold.toString();
@@ -275,6 +278,10 @@ export class UnlockItem extends Component {
             }
             
             this.unlockState = data.state;
+            // 切到 Active 时，若玩家仍在触发器内，则需要先离开再进入
+            if (data.state === BuildUnlockState.Active) {
+                this._canInteract = this.pickupComponents.size === 0;
+            }
             
             // 获取当前阶段配置（可能已经改变）
             const config = this.getCurrentStageConfig();
@@ -319,6 +326,7 @@ export class UnlockItem extends Component {
     reset() {
         this.unlockState = this.initUnlockState;
         this.currentStageIndex = 0; // 重置到第一阶段
+        this._canInteract = true;
         
         const config = this.getCurrentStageConfig();
         this.remainGold = config.cost || 0;
@@ -335,11 +343,15 @@ export class UnlockItem extends Component {
 
         this.isShowUnlockTip = false;
         this.pickupComponents.clear();
+        this.interactionTimers.clear();
         
    //console.log(`[UnlockItem] 重置到第 1 阶段，解锁类型: ${config.itemType}, 需要资源: ${config.cost}`);
     }
 
     CostGold(cost: number) {
+        if (this.unlockState !== BuildUnlockState.Active || manager.game.isInteractionLocked) {
+            return;
+        }
         // 从预留的资源中扣除实际到达的资源
         const actualCost = Math.min(cost, this.reservedGold);
         this.reservedGold -= actualCost;
@@ -394,7 +406,7 @@ export class UnlockItem extends Component {
                     
                     // 发送解锁事件
                     app.event.emit(CommonEvent.UnlockItem, currentItemType);
-                    app.audio.playEffect('resources/audio/房屋和箭弩升级');
+                    app.audio.playEffect('resources/audio/ye');
                     
                     // 检查是否还有下一个阶段
                     if (this.hasNextStage()) {
@@ -430,12 +442,17 @@ export class UnlockItem extends Component {
             this.pickupComponents.delete(node.uuid);
             this.interactionTimers.delete(node.uuid);
             // console.log('从Map中移除', node.uuid);
+            // 离开触发器后允许再次交互
+            if (this.unlockState === BuildUnlockState.Active) {
+                this._canInteract = true;
+            }
         }
     }
     
     private _checkPickupComponents() {
         // 如果不是激活状态，直接返回
         if(this.unlockState !== BuildUnlockState.Active) return;
+        if (manager.game.isInteractionLocked) return;
         
         // 遍历所有触发器内的PickupComponent
         this.pickupComponents.forEach((pickupComponent, uuid) => {
@@ -455,7 +472,7 @@ export class UnlockItem extends Component {
     public OnCost(pickupComponent: PickupComponent, wpos: Vec3, duration: number = 0){
         const currentConsumptionType = this.ConsumptionType; // 使用getter获取当前阶段的消耗类型
         
-        if(this.unlockState === BuildUnlockState.Active){
+        if(this.unlockState === BuildUnlockState.Active && !manager.game.isInteractionLocked){
             // 计算消耗数量：基础1个 + 每0.1秒多1个，上限10个 (参考ShopCommon.ts)
             const extraCount = Math.floor(duration / 0.1);
             let consumeCount = 1 + extraCount;
@@ -493,7 +510,7 @@ export class UnlockItem extends Component {
                     target: this.goldIcon,
                     targetWorldRotation: new Quat(0,0,0,0),
                     callback: () => {
-                        app.audio.playEffect('resources/audio/投入资源', 0.6);
+                        app.audio.playEffect('resources/audio/SetRes', 0.6);
                         this.CostGold(1);
                         manager.pool.putNode(item);
                     }

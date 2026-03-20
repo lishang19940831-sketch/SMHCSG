@@ -5,26 +5,6 @@
   "uuid": "ebae9ba1-8c80-4a96-86a0-97f7a7b51103",
   "files": [],
   "subMetas": {
-    "3b1d8": {
-      "importer": "gltf-embeded-image",
-      "uuid": "ebae9ba1-8c80-4a96-86a0-97f7a7b51103@3b1d8",
-      "displayName": "",
-      "id": "3b1d8",
-      "name": "贴图 #7.image",
-      "userData": {
-        "gltfIndex": 0,
-        "fixAlphaTransparencyArtifacts": true,
-        "hasAlpha": true,
-        "type": "texture"
-      },
-      "ver": "1.0.3",
-      "imported": true,
-      "files": [
-        ".json",
-        ".png"
-      ],
-      "subMetas": {}
-    },
     "6313b": {
       "importer": "gltf-mesh",
       "uuid": "ebae9ba1-8c80-4a96-86a0-97f7a7b51103@6313b",

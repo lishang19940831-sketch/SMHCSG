@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, Vec3, CCFloat, CCInteger } from 'cc';
+import { _decorator, Component, Node, Vec3, CCFloat, CCInteger, tween } from 'cc';
 
 const { ccclass, property } = _decorator;
 
@@ -135,8 +135,73 @@ export class TrainTrack extends Component {
         this._currentPhase = phase;
         this._buildPath(this._getWaypointsByPhase(phase));
         this._stationProgress = this._calcStationProgress();
+
+        // 动画：Phase1 → Phase2 逐段出现（使用轨道节点的缩放）
+        if (phase === TrackPhase.Phase2 && this.trackNodes.length >= 3 && this.expandDuration > 0) {
+            const oldA = this.trackNodes[0];
+            const oldB = this.trackNodes[1];
+            const newRail = this.trackNodes[2];
+            if (oldA && oldB && newRail) {
+                // 保证三者可见以播放动画
+                oldA.active = true;
+                oldB.active = true;
+                newRail.active = true;
+
+                const origNew = newRail.scale.clone();
+                const origA = oldA.scale.clone();
+                const origB = oldB.scale.clone();
+
+                // 新轨道从0逐段出现：按子节点顺序依次放大
+                const children = newRail.children.slice();
+                if (children.length > 0) {
+                    // 先将所有子段隐藏（缩放为0）
+                    const childOrigScales = children.map(c => c.scale.clone());
+                    for (const c of children) c.setScale(0, 0, 0);
+                    const per = Math.max(0.05, this.expandDuration / children.length);
+                    children.forEach((c, idx) => {
+                        tween(c)
+                            .delay(idx * per).call(()=>{
+                              
+                                manager.game.playLevelUpEffect(manager.game.upgradeEffects[0],c.worldPosition,manager.game.effectLayerNode);
+                            })
+                            .to(per, { scale: childOrigScales[idx] }, { easing: 'sineOut' })
+                            .start();
+                    });
+                    // 恢复保障：收尾阶段强制还原子段缩放
+                    tween(this.node)
+                        .delay(this.expandDuration + 0.02)
+                        .call(() => {
+                            children.forEach((c, i) => c.setScale(childOrigScales[i]));
+                        })
+                        .start();
+                } else {
+                    // 无子段时整体放大
+                    newRail.setScale(0, 0, 0);
+                    tween(newRail).to(this.expandDuration, { scale: origNew }, { easing: 'sineOut' }).start();
+                }
+
+                // 旧轨道淡出（缩放为0），稍快结束
+                tween(oldA).to(this.expandDuration * 0.6, { scale: new Vec3(0, 0, 0) }, { easing: 'sineIn' }).start();
+                tween(oldB).to(this.expandDuration * 0.6, { scale: new Vec3(0, 0, 0) }, { easing: 'sineIn' }).start();
+
+                // 收尾：还原缩放并切换显隐
+                tween(this.node)
+                    .delay(this.expandDuration + 0.05)
+                    .call(() => {
+                        // 复原缩放，应用最终显隐
+                        oldA.setScale(origA);
+                        oldB.setScale(origB);
+                        newRail.setScale(origNew);
+                        this._applyTrackNodeVisibility(phase);
+                        onComplete && onComplete();
+                    })
+                    .start();
+                return;
+            }
+        }
+
+        // 无动画或配置不足，直接切换
         this._applyTrackNodeVisibility(phase);
-        // 预留：如需扩张动画可在此处加 tween，当前直接回调
         onComplete && onComplete();
     }
 

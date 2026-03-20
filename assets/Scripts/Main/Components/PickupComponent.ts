@@ -514,9 +514,9 @@ export class PickupComponent extends BaseComponet {
         // 更新物品数量
         this.itemMap.set(type, totalCount);
         if(type === ObjectType.DropItemCoin){
-            app.audio.playEffect('resources/audio/收取金币');
+            app.audio.playEffect('resources/audio/gold');
         }else{
-            app.audio.playEffect('resources/audio/收取肉');
+            app.audio.playEffect('resources/audio/GetRes');
         }
         
         this.node.emit(ComponentEvent.UPDATE_ITEM_COUNT, type, totalCount);
