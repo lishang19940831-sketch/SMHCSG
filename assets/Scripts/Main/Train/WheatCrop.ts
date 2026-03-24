@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, Vec3, tween, MeshRenderer, CCFloat, CCInteger, instantiate } from 'cc';
+import { _decorator, Component, Node, Vec3, tween, MeshRenderer, CCFloat, CCInteger, instantiate, Vec3 as Vec3Type } from 'cc';
 import { ObjectType } from '../Common/CommonEnum';
 
 const { ccclass, property } = _decorator;
@@ -35,6 +35,25 @@ export class WheatCrop extends Component {
         min: 0
     })
     public regrowTime: number = 0;
+
+    @property({
+        displayName: '砍伐晃动',
+    })
+    public enableShakeOnHarvest: boolean = false;
+
+    @property({
+        type: CCFloat,
+        displayName: '晃动角度',
+        min: 0
+    })
+    public shakeAngleDeg: number = 8;
+
+    @property({
+        type: CCFloat,
+        displayName: '晃动总时长',
+        min: 0
+    })
+    public shakeDuration: number = 0.4;
 
     // ─────────────────────────────────────────────
     // 碎片效果配置
@@ -136,8 +155,24 @@ export class WheatCrop extends Component {
         // 播放碎片飞散效果（在隐藏节点之前，碎片从当前位置飞出）
         this._playFragmentEffect();
 
-        // 隐藏节点视觉
-        this.node.active = false;
+        if (this.enableShakeOnHarvest && this.resourceType === ObjectType.DropItemWood) {
+            const orig = this.node.eulerAngles.clone();
+            const a = this.shakeAngleDeg;
+            const up = new Vec3Type(orig.x, orig.y, orig.z + a);
+            const down = new Vec3Type(orig.x, orig.y, orig.z - a);
+            const t = Math.max(0.1, this.shakeDuration);
+            tween(this.node)
+                .to(t * 0.25, { eulerAngles: up })
+                .to(t * 0.5, { eulerAngles: down })
+                .to(t * 0.25, { eulerAngles: orig })
+                .call(() => {
+                    this.node.setRotationFromEuler(orig.x, orig.y, orig.z);
+                    this.node.active = false;
+                })
+                .start();
+        } else {
+            this.node.active = false;
+        }
         console.log(`[WheatCrop] harvest: node=${this.node.name} active=false parent=${this.node.parent?.name} parentActive=${this.node.parent?.active}`);
 
         return { type: this.resourceType, amount: this.harvestAmount };

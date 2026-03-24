@@ -110,6 +110,9 @@ export class TreeFieldManager extends Component {
             crop.harvestAmount = this.harvestAmount;
             crop.regrowTime = this.regrowTime;
             crop.fragmentCount = 0; // 树木不需要碎片效果
+            crop.enableShakeOnHarvest = true;
+            crop.shakeAngleDeg = 8;
+            crop.shakeDuration = 0.4;
             // 不在此处调用 refreshWorldPos()，统一在 start() 里刷新
             this._crops.push(crop);
         }

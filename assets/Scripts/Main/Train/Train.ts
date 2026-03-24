@@ -163,6 +163,7 @@ export class Train extends Component {
 
     /** 是否已离开站台（用于判断回站检测时机） */
     private _hasLeftStation: boolean = false;
+    private _arrivalGraceTime: number = 0;
 
     /** 车厢满事件是否已发送（防止每帧重复发送） */
     private _fullEventFired: boolean = false;
@@ -253,13 +254,13 @@ export class Train extends Component {
         this._isTouching = false;
         this._hasPlayer = false;
         this._stopSawLoop();
-        app.event.off(CommonEvent.ShowOver, this._onGameOverStop, this);
-        app.event.off(CommonEvent.GameWin, this._onGameOverStop, this);
+        app.event.off(CommonEvent.ShowOver, this._onGameOverStop,);
+        app.event.off(CommonEvent.GameWin, this._onGameOverStop,);
     }
     onDestroy() {
         this._stopSawLoop();
-        app.event.off(CommonEvent.ShowOver, this._onGameOverStop, this);
-        app.event.off(CommonEvent.GameWin, this._onGameOverStop, this);
+        app.event.off(CommonEvent.ShowOver, this._onGameOverStop,);
+        app.event.off(CommonEvent.GameWin, this._onGameOverStop,);
     }
 
     update(dt: number) {
@@ -268,6 +269,10 @@ export class Train extends Component {
         if (!this.autoRun && !this._isTouching) {
             this._stopTrain();
             return;
+        }
+        if (this._arrivalGraceTime > 0) {
+            this._arrivalGraceTime -= dt;
+            if (this._arrivalGraceTime < 0) this._arrivalGraceTime = 0;
         }
 
         // 推进进度
@@ -289,7 +294,7 @@ export class Train extends Component {
         // 判断是否回到站台
         const stationPos = this.track.getPositionAt(this._stationProgress);
         const distToStation = Vec3.distance(headPos, stationPos);
-        if (this._hasLeftStation) {
+        if (this._arrivalGraceTime <= 0 && this._hasLeftStation) {
             if (distToStation <= this.stationArriveDistance) {
                 this._arriveStation();
                 return;
@@ -326,6 +331,13 @@ export class Train extends Component {
         return this._progress;
     }
 
+    /** 在指定进度对齐朝向（升级吸附时同步方向用） */
+    public alignFacingAtProgress(progress: number): void {
+        if (!this.track) return;
+        const dir = this.track.getDirectionAt(progress);
+        this._updateHeadFacing(dir);
+    }
+
     /**
      * 在指定进度位置初始化火车（升级切换时由 TrainManager 调用）
      * 新火车从旧火车当前位置继续行驶，避免瞬移
@@ -341,6 +353,7 @@ export class Train extends Component {
             this._hasLeftStation = true;
         }
         this._snapToProgress(this._progress);
+        this._arrivalGraceTime = 0.3;
     }
 
     /**
@@ -402,6 +415,7 @@ export class Train extends Component {
     public onPlayerBoard(): void {
         if (this.autoRun) return;  // Lv3 自动模式不允许上车
         this._hasPlayer = true;
+        this._arrivalGraceTime = 0.3;
         input.on(Input.EventType.TOUCH_START,  this._onTouchStart, this);
         input.on(Input.EventType.TOUCH_END,    this._onTouchEnd,   this);
         input.on(Input.EventType.TOUCH_CANCEL, this._onTouchEnd,   this);
@@ -531,6 +545,7 @@ export class Train extends Component {
             this._unloadFired = false;   // 新一圈出发，重置卸货标志
             this._state = TrainState.Moving;
             this._hasLeftStation = false;
+            this._arrivalGraceTime = 0.3;
             app.event.emit(CommonEvent.TrainStarted);
         }
     }

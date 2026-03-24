@@ -1,4 +1,4 @@
-import { _decorator, Node, random, tween, v3, Vec3, geometry, PhysicsSystem } from 'cc';
+import { _decorator, Node, random, tween, v3, Vec3, geometry, PhysicsSystem, AnimationClip, instantiate, ParticleSystem, SkeletalAnimation } from 'cc';
 import { BuildingType, CharacterState, CommonEvent, ObjectType } from '../../Main/Common/CommonEnum';
 import { DamageData } from '../../Main/Common/CommonInterface';
 import { ComponentEvent } from '../../Main/Common/ComponentEvents';
@@ -9,6 +9,7 @@ import { Character } from './Character';
 const { ccclass, property } = _decorator;
 
 export enum EnemyAIState {
+
     Idle,
     Run,
     Attack,
@@ -25,6 +26,7 @@ export class Enemy extends Character {
     private aiState: EnemyAIState = EnemyAIState.Idle;
     private aiStateTimer: number = 0;
     private aiStateTimerMax: number = 0.05;
+    private _isSpawning: boolean = false;
 
     public stopOnReachTarget: boolean = false;
 
@@ -47,7 +49,25 @@ export class Enemy extends Character {
         tooltip: '追踪英雄时的攻击距离',
     })
     private heroAttackRange: number = 3;
-
+   @property({
+        type: SkeletalAnimation,
+        displayName: '钻出动画',
+        tooltip: '敌人钻出时的动画',
+    })
+    private explodeClip: SkeletalAnimation | null = null;
+    
+   @property({
+        type: Number,
+        displayName: '出生演出时长(秒)',
+    })
+    private spawnIntroDuration: number = 0.8;
+   @property({
+        type: Node,
+        displayName: '出生特效Prefab(可选)',
+        tooltip: '实例化为一次性出生特效；留空则不播放',
+    })
+    private spawnEffectPrefab: Node | null = null;
+    
     /** 追踪英雄前的原始目标节点 */
     private originalTargetNode: Node | null = null;
     
@@ -77,6 +97,7 @@ export class Enemy extends Character {
     update(dt: number): void {
         if(!manager.game.isGameStart) return;
         super.update(dt);
+        if (this._isSpawning) return;
 
         // 检查是否需要追踪或停止追踪英雄
         // this.updateHeroTracking();
@@ -540,9 +561,46 @@ export class Enemy extends Character {
         this.schedule(()=>{
             if(Math.random() < 0.8) {
                 // 使用DropManager的spawnParabolicItem方法让金币掉落在地上
-                manager.drop.spawnParabolicItem(ObjectType.DropItemCoin, this.node.getWorldPosition(), 2);
+                // manager.drop.spawnParabolicItem(ObjectType.DropItemCoin, this.node.getWorldPosition(), 2);
             }
         }, 0.05, 2)
+    }
+
+    /**
+     * 出生演出：从地底钻出 + 特效
+     */
+    public playSpawnIntro(wpos: Vec3): void {
+        // 直接设置到生成位置，使用已有钻出动画即可
+        this.node.setWorldPosition(wpos);
+        this._isSpawning = true;
+        this.stateComponent.changeState(CharacterState.Skill);
+        this.aiState = EnemyAIState.Idle;
+        const animName = '钻出';
+        const clipDur = this.animationComponent ? this.animationComponent.getAnimationDuration(animName) : 0;
+        const introDur = Math.max(this.spawnIntroDuration, clipDur || 0);
+        
+        // 钻出动画（若配置了对应剪辑名）
+        if (this.animationComponent && (this.animationComponent as any).hasAnimation && (this.animationComponent as any).hasAnimation(animName)) {
+            this.animationComponent.playAnimation(animName, false);
+        }
+        // 出生特效（可选）
+        if (this.spawnEffectPrefab) {
+            const fx = instantiate(this.spawnEffectPrefab);
+            const parent = manager.game.effectLayerNode || this.node;
+            fx.setParent(parent);
+            fx.setWorldPosition(wpos);
+            const particles = fx.getComponentsInChildren(ParticleSystem);
+            particles.forEach(p => { try { p.play(); } catch {} });
+            // 简单的自动清理
+            this.scheduleOnce(() => {
+                particles.forEach(p => { try { p.stop(); p.clear(); } catch {} });
+                if (fx && fx.isValid) fx.destroy();
+            }, Math.max(0.8, introDur + 0.2));
+        }
+        // 动画时长结束后进入正常逻辑
+        this.scheduleOnce(() => {
+            this.onSpawnComplete(wpos);
+        }, Math.max(0.1, introDur));
     }
 
     /**
@@ -551,6 +609,7 @@ export class Enemy extends Character {
      * 否则从全局 RangeNode 中自动选最近目标（兼容旧逻辑）。
      */
     public onSpawnComplete(wpos: Vec3): void {
+        this._isSpawning = false;
         // 仅在未被外部指定目标时才自动选取
         if (!this.targetNode || !this.targetNode.isValid) {
             this.selectNearestTarget();

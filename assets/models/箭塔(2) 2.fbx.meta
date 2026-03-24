@@ -2,14 +2,14 @@
   "ver": "2.3.14",
   "importer": "fbx",
   "imported": true,
-  "uuid": "ad9ac102-6a19-421c-0f5d-913e686913c9",
+  "uuid": "a8494636-337c-4c10-9703-f4a824f0ff24",
   "files": [
     "__original-animation-0.bin"
   ],
   "subMetas": {
     "30732": {
       "importer": "gltf-skeleton",
-      "uuid": "ad9ac102-6a19-421c-0f5d-913e686913c9@30732",
+      "uuid": "a8494636-337c-4c10-9703-f4a824f0ff24@30732",
       "displayName": "",
       "id": "30732",
       "name": "UnnamedSkeleton-0.skeleton",
@@ -26,7 +26,7 @@
     },
     "ec8a4": {
       "importer": "gltf-mesh",
-      "uuid": "ad9ac102-6a19-421c-0f5d-913e686913c9@ec8a4",
+      "uuid": "a8494636-337c-4c10-9703-f4a824f0ff24@ec8a4",
       "displayName": "",
       "id": "ec8a4",
       "name": "arrow.mesh",
@@ -44,7 +44,7 @@
     },
     "6b081": {
       "importer": "gltf-mesh",
-      "uuid": "ad9ac102-6a19-421c-0f5d-913e686913c9@6b081",
+      "uuid": "a8494636-337c-4c10-9703-f4a824f0ff24@6b081",
       "displayName": "",
       "id": "6b081",
       "name": "arrow_tower.mesh",
@@ -62,7 +62,7 @@
     },
     "c60b9": {
       "importer": "gltf-mesh",
-      "uuid": "ad9ac102-6a19-421c-0f5d-913e686913c9@c60b9",
+      "uuid": "a8494636-337c-4c10-9703-f4a824f0ff24@c60b9",
       "displayName": "",
       "id": "c60b9",
       "name": "bow.mesh",
@@ -78,9 +78,27 @@
       ],
       "subMetas": {}
     },
+    "830b1": {
+      "importer": "gltf-mesh",
+      "uuid": "a8494636-337c-4c10-9703-f4a824f0ff24@830b1",
+      "displayName": "",
+      "id": "830b1",
+      "name": "towerbase_wood.mesh",
+      "userData": {
+        "gltfIndex": 3,
+        "triangleCount": 1414
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
     "73b7f": {
       "importer": "gltf-animation",
-      "uuid": "ad9ac102-6a19-421c-0f5d-913e686913c9@73b7f",
+      "uuid": "a8494636-337c-4c10-9703-f4a824f0ff24@73b7f",
       "displayName": "",
       "id": "73b7f",
       "name": "Take 001.animation",
@@ -103,7 +121,7 @@
     },
     "f1394": {
       "importer": "gltf-skeleton",
-      "uuid": "ad9ac102-6a19-421c-0f5d-913e686913c9@f1394",
+      "uuid": "a8494636-337c-4c10-9703-f4a824f0ff24@f1394",
       "displayName": "",
       "id": "f1394",
       "name": "UnnamedSkeleton-1.skeleton",
@@ -120,7 +138,7 @@
     },
     "75ee4": {
       "importer": "gltf-skeleton",
-      "uuid": "ad9ac102-6a19-421c-0f5d-913e686913c9@75ee4",
+      "uuid": "a8494636-337c-4c10-9703-f4a824f0ff24@75ee4",
       "displayName": "",
       "id": "75ee4",
       "name": "UnnamedSkeleton-2.skeleton",
@@ -135,12 +153,12 @@
       ],
       "subMetas": {}
     },
-    "48b02": {
+    "5e49e": {
       "importer": "gltf-embeded-image",
-      "uuid": "ad9ac102-6a19-421c-0f5d-913e686913c9@48b02",
+      "uuid": "a8494636-337c-4c10-9703-f4a824f0ff24@5e49e",
       "displayName": "",
-      "id": "48b02",
-      "name": "base_color_texture.image",
+      "id": "5e49e",
+      "name": "base_color_texture-0.image",
       "userData": {
         "gltfIndex": 0,
         "fixAlphaTransparencyArtifacts": true,
@@ -155,12 +173,32 @@
       ],
       "subMetas": {}
     },
-    "7d6ab": {
-      "importer": "texture",
-      "uuid": "ad9ac102-6a19-421c-0f5d-913e686913c9@7d6ab",
+    "ef396": {
+      "importer": "gltf-embeded-image",
+      "uuid": "a8494636-337c-4c10-9703-f4a824f0ff24@ef396",
       "displayName": "",
-      "id": "7d6ab",
-      "name": "base_color_texture.texture",
+      "id": "ef396",
+      "name": "base_color_texture-1.image",
+      "userData": {
+        "gltfIndex": 1,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": true,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "0a1ef": {
+      "importer": "texture",
+      "uuid": "a8494636-337c-4c10-9703-f4a824f0ff24@0a1ef",
+      "displayName": "",
+      "id": "0a1ef",
+      "name": "base_color_texture-0.texture",
       "userData": {
         "wrapModeS": "repeat",
         "wrapModeT": "repeat",
@@ -169,7 +207,30 @@
         "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "ad9ac102-6a19-421c-0f5d-913e686913c9@48b02"
+        "imageUuidOrDatabaseUri": "a8494636-337c-4c10-9703-f4a824f0ff24@5e49e"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "05da8": {
+      "importer": "texture",
+      "uuid": "a8494636-337c-4c10-9703-f4a824f0ff24@05da8",
+      "displayName": "",
+      "id": "05da8",
+      "name": "base_color_texture-1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "a8494636-337c-4c10-9703-f4a824f0ff24@ef396"
       },
       "ver": "1.0.22",
       "imported": true,
@@ -180,7 +241,7 @@
     },
     "da712": {
       "importer": "gltf-material",
-      "uuid": "ad9ac102-6a19-421c-0f5d-913e686913c9@da712",
+      "uuid": "a8494636-337c-4c10-9703-f4a824f0ff24@da712",
       "displayName": "",
       "id": "da712",
       "name": "M_TM.material",
@@ -194,12 +255,28 @@
       ],
       "subMetas": {}
     },
-    "f9ccf": {
-      "importer": "gltf-scene",
-      "uuid": "ad9ac102-6a19-421c-0f5d-913e686913c9@f9ccf",
+    "48d2b": {
+      "importer": "gltf-material",
+      "uuid": "a8494636-337c-4c10-9703-f4a824f0ff24@48d2b",
       "displayName": "",
-      "id": "f9ccf",
-      "name": "箭塔.prefab",
+      "id": "48d2b",
+      "name": "MI_一级箭塔基座.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2d4ae": {
+      "importer": "gltf-scene",
+      "uuid": "a8494636-337c-4c10-9703-f4a824f0ff24@2d4ae",
+      "displayName": "",
+      "id": "2d4ae",
+      "name": "箭塔(2) 2.prefab",
       "userData": {
         "gltfIndex": 0
       },
@@ -215,7 +292,11 @@
     "imageMetas": [
       {
         "name": "base_color_texture",
-        "uri": "ad9ac102-6a19-421c-0f5d-913e686913c9@48b02"
+        "uri": "a8494636-337c-4c10-9703-f4a824f0ff24@5e49e"
+      },
+      {
+        "name": "base_color_texture",
+        "uri": "a8494636-337c-4c10-9703-f4a824f0ff24@ef396"
       }
     ],
     "fbx": {
@@ -257,23 +338,26 @@
     },
     "assetFinder": {
       "meshes": [
-        "ad9ac102-6a19-421c-0f5d-913e686913c9@ec8a4",
-        "ad9ac102-6a19-421c-0f5d-913e686913c9@6b081",
-        "ad9ac102-6a19-421c-0f5d-913e686913c9@c60b9"
+        "a8494636-337c-4c10-9703-f4a824f0ff24@ec8a4",
+        "a8494636-337c-4c10-9703-f4a824f0ff24@6b081",
+        "a8494636-337c-4c10-9703-f4a824f0ff24@c60b9",
+        "a8494636-337c-4c10-9703-f4a824f0ff24@830b1"
       ],
       "skeletons": [
-        "ad9ac102-6a19-421c-0f5d-913e686913c9@30732",
-        "ad9ac102-6a19-421c-0f5d-913e686913c9@f1394",
-        "ad9ac102-6a19-421c-0f5d-913e686913c9@75ee4"
+        "a8494636-337c-4c10-9703-f4a824f0ff24@30732",
+        "a8494636-337c-4c10-9703-f4a824f0ff24@f1394",
+        "a8494636-337c-4c10-9703-f4a824f0ff24@75ee4"
       ],
       "textures": [
-        "ad9ac102-6a19-421c-0f5d-913e686913c9@7d6ab"
+        "a8494636-337c-4c10-9703-f4a824f0ff24@0a1ef",
+        "a8494636-337c-4c10-9703-f4a824f0ff24@05da8"
       ],
       "materials": [
-        "ad9ac102-6a19-421c-0f5d-913e686913c9@da712"
+        "a8494636-337c-4c10-9703-f4a824f0ff24@da712",
+        "a8494636-337c-4c10-9703-f4a824f0ff24@48d2b"
       ],
       "scenes": [
-        "ad9ac102-6a19-421c-0f5d-913e686913c9@f9ccf"
+        "a8494636-337c-4c10-9703-f4a824f0ff24@2d4ae"
       ]
     }
   }

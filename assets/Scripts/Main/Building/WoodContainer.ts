@@ -69,7 +69,7 @@ export class WoodContainer extends Component {
             this.pickupComponents.set(node.uuid, pickupComponent);
             this.interactionTimers.set(node.uuid, 0);
             //踩上木板，heroY轴抬高0.5
-            manager.game.hero.node.getChildByName("ModelNode").setPosition(0,0.8,0);
+            // manager.game.hero.node.getChildByName("ModelNode").setPosition(0,0.8,0);
         }
     }
 
@@ -79,7 +79,7 @@ export class WoodContainer extends Component {
             this.pickupComponents.delete(node.uuid);
             this.interactionTimers.delete(node.uuid);
             //离开木板，heroY轴恢复为0
-            manager.game.hero.node.getChildByName("ModelNode").setPosition(0,0,0);
+            // manager.game.hero.node.getChildByName("ModelNode").setPosition(0,0,0);
         }
     }
 

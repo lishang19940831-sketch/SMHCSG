@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, Vec3, CCFloat, tween } from 'cc';
+import { _decorator, Component, Node, Vec3, CCFloat, tween, Material, Vec4, MeshRenderer } from 'cc';
 import { ObjectType } from '../Common/CommonEnum';
 import { WheatContainer } from './WheatContainer';
 import { FlatbreadContainer } from './FlatbreadContainer';
@@ -47,14 +47,24 @@ export class ConveyorBelt extends Component {
     @property({ type: CCFloat, displayName: '可视Y偏移' })
     public visualYOffset: number = 0.3;
 
+    @property({ type: MeshRenderer, displayName: '传送带mtl节点' })
+    public conveyorMaterial: MeshRenderer = null!;
     private _timer: number = 0;
     private _inFlight: number = 0;
+    @property({ type: CCFloat, displayName: 'UV速度' })
+    public uvScrollSpeed: number = 1;
+    private _uvZ: number = 0;
 
     onLoad() {
         if (this.hideOnStart) {
             this.node.active = false;
             this.conveyorEnabled = false;
+            
+                this.conveyorMaterial.materials[0].getProperty('tilingOffset');
+
+           
         }
+
     }
 
     update(dt: number) {
@@ -63,6 +73,11 @@ export class ConveyorBelt extends Component {
         while (this._timer >= this.pullInterval) {
             this._timer -= this.pullInterval;
             this._trySpawnOne();
+        }
+        if (this.node.active && this.conveyorEnabled && this.conveyorMaterial) {
+            this._uvZ += this.uvScrollSpeed * dt;
+            const v = new Vec4(1, 1, this._uvZ, 0);
+            this.conveyorMaterial.materials[0].setProperty('tilingOffset', v, 0);
         }
     }
 

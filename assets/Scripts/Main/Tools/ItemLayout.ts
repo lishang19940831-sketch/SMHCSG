@@ -128,6 +128,7 @@ export class ItemLayout extends Component {
         
         node.setParent(this.node, true);
         node.setWorldPosition(worldPos);
+        node.setRotationFromEuler(0, 0, 0);
         
         this.items.set(key, {
             node: node,

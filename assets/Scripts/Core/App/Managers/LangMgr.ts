@@ -303,4 +303,12 @@ langMgr.registerMultiLanguageData({
         "ja": "MAX",
         "ko": "MAX"
     },
+    "HoldToMoveTrain": {
+        "zh_cn": "HOLD TO MOVE TRAIN",
+        "en": "HOLD TO MOVE TRAIN",
+        "fr": "GARDEZ POUR DÉPLACER LE TREMPEL",
+        "zh_ft": "按住移动火车",
+        "ja": "トレンチを押して移動",
+        "ko": "트렌치를 누르고 이동"
+    },
 });

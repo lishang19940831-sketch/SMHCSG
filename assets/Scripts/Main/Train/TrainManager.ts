@@ -83,6 +83,19 @@ export class TrainManager extends Component {
     })
     public trainUnloadManager: TrainUnloadManager = null!;
     
+@property({
+        type: Node,
+        displayName: 'hero拖拽移动',
+        tooltip: '拖拽移动NodeUI '    
+    })
+    public heroDragMoveNode: Node = null!;
+    
+@property({
+        type: Node,
+        displayName: '火车按住移动',
+        tooltip: '按住移动NodeUI '    
+    })
+    public trainHoldMoveNode: Node = null!;
     // ─────────────────────────────────────────────
     // 运行时数据
     // ─────────────────────────────────────────────
@@ -218,17 +231,14 @@ export class TrainManager extends Component {
 
         // 切换到新火车（含各自车厢同步显隐）
         const nextTrain = this._getTrainByLevel(level);
+        // 先在未激活状态下吸附位置与朝向，避免激活瞬间移动/转头
+        nextTrain.initAtProgress(prevProgress);
+        nextTrain.alignFacingAtProgress(prevProgress);
+        // 继承自动/手动标志（由 onEnable 决定是否启动行驶），避免重复 start
+        nextTrain.autoRun = prevTrain.autoRun && level === TrainLevel.Lv3 ? true : nextTrain.autoRun;
         prevTrain.setVisible(false);
         nextTrain.setVisible(true);
         this._activeTrain = nextTrain;
-
-        // 新火车从旧火车当前位置继续行驶，避免瞬移
-        nextTrain.initAtProgress(prevProgress);
-
-        // 继承自动/手动模式；Lv3 默认确保自动行驶
-        if (prevTrain.autoRun && level === TrainLevel.Lv3) {
-            nextTrain.startAutoRun();
-        }
 
         // Lv3 升级时扩张轨道到 Phase3，扩张完成后同步所有火车的站台进度
         if (level === TrainLevel.Lv3) {
@@ -302,9 +312,13 @@ export class TrainManager extends Component {
      */
     public tryBoardTrain(): boolean {
         if (this._activeTrain.autoRun) {
+            
             return false;  // Lv3 不允许上车
         }
         this._activeTrain.onPlayerBoard();
+        //非自动模式下， 玩家上车 就显示 火车按住移动NodeUI
+        this.trainHoldMoveNode.active = true;
+        this.heroDragMoveNode.active = false;
         return true;
     }
 
@@ -314,6 +328,9 @@ export class TrainManager extends Component {
      */
     public alightTrain(): void {
         this._activeTrain.onPlayerAlight();
+        //玩家下火车后， 就隐藏 火车按住移动NodeUI
+        this.trainHoldMoveNode.active = false;
+        this.heroDragMoveNode.active = true;
     }
 
     /** 当前火车是否有玩家乘坐 */

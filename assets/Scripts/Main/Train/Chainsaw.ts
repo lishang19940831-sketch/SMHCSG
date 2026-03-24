@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, Vec3, CCFloat, MeshRenderer, Material, utils, gfx, Color, Tween, tween, v3 } from 'cc';
+import { _decorator, Component, Node, Vec3, CCFloat, MeshRenderer, Material, utils, gfx, Color, Tween, tween, v3, Quat } from 'cc';
 import { CommonEvent } from '../Common/CommonEnum';
 import { ResourceFieldManager } from './ResourceFieldManager';
 import { TrainManager } from './TrainManager';
@@ -292,22 +292,25 @@ export class Chainsaw extends Component {
                 break;
             }
 
-            // ② 确认有空位后，执行收割（WheatCrop 内部改变状态、播放视觉效果）
+            // ② 在收割前记录源物体世界旋转，用于保持飞行物初始角度
+            const srcWorldRot = new Quat();
+            hit.crop.node.getWorldRotation(srcWorldRot);
+            // 确认有空位后，执行收割（WheatCrop 内部改变状态、播放视觉效果）
             const result = hit.crop.harvest();
             if (!result) {
                 console.warn(`[Chainsaw] ⚠️ crop.harvest() 返回 null（已被收割？）`);
                 continue;
             }
 
-            // ③ 获取飞行目标位置（车厢 ItemLayout 空槽的世界坐标）
-            const targetPos = targetCar.getTargetWorldPos();
+            // ③ 预留目标格子并获取初始世界坐标（后续按预留格实时更新）
+            const reserve = targetCar.reserveSlot();
 
             // ④ 向车厢注入资源计数
             const added = this.trainManager.addResource(result.type, result.amount);
 
-            if (added > 0) {
+            if (added > 0 && reserve) {
                 // ⑤ 生成物品节点并播放飞行动画
-                this._spawnAndFlyToCar(result.type, hit.crop.worldPos.clone(), targetCar, targetPos);
+                this._spawnAndFlyToCar(result.type, hit.crop.worldPos.clone(), targetCar, reserve.worldPos, srcWorldRot, reserve.lpos);
 
                 // 发送收割事件（供 UI / 音效等系统监听）
                 app.event.emit(CommonEvent.HarvestCrop, {
@@ -338,13 +341,18 @@ export class Chainsaw extends Component {
         type: ObjectType,
         fromWorldPos: Vec3,
         targetCar: TrainCar | null,
-        targetPos: Vec3 | null
+        targetPos: Vec3 | null,
+        initialWorldRot?: Quat,
+        reservedLpos?: any
     ): void {
         const itemNode = manager.pool.getNode(type);
         if (!itemNode) return;
 
         itemNode.setParent(this.node.scene);
         itemNode.setWorldPosition(fromWorldPos);
+        if (initialWorldRot) {
+            itemNode.setWorldRotation(initialWorldRot);
+        }
 
         if (!targetPos || !targetCar) {
             manager.pool.putNode(itemNode);
@@ -365,9 +373,11 @@ export class Chainsaw extends Component {
                     if (!itemNode.isValid) return;
                     const t = progressObj.progress;
 
-                    // 实时取目标车厢坐标
-                    const pos = targetCar.getTargetWorldPos();
-                    if (pos) liveTarget.set(pos);
+                    // 实时根据预留格子计算世界坐标（随车厢移动）
+                    if (reservedLpos && targetCar.itemLayout) {
+                        const pos = targetCar.itemLayout.getItemPosition(reservedLpos);
+                        if (pos) liveTarget.set(pos);
+                    }
 
                     // XZ 线性插值
                     const x = startPos.x + (liveTarget.x - startPos.x) * t;
@@ -383,7 +393,7 @@ export class Chainsaw extends Component {
                 this._flyingNodes.delete(itemNode);
                 if (!itemNode.isValid) return;
                 if (targetCar.itemLayout) {
-                    targetCar.addItemNode(itemNode);
+                    targetCar.addItemNode(itemNode, reservedLpos);
                 } else {
                     manager.pool.putNode(itemNode);
                 }

@@ -1,4 +1,4 @@
-import { _decorator, Collider, Component, ITriggerEvent, Node } from 'cc';
+import { _decorator, Collider, Component, ITriggerEvent, Node, Sprite, tween, Tween } from 'cc';
 import { CommonEvent } from '../Common/CommonEnum';
 import { TrainManager } from '../Train/TrainManager';
 import { TrainState } from '../Train/Train';
@@ -49,6 +49,8 @@ export class TrainBoardingTrigger extends Component {
 
     @property({ type: Node, displayName: '上车Sprite节点' })
     public boardingSpriteNode: Node = null!;
+    @property({ type: Node, displayName: '上车进度节点' })
+    public fillSprite: Node = null!;
     // ── 运行时 ──
     /** 是否玩家在车上 */
     private _isPlayerOnTrain: boolean = false;
@@ -57,11 +59,18 @@ export class TrainBoardingTrigger extends Component {
     private _joystick: JoystickControl = null!;
     private _hero: Hero = null!;
     private _trainManager: TrainManager = null!;
+    private _fillSprite: Sprite = null!;
+    private _fillObj = { v: 0 };
+    private _fillTween: Tween<typeof this._fillObj> | null = null;
+    private _decayTween: Tween<typeof this._fillObj> | null = null;
   
     onLoad() {
         this._joystick = this.joystickNode.getComponent(JoystickControl)!;
         this._hero = this.heroNode.getComponent(Hero)!;
         this._trainManager = this.getComponent(TrainManager)!;
+        this._fillSprite = this.fillSprite.getComponent(Sprite)!;
+        if (this._fillSprite) this._fillSprite.fillRange = 0;
+        if (this.fillSprite) this.fillSprite.active = false;
 
         // 注册站台固定碰撞触发器的事件
         const collider = this.boardingTriggerNode.getComponent(Collider)!;
@@ -84,6 +93,8 @@ export class TrainBoardingTrigger extends Component {
             collider?.off('onTriggerEnter', this._onTriggerEnter, this);
             collider?.off('onTriggerExit', this._onTriggerExit, this);
         }
+        if (this._fillTween) { this._fillTween.stop(); this._fillTween = null; }
+        if (this._decayTween) { this._decayTween.stop(); this._decayTween = null; }
         app.event.offAllByTarget(this);
     }
     /**禁用玩家操作 */
@@ -113,23 +124,58 @@ export class TrainBoardingTrigger extends Component {
         if (manager.game.isInteractionLocked) return;
         this._isInTriggerZone = true;
 
-        // 已在车上，忽略
+        if (this._decayTween) { this._decayTween.stop(); this._decayTween = null; }
+        if (this._fillTween) { this._fillTween.stop(); this._fillTween = null; }
+        this._fillObj.v = 0;
+        if (this._fillSprite) this._fillSprite.fillRange = 0;
+        if (this.boardingSpriteNode) this.boardingSpriteNode.active = true;
+
         if (this._isPlayerOnTrain) return;
-        // 火车必须停在站台（Idle 状态），否则不允许上车
-        // Unloading / StopAtStation 期间均拒绝，等 TrainIdle 事件再补触发
         if (this._trainManager.activeTrain.state !== TrainState.Idle) return;
 
-        // 尝试上车（Lv3 自动模式返回 false）
-        const success = this._trainManager.tryBoardTrain();
-        if (!success) return;
-        this.boardingSpriteNode.active = true;
-        this._boardTrain();
+        this._fillTween = tween(this._fillObj)
+            .to(1.0, { v: 1 }, {
+                onUpdate: () => {
+                    if (this._fillSprite) this._fillSprite.fillRange = this._fillObj.v;
+                }
+            })
+            .call(() => {
+                if (!this._isInTriggerZone) return;
+                if (this._isPlayerOnTrain) return;
+                if (this._trainManager.activeTrain.state !== TrainState.Idle) return;
+                const success = this._trainManager.tryBoardTrain();
+                if (!success) {
+                    if (this._fillSprite) this._fillSprite.fillRange = 0;
+                    return;
+                }
+                this.boardingSpriteNode.active = true;
+                this._boardTrain();
+                if (this._fillSprite) this._fillSprite.fillRange = 0;
+                this.boardingSpriteNode.active = false;
+            })
+            .start();
     }
 
     /** 站台碰撞触发器：离开 */
     private _onTriggerExit(event: ITriggerEvent): void {
         this._isInTriggerZone = false;
-        this.boardingSpriteNode.active = false;
+        if (this._fillTween) { this._fillTween.stop(); this._fillTween = null; }
+        if (!this._fillSprite) {
+            if (this.boardingSpriteNode) this.boardingSpriteNode.active = false;
+            return;
+        }
+        const from = this._fillObj.v;
+        this._decayTween = tween(this._fillObj)
+            .to(0.1, { v: 0 }, {
+                onUpdate: () => {
+                    this._fillSprite.fillRange = this._fillObj.v;
+                }
+            })
+            .call(() => {
+                this._decayTween = null;
+                this.boardingSpriteNode.active = false;
+            })
+            .start();
     }
 
     /**
@@ -139,11 +185,32 @@ export class TrainBoardingTrigger extends Component {
     private _onTrainIdle(): void {
         if (this._isPlayerOnTrain) return;
         if (!this._isInTriggerZone) return;
-
-        const success = this._trainManager.tryBoardTrain();
-        if (!success) return;
-
-        this._boardTrain();
+        if (this._decayTween) { this._decayTween.stop(); this._decayTween = null; }
+        if (this._fillTween) { this._fillTween.stop(); this._fillTween = null; }
+        this._fillObj.v = 0;
+        if (this._fillSprite) this._fillSprite.fillRange = 0;
+        if (this.boardingSpriteNode) this.boardingSpriteNode.active = true;
+        this._fillTween = tween(this._fillObj)
+            .to(1.0, { v: 1 }, {
+                onUpdate: () => {
+                    if (this._fillSprite) this._fillSprite.fillRange = this._fillObj.v;
+                }
+            })
+            .call(() => {
+                if (!this._isInTriggerZone) return;
+                if (this._isPlayerOnTrain) return;
+                if (this._trainManager.activeTrain.state !== TrainState.Idle) return;
+                const success = this._trainManager.tryBoardTrain();
+                if (!success) {
+                    if (this._fillSprite) this._fillSprite.fillRange = 0;
+                    return;
+                }
+                this.boardingSpriteNode.active = true;
+                this._boardTrain();
+                if (this._fillSprite) this._fillSprite.fillRange = 0;
+                this.boardingSpriteNode.active = false;
+            })
+            .start();
     }
 
     /** 执行上车逻辑 */

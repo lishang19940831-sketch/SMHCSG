@@ -1,5 +1,5 @@
 import { _decorator, Collider, Component, easing, Enum, ITriggerEvent, Node, tween, Tween, v3, Vec3 } from 'cc';
-import { ItemLayout } from '../Tools/ItemLayout';
+import { ItemLayout, ItemLayoutPosition } from '../Tools/ItemLayout';
 import { PickupComponent } from '../Components/PickupComponent';
 import { DropItemCom } from '../Drop/DropItemCom';
 import { ObjectType } from '../Common/CommonEnum';
@@ -67,6 +67,14 @@ export class ProductionBuilding extends Component {
 
     /** 生产计时器：有玩家在且有原料时累加，否则重置 */
     private productionTimer: number = 0;
+    private _bakeLooping: boolean = false;
+    private _playBakeSound = (): void => {
+        if(manager.game.isEndGame){
+            return;
+        }
+        app.audio.playEffect('resources/audio/烘烤', 0.6);
+    };
+    private _refillPositions: ItemLayoutPosition[] = [];
 
     // ──────────────────────────────────────────────
     // 生命周期
@@ -95,12 +103,19 @@ export class ProductionBuilding extends Component {
         const hasEnoughMaterial = this.itemLayout.getItemCount() >= this.consumePerProduction;
 
         if (hasWorker && hasEnoughMaterial) {
+            if (!this._bakeLooping) {
+                
+                this._startBakeLoop();
+            }
             this.productionTimer += dt;
             if (this.productionTimer >= this.productionInterval) {
                 this.productionTimer = 0;
                 this._produce();
             }
         } else {
+            if (this._bakeLooping) {
+                this._stopBakeLoop();
+            }
             // 玩家离开或原料不足，计时器重置
             this.productionTimer = 0;
         }
@@ -174,7 +189,10 @@ export class ProductionBuilding extends Component {
     private _flyMaterialToLayout(item: Node): void {
         Tween.stopAllByTarget(item);
 
-        const layoutPos = this.itemLayout.getCurrEmptyPosition();
+        let layoutPos: ItemLayoutPosition | null = this._takeRefillPosition();
+        if (!layoutPos) {
+            layoutPos = this.itemLayout.getCurrEmptyPosition();
+        }
         let targetPos: Vec3;
         let isFull = false;
 
@@ -188,26 +206,55 @@ export class ProductionBuilding extends Component {
             this.itemLayout.reserveItem(layoutPos);
         }
 
-        manager.effect.flyNodeInParabola({
-            node: item,
-            target: targetPos,
-            callback: () => {
-                if (!item.isValid) return;
-                
+        manager.effect.addToEffectLayer(item);
+        const start = item.getWorldPosition().clone();
+        start.y += 1;
+        const progressObj = { t: 0 };
+        const arcH = 0.8;
+        tween(progressObj)
+            .to(0.4, { t: 1 }, {
+                onUpdate: () => {
+                    if (!item.isValid) return;
+                    const liveTarget = (layoutPos && !isFull) ? this.itemLayout.getItemPosition(layoutPos) : targetPos;
+                    const x = start.x + (liveTarget.x - start.x) * progressObj.t;
+                    const z = start.z + (liveTarget.z - start.z) * progressObj.t;
+                    const y = start.y + (liveTarget.y - start.y) * progressObj.t + 4 * arcH * progressObj.t * (1 - progressObj.t);
+                    item.setWorldPosition(x, y, z);
+                }
+            })
+            .call(() => {
+                if (!item.isValid) {
+                    if (!isFull && layoutPos) {
+                        this.itemLayout.removeItem(layoutPos);
+                        this._pushRefillPosition(layoutPos);
+                    }
+                    return;
+                }
                 app.audio.playEffect('resources/audio/SetRes', 0.6);
                 if (isFull) {
+                    if (layoutPos) {
+                        this.itemLayout.removeItem(layoutPos);
+                        this._pushRefillPosition(layoutPos);
+                    }
                     manager.pool.putNode(item);
-                } else {
-                    this.itemLayout.addItemToReserve(item, layoutPos!);
+                } else if (layoutPos) {
+                    // 使用 addItemToReserve 落位，内部会处理占位并抛出事件
+                    const success = this.itemLayout.addItemToReserve(item, layoutPos);
+                    if (!success) {
+                        // 兜底：如果落位失败，回收节点并释放位置
+                        this.itemLayout.removeItem(layoutPos);
+                        this._pushRefillPosition(layoutPos);
+                        manager.pool.putNode(item);
+                        return;
+                    }
                     item.setRotationFromEuler(0, 0, 0);
-                    // 落入弹跳动画
                     tween(item)
                         .to(0.1, { scale: v3(1.2, 1.2, 1.2) }, { easing: easing.sineOut })
                         .to(0.1, { scale: v3(1, 1, 1) }, { easing: easing.sineOut })
                         .start();
                 }
-            }
-        });
+            })
+            .start();
     }
 
     // ──────────────────────────────────────────────
@@ -226,17 +273,43 @@ export class ProductionBuilding extends Component {
         // 消耗原料，同时记录每个被消耗原料的世界坐标
         const consumedPositions: Vec3[] = [];
         for (let i = 0; i < this.consumePerProduction; i++) {
+            // 注意：这里取出的可能是最近刚落位（但还在顶层）的节点，也可能是正在飞行动画中的预留位
             const items = this.itemLayout.getOuterItems(1);
             if (items.length === 0) break;
-            consumedPositions.push(items[0].getWorldPosition());
-            this.itemLayout.removeItemByNode(items[0]);
+            const node = items[0];
+            consumedPositions.push(node.getWorldPosition());
+            const lpos = this._findItemPosition(node);
+            if (lpos) {
+                // 如果找到位置，说明这是一个真实在布局里的节点
+                this.itemLayout.removeItem(lpos);
+                this._pushRefillPosition(lpos);
+            } else {
+                // 兜底：如果不在常规布局里，强制从 ItemLayout 的预留项里找
+                let foundReserve = false;
+                for (let layer = this.itemLayout.maxLayerLimit - 1; layer >= 0; layer--) {
+                    for (let row = this.itemLayout.rows - 1; row >= 0; row--) {
+                        for (let column = this.itemLayout.columns - 1; column >= 0; column--) {
+                            const rpos = { row, column, layer };
+                            const item = this.itemLayout.getItem(rpos);
+                            if (item && item.node === node) {
+                                this.itemLayout.removeItem(rpos);
+                                this._pushRefillPosition(rpos);
+                                foundReserve = true;
+                                break;
+                            }
+                        }
+                        if (foundReserve) break;
+                    }
+                    if (foundReserve) break;
+                }
+                if (!foundReserve) {
+                    this.itemLayout.removeItemByNode(node);
+                }
+            }
             manager.pool.putNode(items[0]);
         }
 
         // 产出成品：
-        //  - 若产出数 <= 消耗数，每个成品从对应原料位置飞出
-        //  - 若产出数 > 消耗数，多余的从最后一个原料位置飞出
-        //  - 每个间隔 0.05s 错开，视觉更好看
         for (let i = 0; i < this.outputPerProduction; i++) {
             const posIndex = Math.min(i, consumedPositions.length - 1);
             const fromPos = consumedPositions[posIndex].clone();
@@ -262,7 +335,10 @@ export class ProductionBuilding extends Component {
         const item = manager.pool.getNode(type);
         if (!item) return false;
         Tween.stopAllByTarget(item);
-        const layoutPos = this.itemLayout.getCurrEmptyPosition();
+        let layoutPos: ItemLayoutPosition | null = this._takeRefillPosition();
+        if (!layoutPos) {
+            layoutPos = this.itemLayout.getCurrEmptyPosition();
+        }
         let targetPos: Vec3;
         let isFull = false;
         if (!layoutPos) {
@@ -277,25 +353,50 @@ export class ProductionBuilding extends Component {
         startPos.y += 1;
         item.setWorldPosition(startPos);
         manager.effect.addToEffectLayer(item);
-        manager.effect.flyNodeInParabola({
-            node: item,
-            target: targetPos,
-            callback: () => {
-                if (!item.isValid) return;
-                
+        const progressObj2 = { t: 0 };
+        const arcH2 = 0.8;
+        tween(progressObj2)
+            .to(0.4, { t: 1 }, {
+                onUpdate: () => {
+                    if (!item.isValid) return;
+                    const liveTarget = (layoutPos && !isFull) ? this.itemLayout.getItemPosition(layoutPos) : targetPos;
+                    const x = startPos.x + (liveTarget.x - startPos.x) * progressObj2.t;
+                    const z = startPos.z + (liveTarget.z - startPos.z) * progressObj2.t;
+                    const y = startPos.y + (liveTarget.y - startPos.y) * progressObj2.t + 4 * arcH2 * progressObj2.t * (1 - progressObj2.t);
+                    item.setWorldPosition(x, y, z);
+                }
+            })
+            .call(() => {
+                if (!item.isValid) {
+                    if (!isFull && layoutPos) {
+                        this.itemLayout.removeItem(layoutPos);
+                        this._pushRefillPosition(layoutPos);
+                    }
+                    return;
+                }
                 app.audio.playEffect('resources/audio/SetRes', 0.6);
                 if (isFull) {
+                    if (layoutPos) {
+                        this.itemLayout.removeItem(layoutPos);
+                        this._pushRefillPosition(layoutPos);
+                    }
                     manager.pool.putNode(item);
-                } else {
-                    this.itemLayout.addItemToReserve(item, layoutPos!);
+                } else if (layoutPos) {
+                    const success = this.itemLayout.addItemToReserve(item, layoutPos);
+                    if (!success) {
+                        this.itemLayout.removeItem(layoutPos);
+                        this._pushRefillPosition(layoutPos);
+                        manager.pool.putNode(item);
+                        return;
+                    }
                     item.setRotationFromEuler(0, 0, 0);
                     tween(item)
                         .to(0.1, { scale: v3(1.2, 1.2, 1.2) }, { easing: easing.sineOut })
                         .to(0.1, { scale: v3(1, 1, 1) }, { easing: easing.sineOut })
                         .start();
                 }
-            }
-        });
+            })
+            .start();
         return true;
     }
 
@@ -306,5 +407,62 @@ export class ProductionBuilding extends Component {
         this.interactionTimers.clear();
         this.productionTimer = 0;
         this.checkTimer = 0;
+        this._stopBakeLoop();
+        this._refillPositions = [];
+    }
+
+    private _startBakeLoop(): void {
+        if (this._bakeLooping) return;
+        this.unschedule(this._playBakeSound);
+        this._playBakeSound();
+        this.schedule(this._playBakeSound, 2);
+        this._bakeLooping = true;
+    }
+
+    private _stopBakeLoop(): void {
+        if (!this._bakeLooping) return;
+        this.unschedule(this._playBakeSound);
+        this._bakeLooping = false;
+    }
+
+    private _findItemPosition(node: Node): ItemLayoutPosition | null {
+        for (let layer = 0; layer < this.itemLayout.maxLayerLimit; layer++) {
+            for (let row = 0; row < this.itemLayout.rows; row++) {
+                for (let column = 0; column < this.itemLayout.columns; column++) {
+                    const lpos = { row, column, layer };
+                    const it = this.itemLayout.getItem(lpos);
+                    // 放宽条件：只要节点匹配，不管是不是 isAdded，都认为是它的位置（兼容飞行中的节点）
+                    if (it && it.node === node) {
+                        return lpos;
+                    }
+                }
+            }
+        }
+        return null;
+    }
+
+    private _takeRefillPosition(): ItemLayoutPosition | null {
+        for (let i = 0; i < this._refillPositions.length; i++) {
+            const candidate = this._refillPositions[i];
+            const it = this.itemLayout.getItem(candidate);
+            if (!it || !it.isFull) {
+                this._refillPositions.splice(i, 1);
+                return candidate;
+            }
+        }
+        return null;
+    }
+
+    private _pushRefillPosition(lpos: ItemLayoutPosition): void {
+        const exists = this._refillPositions.some(p => p.row === lpos.row && p.column === lpos.column && p.layer === lpos.layer);
+        if (!exists) {
+            this._refillPositions.push(lpos);
+            // 排序保证回填时从底层优先
+            this._refillPositions.sort((a, b) => {
+                if (a.layer !== b.layer) return a.layer - b.layer;
+                if (a.row !== b.row) return a.row - b.row;
+                return a.column - b.column;
+            });
+        }
     }
 }

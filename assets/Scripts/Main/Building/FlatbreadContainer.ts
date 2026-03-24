@@ -208,7 +208,8 @@ export class FlatbreadContainer extends Component {
                     onArrived?.();
                     return;
                 }
-
+                
+                app.audio.playEffect('resources/audio/SetRes', 0.6);
                 if (this.unlimitedMode && !isContainerFull && layoutPos) {
                     const currentVisualCount = this.flatbreadLayout.getItemCount();
                     if (this._virtualFlatbreadCount <= currentVisualCount) {

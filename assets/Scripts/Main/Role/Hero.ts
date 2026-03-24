@@ -323,7 +323,7 @@ export class Hero extends Character {
      * 移动状态进入回调
      */
     protected onMoveEnter() {
-        this.animationComponent.playMove(1);
+        this.animationComponent.playMove(1.2);
     }
 
     /**
@@ -331,7 +331,7 @@ export class Hero extends Character {
      */
     protected onMoveUpdate(dt: number) {
         if (!this.animationComponent.isPlayingAnimation() || this.animationComponent.getCurrentAnimationName() != this.animationComponent.MoveAnimName) {
-            this.animationComponent.playMove(1);
+            this.animationComponent.playMove(1.2);
         }
     }
 }

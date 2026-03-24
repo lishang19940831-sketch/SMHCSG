@@ -78,7 +78,7 @@ export class CoinContainer extends Component {
             this.interactionTimers.set(node.uuid, 0);
             // console.log('添加到Map中跟踪', node.uuid, pickupComponent);
             //踩上木板，heroY轴抬高0.5
-            manager.game.hero.node.getChildByName("ModelNode").setPosition(0,0.8,0);
+            // manager.game.hero.node.getChildByName("ModelNode").setPosition(0,0.8,0);
         }
     }
 
@@ -90,7 +90,7 @@ export class CoinContainer extends Component {
             this.interactionTimers.delete(node.uuid);
             
             //离开木板，heroY轴恢复为0
-            manager.game.hero.node.getChildByName("ModelNode").setPosition(0,0,0);
+            // manager.game.hero.node.getChildByName("ModelNode").setPosition(0,0,0);
         }
     }
 

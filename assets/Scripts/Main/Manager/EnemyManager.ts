@@ -455,14 +455,10 @@ export class EnemyManager extends Component {
         if (enemy) {
             // 轮询分配：每个敌人依次分配不同的围栏目标，避免所有敌人扎堆打同一个围栏
             enemy.targetNode = this._pickRoundRobinNode(direction, wallGroup);
-
             // 记录该 enemy 对应的墙壁目标组，供 targetNode 失效时重新选取
             this._enemyWallGroupMap.set(enemyNode.uuid, wallGroup);
-
-            const randomTime = Math.random() * 0.3;
-            this.scheduleOnce(() => {
-                enemy.onSpawnComplete(spawnPos);
-            }, randomTime);
+            // 出生演出：钻出 + 特效
+            enemy.playSpawnIntro(spawnPos);
         }
     }
 
@@ -544,10 +540,7 @@ export class EnemyManager extends Component {
 
         const enemy = enemyNode.getComponent(Enemy);
         if (enemy) {
-            const randomTime = Math.random() * 0.3;
-            this.scheduleOnce(() => {
-                enemy.onSpawnComplete(targetPos);
-            }, randomTime);
+            enemy.playSpawnIntro(targetPos);
         }
     }
 
@@ -739,6 +732,13 @@ export class EnemyManager extends Component {
         rangeEnemies.sort((a, b) => a.squaredDistance - b.squaredDistance);
         
         return rangeEnemies;
+    }
+    public getNearestEnemy(position: Vec3, range?: number): Node | null {
+        if (range !== undefined) {
+            const list = this.getRangeEnemies(position, range);
+            return list.length > 0 ? list[0].node : null;
+        }
+        return this._pickNearestNode(position, this._enemies);
     }
 
     protected update(dt: number): void {

@@ -1,7 +1,7 @@
 import { _decorator, Component, Node, Vec3, CCFloat, CCInteger } from 'cc';
 import { ObjectType } from '../Common/CommonEnum';
 import { TrainTrack } from './TrainTrack';
-import { ItemLayout } from '../Tools/ItemLayout';
+import { ItemLayout, ItemLayoutPosition } from '../Tools/ItemLayout';
 
 const { ccclass, property } = _decorator;
 
@@ -104,6 +104,7 @@ export class TrainCar extends Component {
      *   车厢N：sum(spacing0..spacingN)
      */
     private _distanceBehindHead: number = 0;
+    private _reservedQueue: ItemLayoutPosition[] = [];
 
     // ─────────────────────────────────────────────
     // 公开接口 —— 初始化
@@ -212,10 +213,27 @@ export class TrainCar extends Component {
      * @param node 物品节点
      * @returns 是否放入成功
      */
-    public addItemNode(node: Node): boolean {
+    public addItemNode(node: Node, lpos?: ItemLayoutPosition): boolean {
         if (!this.itemLayout) return false;
-        // 直接 addItem，内部自动寻找空位
-        // 若布局已满（超过 maxLayerLimit），addItem 返回 null，节点回收到对象池
+        if (lpos) {
+            this.itemLayout.removeItem(lpos);
+            const placed = this.itemLayout.addItem(node, lpos);
+            if (!placed) {
+                manager.pool.putNode(node);
+                return false;
+            }
+            return true;
+        }
+        const reserved = this._reservedQueue.shift();
+        if (reserved) {
+            this.itemLayout.removeItem(reserved);
+            const placed = this.itemLayout.addItem(node, reserved);
+            if (!placed) {
+                manager.pool.putNode(node);
+                return false;
+            }
+            return true;
+        }
         const result = this.itemLayout.addItem(node);
         if (!result) {
             manager.pool.putNode(node);
@@ -239,6 +257,15 @@ export class TrainCar extends Component {
         return this.itemLayout.getItemPosition(pos);
     }
 
+    public reserveSlot(): { lpos: ItemLayoutPosition; worldPos: Vec3 } | null {
+        if (!this.itemLayout) return null;
+        const pos = this.itemLayout.getCurrEmptyPosition();
+        if (!pos) return null;
+        this.itemLayout.reserveItem(pos);
+        this._reservedQueue.push(pos);
+        return { lpos: pos, worldPos: this.itemLayout.getItemPosition(pos) };
+    }
+
     /**
      * 卸载车厢内所有资源（同时清空 ItemLayout 物品节点）
      * @returns 卸载的资源类型和数量
@@ -247,6 +274,7 @@ export class TrainCar extends Component {
         const result = { type: this._resourceType, amount: this._currentLoad };
         this._currentLoad = 0;
         this._resourceType = ObjectType.None;
+        this._reservedQueue = [];
         // 注意：ItemLayout 的节点清理由 Train._arriveStation 统一负责
         // （先 getAllItemNodes → putNode 回收 → clearAllItems），此处不重复操作
         return result;
@@ -258,6 +286,7 @@ export class TrainCar extends Component {
     public reset(): void {
         this._currentLoad = 0;
         this._resourceType = ObjectType.None;
+        this._reservedQueue = [];
         if (this.itemLayout) {
             this.itemLayout.clearAllItems();
         }

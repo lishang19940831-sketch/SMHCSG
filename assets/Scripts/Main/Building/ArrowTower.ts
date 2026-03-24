@@ -178,7 +178,7 @@ export class ArrowTower extends BuildingBase {
      * 在攻击范围内随机选择一个敌人
      */
     private _findRandomEnemy(): Node | null {
-        const towerPos = this.node.getWorldPosition();
+        const towerPos = this.baseNode ? this.baseNode.getWorldPosition() : this.node.getWorldPosition();
         const enemies = manager.enemy.getRangeEnemies(towerPos, this.attackRange);
         if (enemies.length === 0) return null;
         const randomIndex = Math.floor(Math.random() * enemies.length);
@@ -199,7 +199,7 @@ export class ArrowTower extends BuildingBase {
      * 获取到目标的距离
      */
     private _getDistanceToTarget(target: Node): number {
-        const towerPos = this.node.getWorldPosition();
+        const towerPos = this.baseNode ? this.baseNode.getWorldPosition() : this.node.getWorldPosition();
         const targetPos = target.getWorldPosition();
         return Vec3.distance(towerPos, targetPos);
     }
@@ -251,7 +251,7 @@ export class ArrowTower extends BuildingBase {
         if (!this._currentTarget) return;
 
         // 播放箭塔动画
-        // this.animation && this.animation.play();
+        this.animation && this.animation.play();
 
         // 从对象池获取箭矢节点
         const arrowNode = manager.pool.getNode(ObjectType.Arrow, this.node.parent!);

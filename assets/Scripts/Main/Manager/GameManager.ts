@@ -158,6 +158,7 @@ export class GameManager extends Component {
     private _interactionLocked: boolean = false;
     private _isGamePause: boolean = false;
     private _isGameStart: boolean = false;
+    private _isEndGame: boolean = false;
     private _gameResult: GameResult = GameResult.None;
 
     public get isGamePause(): boolean {
@@ -173,6 +174,12 @@ export class GameManager extends Component {
 
     public get isGameStart(): boolean {
         return this._isGameStart;
+    }
+    public get isEndGame(): boolean {
+        return this._isEndGame;
+    }
+    public set isEndGame(value: boolean) {
+        this._isEndGame = value;
     }
 
     public set isGameStart(value: boolean) {
@@ -350,17 +357,21 @@ export class GameManager extends Component {
         switch (type) {
 
             case BuildingType.ArrowTower:
+                app.audio.playEffect('resources/audio/ye', 0.6);
                 this.playEffect(this.arrowTower1EffectNodes);
                 break;
             case BuildingType.ArrowTower1:
+                app.audio.playEffect('resources/audio/ye', 0.6);
                 this.playEffect(this.arrowTower2EffectNodes);
                 break
             case BuildingType.ArrowTower2:
 
+                app.audio.playEffect('resources/audio/ye', 0.6);
                 this.playEffect(this.arrowTower3EffectNodes);
                 break;
             case BuildingType.ArrowTower3:
 
+                app.audio.playEffect('resources/audio/ye', 0.6);
                 this.playEffect(this.arrowTower4EffectNodes);
                 break;
             case BuildingType.Salesperson1:
@@ -371,13 +382,28 @@ export class GameManager extends Component {
                 this.playEffect(this.salesman2EffectNodes);
                 break;
             case BuildingType.EndGame:
-                app.event.emit(CommonEvent.ShowOver);
+                this.scheduleOnce(() => {
+                    app.event.emit(CommonEvent.ShowOver);
+                }, 1);
                 this.isShowOver = true;
                 manager.enemy.endGame();
-                //镜头平滑拉高
-                manager.cameraFollow.bossSpawn(this.hero.node);
-                //特殊客户移动到目标点
-                this.specialCustomer.moveToTarget();
+                this.isEndGame = true;
+                //镜头跟随特殊客户
+            manager.cameraFollow.setTarget(null);
+            manager.cameraFollow.moveToTarget(this.specialCustomer.node, 1, () => {
+                
+                     manager.cameraFollow.setTarget(this.specialCustomer.node);
+                    //特殊客户移动到目标点
+                    this.specialCustomer.moveToTarget();
+                // manager.cameraFollow.moveToTarget(this.hero.node, 1, () => {
+                //     manager.cameraFollow.setTarget(this.hero.node);
+                // });
+            }, 1);
+                this.scheduleOnce(() => {
+                   
+                    //镜头平滑拉高
+                    manager.cameraFollow.bossSpawn(this.hero.node);
+                }, 1);
                 break;
 
             case BuildingType.Train1:
@@ -410,6 +436,7 @@ export class GameManager extends Component {
 
 
                     this.playEffect(this.expandEffectNodes);
+                    app.audio.playEffect('resources/audio/ye', 0.6);
                     this.trainManager.expandTrackPhase2(() => {
                         this.scheduleOnce(() => {
                             manager.cameraFollow.setTarget(null);
@@ -460,7 +487,7 @@ export class GameManager extends Component {
     }
     public playLevelUpEffect(effect: Node, worldPosition?: Vec3, parent?: Node): void {
 
-        app.audio.playEffect('resources/audio/ye', 0.6);
+        // app.audio.playEffect('resources/audio/ye', 0.6);
         let node = instantiate(effect);
         if (parent) {
             node.setParent(parent);

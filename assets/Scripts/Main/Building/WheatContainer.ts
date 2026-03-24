@@ -70,7 +70,7 @@ export class WheatContainer extends Component {
             this.pickupComponents.set(node.uuid, pickupComponent);
             this.interactionTimers.set(node.uuid, 0);
             //踩上麦子，heroY轴抬高0.5
-            manager.game.hero.node.getChildByName("ModelNode").setPosition(0,0.8,0);
+            // manager.game.hero.node.getChildByName("ModelNode").setPosition(0,0.8,0);
         }
     }
 
@@ -80,7 +80,7 @@ export class WheatContainer extends Component {
             this.pickupComponents.delete(node.uuid);
             this.interactionTimers.delete(node.uuid);
             //离开麦子，heroY轴恢复为0
-            manager.game.hero.node.getChildByName("ModelNode").setPosition(0,0,0);
+            // manager.game.hero.node.getChildByName("ModelNode").setPosition(0,0,0);
         }
     }
 
@@ -283,7 +283,8 @@ export class WheatContainer extends Component {
                 if (isContainerFull) {
                     manager.pool.putNode(wheat);
                 } else {
-                    this.wheatLayout.addItemToReserve(wheat, layoutPos);
+                    this.wheatLayout.removeItem(layoutPos);
+                    this.wheatLayout.addItem(wheat, layoutPos);
                     wheat.setRotationFromEuler(0, 0, 0);
                 }
                 onArrived?.();
@@ -331,6 +332,7 @@ export class WheatContainer extends Component {
         this.wheatLayout.reset();
         this.pickupComponents.clear();
         this._virtualWheatCount = 0;
+        this._busyItems.clear();
         if (this.unlimitedMode) {
             this.onWheatCountChanged(0);
         }

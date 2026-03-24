@@ -58,7 +58,7 @@ interface GuideStepConfig {
 
 const GuideConfig: Partial<Record<GuideStep, GuideStepConfig>> = {
 
-  
+
 
     [GuideStep.BoardTrain]: {
         endNode: () => {
@@ -66,7 +66,7 @@ const GuideConfig: Partial<Record<GuideStep, GuideStepConfig>> = {
         },
         arrowTopHeight: 1.5,
         condition: () => {
-            console.log(`[GuideManager] 检查是否在火车上: ${manager.game.trainManager.trainBoardingTrigger.getIsPlayerOnTrain()}`);
+            // console.log(`[GuideManager] 检查是否在火车上: ${manager.game.trainManager.trainBoardingTrigger.getIsPlayerOnTrain()}`);
             return !manager.game.trainManager.trainBoardingTrigger.getIsPlayerOnTrain();
         }
 
@@ -78,7 +78,7 @@ const GuideConfig: Partial<Record<GuideStep, GuideStepConfig>> = {
         arrowTopHeight: 1.5,
         condition: () => {
             //如果火车已经进入了自动状态 则不提示
-            return !manager.game.trainManager.trainBoardingTrigger.getIsPlayerOnTrain() && manager.game.trainManager.getTrain().autoRun;
+            return !manager.game.trainManager.trainBoardingTrigger.getIsPlayerOnTrain() && !manager.game.trainManager.getTrain().autoRun;
         }
     },
     /**指引去麦子仓库 */
@@ -94,7 +94,7 @@ const GuideConfig: Partial<Record<GuideStep, GuideStepConfig>> = {
         }
     },
     /** 指引去交付麦子 */
- [GuideStep.GoToProductionBuilding]: {
+    [GuideStep.GoToProductionBuilding]: {
         endNode: () => {
             return manager.game.productionBuilding.productionCollider.node;
         },
@@ -105,7 +105,7 @@ const GuideConfig: Partial<Record<GuideStep, GuideStepConfig>> = {
             return hero && hero.GetItemCount(ObjectType.DropItemCornKernel) > 0;
         }
     },
-  [GuideStep.PickUpPie]: {
+    [GuideStep.PickUpPie]: {
         // 若有专门的大饼容器节点，请在 GameManager 中加入引用并在此替换
         endNode: () => manager.game.productionBuilding.outputContainer.flatbreadContainerCollider.node,
         arrowTopHeight: 1.5,
@@ -122,7 +122,7 @@ const GuideConfig: Partial<Record<GuideStep, GuideStepConfig>> = {
             return hero && hero.GetItemCount(ObjectType.DropItemFlatbread) > 0;
         }
     },
-  [GuideStep.PickUpCoin]: {
+    [GuideStep.PickUpCoin]: {
         endNode: () => manager.game.flatbreadShop.CoinContainer.node,
         // description: "拾取商店产出的金币",
         arrowTopHeight: 1.5,
@@ -131,12 +131,12 @@ const GuideConfig: Partial<Record<GuideStep, GuideStepConfig>> = {
             return coinContainer && coinContainer.node && coinContainer.node.children.length > 0;
         }
     },
-    
-  
+
+
 
     [GuideStep.UnlockSeller1]: {
         endNode: () => GuideManager.getEndNode(BuildingType.Salesperson1),
-        arrowTopHeight: 1.5,
+        arrowTopHeight: 0.35,
         condition: () => {
             const unlockItem = manager.game.unlockItemMap.get(BuildingType.Salesperson1);
             return unlockItem && unlockItem.UnlockState == BuildUnlockState.Active;
@@ -147,12 +147,12 @@ const GuideConfig: Partial<Record<GuideStep, GuideStepConfig>> = {
     //     arrowTopHeight: 1.5,
     // },
     [GuideStep.UpgradeTrainToLv2]: {
-    endNode: () => GuideManager.getEndNode(BuildingType.Train1),
-    arrowTopHeight: 1.5,
-    condition: () => {
+        endNode: () => GuideManager.getEndNode(BuildingType.Train1),
+        arrowTopHeight: 1.5,
+        condition: () => {
             //检查当前火车等级
             const trainLv = manager.game.trainManager.getLevel();
-            if(trainLv >= 2){
+            if (trainLv >= 2) {
                 return false;
             }
             return true;
@@ -182,36 +182,48 @@ const GuideConfig: Partial<Record<GuideStep, GuideStepConfig>> = {
             return hero && hero.GetItemCount(ObjectType.DropItemWood) == 0;
         }
     },
-    // [GuideStep.UnlockArrowTower2]: {
-    //     endNode: () => GuideManager.getEndNode(BuildingType.ArrowTower2),
-    //     arrowTopHeight: 1.5,
-    // },
+    [GuideStep.UnlockArrowTower2]: {
+        endNode: () => GuideManager.getEndNode(BuildingType.ArrowTower1),
+        arrowTopHeight: 1.5,
+        condition: () => {
+            const unlockItem = manager.game.unlockItemMap.get(BuildingType.ArrowTower1);
+            return unlockItem && unlockItem.UnlockState == BuildUnlockState.Active;
+        }
+    },
     [GuideStep.UpgradeTrainToLv3]: {
         endNode: () => GuideManager.getEndNode(BuildingType.Train2),
         arrowTopHeight: 1.5,
         condition: () => {
-           //检查当前火车等级
+            //检查当前火车等级
             const trainLv = manager.game.trainManager.getLevel();
-            if(trainLv >= 3){
+            if (trainLv >= 3) {
                 return false;
             }
             return true;
         }
     },
     [GuideStep.UnlockArrowTower3]: {
-        endNode: () => GuideManager.getEndNode(BuildingType.ArrowTower3),
+        endNode: () => GuideManager.getEndNode(BuildingType.ArrowTower2),
         arrowTopHeight: 1.5,
+        condition: () => {
+            const unlockItem = manager.game.unlockItemMap.get(BuildingType.ArrowTower2);
+            return unlockItem && unlockItem.UnlockState == BuildUnlockState.Active;
+        }
     },
     [GuideStep.UnlockArrowTower4]: {
         // 如需第四座箭塔，请在 BuildingType 中新增并在此替换
         endNode: () => GuideManager.getEndNode(BuildingType.ArrowTower3),
         arrowTopHeight: 1.5,
+        condition: () => {
+            const unlockItem = manager.game.unlockItemMap.get(BuildingType.ArrowTower3);
+            return unlockItem && unlockItem.UnlockState == BuildUnlockState.Active;
+        }
     },
     [GuideStep.ExpandField]: {
         endNode: () => GuideManager.getEndNode(BuildingType.EndGame),
         arrowTopHeight: 1.5,
         condition: () => {
-          
+
             const unlockItem = manager.game.unlockItemMap.get(BuildingType.EndGame);
             return unlockItem && unlockItem.UnlockState == BuildUnlockState.Active;
         }
@@ -649,13 +661,13 @@ export class GuideManager extends Component {
                 return currentFlatbreadCount === 0; // 大饼已交付
             case GuideStep.UnlockSeller1:
                 //检查是否激活对应的售货员
-                
+
                 return manager.game.salesman1.salesman.getIsActive();
             case GuideStep.UnlockSeller2:
                 //检查是否激活对应的售货员
                 return manager.game.salesman1.salesman.getIsActive();
             case GuideStep.GoToWoodWarehouse:
-              
+
                 return hero.GetItemCount(ObjectType.DropItemWood) > 0;
             case GuideStep.UpgradeTrainToLv2:
                 //检查是否升级到火车Lv2
@@ -666,10 +678,22 @@ export class GuideManager extends Component {
             case GuideStep.UnlockArrowTower1:
                 //检查 箭塔1是否已解锁
                 const ufoUnlockItem1 = manager.game.unlockItemMap.get(BuildingType.ArrowTower);
-                // return manager.game.arrowTower1.State === "Unlocked";
                 return ufoUnlockItem1?.unlockState === "Unlocked";
+            case GuideStep.UnlockArrowTower2:
+                //检查 箭塔2是否已解锁
+                const ufoUnlockItem2 = manager.game.unlockItemMap.get(BuildingType.ArrowTower1);
+                return ufoUnlockItem2?.unlockState === "Unlocked";
+            case GuideStep.UnlockArrowTower3:
+                //检查 箭塔3是否已解锁
+                const ufoUnlockItem3 = manager.game.unlockItemMap.get(BuildingType.ArrowTower2);
+                return ufoUnlockItem3?.unlockState === "Unlocked";
+            case GuideStep.UnlockArrowTower4:
+                //检查 箭塔4是否已解锁
+                const ufoUnlockItem4 = manager.game.unlockItemMap.get(BuildingType.ArrowTower3);
+                return ufoUnlockItem4?.unlockState === "Unlocked";
+            
             case GuideStep.ExpandField:
-                  const ufoUnlockItem = manager.game.unlockItemMap.get(BuildingType.EndGame);
+                const ufoUnlockItem = manager.game.unlockItemMap.get(BuildingType.EndGame);
                 return ufoUnlockItem?.unlockState === "Unlocked";
             default:
                 return false;
@@ -713,17 +737,17 @@ export class GuideManager extends Component {
                 GuideStep.BoardTrain1,
                 GuideStep.GoToWoodWarehouse,
                 GuideStep.UnlockArrowTower1,
-                // GuideStep.UnlockArrowTower2,
+                GuideStep.UnlockArrowTower2,
                 GuideStep.UpgradeTrainToLv3,
-                // GuideStep.UnlockArrowTower3,
-                // GuideStep.UnlockArrowTower4,
+                GuideStep.UnlockArrowTower3,
+                GuideStep.UnlockArrowTower4,
                 GuideStep.ExpandField,
 
             ];
 
             for (const step of guideSteps) {
                 if (this.canTriggerGuide(step)) {
-                    console.log(`[GuideManager] 触发引导: ${step}`);
+                    // console.log(`[GuideManager] 触发引导: ${step}`);
                     this.startGuide(step);
                     break;
                 }
@@ -736,24 +760,24 @@ export class GuideManager extends Component {
     /** 检查是否可以触发指定引导 */
     private canTriggerGuide(step: GuideStep): boolean {
         if (GuideManager.isGuideFinished(step)) {
-            console.log(`[GuideManager] 引导步骤 ${step} 已完成，跳过`);
+            // console.log(`[GuideManager] 引导步骤 ${step} 已完成，跳过`);
             return false;
         }
 
         const config = GuideConfig[step];
         if (!config) {
-            console.log(`[GuideManager] 引导步骤 ${step} 配置不存在`);
+            // console.log(`[GuideManager] 引导步骤 ${step} 配置不存在`);
             return false;
         }
 
         // 检查条件
         if (config.condition) {
             const conditionResult = config.condition();
-            console.log(`[GuideManager] 引导步骤 ${step} 条件检查结果: ${conditionResult}`);
+            // console.log(`[GuideManager] 引导步骤 ${step} 条件检查结果: ${conditionResult}`);
             if (!conditionResult) return false;
         }
 
-        console.log(`[GuideManager] 引导步骤 ${step} 可以触发`);
+        // console.log(`[GuideManager] 引导步骤 ${step} 可以触发`);
         return true;
     }
 
@@ -786,7 +810,7 @@ export class GuideManager extends Component {
         // 显示快速引导
         this.showQuickGuide();
 
-        console.log(`[GuideManager] 开始引导: ${step}`);
+        // console.log(`[GuideManager] 开始引导: ${step}`);
     }
 
     /** 更新引导箭头 */
@@ -935,17 +959,17 @@ export class GuideManager extends Component {
                 return unlockItem.node;
             } else {
                 const woodCount = hero ? hero.GetItemCount(ObjectType.DropItemWood) : 0
-                 if (woodCount > 0 || GuideManager.checkWoodEnoughForUnlock(buildingType)) {
+                if (woodCount > 0 || GuideManager.checkWoodEnoughForUnlock(buildingType)) {
                     return unlockItem.node;
                 }
                 return null;
-               if (manager.game.hero.GetItemCount(ObjectType.DropItemWood) > 0) {
+                if (manager.game.hero.GetItemCount(ObjectType.DropItemWood) > 0) {
                     return manager.game.woodStore.TriggerStateNode;
                 } else {
                     if (manager.game.meatShop.CoinContainer.getCount() > 0) {
                         return manager.game.meatShop.CoinContainer.node;
                     }
-                  
+
                     else {
                         const meatCount = hero ? hero.GetItemCount(ObjectType.DropItemMeat) : 0;
                         if (meatCount > 0) {
