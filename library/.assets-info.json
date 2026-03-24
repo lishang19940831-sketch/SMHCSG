@@ -74,7 +74,7 @@
       "uuid": "d38dd8f5-f511-4ded-9c6b-0383fbbdd56e"
     },
     "沙漠火车收割": {
-      "time": 1773685246020.4775,
+      "time": 1774357860152.2915,
       "uuid": "00efa4f8-3cc5-49bb-80d7-82b85a5ec90c"
     },
     "A-texiao\\Fab": {
@@ -98,7 +98,7 @@
       "uuid": "451eb8b5-102a-4d88-a3e4-922feae41e27"
     },
     "Art\\Mat": {
-      "time": 1773819306466.48,
+      "time": 1774357735022.5356,
       "uuid": "18efe0f7-9eb0-4256-86ef-2696818491eb"
     },
     "Art\\Material": {
@@ -3048,7 +3048,7 @@
       "uuid": "6db53e54-68f8-5ca5-32bd-c96a230260d2"
     },
     "沙漠火车收割\\沙漠火车收割.scene": {
-      "time": 1774357357287.0972,
+      "time": 1774358319416.5193,
       "uuid": "02de8a93-f137-482d-8545-a7eb9957d3ce"
     },
     "A-texiao\\Fab\\shengji.prefab": {
@@ -3140,7 +3140,7 @@
       "uuid": "e163547c-68d6-48fe-a269-5f81c3153c0e"
     },
     "Art\\Mat\\chuansong.mtl": {
-      "time": 1773819306465.977,
+      "time": 1774357735020.99,
       "uuid": "caf2386c-8e18-4808-8ddd-17d251f54c14"
     },
     "Art\\Mat\\mu01.mtl": {
@@ -6202,6 +6202,13 @@
     },
     "Res\\UI\\Line\\ArrowLine\\line.fbx.meta": {
       "time": 1773837818714.285
+    },
+    "Art\\Mat\\chuansongdai.mtl.meta": {
+      "time": 1774357735022.5356
+    },
+    "Art\\Mat\\chuansongdai.mtl": {
+      "time": 1774357735020.99,
+      "uuid": "868ae7e0-2b05-4a1c-93a5-84bf266110ec"
     }
   },
   "missing": {}

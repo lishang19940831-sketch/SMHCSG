@@ -8673,6 +8673,7 @@
         "f834c55f-637e-4a33-8103-af971f2bfd86@74d97",
         "f834c55f-637e-4a33-8103-af971f2bfd86@438fe",
         "715727d5-389a-44e6-b50f-3629535230bc@f2e32",
+        "caf2386c-8e18-4808-8ddd-17d251f54c14",
         "b10e3ab8-75f3-4081-96cd-42c830dbd754@f9941",
         "e22d7ca7-1a32-43d7-926c-cfb5556135be@f9941",
         "c6d7e7d7-07e2-4062-b66d-ed2c648f719a@f9941",
@@ -8734,6 +8735,7 @@
         "c032d70c-a1e4-48c0-b37e-db51fe206a7f",
         "ebafc659-cbf8-41fe-b1c2-38516b94ec71",
         "0f1fb2f2-abb2-48e6-987c-a08c48402850",
+        "9254336e-ce61-49f8-8654-5d36e7872423",
         "98279ad9-13b4-dbd7-4668-3f131ac61cef"
       ],
       "dependScripts": [
@@ -15455,6 +15457,16 @@
       "depends": [
         "8ea2087a-bdab-47bf-a55b-143e4a9ff0c3@d8b49",
         "8ea2087a-bdab-47bf-a55b-143e4a9ff0c3@9a32c"
+      ]
+    },
+    "versionCode": 1
+  },
+  "868ae7e0-2b05-4a1c-93a5-84bf266110ec": {
+    "url": "db://assets/Art/Mat/chuansongdai.mtl",
+    "value": {
+      "depends": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4",
+        "cc89b9a2-1525-4130-8f37-a763051508a7@6c48a"
       ]
     },
     "versionCode": 1

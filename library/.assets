@@ -887,7 +887,8 @@
             "GameRes\\fx\\Effect\\winfail\\prefan\\LosePanel.prefab",
             "GameRes\\fx\\Effect\\winfail\\prefan\\TopLogo.prefab",
             "GameRes\\fx\\Effect\\winfail\\prefan\\WinPanel.prefab",
-            "Res\\UI\\Line\\ArrowLine\\Shader\\arrow.mtl"
+            "Res\\UI\\Line\\ArrowLine\\Shader\\arrow.mtl",
+            "Art\\Mat\\chuansongdai.mtl"
         ]
     }
 }
