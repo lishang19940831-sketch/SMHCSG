@@ -2,10 +2,10 @@
   "version": "2.3.14",
   "sourceTimeStamp": 1772611234375.8184,
   "outputTimeStamps": {
+    "log.json": 1774358752940.6558,
+    "out.bin": 1774358752938.14,
     "JinBi_01.png": 1772611234502.7336,
-    "log.json": 1774356895277.841,
-    "out.bin": 1774356895274.728,
-    "out.gltf": 1774356895276.8337
+    "out.gltf": 1774358752939.651
   },
   "options": {
     "smartMaterialEnabled": true,

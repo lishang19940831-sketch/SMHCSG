@@ -74,7 +74,7 @@
       "uuid": "d38dd8f5-f511-4ded-9c6b-0383fbbdd56e"
     },
     "沙漠火车收割": {
-      "time": 1774357860152.2915,
+      "time": 1774358421459.5269,
       "uuid": "00efa4f8-3cc5-49bb-80d7-82b85a5ec90c"
     },
     "A-texiao\\Fab": {
@@ -98,7 +98,7 @@
       "uuid": "451eb8b5-102a-4d88-a3e4-922feae41e27"
     },
     "Art\\Mat": {
-      "time": 1774357735022.5356,
+      "time": 1774358725404.6113,
       "uuid": "18efe0f7-9eb0-4256-86ef-2696818491eb"
     },
     "Art\\Material": {
@@ -272,6 +272,10 @@
     "沙漠火车收割\\沙漠火车": {
       "time": 1773680272070.7942,
       "uuid": "9cf5145e-f1c8-44a8-b1fc-d834b8a075a6"
+    },
+    "Art\\Mat\\audio": {
+      "time": 1774358690132.2314,
+      "uuid": "09fc2660-f262-411d-b58c-b8f996ec0522"
     },
     "GameRes\\fx\\Effect": {
       "time": 1773370590373.4502,
@@ -1221,6 +1225,9 @@
     "沙漠火车收割\\沙漠火车.meta": {
       "time": 1773680272068.7954
     },
+    "Art\\Mat\\audio.meta": {
+      "time": 1774358725470.7512
+    },
     "GameRes\\fx\\Effect.meta": {
       "time": 1773370590371.685
     },
@@ -1377,14 +1384,11 @@
     "Res\\mtl\\standard-outline.effect.meta": {
       "time": 1773575426938.019
     },
-    "GameRes\\ydsx_map\\mtl\\standard-outline.effect.meta": {
-      "time": 1773485524116.6604
-    },
     "沙漠火车收割\\shader\\standard-outline.effect.meta": {
       "time": 1766038726237.71
     },
-    "Res\\Eff\\guide\\guide_line.effect.meta": {
-      "time": 1773831944946.3594
+    "GameRes\\ydsx_map\\mtl\\standard-outline.effect.meta": {
+      "time": 1773485524116.6604
     },
     "GameRes\\Jsyd_map\\mtx\\diss\\toon_dissolve.effect.meta": {
       "time": 1773686086976.004
@@ -1392,14 +1396,17 @@
     "Scripts\\NavLineComp.ts.meta": {
       "time": 1773838026835.956
     },
+    "Res\\Eff\\guide\\guide_line.effect.meta": {
+      "time": 1773831944946.3594
+    },
     "Scripts\\super_html_playable.ts.meta": {
       "time": 1766033402747.825
     },
-    "GameRes\\SceneFBX\\Res\\Eff\\diss\\toon_dissolve.effect.meta": {
-      "time": 1773721409717.3137
-    },
     "Scripts\\Core\\App\\Core.ts.meta": {
       "time": 1765423811101.4348
+    },
+    "GameRes\\SceneFBX\\Res\\Eff\\diss\\toon_dissolve.effect.meta": {
+      "time": 1773721409717.3137
     },
     "Res\\UI\\Line\\ArrowLine\\Shader\\noiseMove.effect.meta": {
       "time": 1773837818713.2795
@@ -3048,7 +3055,7 @@
       "uuid": "6db53e54-68f8-5ca5-32bd-c96a230260d2"
     },
     "沙漠火车收割\\沙漠火车收割.scene": {
-      "time": 1774358319416.5193,
+      "time": 1774358874830.9773,
       "uuid": "02de8a93-f137-482d-8545-a7eb9957d3ce"
     },
     "A-texiao\\Fab\\shengji.prefab": {
@@ -3142,6 +3149,10 @@
     "Art\\Mat\\chuansong.mtl": {
       "time": 1774357735020.99,
       "uuid": "caf2386c-8e18-4808-8ddd-17d251f54c14"
+    },
+    "Art\\Mat\\chuansongdai.mtl": {
+      "time": 1774357735020.99,
+      "uuid": "868ae7e0-2b05-4a1c-93a5-84bf266110ec"
     },
     "Art\\Mat\\mu01.mtl": {
       "time": 1773974547033.3223,
@@ -4067,6 +4078,39 @@
       "time": 1773645110000,
       "uuid": "9811e923-3916-4bc1-8356-6af3ed23610f"
     },
+    "Art\\Mat\\audio\\BGM.mp3.meta": {
+      "time": 1774358752737.0532
+    },
+    "Art\\Mat\\audio\\GetRes.mp3.meta": {
+      "time": 1774358752738.5862
+    },
+    "Art\\Mat\\audio\\gold.mp3.meta": {
+      "time": 1774358752738.5862
+    },
+    "Art\\Mat\\audio\\hit.mp3.meta": {
+      "time": 1774358752740.295
+    },
+    "Art\\Mat\\audio\\SetRes.mp3.meta": {
+      "time": 1774358752741.9922
+    },
+    "Art\\Mat\\audio\\UPLV.mp3.meta": {
+      "time": 1774358752741.9922
+    },
+    "Art\\Mat\\audio\\Win.mp3.meta": {
+      "time": 1774358752743.5435
+    },
+    "Art\\Mat\\audio\\ye.mp3.meta": {
+      "time": 1774358752743.5435
+    },
+    "Art\\Mat\\audio\\射箭.mp3.meta": {
+      "time": 1774358752745.1008
+    },
+    "Art\\Mat\\audio\\烘烤.mp3.meta": {
+      "time": 1774358752745.1008
+    },
+    "Art\\Mat\\audio\\电锯.mp3.meta": {
+      "time": 1774358752746.6416
+    },
     "GameRes\\Image\\img\\imf_jjiantou.png": {
       "time": 1773837818697.3723,
       "uuid": "159bf523-aedd-416a-af72-63be5636ae66"
@@ -4307,35 +4351,38 @@
       "time": 1773842748789.7393,
       "uuid": "6b1e3edb-c333-488b-9176-301a500cf7be"
     },
-    "materials\\__u5730_u626303_.mtl.meta": {
-      "time": 1772611430418.4622
-    },
     "materials\\__u56F4_u680F-03_.mtl.meta": {
       "time": 1772611430417.464
+    },
+    "materials\\__u5730_u626303_.mtl.meta": {
+      "time": 1772611430418.4622
     },
     "materials\\__u4ED9_u4EBA_u638C_1_.mtl.meta": {
       "time": 1772611430443.461
     },
-    "materials\\__u5E95_u827201_.mtl.meta": {
-      "time": 1772611430434.4612
-    },
     "animations\\lv1.anim.meta": {
       "time": 1773559931969.0032
     },
-    "materials\\__u5E95_u827202_.mtl.meta": {
-      "time": 1772611430463.4612
+    "materials\\__u5E95_u827201_.mtl.meta": {
+      "time": 1772611430434.4612
     },
     "materials\\__u65A7_u5B501_.mtl.meta": {
       "time": 1772611430452.4617
     },
+    "materials\\__u5E95_u827202_.mtl.meta": {
+      "time": 1772611430463.4612
+    },
     "audio\\读秒.ogg.meta": {
       "time": 1772611430508.4604
+    },
+    "materials\\__u677E_u6811_.mtl.meta": {
+      "time": 1772611430471.4622
     },
     "materials\\__u677E_u681102_.mtl.meta": {
       "time": 1772611430479.4604
     },
-    "materials\\__u677E_u6811_.mtl.meta": {
-      "time": 1772611430471.4622
+    "materials\\__u684C_u5B50_.mtl.meta": {
+      "time": 1772611430493.4612
     },
     "materials\\__u67AF_u6811_u6869_.mtl.meta": {
       "time": 1772611430479.4604
@@ -4343,32 +4390,29 @@
     "materials\\__u706B_u8F66_u5934_.mtl.meta": {
       "time": 1772611430501.4607
     },
-    "materials\\__u684C_u5B50_.mtl.meta": {
-      "time": 1772611430493.4612
-    },
     "materials\\__u70E7_u70E4_u67B6_.mtl.meta": {
       "time": 1772611430516.4602
     },
     "materials\\__u7535_u5854_.mtl.meta": {
       "time": 1772611430516.4602
     },
-    "materials\\__u77F3_u5934_u96EA01_.mtl.meta": {
-      "time": 1772611430531.4612
-    },
     "materials\\__u8272_u536102_.mtl.meta": {
       "time": 1772611430593.4592
     },
+    "materials\\__u77F3_u5934_u96EA01_.mtl.meta": {
+      "time": 1772611430531.4612
+    },
     "materials\\__u82E6_u5DE5_4_.mtl.meta": {
       "time": 1772611430594.4614
-    },
-    "materials\\__u8428_u683C_.mtl.meta": {
-      "time": 1772611430611.4607
     },
     "materials\\__u8349_.mtl.meta": {
       "time": 1772611430610.4597
     },
     "materials\\__u8349_u5E3DNPC_2_.mtl.meta": {
       "time": 1772611430626.4587
+    },
+    "materials\\__u8428_u683C_.mtl.meta": {
+      "time": 1772611430611.4607
     },
     "materials\\__u8F6601_.mtl.meta": {
       "time": 1772611430628.4602
@@ -4394,11 +4438,11 @@
     "models\\仙人掌.FBX.meta": {
       "time": 1772611431008.3662
     },
-    "models\\仙人掌_2.fbx.meta": {
-      "time": 1772611431143.3643
-    },
     "models\\仙人掌_1.fbx.meta": {
       "time": 1772611431020.3645
+    },
+    "models\\仙人掌_2.fbx.meta": {
+      "time": 1772611431143.3643
     },
     "models\\传送带.png.meta": {
       "time": 1774259766767.5977
@@ -4412,26 +4456,26 @@
     "models\\地块-01.FBX.meta": {
       "time": 1772611431309.3674
     },
-    "models\\地块-02.FBX.meta": {
-      "time": 1772611431401.8745
-    },
     "models\\地表.FBX.meta": {
       "time": 1772611431446.8745
+    },
+    "models\\地块-02.FBX.meta": {
+      "time": 1772611431401.8745
     },
     "models\\人骆驼_移动.fbx.meta": {
       "time": 1772611432239.876
     },
-    "models\\农民_待机.fbx.meta": {
-      "time": 1772611431737.8794
-    },
     "models\\小桌子.FBX.meta": {
       "time": 1772611431626.8748
     },
-    "models\\人骆驼_待机.fbx.meta": {
-      "time": 1772611432815.058
-    },
     "models\\小麦01.FBX.meta": {
       "time": 1772611431650.8743
+    },
+    "models\\农民_待机.fbx.meta": {
+      "time": 1772611431737.8794
+    },
+    "models\\人骆驼_待机.fbx.meta": {
+      "time": 1772611432815.058
     },
     "models\\小麦处理机.FBX.meta": {
       "time": 1772611431856.8784
@@ -4442,9 +4486,6 @@
     "models\\木制围墙组02.FBX.meta": {
       "time": 1772611432544.8728
     },
-    "models\\收银机.fbx.meta": {
-      "time": 1772611432156.8772
-    },
     "models\\木制围墙组04.FBX.meta": {
       "time": 1772611432614.8728
     },
@@ -4454,20 +4495,23 @@
     "models\\拖车01.FBX.meta": {
       "time": 1772611432535.8738
     },
-    "models\\木堆.FBX.meta": {
-      "time": 1772611432902.0593
+    "models\\收银机.fbx.meta": {
+      "time": 1772611432156.8772
     },
     "models\\松树02.FBX.meta": {
       "time": 1772611432894.058
     },
-    "models\\松树-01.FBX.meta": {
-      "time": 1772611432927.0593
-    },
     "models\\枯树04.fbx.meta": {
       "time": 1772611432933.0579
     },
+    "models\\木堆.FBX.meta": {
+      "time": 1772611432902.0593
+    },
     "models\\灶台.fbx.meta": {
       "time": 1772611432987.0593
+    },
+    "models\\松树-01.FBX.meta": {
+      "time": 1772611432927.0593
     },
     "models\\牛排.fbx.meta": {
       "time": 1772611433086.0588
@@ -4478,11 +4522,11 @@
     "models\\石头.FBX.meta": {
       "time": 1772611433137.0586
     },
-    "models\\电塔.FBX.meta": {
-      "time": 1772611433263.0574
-    },
     "models\\石头_黄_02.FBX.meta": {
       "time": 1772611433277.056
+    },
+    "models\\电塔.FBX.meta": {
+      "time": 1772611433263.0574
     },
     "models\\石头雪01.FBX.meta": {
       "time": 1772611433288.0566
@@ -4490,17 +4534,17 @@
     "models\\箭头.fbx.meta": {
       "time": 1772611433410.058
     },
-    "models\\箭塔(2) 2.fbx.meta": {
-      "time": 1774330783984.2732
-    },
     "models\\箭塔.fbx.meta": {
       "time": 1774346758194.794
+    },
+    "models\\草03.fbx.meta": {
+      "time": 1772611433515.0862
     },
     "models\\草.FBX.meta": {
       "time": 1772611433490.0854
     },
-    "models\\草03.fbx.meta": {
-      "time": 1772611433515.0862
+    "models\\箭塔(2) 2.fbx.meta": {
+      "time": 1774330783984.2732
     },
     "models\\苦工.fbx.meta": {
       "time": 1772611433864.5034
@@ -4511,17 +4555,17 @@
     "models\\草帽NPC.fbx.meta": {
       "time": 1772611433966.5034
     },
-    "models\\萨格.fbx.meta": {
-      "time": 1772611434126.504
-    },
-    "models\\车厢.FBX.meta": {
-      "time": 1772611434182.5027
+    "models\\车03.FBX.meta": {
+      "time": 1772611434185.5024
     },
     "models\\车头.FBX.meta": {
       "time": 1772611434210.503
     },
-    "models\\车03.FBX.meta": {
-      "time": 1772611434185.5024
+    "models\\车厢.FBX.meta": {
+      "time": 1772611434182.5027
+    },
+    "models\\萨格.fbx.meta": {
+      "time": 1772611434126.504
     },
     "models\\铁轨01.fbx.meta": {
       "time": 1772611434216.5032
@@ -4529,11 +4573,14 @@
     "models\\铁轨02.FBX.meta": {
       "time": 1772611434265.5063
     },
-    "models\\铁轨弯.FBX.meta": {
-      "time": 1772611434507.4998
+    "models\\铁轨短.FBX.meta": {
+      "time": 1772611434348.5017
     },
     "NPC(1)\\material.mtl.meta": {
       "time": 1773485524127.661
+    },
+    "models\\铁轨弯.FBX.meta": {
+      "time": 1772611434507.4998
     },
     "NPC(1)\\NPC.jpg.meta": {
       "time": 1773485524128.6606
@@ -4547,11 +4594,11 @@
     "scenes\\game.scene.meta": {
       "time": 1772611434441.5002
     },
-    "models\\铁轨短.FBX.meta": {
-      "time": 1772611434348.5017
-    },
     "scenes\\test.scene.meta": {
       "time": 1772858701652.215
+    },
+    "models\\锯片001.fbx.meta": {
+      "time": 1772611434610.501
     },
     "textures\\0.png.meta": {
       "time": 1772611434521.5005
@@ -4565,14 +4612,17 @@
     "textures\\03.jpg.meta": {
       "time": 1772611434598.4988
     },
-    "textures\\2.png.meta": {
-      "time": 1772611434618.5017
-    },
     "textures\\1.png.meta": {
       "time": 1772611434606.5002
     },
-    "models\\锯片001.fbx.meta": {
-      "time": 1772611434610.501
+    "textures\\2.png.meta": {
+      "time": 1772611434618.5017
+    },
+    "models\\骆驼.fbx.meta": {
+      "time": 1772611434614.4985
+    },
+    "models\\门02.fbx.meta": {
+      "time": 1772611434626.4998
     },
     "textures\\3.png.meta": {
       "time": 1772611434628.4995
@@ -4583,32 +4633,26 @@
     "textures\\5.png.meta": {
       "time": 1772611434634.4988
     },
-    "models\\门02.fbx.meta": {
-      "time": 1772611434626.4998
+    "textures\\7.png.meta": {
+      "time": 1772611434644.5015
     },
     "textures\\6.png.meta": {
       "time": 1772611434638.498
     },
-    "textures\\7.png.meta": {
-      "time": 1772611434644.5015
-    },
     "textures\\8.png.meta": {
       "time": 1772611434646.4993
-    },
-    "textures\\9.png.meta": {
-      "time": 1772611434650.4998
     },
     "textures\\Axe00_diff.jpg.meta": {
       "time": 1772611434652.4988
     },
-    "textures\\blackSquare.png.meta": {
-      "time": 1772611434656.4988
+    "textures\\9.png.meta": {
+      "time": 1772611434650.4998
     },
     "textures\\blackSquareAlpha10.png.meta": {
       "time": 1772611434661.4988
     },
-    "models\\骆驼.fbx.meta": {
-      "time": 1772611434614.4985
+    "textures\\blackSquare.png.meta": {
+      "time": 1772611434656.4988
     },
     "textures\\blackSquareAlpha15.png.meta": {
       "time": 1772611434662.4988
@@ -4616,32 +4660,35 @@
     "textures\\blackSquareAlpha25.png.meta": {
       "time": 1772611434667.499
     },
+    "textures\\blueSquare.png.meta": {
+      "time": 1772611434677.499
+    },
     "textures\\blackSquareAlpha80.png.meta": {
       "time": 1772611434672.5012
     },
     "textures\\blackSquareAlpha50.png.meta": {
       "time": 1772611434670.4985
     },
-    "textures\\blueSquare.png.meta": {
-      "time": 1772611434677.499
+    "textures\\circle_dashedBorderEmpty.png.meta": {
+      "time": 1772611434684.4995
     },
     "textures\\circle.png.meta": {
       "time": 1772611434679.4988
     },
-    "textures\\circle_dashedBorderEmpty.png.meta": {
-      "time": 1772611434684.4995
+    "textures\\DOTweenIcon.png.meta": {
+      "time": 1772611434688.1946
     },
     "textures\\DOTweenMiniIcon.png.meta": {
       "time": 1772611434690.193
-    },
-    "textures\\DOTweenIcon.png.meta": {
-      "time": 1772611434688.1946
     },
     "textures\\dotweenpro_logo.png.meta": {
       "time": 1772611434695.1924
     },
     "textures\\Footer.png.meta": {
       "time": 1772611434701.191
+    },
+    "textures\\grid_bright.png.meta": {
+      "time": 1772611434712.1902
     },
     "textures\\EmojiOne.png.meta": {
       "time": 1772611434698.1912
@@ -4652,23 +4699,20 @@
     "textures\\Footer_dark.png.meta": {
       "time": 1772611434705.193
     },
-    "textures\\grid_bright.png.meta": {
-      "time": 1772611434712.1902
+    "textures\\Header.jpg.meta": {
+      "time": 1772611434718.1907
     },
     "textures\\grid_dark.png.meta": {
       "time": 1772611434715.1914
     },
-    "textures\\Header.jpg.meta": {
-      "time": 1772611434718.1907
-    },
-    "textures\\ico_alert.png.meta": {
-      "time": 1772611434725.8555
+    "textures\\ico_alignBC.png.meta": {
+      "time": 1772611434728.855
     },
     "textures\\ico_alignB.png.meta": {
       "time": 1772611434722.8542
     },
-    "textures\\ico_alignBC.png.meta": {
-      "time": 1772611434728.855
+    "textures\\ico_alert.png.meta": {
+      "time": 1772611434725.8555
     },
     "textures\\ico_alignBL.png.meta": {
       "time": 1772611434731.8552
@@ -4676,14 +4720,17 @@
     "textures\\ico_alignCC.png.meta": {
       "time": 1772611434742.8542
     },
-    "textures\\ico_alignCL.png.meta": {
-      "time": 1772611434740.855
-    },
     "textures\\ico_alignBR.png.meta": {
       "time": 1772611434736.8555
     },
+    "textures\\ico_alignCL.png.meta": {
+      "time": 1772611434740.855
+    },
     "textures\\ico_alignCR.png.meta": {
       "time": 1772611434750.8545
+    },
+    "textures\\ico_alignR.png.meta": {
+      "time": 1772611434757.8567
     },
     "textures\\ico_alignHC.png.meta": {
       "time": 1772611434747.8547
@@ -4691,20 +4738,20 @@
     "textures\\ico_alignL.png.meta": {
       "time": 1772611434753.8545
     },
+    "textures\\ico_alignTC.png.meta": {
+      "time": 1772611434764.8557
+    },
     "textures\\ico_alignT.png.meta": {
       "time": 1772611434759.8555
     },
-    "textures\\ico_alignR.png.meta": {
-      "time": 1772611434757.8567
-    },
-    "textures\\ico_alignTC.png.meta": {
-      "time": 1772611434764.8557
+    "textures\\ico_alignTL.png.meta": {
+      "time": 1772611434766.8574
     },
     "textures\\ico_alignVC.png.meta": {
       "time": 1772611434776.3672
     },
-    "textures\\ico_alignTL.png.meta": {
-      "time": 1772611434766.8574
+    "textures\\ico_audio.png.meta": {
+      "time": 1772611434784.369
     },
     "textures\\ico_alignTR.png.meta": {
       "time": 1772611434772.855
@@ -4712,29 +4759,29 @@
     "textures\\ico_atlas.png.meta": {
       "time": 1772611434778.368
     },
-    "textures\\ico_audio.png.meta": {
-      "time": 1772611434784.369
-    },
     "textures\\ico_camera.png.meta": {
       "time": 1772611434788.3682
-    },
-    "textures\\ico_cog.png.meta": {
-      "time": 1772611434793.368
     },
     "textures\\ico_bundle.png.meta": {
       "time": 1772611434782.3687
     },
-    "textures\\ico_camera_border.png.meta": {
-      "time": 1772611434795.3672
+    "textures\\ico_cog.png.meta": {
+      "time": 1772611434793.368
     },
     "textures\\ico_cog_border.png.meta": {
       "time": 1772611434803.368
     },
-    "textures\\ico_cross.png.meta": {
-      "time": 1772611434810.3672
+    "textures\\ico_camera_border.png.meta": {
+      "time": 1772611434795.3672
+    },
+    "textures\\ico_comment.png.meta": {
+      "time": 1772611434801.369
     },
     "textures\\ico_comment_border.png.meta": {
       "time": 1772611434806.3687
+    },
+    "textures\\ico_cross.png.meta": {
+      "time": 1772611434810.3672
     },
     "textures\\ico_demigiant.png.meta": {
       "time": 1772611434818.3684
@@ -4742,14 +4789,11 @@
     "textures\\ico_delete.png.meta": {
       "time": 1772611434815.3677
     },
-    "textures\\ico_comment.png.meta": {
-      "time": 1772611434801.369
-    },
     "textures\\ico_distributeHAlignT.png.meta": {
       "time": 1772611434821.3687
     },
-    "textures\\ico_flipV.png.meta": {
-      "time": 1772611434839.3694
+    "textures\\ico_distributeVAlignL.png.meta": {
+      "time": 1772611434823.3667
     },
     "textures\\ico_doing.png.meta": {
       "time": 1772611434828.3677
@@ -4757,8 +4801,11 @@
     "textures\\ico_end.png.meta": {
       "time": 1772611434835.37
     },
-    "textures\\ico_distributeVAlignL.png.meta": {
-      "time": 1772611434823.3667
+    "textures\\ico_flipV.png.meta": {
+      "time": 1772611434839.3694
+    },
+    "textures\\ico_folder.png.meta": {
+      "time": 1772611434837.3684
     },
     "textures\\ico_foldout_open.png.meta": {
       "time": 1772611434846.3672
@@ -4766,14 +4813,11 @@
     "textures\\ico_foldout_closed.png.meta": {
       "time": 1772611434842.3699
     },
-    "textures\\ico_fonts.png.meta": {
-      "time": 1772611434852.3687
-    },
-    "textures\\ico_folder.png.meta": {
-      "time": 1772611434837.3684
-    },
     "textures\\ico_heart.png.meta": {
       "time": 1772611434854.3665
+    },
+    "textures\\ico_fonts.png.meta": {
+      "time": 1772611434852.3687
     },
     "textures\\ico_light.png.meta": {
       "time": 1772611434858.3684
@@ -4781,44 +4825,44 @@
     "textures\\ico_heart_border.png.meta": {
       "time": 1772611434856.3667
     },
-    "textures\\ico_lock.png.meta": {
-      "time": 1772611434870.3684
-    },
     "textures\\ico_lock_open.png.meta": {
       "time": 1772611434873.3684
+    },
+    "textures\\ico_lock.png.meta": {
+      "time": 1772611434870.3684
     },
     "textures\\ico_light_border.png.meta": {
       "time": 1772611434864.37
     },
-    "textures\\ico_materials.png.meta": {
-      "time": 1772611434878.3684
-    },
     "textures\\ico_models.png.meta": {
       "time": 1772611434875.3694
     },
-    "textures\\ico_optionsDropdown.png.meta": {
-      "time": 1772611434890.3682
+    "textures\\ico_materials.png.meta": {
+      "time": 1772611434878.3684
     },
     "textures\\ico_ok.png.meta": {
       "time": 1772611434888.3684
     },
+    "textures\\ico_optionsDropdown.png.meta": {
+      "time": 1772611434890.3682
+    },
     "textures\\ico_nodeArrow.png.meta": {
       "time": 1772611434885.369
     },
-    "textures\\ico_play.png.meta": {
-      "time": 1772611434895.3674
-    },
-    "textures\\ico_prefab.png.meta": {
-      "time": 1772611434903.3677
+    "textures\\ico_particles.png.meta": {
+      "time": 1772611434893.3674
     },
     "textures\\ico_play_border.png.meta": {
       "time": 1772611434905.368
     },
+    "textures\\ico_play.png.meta": {
+      "time": 1772611434895.3674
+    },
     "textures\\ico_scripts.png.meta": {
       "time": 1772611434907.3687
     },
-    "textures\\ico_particles.png.meta": {
-      "time": 1772611434893.3674
+    "textures\\ico_prefab.png.meta": {
+      "time": 1772611434903.3677
     },
     "textures\\ico_shaders.png.meta": {
       "time": 1772611434910.367
@@ -4838,11 +4882,11 @@
     "textures\\ico_terrains.png.meta": {
       "time": 1772611434924.3684
     },
-    "textures\\ico_ui.png.meta": {
-      "time": 1772611434938.3662
-    },
     "textures\\ico_todo.png.meta": {
       "time": 1772611434941.3684
+    },
+    "textures\\ico_ui.png.meta": {
+      "time": 1772611434938.3662
     },
     "textures\\ico_textures.png.meta": {
       "time": 1772611434930.3682
@@ -4853,11 +4897,11 @@
     "textures\\ico_visibility.png.meta": {
       "time": 1772611434945.3694
     },
-    "textures\\JinBi_01.png.meta": {
-      "time": 1772611434953.3672
-    },
     "textures\\ico_visibility_off.png.meta": {
       "time": 1772611434949.368
+    },
+    "textures\\JinBi_01.png.meta": {
+      "time": 1772611434953.3672
     },
     "textures\\NiuPai_1_BC.png.meta": {
       "time": 1772611434959.3672
@@ -4877,20 +4921,20 @@
     "textures\\NiuPai_1_N.png.meta": {
       "time": 1772611434967.3684
     },
-    "textures\\redSquare.png.meta": {
-      "time": 1772611434978.3665
-    },
     "textures\\RedShirt_Man_CM.jpg.meta": {
       "time": 1772611434982.3682
     },
-    "textures\\squareBorder.png.meta": {
-      "time": 1772611434985.3674
+    "textures\\redSquare.png.meta": {
+      "time": 1772611434978.3665
+    },
+    "textures\\squareBorderCurved.png.meta": {
+      "time": 1772611434993.3665
     },
     "textures\\squareBorderAlpha15.png.meta": {
       "time": 1772611434988.3674
     },
-    "textures\\squareBorderCurved.png.meta": {
-      "time": 1772611434993.3665
+    "textures\\squareBorder.png.meta": {
+      "time": 1772611434985.3674
     },
     "textures\\squareBorderCurved02.png.meta": {
       "time": 1772611434995.3677
@@ -4904,11 +4948,11 @@
     "textures\\squareBorderCurvedEmpty.png.meta": {
       "time": 1772611435005.3682
     },
-    "textures\\squareBorderCurvedEmpty02.png.meta": {
-      "time": 1772611435007.3655
-    },
     "textures\\squareBorderCurvedEmptyThick.png.meta": {
       "time": 1772611435012.3684
+    },
+    "textures\\squareBorderCurvedEmpty02.png.meta": {
+      "time": 1772611435007.3655
     },
     "textures\\squareBorderCurved_darkBorders.png.meta": {
       "time": 1772611435013.368
@@ -4919,11 +4963,11 @@
     "textures\\squareBorderEmpty.png.meta": {
       "time": 1772611435025.368
     },
-    "textures\\squareBorderEmpty01.png.meta": {
-      "time": 1772611435027.3662
-    },
     "textures\\squareBorderEmpty02.png.meta": {
       "time": 1772611435029.3667
+    },
+    "textures\\squareBorderEmpty01.png.meta": {
+      "time": 1772611435027.3662
     },
     "textures\\squareBorderEmpty03.png.meta": {
       "time": 1772611435028.3657
@@ -4934,11 +4978,11 @@
     "textures\\squareBorderThickerEmpty.png.meta": {
       "time": 1772611435041.368
     },
-    "textures\\squareCornersEmpty02.png.meta": {
-      "time": 1772611435044.368
-    },
     "textures\\squareCorners03.png.meta": {
       "time": 1772611435042.366
+    },
+    "textures\\squareCornersEmpty02.png.meta": {
+      "time": 1772611435044.368
     },
     "textures\\tileBars_empty.png.meta": {
       "time": 1772611435046.3667
@@ -4949,11 +4993,11 @@
     "textures\\tileBars_slanted_alpha.png.meta": {
       "time": 1772611435055.3706
     },
-    "textures\\transparentSquare.png.meta": {
-      "time": 1772611435059.3672
-    },
     "textures\\URP.png.meta": {
       "time": 1772611435061.3667
+    },
+    "textures\\transparentSquare.png.meta": {
+      "time": 1772611435059.3672
     },
     "textures\\whiteDot.png.meta": {
       "time": 1772611435062.3699
@@ -4991,11 +5035,11 @@
     "textures\\whiteSquare_fadeOut_bt.png.meta": {
       "time": 1772611435108.367
     },
-    "textures\\XiaoMai_1.tga.meta": {
-      "time": 1772611435112.3657
-    },
     "textures\\yellowSquare.png.meta": {
       "time": 1772611435115.3665
+    },
+    "textures\\XiaoMai_1.tga.meta": {
+      "time": 1772611435112.3657
     },
     "textures\\xieshi_sangshi02_D.PNG.meta": {
       "time": 1772611435120.3657
@@ -5009,11 +5053,11 @@
     "textures\\人_MS.png.meta": {
       "time": 1772611435129.365
     },
-    "textures\\仙人掌_1 1.png.meta": {
-      "time": 1772611435131.365
-    },
     "textures\\人_N.png.meta": {
       "time": 1772611435136.366
+    },
+    "textures\\仙人掌_1 1.png.meta": {
+      "time": 1772611435131.365
     },
     "textures\\仙人掌_1.png.meta": {
       "time": 1772611435134.3657
@@ -5039,11 +5083,11 @@
     "textures\\地扣01_BC.PNG.meta": {
       "time": 1772611435175.367
     },
-    "textures\\地扣02_BC 1.PNG.meta": {
-      "time": 1772611435183.3674
-    },
     "textures\\地扣02_BC 2.PNG.meta": {
       "time": 1772611435182.3662
+    },
+    "textures\\地扣02_BC 1.PNG.meta": {
+      "time": 1772611435183.3674
     },
     "textures\\地扣02_BC 3.PNG.meta": {
       "time": 1772611435190.3674
@@ -5051,11 +5095,11 @@
     "textures\\地扣02_BC.PNG.meta": {
       "time": 1772611435195.3677
     },
-    "textures\\地面.png.meta": {
-      "time": 1772611435202.3645
-    },
     "textures\\子弹.png.meta": {
       "time": 1772611435203.3645
+    },
+    "textures\\地面.png.meta": {
+      "time": 1772611435202.3645
     },
     "textures\\对钩气泡.png.meta": {
       "time": 1772611435207.3674
@@ -5084,20 +5128,17 @@
     "textures\\微信图片_20211021150619.png.meta": {
       "time": 1772611435245.8706
     },
-    "textures\\地扣04_BC 1.bmp.meta": {
-      "time": 1772611435243.8706
-    },
     "textures\\手指.png.meta": {
       "time": 1772611435249.87
+    },
+    "textures\\地扣04_BC 1.bmp.meta": {
+      "time": 1772611435243.8706
     },
     "textures\\指引线 - 副本.png.meta": {
       "time": 1772611435258.8706
     },
     "textures\\摇杆.png.meta": {
       "time": 1772611435261.8723
-    },
-    "textures\\地扣04_BC.bmp.meta": {
-      "time": 1772611435255.87
     },
     "textures\\摇杆底.png.meta": {
       "time": 1772611435263.87
@@ -5123,11 +5164,11 @@
     "textures\\木堆_N.PNG.meta": {
       "time": 1772611435290.871
     },
-    "textures\\枯树03.PNG.meta": {
-      "time": 1772611435303.8723
-    },
     "textures\\气泡进度.png.meta": {
       "time": 1772611435302.8718
+    },
+    "textures\\枯树03.PNG.meta": {
+      "time": 1772611435303.8723
     },
     "textures\\枯树桩.png.meta": {
       "time": 1772611435298.8706
@@ -5135,56 +5176,56 @@
     "textures\\流沙地表 1.PNG.meta": {
       "time": 1772611435310.8704
     },
-    "textures\\流沙_N.jpg.meta": {
-      "time": 1772611435321.87
-    },
     "textures\\火车头.PNG.meta": {
       "time": 1772611435317.8696
+    },
+    "textures\\流沙_N.jpg.meta": {
+      "time": 1772611435321.87
     },
     "textures\\流沙地表.PNG.meta": {
       "time": 1772611435323.87
     },
-    "textures\\灶台01.jpg.meta": {
-      "time": 1772611435319.8696
-    },
     "textures\\灶台02_BC.jpg.meta": {
       "time": 1772611435329.8718
+    },
+    "textures\\灶台01.jpg.meta": {
+      "time": 1772611435319.8696
     },
     "textures\\烤架_AO.png.meta": {
       "time": 1772611435336.8699
     },
-    "textures\\烤架_N.png.meta": {
-      "time": 1772611435343.8716
-    },
     "textures\\烤架_BC.png.meta": {
       "time": 1772611435340.8706
+    },
+    "textures\\烤架_N.png.meta": {
+      "time": 1772611435343.8716
     },
     "textures\\电塔.png.meta": {
       "time": 1772611435528.8694
     },
+    "textures\\地扣04_BC.bmp.meta": {
+      "time": 1772611435255.87
+    },
     "textures\\石墙03.PNG.meta": {
       "time": 1772611435703.647
-    },
-    "textures\\箭塔BC 1.PNG.meta": {
-      "time": 1772611435708.647
     },
     "textures\\石头.psd.meta": {
       "time": 1772611435733.344
     },
-    "textures\\石头雪.psd.meta": {
-      "time": 1772611435752.3433
-    },
-    "textures\\箭塔底座BC.PNG.meta": {
-      "time": 1772611435746.3438
+    "textures\\箭塔BC 1.PNG.meta": {
+      "time": 1772611435708.647
     },
     "textures\\箭塔底座BC 1.PNG.meta": {
       "time": 1772611435726.645
     },
+    "textures\\石头雪.psd.meta": {
+      "time": 1772611435752.3433
+    },
     "textures\\色卡02.png.meta": {
       "time": 1772611435779.3445
     },
-    "textures\\苦工_4.jpg.meta": {
-      "time": 1772611435790.3423
+    "textures\\箭塔底座BC.PNG.meta": {
+      "time": 1772611435746.3438
     },
     "textures\\组BC.PNG.meta": {
       "time": 1772611435791.3425
@@ -5192,8 +5233,8 @@
     "textures\\箭塔BC.PNG.meta": {
       "time": 1772611435788.3442
     },
-    "textures\\草.tga.meta": {
-      "time": 1772611435804.343
+    "textures\\苦工_4.jpg.meta": {
+      "time": 1772611435790.3423
     },
     "textures\\草03BC.png.meta": {
       "time": 1772611435801.342
@@ -5201,8 +5242,14 @@
     "textures\\草帽NPC_2.jpg.meta": {
       "time": 1772611435812.344
     },
+    "textures\\草.tga.meta": {
+      "time": 1772611435804.343
+    },
     "textures\\萨格 1.png.meta": {
       "time": 1772611435816.3435
+    },
+    "textures\\萨格.png.meta": {
+      "time": 1772611435817.3445
     },
     "textures\\血条.png.meta": {
       "time": 1772611435829.3435
@@ -5210,17 +5257,11 @@
     "textures\\血条底.png.meta": {
       "time": 1772611435833.343
     },
-    "textures\\萨格.png.meta": {
-      "time": 1772611435817.3445
-    },
     "textures\\警告边框.png.meta": {
       "time": 1772611435840.3425
     },
     "textures\\货运列车01_BC.PNG.meta": {
       "time": 1772611435844.3447
-    },
-    "textures\\车01.jpg.meta": {
-      "time": 1772611435850.3445
     },
     "textures\\车03.JPG.meta": {
       "time": 1772611435853.3428
@@ -5228,17 +5269,20 @@
     "textures\\车厢.PNG.meta": {
       "time": 1772611435855.3423
     },
-    "textures\\金币.png.meta": {
-      "time": 1772611435880.9678
+    "textures\\车01.jpg.meta": {
+      "time": 1772611435850.3445
     },
     "textures\\通用贴图.PNG.meta": {
       "time": 1772611435888.9683
     },
-    "textures\\锯片颜色.jpg.meta": {
-      "time": 1772611435886.9695
+    "textures\\金币.png.meta": {
+      "time": 1772611435880.9678
     },
     "textures\\门02.jpg.meta": {
       "time": 1772611435883.968
+    },
+    "textures\\锯片颜色.jpg.meta": {
+      "time": 1772611435886.9695
     },
     "textures\\雾.tga.meta": {
       "time": 1772611435893.9692
@@ -5246,29 +5290,29 @@
     "textures\\骆驼_BC.png.meta": {
       "time": 1772611435903.9683
     },
-    "textures\\骆驼_BCN.png.meta": {
-      "time": 1772611435905.9678
-    },
     "textures\\骆驼_MS.png.meta": {
       "time": 1772611435906.9685
+    },
+    "textures\\骆驼_BCN.png.meta": {
+      "time": 1772611435905.9678
     },
     "textures\\食桌01N.PNG.meta": {
       "time": 1772611435908.9688
     },
-    "A-texiao\\mat\\glow-add-001.mtl.meta": {
-      "time": 1773979776132.4934
-    },
     "沙漠火车收割\\沙漠火车收割.scene.meta": {
       "time": 1772734391391.1526
+    },
+    "textures\\骆驼_N.png.meta": {
+      "time": 1772611435909.9683
     },
     "A-texiao\\Fab\\shengji.prefab.meta": {
       "time": 1773979776129.7122
     },
+    "A-texiao\\mat\\glow-add-001.mtl.meta": {
+      "time": 1773979776132.4934
+    },
     "A-texiao\\mat\\glow-add-yuan-001.mtl.meta": {
       "time": 1773979776135.2793
-    },
-    "textures\\骆驼_N.png.meta": {
-      "time": 1772611435909.9683
     },
     "A-texiao\\mat\\glow-add-yuan.mtl.meta": {
       "time": 1773979776134.0447
@@ -5276,26 +5320,26 @@
     "A-texiao\\mat\\glow-blend.mtl.meta": {
       "time": 1773979776136.8008
     },
-    "A-texiao\\mat\\sji-yuan-add.mtl.meta": {
-      "time": 1773979776139.888
-    },
     "A-texiao\\mat\\jiantou-add.mtl.meta": {
       "time": 1773979776138.3584
     },
-    "A-texiao\\mat\\sji-yuan.mtl.meta": {
-      "time": 1773979776138.3584
+    "A-texiao\\mat\\sji-yuan-add.mtl.meta": {
+      "time": 1773979776139.888
     },
     "A-texiao\\mat\\spark-add.mtl.meta": {
       "time": 1773979776141.4177
     },
+    "A-texiao\\mat\\sji-yuan.mtl.meta": {
+      "time": 1773979776138.3584
+    },
     "A-texiao\\mat\\star-add.mtl.meta": {
       "time": 1773979776142.9407
     },
-    "A-texiao\\tex\\glow_wx_05.png.meta": {
-      "time": 1773979776150.3545
-    },
     "A-texiao\\tex\\Glow_CPgt_wlt_059.png.meta": {
       "time": 1773979776148.2566
+    },
+    "A-texiao\\tex\\glow_wx_05.png.meta": {
+      "time": 1773979776150.3545
     },
     "A-texiao\\tex\\glow_wjf_014.png.meta": {
       "time": 1773979776148.759
@@ -5303,11 +5347,11 @@
     "A-texiao\\tex\\jiantou_key_001.png.meta": {
       "time": 1773979776150.3545
     },
-    "A-texiao\\tex\\Tex_Glow_03.PNG.png.meta": {
-      "time": 1773979776153.0159
-    },
     "A-texiao\\tex\\star.png.meta": {
       "time": 1773979776152.4026
+    },
+    "A-texiao\\tex\\Tex_Glow_03.PNG.png.meta": {
+      "time": 1773979776153.0159
     },
     "A-texiao\\tex\\trail_CPxs_kx_038 - 副本.png.meta": {
       "time": 1773979776153.0159
@@ -5318,6 +5362,9 @@
     "Art\\Mat\\chuansong.mtl.meta": {
       "time": 1773819306466.48
     },
+    "Art\\Mat\\chuansongdai.mtl.meta": {
+      "time": 1774357735022.5356
+    },
     "Art\\Mat\\mu01.mtl.meta": {
       "time": 1773721409706.312
     },
@@ -5327,29 +5374,29 @@
     "Art\\Material\\jibi.mtl.meta": {
       "time": 1773614709156.3337
     },
-    "Art\\Pre\\chuansongdai.prefab.meta": {
-      "time": 1773819306469.4963
-    },
     "Art\\Fbx\\BaoShiA.fbx.meta": {
       "time": 1773575433139.5405
     },
     "Art\\Fbx\\chuansongdai.FBX.meta": {
       "time": 1773819313303.695
     },
-    "Art\\Fbx\\JinBiPD.fbx.meta": {
-      "time": 1773614716860.1533
+    "Art\\Pre\\chuansongdai.prefab.meta": {
+      "time": 1773819306469.4963
     },
     "Art\\Pre\\mu01.prefab.meta": {
       "time": 1773721409708.3115
     },
-    "Art\\Prefab\\JinBiPD.prefab.meta": {
-      "time": 1773614709164.352
+    "Art\\Fbx\\JinBiPD.fbx.meta": {
+      "time": 1773614716860.1533
+    },
+    "Art\\Pre\\mu01_2.prefab.meta": {
+      "time": 1773721409709.3115
     },
     "Art\\Fbx\\mu01.FBX.meta": {
       "time": 1773721416225.4014
     },
-    "Art\\Pre\\mu01_2.prefab.meta": {
-      "time": 1773721409709.3115
+    "Art\\Prefab\\JinBiPD.prefab.meta": {
+      "time": 1773614709164.352
     },
     "cocos_effect\\Materials\\glow01.mtl.meta": {
       "time": 1774238027132.8018
@@ -5366,11 +5413,17 @@
     "cocos_effect\\Materials\\quan60.mtl.meta": {
       "time": 1773996413844.307
     },
-    "cocos_effect\\Materials\\quan66.mtl.meta": {
-      "time": 1773996413845.4087
+    "Art\\Tex\\color_qian.png.meta": {
+      "time": 1773721409711.312
     },
     "Art\\Tex\\1_di_JB_D.jpg.meta": {
       "time": 1773614709167.6018
+    },
+    "Art\\Tex\\BS_D.jpg.meta": {
+      "time": 1773575426931.018
+    },
+    "cocos_effect\\Materials\\quan66.mtl.meta": {
+      "time": 1773996413845.4087
     },
     "cocos_effect\\Materials\\shuidi02.mtl.meta": {
       "time": 1773908773199.635
@@ -5378,23 +5431,17 @@
     "cocos_effect\\Materials\\smoke01.mtl.meta": {
       "time": 1773996413847.0925
     },
-    "Art\\Tex\\color_qian.png.meta": {
-      "time": 1773721409711.312
-    },
     "cocos_effect\\Materials\\smoke22.mtl.meta": {
       "time": 1773996413847.0925
-    },
-    "Art\\Tex\\BS_D.jpg.meta": {
-      "time": 1773575426931.018
     },
     "cocos_effect\\Materials\\xulie_huo01_4x4.mtl.meta": {
       "time": 1774238027136.8015
     },
-    "cocos_effect\\Materials\\xulie_juchi01_1x4_2.mtl.meta": {
-      "time": 1773908773201.9993
-    },
     "cocos_effect\\Materials\\xulie_juchi01_1x4.mtl.meta": {
       "time": 1773908773200.6326
+    },
+    "cocos_effect\\Materials\\xulie_juchi01_1x4_2.mtl.meta": {
+      "time": 1773908773201.9993
     },
     "cocos_effect\\Materials\\xulie_shandian41_1x4_2.mtl.meta": {
       "time": 1773908773202.9985
@@ -5435,11 +5482,11 @@
     "cocos_effect\\Textures\\quan60.png.meta": {
       "time": 1773996413855.9048
     },
-    "cocos_effect\\Textures\\shuidi02.png.meta": {
-      "time": 1773908773218.0977
-    },
     "cocos_effect\\Textures\\quan66.png.meta": {
       "time": 1773996413857.435
+    },
+    "cocos_effect\\Textures\\shuidi02.png.meta": {
+      "time": 1773908773218.0977
     },
     "cocos_effect\\Textures\\smoke01.png.meta": {
       "time": 1773996413857.435
@@ -5453,11 +5500,11 @@
     "cocos_effect\\Textures\\xulie_juchi01_1x4.png.meta": {
       "time": 1773908773219.1
     },
-    "cocos_effect\\Textures\\xulie_shitou07_2x2.png.meta": {
-      "time": 1773996413859.9712
-    },
     "cocos_effect\\Textures\\xulie_shandian41_1x4_2.png.meta": {
       "time": 1773908773222.651
+    },
+    "cocos_effect\\Textures\\xulie_shitou07_2x2.png.meta": {
+      "time": 1773996413859.9712
     },
     "cocos_effect\\Textures\\xulie_shui01_3x3.png.meta": {
       "time": 1773908773223.65
@@ -5480,17 +5527,17 @@
     "GameRes\\Anim\\JoystickAni.anim.meta": {
       "time": 1773370596180.113
     },
-    "cocos_effect\\Models\\fbx_jupian01.fbx.meta": {
-      "time": 1773908773207.0005
+    "GameRes\\Font\\PASSIONONE-REGULAR.TTF.meta": {
+      "time": 1773370590368.7205
     },
     "GameRes\\Material\\MaterSprite2D.mtl.meta": {
       "time": 1773395891918.6826
     },
-    "GameRes\\Font\\PASSIONONE-REGULAR.TTF.meta": {
-      "time": 1773370590368.7205
-    },
     "GameRes\\Prefabs\\Arraw.prefab.meta": {
       "time": 1773620125990.2507
+    },
+    "cocos_effect\\Models\\fbx_jupian01.fbx.meta": {
+      "time": 1773908773207.0005
     },
     "GameRes\\Prefabs\\CoinContatiner.prefab.meta": {
       "time": 1773395891921.6748
@@ -5498,11 +5545,11 @@
     "GameRes\\Prefabs\\DropItemCoin.prefab.meta": {
       "time": 1773614709170.7278
     },
-    "GameRes\\Prefabs\\DropItemCornKernel.prefab.meta": {
-      "time": 1773577209140.2583
-    },
     "cocos_effect\\Models\\fbx_jupian02.fbx.meta": {
       "time": 1773908773207.9988
+    },
+    "GameRes\\Prefabs\\DropItemCornKernel.prefab.meta": {
+      "time": 1773577209140.2583
     },
     "GameRes\\Prefabs\\DropItemFlatbread.prefab.meta": {
       "time": 1773613349118.057
@@ -5552,17 +5599,17 @@
     "GameRes\\UI2D\\q箭头绿.png.meta": {
       "time": 1773831944941.8347
     },
-    "GameRes\\UI2D\\spl.png.meta": {
-      "time": 1773370590416.4558
-    },
     "GameRes\\UI2D\\topBar.png.meta": {
       "time": 1773370590418.455
     },
+    "GameRes\\Fbx\\JianTou.fbx.meta": {
+      "time": 1773837818692.475
+    },
+    "GameRes\\UI2D\\spl.png.meta": {
+      "time": 1773370590416.4558
+    },
     "GameRes\\UI2D\\图层 49.png.meta": {
       "time": 1773485524111.661
-    },
-    "GameRes\\UI2D\\引导.png.meta": {
-      "time": 1773370590419.4548
     },
     "GameRes\\UI2D\\工人.png.meta": {
       "time": 1773618109389.402
@@ -5570,20 +5617,20 @@
     "GameRes\\UI2D\\生气.png.meta": {
       "time": 1773485524112.6602
     },
-    "GameRes\\Fbx\\JianTou.fbx.meta": {
-      "time": 1773837818692.475
+    "GameRes\\UI2D\\引导.png.meta": {
+      "time": 1773370590419.4548
     },
     "GameRes\\UI2D\\生肉.png.meta": {
       "time": 1773370590420.4553
-    },
-    "GameRes\\UI2D\\血条值.png.meta": {
-      "time": 1773621520714.5657
     },
     "GameRes\\UI2D\\矿石.png.meta": {
       "time": 1773370590422.4546
     },
     "GameRes\\UI2D\\血条框.png.meta": {
       "time": 1773621520721.5684
+    },
+    "GameRes\\UI2D\\血条值.png.meta": {
+      "time": 1773621520714.5657
     },
     "GameRes\\UI2D\\黑底线框.png.meta": {
       "time": 1773459614832.339
@@ -5609,11 +5656,11 @@
     "resources\\audio\\Win.mp3.meta": {
       "time": 1774003980589.1858
     },
-    "resources\\audio\\ye.mp3.meta": {
-      "time": 1774003980592.0918
-    },
     "resources\\audio\\射箭.mp3.meta": {
       "time": 1774003980593.6035
+    },
+    "resources\\audio\\ye.mp3.meta": {
+      "time": 1774003980592.0918
     },
     "resources\\audio\\烘烤.mp3.meta": {
       "time": 1774349794051.7327
@@ -5645,8 +5692,8 @@
     "沙漠火车收割\\Models\\收银机.fbx.meta": {
       "time": 1773058147713.519
     },
-    "沙漠火车收割\\Models\\拖车01.FBX.meta": {
-      "time": 1773058147847.5173
+    "沙漠火车收割\\Models\\灶台.fbx.meta": {
+      "time": 1773058147915.5178
     },
     "沙漠火车收割\\Models\\木堆.FBX.meta": {
       "time": 1773058147835.5156
@@ -5654,11 +5701,11 @@
     "沙漠火车收割\\Models\\树.fbx.meta": {
       "time": 1774005582446.368
     },
-    "沙漠火车收割\\Models\\灶台.fbx.meta": {
-      "time": 1773058147915.5178
-    },
     "沙漠火车收割\\Models\\烤架001.fbx.meta": {
       "time": 1773058147945.5151
+    },
+    "沙漠火车收割\\Models\\拖车01.FBX.meta": {
+      "time": 1773058147847.5173
     },
     "沙漠火车收割\\Models\\石头.FBX.meta": {
       "time": 1773058148032.517
@@ -5666,14 +5713,14 @@
     "沙漠火车收割\\Models\\电塔.FBX.meta": {
       "time": 1773058148028.5188
     },
-    "沙漠火车收割\\Models\\货运列车_拖车.fbx.meta": {
-      "time": 1773058148238.7778
+    "沙漠火车收割\\Models\\箭塔.fbx.meta": {
+      "time": 1773058148127.7783
     },
     "沙漠火车收割\\Models\\草.FBX.meta": {
       "time": 1773058148291.7766
     },
-    "沙漠火车收割\\Models\\箭塔.fbx.meta": {
-      "time": 1773058148127.7783
+    "沙漠火车收割\\Models\\货运列车_拖车.fbx.meta": {
+      "time": 1773058148238.7778
     },
     "沙漠火车收割\\Models\\车头.FBX.meta": {
       "time": 1773058148385.7773
@@ -5686,6 +5733,9 @@
     },
     "沙漠火车收割\\Models\\车03.FBX.meta": {
       "time": 1773058148451.364
+    },
+    "沙漠火车收割\\Models\\锯片001.fbx.meta": {
+      "time": 1773058148566.3647
     },
     "沙漠火车收割\\Mtl\\bing.mtl.meta": {
       "time": 1773896540451.1982
@@ -5701,9 +5751,6 @@
     },
     "沙漠火车收割\\Mtl\\仙人掌.mtl.meta": {
       "time": 1772869038728.9475
-    },
-    "沙漠火车收割\\Models\\锯片001.fbx.meta": {
-      "time": 1773058148566.3647
     },
     "沙漠火车收割\\Mtl\\围栏-03.mtl.meta": {
       "time": 1772782964881.6003
@@ -5792,26 +5839,23 @@
     "沙漠火车收割\\Prefab\\主角.prefab.meta": {
       "time": 1773140070695.1118
     },
-    "沙漠火车收割\\Models\\门02.fbx.meta": {
-      "time": 1773058148606.3645
-    },
     "沙漠火车收割\\Prefab\\仙人掌_1.prefab.meta": {
       "time": 1772869321924.0764
     },
     "沙漠火车收割\\Prefab\\仙人掌_2.prefab.meta": {
       "time": 1772869321964.5398
     },
-    "沙漠火车收割\\Prefab\\拖车01.prefab.meta": {
-      "time": 1772787108677.056
-    },
     "沙漠火车收割\\Prefab\\围栏_A.prefab.meta": {
       "time": 1772725277628.7883
     },
-    "沙漠火车收割\\Models\\麦子.fbx.meta": {
-      "time": 1772908676559.411
+    "沙漠火车收割\\Prefab\\拖车01.prefab.meta": {
+      "time": 1772787108677.056
     },
     "沙漠火车收割\\Prefab\\树.prefab.meta": {
       "time": 1772733533730.3457
+    },
+    "沙漠火车收割\\Models\\麦子.fbx.meta": {
+      "time": 1772908676559.411
     },
     "沙漠火车收割\\Prefab\\石头.prefab.meta": {
       "time": 1772871201139.9563
@@ -5825,23 +5869,26 @@
     "沙漠火车收割\\Prefab\\车03.prefab.meta": {
       "time": 1773140070695.1118
     },
+    "沙漠火车收割\\Models\\门02.fbx.meta": {
+      "time": 1773058148606.3645
+    },
     "沙漠火车收割\\Prefab\\铁轨弯.prefab.meta": {
       "time": 1772780245078.436
     },
     "沙漠火车收割\\Prefab\\铁轨短.prefab.meta": {
       "time": 1772780245020.2073
     },
-    "沙漠火车收割\\Prefab\\锯片1.prefab.meta": {
-      "time": 1773140070696.1118
-    },
     "沙漠火车收割\\Prefab\\锯片2.prefab.meta": {
       "time": 1773140070696.1118
     },
-    "沙漠火车收割\\Prefab\\麦子.prefab.meta": {
-      "time": 1772730403865.1501
+    "沙漠火车收割\\Prefab\\锯片1.prefab.meta": {
+      "time": 1773140070696.1118
     },
     "沙漠火车收割\\Prefab\\锯片3.prefab.meta": {
       "time": 1773140070697.1118
+    },
+    "沙漠火车收割\\Prefab\\麦子.prefab.meta": {
+      "time": 1772730403865.1501
     },
     "沙漠火车收割\\Textures\\仙人掌_1.png.meta": {
       "time": 1773058148901.529
@@ -5858,11 +5905,11 @@
     "沙漠火车收割\\Textures\\收银机.jpg.meta": {
       "time": 1773058148908.531
     },
-    "沙漠火车收割\\Textures\\木堆.PNG.meta": {
-      "time": 1773058148916.5295
-    },
     "沙漠火车收割\\Textures\\树_BC.png.meta": {
       "time": 1772730106493.0696
+    },
+    "沙漠火车收割\\Textures\\木堆.PNG.meta": {
+      "time": 1773058148916.5295
     },
     "沙漠火车收割\\Textures\\流沙地表.PNG.meta": {
       "time": 1773058148922.532
@@ -5918,11 +5965,11 @@
     "沙漠火车收割\\Textures\\门02.jpg.meta": {
       "time": 1773058149067.5315
     },
-    "沙漠火车收割\\zhujue\\Axe00_diff.jpg.meta": {
-      "time": 1772976581367.0007
-    },
     "沙漠火车收割\\Textures\\麦子_BC.png.meta": {
       "time": 1772730106491.832
+    },
+    "沙漠火车收割\\zhujue\\Axe00_diff.jpg.meta": {
+      "time": 1772976581367.0007
     },
     "沙漠火车收割\\zhujue\\主角.txt.meta": {
       "time": 1773050683553.4177
@@ -5936,14 +5983,14 @@
     "沙漠火车收割\\丧尸\\xieshi_sangshi02_D-001.mtl.meta": {
       "time": 1773680607901.762
     },
-    "沙漠火车收割\\Models\\锯片002.fbx.meta": {
-      "time": 1773140070690.1047
-    },
     "沙漠火车收割\\丧尸\\xieshi_sangshi02_D.mtl.meta": {
       "time": 1773140070709.1067
     },
     "沙漠火车收割\\丧尸\\xieshi_sangshi02_D.PNG.meta": {
       "time": 1772976581371.112
+    },
+    "沙漠火车收割\\Models\\锯片002.fbx.meta": {
+      "time": 1773140070690.1047
     },
     "沙漠火车收割\\丧尸\\僵尸.txt.meta": {
       "time": 1774008377109.849
@@ -5963,20 +6010,20 @@
     "沙漠火车收割\\主角\\internal.jpg.meta": {
       "time": 1773054219603.677
     },
-    "沙漠火车收割\\丧尸\\僵尸@钻出(2).fbx.meta": {
-      "time": 1774009466520.8474
-    },
     "沙漠火车收割\\zhujue\\主角.fbx.meta": {
       "time": 1773050832726.4453
-    },
-    "沙漠火车收割\\商人和骆驼\\人_BC.mtl.meta": {
-      "time": 1773055410142.5452
     },
     "沙漠火车收割\\主角\\微信图片_20260309182144_631_471.jpg.meta": {
       "time": 1773053734253.8208
     },
+    "沙漠火车收割\\商人和骆驼\\人_BC.mtl.meta": {
+      "time": 1773055410142.5452
+    },
     "沙漠火车收割\\商人和骆驼\\人_BC.png.meta": {
       "time": 1773055368320.4067
+    },
+    "沙漠火车收割\\丧尸\\僵尸@钻出(2).fbx.meta": {
+      "time": 1774009466520.8474
     },
     "沙漠火车收割\\商人和骆驼\\骆驼_BC.mtl.meta": {
       "time": 1773055402199.2249
@@ -5984,14 +6031,14 @@
     "沙漠火车收割\\商人和骆驼\\骆驼_BC.png.meta": {
       "time": 1773055368312.943
     },
-    "沙漠火车收割\\zhujue\\RedShirt_Man.fbx.meta": {
-      "time": 1772977054526.7769
+    "沙漠火车收割\\小麦\\小麦卷.FBX.meta": {
+      "time": 1773974528094.9265
     },
     "沙漠火车收割\\小麦\\小麦卷.mtl.meta": {
       "time": 1773896540452.198
     },
-    "沙漠火车收割\\小麦\\小麦卷.FBX.meta": {
-      "time": 1773974528094.9265
+    "沙漠火车收割\\zhujue\\RedShirt_Man.fbx.meta": {
+      "time": 1772977054526.7769
     },
     "沙漠火车收割\\小麦\\小麦卷01_BC.jpg.meta": {
       "time": 1773683812193.48
@@ -6014,62 +6061,103 @@
     "沙漠火车收割\\沙漠火车\\emo饥饿.png.meta": {
       "time": 1773680296569.283
     },
+    "Art\\Mat\\audio\\BGM.mp3": {
+      "time": 1753434184000,
+      "uuid": "b403f8ed-db96-47df-ba25-363743131a09"
+    },
+    "Art\\Mat\\audio\\gold.mp3": {
+      "time": 1754362420000,
+      "uuid": "ed003cbe-f1d5-4df2-83f1-64a0323b0590"
+    },
+    "Art\\Mat\\audio\\GetRes.mp3": {
+      "time": 1750734178000,
+      "uuid": "f53f22ce-aed6-449b-8a13-046061f9ebf5"
+    },
+    "Art\\Mat\\audio\\hit.mp3": {
+      "time": 1747120938000,
+      "uuid": "79a05db8-3589-4000-92c5-3646c785cbc1"
+    },
+    "Art\\Mat\\audio\\SetRes.mp3": {
+      "time": 1750734380000,
+      "uuid": "c9952098-d3c6-4b09-a0df-af143f872ae8"
+    },
+    "Art\\Mat\\audio\\Win.mp3": {
+      "time": 1737016502000,
+      "uuid": "900eb445-5c9c-423d-afc7-3df7242aa191"
+    },
+    "Art\\Mat\\audio\\UPLV.mp3": {
+      "time": 1750749008000,
+      "uuid": "a70a47f0-85c2-4eda-ac8e-1787e22682e5"
+    },
+    "Art\\Mat\\audio\\ye.mp3": {
+      "time": 1773992128257.4983,
+      "uuid": "3bf721bc-ae22-4acc-9e4c-4aa97506f925"
+    },
+    "Art\\Mat\\audio\\射箭.mp3": {
+      "time": 1773991837316.4575,
+      "uuid": "6aa0bc94-23e4-4db0-b94a-44732881db70"
+    },
+    "Art\\Mat\\audio\\烘烤.mp3": {
+      "time": 1774074427294.7239,
+      "uuid": "c0b78ecf-e135-4fd9-bae6-7108cebe3330"
+    },
+    "Art\\Mat\\audio\\电锯.mp3": {
+      "time": 1773991801399.455,
+      "uuid": "fefaeff8-aa8e-4e14-9d10-507cd43dda6f"
+    },
     "GameRes\\Image\\img\\img_arrow_1.png.meta": {
       "time": 1773837818699.9485
-    },
-    "GameRes\\Image\\img\\imf_jjiantou.png.meta": {
-      "time": 1773837818698.3796
     },
     "GameRes\\Prefabs\\Role\\Customer.prefab.meta": {
       "time": 1773485524105.66
     },
+    "GameRes\\Image\\img\\imf_jjiantou.png.meta": {
+      "time": 1773837818698.3796
+    },
     "GameRes\\Prefabs\\Role\\enemy_1.prefab.meta": {
       "time": 1773621520712.566
-    },
-    "GameRes\\UI2D\\GeneralUI\\joystickPint.png.meta": {
-      "time": 1773370590409.4548
     },
     "GameRes\\UI2D\\GeneralUI\\joystickBack.png.meta": {
       "time": 1773370590408.4553
     },
-    "沙漠火车收割\\丧尸\\僵尸.fbx.meta": {
-      "time": 1774008600399.5325
+    "GameRes\\UI2D\\GeneralUI\\joystickPint.png.meta": {
+      "time": 1773370590409.4548
     },
     "GameRes\\UI2D\\Logo\\韩语LOGO.png.meta": {
       "time": 1773370590413.4546
     },
-    "GameRes\\ydsx_map\\mtl\\jianta_02.mtl.meta": {
-      "time": 1773620125997.2478
-    },
     "GameRes\\UI2D\\Logo\\LOGO11.webp.meta": {
       "time": 1773370590412.4546
     },
-    "Res\\Eff\\guide\\guide_line.mtl.meta": {
-      "time": 1773831944945.856
-    },
-    "沙漠火车收割\\披萨\\披萨01.FBX.meta": {
-      "time": 1773974536807.1921
-    },
-    "Scripts\\Main\\Building\\pop-002.prefab.meta": {
-      "time": 1765423811244.1199
+    "GameRes\\ydsx_map\\mtl\\jianta_02.mtl.meta": {
+      "time": 1773620125997.2478
     },
     "GameRes\\ydsx_map\\tableundefined\\SSD_S_T_JianTa_C.png.meta": {
       "time": 1773620125999.2476
     },
+    "Res\\Eff\\guide\\guide_line.mtl.meta": {
+      "time": 1773831944945.856
+    },
+    "Scripts\\Main\\Building\\pop-002.prefab.meta": {
+      "time": 1765423811244.1199
+    },
     "杀鱼获肉\\杀鱼获肉\\鲨鱼_FBX\\shayu.jpg.meta": {
       "time": 1773621520725.5667
     },
-    "GameRes\\ydsx_map\\FBX\\jianta.fbx.meta": {
-      "time": 1773620131735.2778
+    "沙漠火车收割\\披萨\\披萨01.FBX.meta": {
+      "time": 1773974536807.1921
+    },
+    "杀鱼获肉\\杀鱼获肉\\鲨鱼_FBX\\shayu_die.fbx.meta": {
+      "time": 1773621526169.9233
     },
     "杀鱼获肉\\杀鱼获肉\\鲨鱼_FBX\\shayu_attack.fbx.meta": {
       "time": 1773621526174.862
     },
-    "杀鱼获肉\\杀鱼获肉\\鲨鱼_FBX\\shayu_idle.fbx.meta": {
-      "time": 1773621526184.9946
+    "GameRes\\ydsx_map\\FBX\\jianta.fbx.meta": {
+      "time": 1773620131735.2778
     },
-    "杀鱼获肉\\杀鱼获肉\\鲨鱼_FBX\\shayu_die.fbx.meta": {
-      "time": 1773621526169.9233
+    "沙漠火车收割\\丧尸\\僵尸.fbx.meta": {
+      "time": 1774008600399.5325
     },
     "沙漠火车收割\\zhujue\\Materials\\Axe00_diff.mat.meta": {
       "time": 1772976581375.151
@@ -6080,14 +6168,17 @@
     "沙漠火车收割\\zhujue\\Materials\\RedShirt_Man_CM.mat.meta": {
       "time": 1772976581381.0464
     },
+    "沙漠火车收割\\沙漠火车\\sell\\sell.png.meta": {
+      "time": 1773680296486.2815
+    },
+    "杀鱼获肉\\杀鱼获肉\\鲨鱼_FBX\\shayu_idle.fbx.meta": {
+      "time": 1773621526184.9946
+    },
     "杀鱼获肉\\杀鱼获肉\\鲨鱼_FBX\\shayu_move.fbx.meta": {
       "time": 1773621526176.9734
     },
     "沙漠火车收割\\商人和骆驼\\商人和骆驼(2).fbx.meta": {
       "time": 1773830725317.1145
-    },
-    "沙漠火车收割\\沙漠火车\\sell\\sell.png.meta": {
-      "time": 1773680296486.2815
     },
     "沙漠火车收割\\沙漠火车\\sell\\灰.png.meta": {
       "time": 1773680296485.2812
@@ -6107,14 +6198,17 @@
     "沙漠火车收割\\沙漠火车\\地贴\\大饼售卖.png.meta": {
       "time": 1773680296490.283
     },
-    "沙漠火车收割\\沙漠火车\\地贴\\扩张.png.meta": {
-      "time": 1773680296512.2827
+    "杀鱼获肉\\杀鱼获肉\\鲨鱼_FBX\\shayu_skin.fbx.meta": {
+      "time": 1773621526263.8916
     },
     "沙漠火车收割\\沙漠火车\\地贴\\小麦.png.meta": {
       "time": 1773680296512.2827
     },
     "沙漠火车收割\\沙漠火车\\地贴\\气泡.png.meta": {
       "time": 1773995078347.477
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\扩张.png.meta": {
+      "time": 1773680296512.2827
     },
     "沙漠火车收割\\沙漠火车\\地贴\\木头.png.meta": {
       "time": 1773680296516.2827
@@ -6125,11 +6219,14 @@
     "沙漠火车收割\\沙漠火车\\地贴\\水.png.meta": {
       "time": 1773680296517.2844
     },
+    "沙漠火车收割\\沙漠火车\\地贴\\水滴.png.meta": {
+      "time": 1773995135944.1777
+    },
     "沙漠火车收割\\沙漠火车\\地贴\\火车升级.png.meta": {
       "time": 1773994959570.18
     },
-    "沙漠火车收割\\沙漠火车\\地贴\\水滴.png.meta": {
-      "time": 1773995135944.1777
+    "沙漠火车收割\\沙漠火车\\地贴\\红色闪光.png.meta": {
+      "time": 1773995078349.0247
     },
     "沙漠火车收割\\沙漠火车\\地贴\\稻草.png.meta": {
       "time": 1773995135940.0408
@@ -6137,20 +6234,14 @@
     "沙漠火车收割\\沙漠火车\\地贴\\箭塔.png.meta": {
       "time": 1773994959570.6826
     },
-    "沙漠火车收割\\沙漠火车\\地贴\\红色闪光.png.meta": {
-      "time": 1773995078349.0247
-    },
-    "杀鱼获肉\\杀鱼获肉\\鲨鱼_FBX\\shayu_skin.fbx.meta": {
-      "time": 1773621526263.8916
-    },
     "沙漠火车收割\\沙漠火车\\地贴\\资源框1-进度.png.meta": {
       "time": 1773680296547.282
     },
-    "沙漠火车收割\\沙漠火车\\地贴\\资源框1.png.meta": {
-      "time": 1773680296544.2825
-    },
     "沙漠火车收割\\沙漠火车\\地贴\\进火车.png.meta": {
       "time": 1773680296546.2798
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\资源框1.png.meta": {
+      "time": 1773680296544.2825
     },
     "沙漠火车收割\\沙漠火车\\地贴\\金币.png.meta": {
       "time": 1773680296552.2827
@@ -6160,9 +6251,6 @@
     },
     "GameRes\\fx\\Effect\\winfail\\Dot\\Dot.mtl.meta": {
       "time": 1773370590375.455
-    },
-    "沙漠火车收割\\沙漠火车\\地贴触发框\\组 2.png.meta": {
-      "time": 1773680296550.2837
     },
     "Res\\UI\\Line\\ArrowLine\\NavLine.prefab.meta": {
       "time": 1773837818715.8643
@@ -6176,6 +6264,9 @@
     "GameRes\\fx\\Effect\\winfail\\end_light\\end_light.png.meta": {
       "time": 1773370590380.4553
     },
+    "沙漠火车收割\\沙漠火车\\地贴触发框\\组 2.png.meta": {
+      "time": 1773680296550.2837
+    },
     "GameRes\\fx\\Effect\\winfail\\prefan\\DownloadBtn.prefab.meta": {
       "time": 1773370590390.4548
     },
@@ -6185,14 +6276,8 @@
     "GameRes\\fx\\Effect\\winfail\\img\\图层 796.png.meta": {
       "time": 1773370590384.459
     },
-    "GameRes\\fx\\Effect\\winfail\\img\\图层 801.png.meta": {
-      "time": 1773370590387.4597
-    },
     "GameRes\\fx\\Effect\\winfail\\prefan\\LosePanel.prefab.meta": {
       "time": 1773370590393.454
-    },
-    "Res\\UI\\Line\\ArrowLine\\Shader\\arrow.mtl.meta": {
-      "time": 1773837818711.4644
     },
     "GameRes\\fx\\Effect\\winfail\\prefan\\TopLogo.prefab.meta": {
       "time": 1773370590394.4546
@@ -6200,15 +6285,14 @@
     "GameRes\\fx\\Effect\\winfail\\prefan\\WinPanel.prefab.meta": {
       "time": 1773370590396.4558
     },
+    "Res\\UI\\Line\\ArrowLine\\Shader\\arrow.mtl.meta": {
+      "time": 1773837818711.4644
+    },
+    "GameRes\\fx\\Effect\\winfail\\img\\图层 801.png.meta": {
+      "time": 1773370590387.4597
+    },
     "Res\\UI\\Line\\ArrowLine\\line.fbx.meta": {
       "time": 1773837818714.285
-    },
-    "Art\\Mat\\chuansongdai.mtl.meta": {
-      "time": 1774357735022.5356
-    },
-    "Art\\Mat\\chuansongdai.mtl": {
-      "time": 1774357735020.99,
-      "uuid": "868ae7e0-2b05-4a1c-93a5-84bf266110ec"
     }
   },
   "missing": {}

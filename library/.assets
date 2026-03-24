@@ -70,6 +70,7 @@
             "沙漠火车收割\\小麦",
             "沙漠火车收割\\披萨",
             "沙漠火车收割\\沙漠火车",
+            "Art\\Mat\\audio",
             "GameRes\\fx\\Effect",
             "GameRes\\Image\\img",
             "GameRes\\Jsyd_map\\mtx",
@@ -597,6 +598,7 @@
             "Art\\Fbx\\JinBiPD.fbx",
             "Art\\Fbx\\mu01.FBX",
             "Art\\Mat\\chuansong.mtl",
+            "Art\\Mat\\chuansongdai.mtl",
             "Art\\Mat\\mu01.mtl",
             "Art\\Material\\baoshi.mtl",
             "Art\\Material\\jibi.mtl",
@@ -828,6 +830,17 @@
             "沙漠火车收割\\沙漠火车\\emoji着急.png",
             "沙漠火车收割\\沙漠火车\\emoji美味表情.png",
             "沙漠火车收割\\沙漠火车\\emo饥饿.png",
+            "Art\\Mat\\audio\\BGM.mp3",
+            "Art\\Mat\\audio\\GetRes.mp3",
+            "Art\\Mat\\audio\\gold.mp3",
+            "Art\\Mat\\audio\\hit.mp3",
+            "Art\\Mat\\audio\\SetRes.mp3",
+            "Art\\Mat\\audio\\UPLV.mp3",
+            "Art\\Mat\\audio\\Win.mp3",
+            "Art\\Mat\\audio\\ye.mp3",
+            "Art\\Mat\\audio\\射箭.mp3",
+            "Art\\Mat\\audio\\烘烤.mp3",
+            "Art\\Mat\\audio\\电锯.mp3",
             "GameRes\\Image\\img\\imf_jjiantou.png",
             "GameRes\\Image\\img\\img_arrow_1.png",
             "GameRes\\Prefabs\\Role\\Customer.prefab",
@@ -887,8 +900,7 @@
             "GameRes\\fx\\Effect\\winfail\\prefan\\LosePanel.prefab",
             "GameRes\\fx\\Effect\\winfail\\prefan\\TopLogo.prefab",
             "GameRes\\fx\\Effect\\winfail\\prefan\\WinPanel.prefab",
-            "Res\\UI\\Line\\ArrowLine\\Shader\\arrow.mtl",
-            "Art\\Mat\\chuansongdai.mtl"
+            "Res\\UI\\Line\\ArrowLine\\Shader\\arrow.mtl"
         ]
     }
 }

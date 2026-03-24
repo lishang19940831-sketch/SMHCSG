@@ -662,14 +662,14 @@
       "models\\人骆驼_移动.fbx@a96a6": [
         "textures\\人_BC.png"
       ],
-      "models\\人骆驼_待机.fbx@a96a6": [
-        "textures\\人_BC.png"
-      ],
       "models\\小麦01.FBX@ab932": [
         "textures\\XiaoMai_1.tga"
       ],
       "models\\小麦01.FBX@6e70c": [
         "textures\\XiaoMai_1.tga"
+      ],
+      "models\\人骆驼_待机.fbx@a96a6": [
+        "textures\\人_BC.png"
       ],
       "models\\收银机.fbx@d20e9": [
         "textures\\收银机.jpg"
@@ -801,6 +801,9 @@
       ],
       "Art\\Mat\\chuansong.mtl": [
         "fc326c29-2aac-4636-a98f-14a734eab966"
+      ],
+      "Art\\Mat\\chuansongdai.mtl": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
       ],
       "Art\\Mat\\mu01.mtl": [
         "fc326c29-2aac-4636-a98f-14a734eab966"
@@ -996,9 +999,6 @@
       ],
       "Res\\UI\\Line\\ArrowLine\\Shader\\arrow.mtl": [
         "fd602a3d-4ccd-4124-8838-ea918acfb733"
-      ],
-      "Art\\Mat\\chuansongdai.mtl": [
-        "c8f66d17-351a-48da-a12c-0212d28575c4"
       ]
     }
   },
