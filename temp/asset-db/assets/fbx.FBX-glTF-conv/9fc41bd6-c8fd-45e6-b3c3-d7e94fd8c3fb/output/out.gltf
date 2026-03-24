@@ -1,0 +1,838 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 39,
+      "max": [
+        0.5094913840293884,
+        0.17838673293590546,
+        0.07411956787109375
+      ],
+      "min": [
+        -0.798342227935791,
+        -0.17768456041812897,
+        -0.07103610038757324
+      ],
+      "name": "arrow/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 39,
+      "name": "arrow/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 39,
+      "name": "arrow/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5123,
+      "count": 108,
+      "name": "arrow/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1602,
+      "max": [
+        0.42241808772087097,
+        0.42678460478782654,
+        0.7335966229438782
+      ],
+      "min": [
+        -0.44640594720840454,
+        -0.4320111572742462,
+        0.008043189533054829
+      ],
+      "name": "arrow_tower/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 1602,
+      "name": "arrow_tower/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 1602,
+      "name": "arrow_tower/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 2847,
+      "name": "arrow_tower/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 406,
+      "max": [
+        0.44058212637901306,
+        0.6020902991294861,
+        0.14031323790550232
+      ],
+      "min": [
+        -0.5732801556587219,
+        -0.6054990291595459,
+        -0.16202901303768158
+      ],
+      "name": "bow/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 406,
+      "name": "bow/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 406,
+      "name": "bow/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5123,
+      "count": 924,
+      "name": "bow/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 4242,
+      "max": [
+        0.49148067831993103,
+        0.49363094568252563,
+        1.4513949155807495
+      ],
+      "min": [
+        -0.5260223746299744,
+        -0.5080931782722473,
+        -0.02968228980898857
+      ],
+      "name": "towerbase_wood/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 4242,
+      "name": "towerbase_wood/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 4242,
+      "name": "towerbase_wood/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5123,
+      "count": 4242,
+      "name": "towerbase_wood/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 1,
+      "name": "arrow/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 1,
+      "max": [
+        3.3333332538604736
+      ],
+      "min": [
+        3.3333332538604736
+      ],
+      "name": "arrow/rotation/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 1,
+      "name": "arrow_tower/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5126,
+      "count": 1,
+      "max": [
+        3.3333332538604736
+      ],
+      "min": [
+        3.3333332538604736
+      ],
+      "name": "arrow_tower/rotation/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 1,
+      "name": "bow/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5126,
+      "count": 1,
+      "max": [
+        3.3333332538604736
+      ],
+      "min": [
+        3.3333332538604736
+      ],
+      "name": "bow/rotation/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5126,
+      "count": 1,
+      "name": "towerbase_wood/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 15,
+      "componentType": 5126,
+      "count": 1,
+      "max": [
+        3.3333332538604736
+      ],
+      "min": [
+        3.3333332538604736
+      ],
+      "name": "towerbase_wood/rotation/Input",
+      "type": "SCALAR"
+    }
+  ],
+  "animations": [
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 0,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 1,
+          "target": {
+            "node": 1,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 2,
+          "target": {
+            "node": 2,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 3,
+          "target": {
+            "node": 3,
+            "path": "rotation"
+          }
+        }
+      ],
+      "name": "Take 001",
+      "samplers": [
+        {
+          "input": 17,
+          "output": 16
+        },
+        {
+          "input": 19,
+          "output": 18
+        },
+        {
+          "input": 21,
+          "output": 20
+        },
+        {
+          "input": 23,
+          "output": 22
+        }
+      ]
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1248,
+      "byteStride": 32,
+      "name": "arrow",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 216,
+      "byteOffset": 1248,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 51264,
+      "byteOffset": 1464,
+      "byteStride": 32,
+      "name": "arrow_tower",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5694,
+      "byteOffset": 52728,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 12992,
+      "byteOffset": 58422,
+      "byteStride": 32,
+      "name": "bow",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1848,
+      "byteOffset": 71414,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 135744,
+      "byteOffset": 73262,
+      "byteStride": 32,
+      "name": "towerbase_wood",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8484,
+      "byteOffset": 209006,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 16,
+      "byteOffset": 217490
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4,
+      "byteOffset": 217506
+    },
+    {
+      "buffer": 0,
+      "byteLength": 16,
+      "byteOffset": 217510
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4,
+      "byteOffset": 217526
+    },
+    {
+      "buffer": 0,
+      "byteLength": 16,
+      "byteOffset": 217530
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4,
+      "byteOffset": 217546
+    },
+    {
+      "buffer": 0,
+      "byteLength": 16,
+      "byteOffset": 217550
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4,
+      "byteOffset": 217566
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 217570,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 30.0,
+      "fbxFileHeaderInfo": {
+        "creationTimeStamp": {
+          "day": 17,
+          "hour": 13,
+          "millisecond": 212,
+          "minute": 38,
+          "month": 9,
+          "second": 47,
+          "year": 2025
+        },
+        "creator": "FBX SDK/FBX Plugins version 2015.0",
+        "sceneInfo": {
+          "author": "",
+          "comment": "",
+          "keywords": "",
+          "original": {
+            "applicationName": "3ds Max",
+            "applicationVendor": "Autodesk",
+            "applicationVersion": "2014",
+            "fileName": "D:\\外包\\提交\\huanxingshanlu\\Client\\Assets\\fbx\\tower\\arrow_tower.fbx"
+          },
+          "revision": "",
+          "subject": "",
+          "title": "",
+          "url": "D:\\Project\\shamohuocheshouge\\Client\\cocos\\SMHCSG\\assets\\沙漠火车收割\\Models\\箭塔.fbx"
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "E:\\Unity Projects\\ringroad\\Assets\\fbx\\tower\\arrow_tower.fbm\\箭塔1级_color1.PNG",
+          "relativeFileName": "E:\\Unity Projects\\ringroad\\Assets\\fbx\\tower\\arrow_tower.fbm\\箭塔1级_color1.PNG"
+        }
+      },
+      "name": "base_color_texture",
+      "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "E:\\Unity Projects\\ringroad\\Assets\\fbx\\tower\\arrow_tower.fbm\\箭塔基座1级_color2.PNG",
+          "relativeFileName": "E:\\Unity Projects\\ringroad\\Assets\\fbx\\tower\\arrow_tower.fbm\\箭塔基座1级_color2.PNG"
+        }
+      },
+      "name": "base_color_texture",
+      "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+    }
+  ],
+  "materials": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "raw": {
+            "properties": {
+              "ambient": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "ambientFactor": {
+                "value": 0.0
+              },
+              "bump": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "bumpFactor": {
+                "value": 1.0
+              },
+              "diffuse": {
+                "texture": {
+                  "index": 0
+                },
+                "value": [
+                  0.2158605009317398,
+                  0.2158605009317398,
+                  0.2158605009317398
+                ]
+              },
+              "diffuseFactor": {
+                "value": 1.0
+              },
+              "displacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "displacementFactor": {
+                "value": 1.0
+              },
+              "emissive": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "emissiveFactor": {
+                "value": 0.0
+              },
+              "normalMap": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "reflection": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "reflectionFactor": {
+                "value": 1.0
+              },
+              "shadingModel": "phong",
+              "shininess": {
+                "value": 20.0
+              },
+              "specular": {
+                "value": [
+                  0.2158605009317398,
+                  0.2158605009317398,
+                  0.2158605009317398
+                ]
+              },
+              "specularFactor": {
+                "value": 0.5
+              },
+              "transparencyFactor": {
+                "value": 0.0
+              },
+              "transparentColor": {
+                "value": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              "vectorDisplacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "vectorDisplacementFactor": {
+                "value": 1.0
+              }
+            },
+            "type": "phong"
+          }
+        }
+      },
+      "name": "M_TM"
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "raw": {
+            "properties": {
+              "ambient": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "ambientFactor": {
+                "value": 0.0
+              },
+              "bump": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "bumpFactor": {
+                "value": 1.0
+              },
+              "diffuse": {
+                "texture": {
+                  "index": 1
+                },
+                "value": [
+                  0.800000011920929,
+                  0.800000011920929,
+                  0.800000011920929
+                ]
+              },
+              "diffuseFactor": {
+                "value": 1.0
+              },
+              "displacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "displacementFactor": {
+                "value": 1.0
+              },
+              "emissive": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "emissiveFactor": {
+                "value": 0.0
+              },
+              "normalMap": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "reflection": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "reflectionFactor": {
+                "value": 1.0
+              },
+              "shadingModel": "phong",
+              "shininess": {
+                "value": 20.0
+              },
+              "specular": {
+                "value": [
+                  0.800000011920929,
+                  0.800000011920929,
+                  0.800000011920929
+                ]
+              },
+              "specularFactor": {
+                "value": 0.5
+              },
+              "transparencyFactor": {
+                "value": 0.0
+              },
+              "transparentColor": {
+                "value": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              "vectorDisplacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "vectorDisplacementFactor": {
+                "value": 1.0
+              }
+            },
+            "type": "phong"
+          }
+        }
+      },
+      "name": "MI_一级箭塔基座"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "arrow",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "arrow_tower",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "bow",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "towerbase_wood",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 1
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "arrow",
+      "rotation": [
+        -0.5,
+        -0.5,
+        -0.5,
+        0.5
+      ],
+      "translation": [
+        -0.05098441243171692,
+        2.417856454849243,
+        0.17968763411045074
+      ]
+    },
+    {
+      "mesh": 1,
+      "name": "arrow_tower",
+      "rotation": [
+        -0.5,
+        -0.5,
+        -0.5,
+        0.5
+      ],
+      "translation": [
+        -0.03817620128393173,
+        1.4917336702346802,
+        -0.04421791434288025
+      ]
+    },
+    {
+      "mesh": 2,
+      "name": "bow",
+      "rotation": [
+        -0.5,
+        -0.5,
+        -0.5,
+        0.5
+      ],
+      "translation": [
+        -0.04289188235998154,
+        2.327852487564087,
+        -0.2343502938747406
+      ]
+    },
+    {
+      "mesh": 3,
+      "name": "towerbase_wood",
+      "rotation": [
+        -0.5,
+        -0.5,
+        -0.5,
+        0.5
+      ],
+      "translation": [
+        -0.030889946967363358,
+        0.0534651055932045,
+        -0.08596398681402206
+      ]
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "base_color_texture",
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "name": "base_color_texture",
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}

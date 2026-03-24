@@ -1,0 +1,1327 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 354,
+      "max": [
+        0.9101587533950806,
+        0.3870834708213806,
+        0.40700364112854004
+      ],
+      "min": [
+        -0.9101587533950806,
+        -0.3870834708213806,
+        -0.4070034921169281
+      ],
+      "name": "Car_03_Lun1/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 354,
+      "name": "Car_03_Lun1/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 354,
+      "name": "Car_03_Lun1/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5123,
+      "count": 1638,
+      "name": "Car_03_Lun1/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2934,
+      "max": [
+        0.867368221282959,
+        1.842330813407898,
+        2.5783066749572754
+      ],
+      "min": [
+        -0.8286007046699524,
+        0.3786686658859253,
+        -2.5783071517944336
+      ],
+      "name": "Car_03_1/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 2934,
+      "name": "Car_03_1/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 2934,
+      "name": "Car_03_1/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 10104,
+      "name": "Car_03_1/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 354,
+      "max": [
+        0.9101588129997253,
+        0.3870834708213806,
+        0.40700381994247437
+      ],
+      "min": [
+        -0.9101588129997253,
+        -0.387083500623703,
+        -0.40700381994247437
+      ],
+      "name": "Car_03_Lun2/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 354,
+      "name": "Car_03_Lun2/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 354,
+      "name": "Car_03_Lun2/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5123,
+      "count": 1638,
+      "name": "Car_03_Lun2/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 328,
+      "max": [
+        0.1890811175107956,
+        0.007566594984382391,
+        0.1890811026096344
+      ],
+      "min": [
+        -0.1890811175107956,
+        -0.007566584274172783,
+        -0.1890811175107956
+      ],
+      "name": "Car_03_Ju/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 328,
+      "name": "Car_03_Ju/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 328,
+      "name": "Car_03_Ju/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5123,
+      "count": 864,
+      "name": "Car_03_Ju/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 1,
+      "name": "Car_03_Lun1/translation/Output",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 1,
+      "max": [
+        3.3333332538604736
+      ],
+      "min": [
+        3.3333332538604736
+      ],
+      "name": "Car_03_Lun1/translation/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 4,
+      "name": "Car_03_Lun1/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        1.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "Car_03_Lun1/rotation/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 1,
+      "name": "Car_03_Lun1/scale/Output",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5126,
+      "count": 1,
+      "max": [
+        3.3333332538604736
+      ],
+      "min": [
+        3.3333332538604736
+      ],
+      "name": "Car_03_Lun1/scale/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5126,
+      "count": 1,
+      "name": "Car_03_1/translation/Output",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 15,
+      "componentType": 5126,
+      "count": 1,
+      "max": [
+        3.3333332538604736
+      ],
+      "min": [
+        3.3333332538604736
+      ],
+      "name": "Car_03_1/translation/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 16,
+      "componentType": 5126,
+      "count": 16,
+      "name": "Car_03_1/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 17,
+      "componentType": 5126,
+      "count": 16,
+      "max": [
+        1.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "Car_03_1/rotation/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 18,
+      "componentType": 5126,
+      "count": 1,
+      "name": "Car_03_1/scale/Output",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 19,
+      "componentType": 5126,
+      "count": 1,
+      "max": [
+        3.3333332538604736
+      ],
+      "min": [
+        3.3333332538604736
+      ],
+      "name": "Car_03_1/scale/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 20,
+      "componentType": 5126,
+      "count": 1,
+      "name": "Car_03_Lun2/translation/Output",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 21,
+      "componentType": 5126,
+      "count": 1,
+      "max": [
+        3.3333332538604736
+      ],
+      "min": [
+        3.3333332538604736
+      ],
+      "name": "Car_03_Lun2/translation/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 22,
+      "componentType": 5126,
+      "count": 4,
+      "name": "Car_03_Lun2/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 23,
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        1.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "Car_03_Lun2/rotation/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 24,
+      "componentType": 5126,
+      "count": 1,
+      "name": "Car_03_Lun2/scale/Output",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 25,
+      "componentType": 5126,
+      "count": 1,
+      "max": [
+        3.3333332538604736
+      ],
+      "min": [
+        3.3333332538604736
+      ],
+      "name": "Car_03_Lun2/scale/Input",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 26,
+      "componentType": 5126,
+      "count": 1,
+      "name": "Car_03_Ju/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 27,
+      "componentType": 5126,
+      "count": 1,
+      "max": [
+        3.3333332538604736
+      ],
+      "min": [
+        3.3333332538604736
+      ],
+      "name": "Car_03_Ju/rotation/Input",
+      "type": "SCALAR"
+    }
+  ],
+  "animations": [
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 0,
+            "path": "translation"
+          }
+        },
+        {
+          "sampler": 1,
+          "target": {
+            "node": 0,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 2,
+          "target": {
+            "node": 0,
+            "path": "scale"
+          }
+        },
+        {
+          "sampler": 3,
+          "target": {
+            "node": 1,
+            "path": "translation"
+          }
+        },
+        {
+          "sampler": 4,
+          "target": {
+            "node": 1,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 5,
+          "target": {
+            "node": 1,
+            "path": "scale"
+          }
+        },
+        {
+          "sampler": 6,
+          "target": {
+            "node": 2,
+            "path": "translation"
+          }
+        },
+        {
+          "sampler": 7,
+          "target": {
+            "node": 2,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 8,
+          "target": {
+            "node": 2,
+            "path": "scale"
+          }
+        },
+        {
+          "sampler": 9,
+          "target": {
+            "node": 3,
+            "path": "rotation"
+          }
+        }
+      ],
+      "name": "Take 001",
+      "samplers": [
+        {
+          "input": 17,
+          "output": 16
+        },
+        {
+          "input": 19,
+          "output": 18
+        },
+        {
+          "input": 21,
+          "output": 20
+        },
+        {
+          "input": 23,
+          "output": 22
+        },
+        {
+          "input": 25,
+          "output": 24
+        },
+        {
+          "input": 27,
+          "output": 26
+        },
+        {
+          "input": 29,
+          "output": 28
+        },
+        {
+          "input": 31,
+          "output": 30
+        },
+        {
+          "input": 33,
+          "output": 32
+        },
+        {
+          "input": 35,
+          "output": 34
+        }
+      ]
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 11328,
+      "byteStride": 32,
+      "name": "Car_03_Lun1",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3276,
+      "byteOffset": 11328,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 93888,
+      "byteOffset": 14604,
+      "byteStride": 32,
+      "name": "Car_03_1",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 20208,
+      "byteOffset": 108492,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 11328,
+      "byteOffset": 128700,
+      "byteStride": 32,
+      "name": "Car_03_Lun2",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3276,
+      "byteOffset": 140028,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 10496,
+      "byteOffset": 143304,
+      "byteStride": 32,
+      "name": "Car_03_Ju",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1728,
+      "byteOffset": 153800,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 12,
+      "byteOffset": 155528
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4,
+      "byteOffset": 155540
+    },
+    {
+      "buffer": 0,
+      "byteLength": 64,
+      "byteOffset": 155544
+    },
+    {
+      "buffer": 0,
+      "byteLength": 16,
+      "byteOffset": 155608
+    },
+    {
+      "buffer": 0,
+      "byteLength": 12,
+      "byteOffset": 155624
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4,
+      "byteOffset": 155636
+    },
+    {
+      "buffer": 0,
+      "byteLength": 12,
+      "byteOffset": 155640
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4,
+      "byteOffset": 155652
+    },
+    {
+      "buffer": 0,
+      "byteLength": 256,
+      "byteOffset": 155656
+    },
+    {
+      "buffer": 0,
+      "byteLength": 64,
+      "byteOffset": 155912
+    },
+    {
+      "buffer": 0,
+      "byteLength": 12,
+      "byteOffset": 155976
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4,
+      "byteOffset": 155988
+    },
+    {
+      "buffer": 0,
+      "byteLength": 12,
+      "byteOffset": 155992
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4,
+      "byteOffset": 156004
+    },
+    {
+      "buffer": 0,
+      "byteLength": 64,
+      "byteOffset": 156008
+    },
+    {
+      "buffer": 0,
+      "byteLength": 16,
+      "byteOffset": 156072
+    },
+    {
+      "buffer": 0,
+      "byteLength": 12,
+      "byteOffset": 156088
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4,
+      "byteOffset": 156100
+    },
+    {
+      "buffer": 0,
+      "byteLength": 16,
+      "byteOffset": 156104
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4,
+      "byteOffset": 156120
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 156124,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 30.0,
+      "fbxFileHeaderInfo": {
+        "creationTimeStamp": {
+          "day": 4,
+          "hour": 17,
+          "millisecond": 717,
+          "minute": 10,
+          "month": 6,
+          "second": 29,
+          "year": 2025
+        },
+        "creator": "FBX SDK/FBX Plugins version 2016.0",
+        "sceneInfo": {
+          "author": "",
+          "comment": "",
+          "keywords": "",
+          "original": {
+            "applicationName": "3ds Max",
+            "applicationVendor": "Autodesk",
+            "applicationVersion": "2014",
+            "fileName": "E:\\Work_SVN\\morinongchangzhu\\Client\\Assets\\ART\\Scenes\\Modes\\Car_03.FBX"
+          },
+          "revision": "",
+          "subject": "",
+          "title": "",
+          "url": "D:\\Project\\shamohuocheshouge\\Client\\cocos\\SMHCSG\\assets\\models\\车03.FBX"
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "E:\\Work_SVN\\morinongchangzhu\\Client\\Assets\\ART\\Scenes\\Texture\\Car_03.JPG",
+          "relativeFileName": "..\\Texture\\Car_03.JPG"
+        }
+      },
+      "name": "Map #5",
+      "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "E:\\Work_SVN\\morinongchangzhu\\Client\\Assets\\ART\\Scenes\\Texture\\Car_03.JPG",
+          "relativeFileName": "..\\Texture\\Car_03.JPG"
+        }
+      },
+      "name": "Map #6",
+      "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "E:\\Work_SVN\\morinongchangzhu\\Client\\Assets\\ART\\Scenes\\Texture\\Car_03.JPG",
+          "relativeFileName": "..\\Texture\\Car_03.JPG"
+        }
+      },
+      "name": "Map #4",
+      "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "E:\\Work_SVN\\W17huocheshougeziyuan\\Client\\Assets\\ART\\Scenes\\Textures\\Color_01.jpg",
+          "relativeFileName": "..\\..\\..\\..\\..\\..\\W17huocheshougeziyuan\\Client\\Assets\\ART\\Scenes\\Textures\\Color_01.jpg"
+        }
+      },
+      "name": "Map #7",
+      "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+    }
+  ],
+  "materials": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "raw": {
+            "properties": {
+              "ambient": {
+                "value": [
+                  0.5879999995231628,
+                  0.5879999995231628,
+                  0.5879999995231628
+                ]
+              },
+              "ambientFactor": {
+                "value": 0.0
+              },
+              "bump": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "bumpFactor": {
+                "value": 1.0
+              },
+              "diffuse": {
+                "texture": {
+                  "index": 0
+                },
+                "value": [
+                  0.5879999995231628,
+                  0.5879999995231628,
+                  0.5879999995231628
+                ]
+              },
+              "diffuseFactor": {
+                "value": 1.0
+              },
+              "displacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "displacementFactor": {
+                "value": 1.0
+              },
+              "emissive": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "emissiveFactor": {
+                "value": 0.0
+              },
+              "normalMap": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "reflection": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "reflectionFactor": {
+                "value": 1.0
+              },
+              "shadingModel": "phong",
+              "shininess": {
+                "value": 2.0
+              },
+              "specular": {
+                "value": [
+                  0.8999999761581421,
+                  0.8999999761581421,
+                  0.8999999761581421
+                ]
+              },
+              "specularFactor": {
+                "value": 0.0
+              },
+              "transparencyFactor": {
+                "value": 0.0
+              },
+              "transparentColor": {
+                "value": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              "vectorDisplacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "vectorDisplacementFactor": {
+                "value": 1.0
+              }
+            },
+            "type": "phong"
+          }
+        }
+      },
+      "name": "Material #31"
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "raw": {
+            "properties": {
+              "ambient": {
+                "value": [
+                  0.5879999995231628,
+                  0.5879999995231628,
+                  0.5879999995231628
+                ]
+              },
+              "ambientFactor": {
+                "value": 0.0
+              },
+              "bump": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "bumpFactor": {
+                "value": 1.0
+              },
+              "diffuse": {
+                "texture": {
+                  "index": 1
+                },
+                "value": [
+                  0.5879999995231628,
+                  0.5879999995231628,
+                  0.5879999995231628
+                ]
+              },
+              "diffuseFactor": {
+                "value": 1.0
+              },
+              "displacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "displacementFactor": {
+                "value": 1.0
+              },
+              "emissive": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "emissiveFactor": {
+                "value": 0.0
+              },
+              "normalMap": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "reflection": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "reflectionFactor": {
+                "value": 1.0
+              },
+              "shadingModel": "phong",
+              "shininess": {
+                "value": 2.0
+              },
+              "specular": {
+                "value": [
+                  0.8999999761581421,
+                  0.8999999761581421,
+                  0.8999999761581421
+                ]
+              },
+              "specularFactor": {
+                "value": 0.0
+              },
+              "transparencyFactor": {
+                "value": 0.0
+              },
+              "transparentColor": {
+                "value": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              "vectorDisplacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "vectorDisplacementFactor": {
+                "value": 1.0
+              }
+            },
+            "type": "phong"
+          }
+        }
+      },
+      "name": "Material #32"
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "raw": {
+            "properties": {
+              "ambient": {
+                "value": [
+                  0.5879999995231628,
+                  0.5879999995231628,
+                  0.5879999995231628
+                ]
+              },
+              "ambientFactor": {
+                "value": 0.0
+              },
+              "bump": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "bumpFactor": {
+                "value": 1.0
+              },
+              "diffuse": {
+                "texture": {
+                  "index": 2
+                },
+                "value": [
+                  0.5879999995231628,
+                  0.5879999995231628,
+                  0.5879999995231628
+                ]
+              },
+              "diffuseFactor": {
+                "value": 1.0
+              },
+              "displacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "displacementFactor": {
+                "value": 1.0
+              },
+              "emissive": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "emissiveFactor": {
+                "value": 0.0
+              },
+              "normalMap": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "reflection": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "reflectionFactor": {
+                "value": 1.0
+              },
+              "shadingModel": "phong",
+              "shininess": {
+                "value": 2.0
+              },
+              "specular": {
+                "value": [
+                  0.8999999761581421,
+                  0.8999999761581421,
+                  0.8999999761581421
+                ]
+              },
+              "specularFactor": {
+                "value": 0.0
+              },
+              "transparencyFactor": {
+                "value": 0.0
+              },
+              "transparentColor": {
+                "value": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              "vectorDisplacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "vectorDisplacementFactor": {
+                "value": 1.0
+              }
+            },
+            "type": "phong"
+          }
+        }
+      },
+      "name": "Material #30"
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "raw": {
+            "properties": {
+              "ambient": {
+                "value": [
+                  0.5879999995231628,
+                  0.5879999995231628,
+                  0.5879999995231628
+                ]
+              },
+              "ambientFactor": {
+                "value": 0.0
+              },
+              "bump": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "bumpFactor": {
+                "value": 1.0
+              },
+              "diffuse": {
+                "texture": {
+                  "index": 3
+                },
+                "value": [
+                  0.5879999995231628,
+                  0.5879999995231628,
+                  0.5879999995231628
+                ]
+              },
+              "diffuseFactor": {
+                "value": 1.0
+              },
+              "displacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "displacementFactor": {
+                "value": 1.0
+              },
+              "emissive": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "emissiveFactor": {
+                "value": 0.0
+              },
+              "normalMap": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "reflection": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "reflectionFactor": {
+                "value": 1.0
+              },
+              "shadingModel": "phong",
+              "shininess": {
+                "value": 2.0
+              },
+              "specular": {
+                "value": [
+                  0.8999999761581421,
+                  0.8999999761581421,
+                  0.8999999761581421
+                ]
+              },
+              "specularFactor": {
+                "value": 0.0
+              },
+              "transparencyFactor": {
+                "value": 0.0
+              },
+              "transparentColor": {
+                "value": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              "vectorDisplacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "vectorDisplacementFactor": {
+                "value": 1.0
+              }
+            },
+            "type": "phong"
+          }
+        }
+      },
+      "name": "Material #46"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Car_03_Lun1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Car_03_1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1
+        }
+      ]
+    },
+    {
+      "name": "Car_03_Lun2",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 2
+        }
+      ]
+    },
+    {
+      "name": "Car_03_Ju",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 3
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Car_03_Lun1",
+      "translation": [
+        0.00032549380557611585,
+        0.3842431306838989,
+        -1.617051124572754
+      ]
+    },
+    {
+      "mesh": 1,
+      "name": "Car_03_1",
+      "translation": [
+        1.335144048653092e-07,
+        0.0,
+        4.7683716530855236e-08
+      ]
+    },
+    {
+      "mesh": 2,
+      "name": "Car_03_Lun2",
+      "translation": [
+        0.0003253412141930312,
+        0.3842426538467407,
+        0.332726389169693
+      ]
+    },
+    {
+      "mesh": 3,
+      "name": "Car_03_Ju",
+      "scale": [
+        5.6685662269592285,
+        5.6685662269592285,
+        5.6685662269592285
+      ],
+      "translation": [
+        -0.03432580456137657,
+        0.6358328461647034,
+        2.1722774505615234
+      ]
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "Map #5",
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "name": "Map #6",
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "name": "Map #4",
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "name": "Map #7",
+      "sampler": 0,
+      "source": 3
+    }
+  ]
+}

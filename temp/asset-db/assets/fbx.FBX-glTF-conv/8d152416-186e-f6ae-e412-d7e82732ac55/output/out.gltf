@@ -1,0 +1,538 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 1921,
+      "max": [
+        2.046499252319336,
+        1.6376464366912842,
+        2.764033555984497
+      ],
+      "min": [
+        -2.046499252319336,
+        -1.6376464366912842,
+        0.0
+      ],
+      "name": "SM_木堆/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 1921,
+      "name": "SM_木堆/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 1921,
+      "name": "SM_木堆/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "count": 1921,
+      "name": "SM_木堆/TEXCOORD_1",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5123,
+      "count": 8568,
+      "name": "SM_木堆/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1190,
+      "max": [
+        2.046499252319336,
+        1.6484423875808716,
+        2.7631475925445557
+      ],
+      "min": [
+        -2.0463972091674805,
+        -1.633059024810791,
+        -0.0010749053908511996
+      ],
+      "name": "SM_木堆/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 1190,
+      "name": "SM_木堆/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 1190,
+      "name": "SM_木堆/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "count": 1190,
+      "name": "SM_木堆/TEXCOORD_1",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 4284,
+      "name": "SM_木堆/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 714,
+      "max": [
+        2.049592971801758,
+        1.6474096775054932,
+        2.7702627182006836
+      ],
+      "min": [
+        -2.0486528873443604,
+        -1.6125366687774658,
+        -0.00481349928304553
+      ],
+      "name": "SM_木堆/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 714,
+      "name": "SM_木堆/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 714,
+      "name": "SM_木堆/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "count": 714,
+      "name": "SM_木堆/TEXCOORD_1",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5123,
+      "count": 2142,
+      "name": "SM_木堆/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 442,
+      "max": [
+        2.0573501586914063,
+        1.5909496545791626,
+        2.7830138206481934
+      ],
+      "min": [
+        -2.068328380584717,
+        -1.578916072845459,
+        -0.005705108866095543
+      ],
+      "name": "SM_木堆/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 442,
+      "name": "SM_木堆/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 442,
+      "name": "SM_木堆/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "count": 442,
+      "name": "SM_木堆/TEXCOORD_1",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5123,
+      "count": 1020,
+      "name": "SM_木堆/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 76840,
+      "byteStride": 40,
+      "name": "SM_木堆",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 17136,
+      "byteOffset": 76840,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 47600,
+      "byteOffset": 93976,
+      "byteStride": 40,
+      "name": "SM_木堆",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8568,
+      "byteOffset": 141576,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 28560,
+      "byteOffset": 150144,
+      "byteStride": 40,
+      "name": "SM_木堆",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4284,
+      "byteOffset": 178704,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 17680,
+      "byteOffset": 182988,
+      "byteStride": 40,
+      "name": "SM_木堆",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2040,
+      "byteOffset": 200668,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 202708,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 30.0,
+      "fbxFileHeaderInfo": {
+        "creationTimeStamp": {
+          "day": 11,
+          "hour": 11,
+          "millisecond": 501,
+          "minute": 52,
+          "month": 6,
+          "second": 40,
+          "year": 2025
+        },
+        "creator": "FBX SDK/FBX Plugins version 2020.2",
+        "sceneInfo": {
+          "author": "",
+          "comment": "",
+          "keywords": "",
+          "original": {
+            "applicationName": "Unreal Engine",
+            "applicationVendor": "Epic Games",
+            "applicationVersion": "5.3.2-29314046+++UE5+Release-5.3",
+            "fileName": ""
+          },
+          "revision": "",
+          "subject": "Export FBX meshes from Unreal",
+          "title": "Unreal FBX Exporter",
+          "url": "D:\\Project\\shamohuocheshouge\\Client\\cocos\\SMHCSG\\assets\\models\\木堆.FBX"
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "D:/../Work/Asset_Bundles/Stylized_Fantasy_Nature/Props/Campfire/Textures/T_CampFire_N.png",
+          "relativeFileName": "D:\\Work\\Asset_Bundles\\Stylized_Fantasy_Nature\\Props\\Campfire\\Textures\\T_CampFire_N.png"
+        }
+      },
+      "name": "T_CampFire_N",
+      "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+    }
+  ],
+  "materials": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "raw": {
+            "properties": {
+              "ambient": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "ambientFactor": {
+                "value": 1.0
+              },
+              "bump": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "bumpFactor": {
+                "value": 1.0
+              },
+              "diffuse": {
+                "value": [
+                  0.2158605009317398,
+                  0.2158605009317398,
+                  0.2158605009317398
+                ]
+              },
+              "diffuseFactor": {
+                "value": 1.0
+              },
+              "displacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "displacementFactor": {
+                "value": 1.0
+              },
+              "emissive": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "emissiveFactor": {
+                "value": 1.0
+              },
+              "normalMap": {
+                "texture": {
+                  "index": 0
+                },
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "reflection": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "reflectionFactor": {
+                "value": 1.0
+              },
+              "shadingModel": "Phong",
+              "shininess": {
+                "value": 20.0
+              },
+              "specular": {
+                "value": [
+                  0.2,
+                  0.2,
+                  0.2
+                ]
+              },
+              "specularFactor": {
+                "value": 1.0
+              },
+              "transparencyFactor": {
+                "value": 1.0
+              },
+              "transparentColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "vectorDisplacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "vectorDisplacementFactor": {
+                "value": 1.0
+              }
+            },
+            "type": "phong"
+          }
+        }
+      },
+      "name": "MI_Campfire"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "SM_木堆",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "SM_木堆",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TEXCOORD_0": 7,
+            "TEXCOORD_1": 8
+          },
+          "indices": 9,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "SM_木堆",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 11,
+            "POSITION": 10,
+            "TEXCOORD_0": 12,
+            "TEXCOORD_1": 13
+          },
+          "indices": 14,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "SM_木堆",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 16,
+            "POSITION": 15,
+            "TEXCOORD_0": 17,
+            "TEXCOORD_1": 18
+          },
+          "indices": 19,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "name": "SM_木堆",
+      "rotation": [
+        -0.7071067690849304,
+        -0.0,
+        0.0,
+        0.7071067690849304
+      ]
+    },
+    {
+      "mesh": 0,
+      "name": "SM_木堆_LOD0"
+    },
+    {
+      "mesh": 1,
+      "name": "SM_木堆_LOD1"
+    },
+    {
+      "mesh": 2,
+      "name": "SM_木堆_LOD2"
+    },
+    {
+      "mesh": 3,
+      "name": "SM_木堆_LOD3"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "T_CampFire_N",
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}

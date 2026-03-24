@@ -9,10 +9,67 @@
     }
   },
   "physics": {
-    "collisionGroups": [],
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "HERO"
+      },
+      {
+        "index": 2,
+        "name": "ENEMY"
+      },
+      {
+        "index": 3,
+        "name": "BULLET"
+      },
+      {
+        "index": 4,
+        "name": "HOME"
+      },
+      {
+        "index": 5,
+        "name": "WALL"
+      },
+      {
+        "index": 6,
+        "name": "GROUND"
+      },
+      {
+        "index": 7,
+        "name": "ARME"
+      },
+      {
+        "index": 8,
+        "name": "BUILDING"
+      },
+      {
+        "index": 9,
+        "name": "HOME2"
+      },
+      {
+        "index": 10,
+        "name": "DOOR"
+      },
+      {
+        "index": 11,
+        "name": "INTRAIN"
+      }
+    ],
     "collisionMatrix": {
-      "0": 1
+      "0": 323,
+      "1": 3449,
+      "2": 592,
+      "3": 2,
+      "4": 6,
+      "5": 66,
+      "6": 167,
+      "7": 320,
+      "8": 131,
+      "9": 4,
+      "10": 2,
+      "11": 2
     },
     "custom_joint_texture_layouts": []
-  }
+  },
+  "custom_joint_texture_layouts": []
 }

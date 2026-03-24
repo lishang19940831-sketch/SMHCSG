@@ -1,0 +1,40 @@
+{
+  "__version__": "1.0.1",
+  "builder": {
+    "common": {
+      "binGroupConfig": {
+        "threshold": 16,
+        "enable": false
+      },
+      "polyfills": {
+        "asyncFunctions": true
+      },
+      "buildPath": "project://build",
+      "outputName": "web-mobile",
+      "mainBundleCompressionType": "merge_dep",
+      "platform": "web-mobile",
+      "scenes": [
+        {
+          "url": "db://assets/沙漠火车收割/沙漠火车收割.scene",
+          "uuid": "02de8a93-f137-482d-8545-a7eb9957d3ce"
+        }
+      ],
+      "startScene": "02de8a93-f137-482d-8545-a7eb9957d3ce",
+      "nativeCodeBundleMode": "asmjs",
+      "overwriteProjectSettings": {
+        "includeModules": {
+          "gfx-webgl2": "off"
+        }
+      }
+    },
+    "taskOptionsMap": {
+      "1773747423416": {
+        "useWebGPU": false,
+        "orientation": "auto",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      }
+    },
+    "__version__": "1.3.9"
+  }
+}

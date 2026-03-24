@@ -1,0 +1,6208 @@
+{
+  "version": "1.0.1",
+  "map": {
+    "A-texiao": {
+      "time": 1773979776147.2573,
+      "uuid": "84e0ddc5-3064-4f39-b580-c148f626f18c"
+    },
+    "animations": {
+      "time": 1773559955096.0713,
+      "uuid": "6f88573e-5546-eccf-91d8-4b6669cc9685"
+    },
+    "Art": {
+      "time": 1773721409706.312,
+      "uuid": "0f942779-32a1-4ce8-ab84-490dcd7299d6"
+    },
+    "audio": {
+      "time": 1772610625357.5852,
+      "uuid": "93c54299-3ef7-3d5d-9ca4-5285f4b72ce2"
+    },
+    "cocos_effect": {
+      "time": 1773908773214.5745,
+      "uuid": "d7b9958d-9557-442e-8df1-8b4dbb1c0f4e"
+    },
+    "Game": {
+      "time": 1773686086970.0015,
+      "uuid": "cbb61658-3071-431e-8c2e-612be329a541"
+    },
+    "GameRes": {
+      "time": 1773837818694.0566,
+      "uuid": "dcac9709-0ccb-4a43-bf6b-0217f315d16e"
+    },
+    "materials": {
+      "time": 1772610625397.8555,
+      "uuid": "f21ae2ac-d74c-7b83-e1e1-213dfd16c781"
+    },
+    "models": {
+      "time": 1774346716188.3474,
+      "uuid": "ab06af18-6bad-6517-89e9-a5d8f0176026"
+    },
+    "NPC(1)": {
+      "time": 1773485524128.6606,
+      "uuid": "7ccbb389-650a-458f-9ec2-7564a16c106d"
+    },
+    "NPC_FBX(1)": {
+      "time": 1773485524117.66,
+      "uuid": "1a8256dc-e5b3-4c80-b357-e132c67eb25f"
+    },
+    "prefabs": {
+      "time": 1773837862022.7068,
+      "uuid": "7b9904fe-e36e-fd90-7848-5ef80ed54ddd"
+    },
+    "Res": {
+      "time": 1773837818707.6775,
+      "uuid": "fb987791-069c-4f26-b950-f03fc29414a8"
+    },
+    "resources": {
+      "time": 1774003955301.3208,
+      "uuid": "eee4d45b-deb7-467a-8228-2b7af0b8288b"
+    },
+    "scenes": {
+      "time": 1772858701649.2156,
+      "uuid": "95aa2c2e-6b39-41a7-36bc-de6ca9a88984"
+    },
+    "Scripts": {
+      "time": 1773838026834.3733,
+      "uuid": "b6a066ee-c310-4520-b20c-93fcdc93cde4"
+    },
+    "textures": {
+      "time": 1772610625357.0132,
+      "uuid": "b4aa4fa6-0374-04a5-472c-ea21c7ad3d4a"
+    },
+    "杀鱼获肉": {
+      "time": 1773621520723.566,
+      "uuid": "d38dd8f5-f511-4ded-9c6b-0383fbbdd56e"
+    },
+    "沙漠火车收割": {
+      "time": 1773685246020.4775,
+      "uuid": "00efa4f8-3cc5-49bb-80d7-82b85a5ec90c"
+    },
+    "A-texiao\\Fab": {
+      "time": 1773979776129.7122,
+      "uuid": "b325dbd5-3c2f-4d97-9359-c9eb12311986"
+    },
+    "A-texiao\\mat": {
+      "time": 1773979776142.9407,
+      "uuid": "9bf354b5-5363-42a7-b695-13e01d9a6888"
+    },
+    "A-texiao\\mech": {
+      "time": 1773979776146.2527,
+      "uuid": "9dc09430-e6d5-4e6c-854e-8a1eaad104a1"
+    },
+    "A-texiao\\tex": {
+      "time": 1773979776153.0159,
+      "uuid": "185aebaf-91eb-49bc-9256-bffb4b3dfbb8"
+    },
+    "Art\\Fbx": {
+      "time": 1773819306463.4675,
+      "uuid": "451eb8b5-102a-4d88-a3e4-922feae41e27"
+    },
+    "Art\\Mat": {
+      "time": 1773819306466.48,
+      "uuid": "18efe0f7-9eb0-4256-86ef-2696818491eb"
+    },
+    "Art\\Material": {
+      "time": 1773896540451.1982,
+      "uuid": "7a8b09fe-fbf7-4e8d-af7d-b656b26f752e"
+    },
+    "Art\\Pre": {
+      "time": 1773819306469.4963,
+      "uuid": "89cf64c4-457d-4a75-88a3-7b94c8c0086b"
+    },
+    "Art\\Prefab": {
+      "time": 1773614709164.352,
+      "uuid": "73c72530-c3c9-497d-b1e6-e6dded6bd6dd"
+    },
+    "Art\\Tex": {
+      "time": 1773721409711.312,
+      "uuid": "0e81f5a7-88e2-44ed-9308-4286462b2acd"
+    },
+    "cocos_effect\\Materials": {
+      "time": 1774238027136.8015,
+      "uuid": "d89393d5-be14-4604-9df0-1c4209bfb95e"
+    },
+    "cocos_effect\\Models": {
+      "time": 1773908773207.9988,
+      "uuid": "ba563868-4b66-4e69-a3a2-7c122c0d5703"
+    },
+    "cocos_effect\\Prefab": {
+      "time": 1774238027138.8015,
+      "uuid": "19e7079a-78ae-49ef-880b-dcf1eb02da61"
+    },
+    "cocos_effect\\Textures": {
+      "time": 1774238027144.8286,
+      "uuid": "91ee8878-3128-4f61-b896-741d392bcff4"
+    },
+    "Game\\FBX": {
+      "time": 1773686086964.0015,
+      "uuid": "c240d911-2906-4e81-b37d-61eada9698a9"
+    },
+    "Game\\Mat": {
+      "time": 1773686086966.0024,
+      "uuid": "fdb8f6fd-651b-4aa6-948f-a670b6b7cca6"
+    },
+    "Game\\Pre": {
+      "time": 1773686086969.0017,
+      "uuid": "60ad300a-a45a-4d09-ba79-f1a6ebb7951e"
+    },
+    "Game\\Tex": {
+      "time": 1773686086971.0012,
+      "uuid": "dc520a29-b25f-4048-b0d1-8955cd7eb582"
+    },
+    "GameRes\\Anim": {
+      "time": 1773831944932.7705,
+      "uuid": "abf700a2-5be7-4301-ac40-9f62dab0952a"
+    },
+    "GameRes\\Fbx": {
+      "time": 1773831944934.7793,
+      "uuid": "1cff79a5-9149-442e-9884-7482312909e8"
+    },
+    "GameRes\\Font": {
+      "time": 1773370590367.721,
+      "uuid": "116c700d-4a6b-489a-b05d-b6a7fa6df0e7"
+    },
+    "GameRes\\fx": {
+      "time": 1773370590371.685,
+      "uuid": "ba28fc1d-7fcb-4656-a96a-595d423c2b60"
+    },
+    "GameRes\\Image": {
+      "time": 1773837818695.6013,
+      "uuid": "cc40bab9-59db-471b-b3fc-74f98bc290ae"
+    },
+    "GameRes\\Jsyd_map": {
+      "time": 1773686086973.0017,
+      "uuid": "7fc4224d-0944-471d-8145-1f2f7941f584"
+    },
+    "GameRes\\Material": {
+      "time": 1773395891917.681,
+      "uuid": "5591bd41-44b5-4206-949a-3cc247207084"
+    },
+    "GameRes\\Prefabs": {
+      "time": 1773831944939.309,
+      "uuid": "7d53641a-9684-4be2-ae47-453b402c9973"
+    },
+    "GameRes\\SceneFBX": {
+      "time": 1773721409713.3118,
+      "uuid": "7f7edaa2-dbc5-41f4-9601-c43ee3e480d1"
+    },
+    "GameRes\\UI2D": {
+      "time": 1773975510746.9792,
+      "uuid": "9aab60c3-adad-479d-afed-9f86f2a60224"
+    },
+    "GameRes\\ydsx_map": {
+      "time": 1773620125998.2473,
+      "uuid": "ef9ad653-c615-4417-89ec-f657981fcb3c"
+    },
+    "NPC_FBX(1)\\NPC_FBX": {
+      "time": 1773485524123.6602,
+      "uuid": "b786df90-f59f-42e9-b766-b3b7b9f02294"
+    },
+    "Res\\Eff": {
+      "time": 1773831944944.8513,
+      "uuid": "e0471003-b9f2-40e3-859f-bed4bba504a3"
+    },
+    "Res\\mtl": {
+      "time": 1773575426938.019,
+      "uuid": "14abd785-4a17-4672-92a3-96d021ad0e5b"
+    },
+    "Res\\UI": {
+      "time": 1773837818707.6775,
+      "uuid": "565422b9-5376-4df3-9a2b-62b9169c47ae"
+    },
+    "resources\\audio": {
+      "time": 1774349793994.7544,
+      "uuid": "72eda6c4-bdcb-4b42-8de7-653514b35fd4"
+    },
+    "Scripts\\Core": {
+      "time": 1772858811823.2334,
+      "uuid": "c51a32a7-b190-440f-b191-596484bc6f54"
+    },
+    "Scripts\\Main": {
+      "time": 1773220315229.0696,
+      "uuid": "981b629f-386a-4198-ab83-39169684d1dd"
+    },
+    "杀鱼获肉\\杀鱼获肉": {
+      "time": 1773621520724.5657,
+      "uuid": "5fafb08e-0cdf-4d16-972f-83fb7eac4829"
+    },
+    "沙漠火车收割\\Models": {
+      "time": 1773683749461.6628,
+      "uuid": "c21f1e70-5046-4e32-bcec-6b35234d12a1"
+    },
+    "沙漠火车收割\\Mtl": {
+      "time": 1773896540451.1982,
+      "uuid": "b3960824-a47c-4a3a-b8e2-fa467a2e9593"
+    },
+    "沙漠火车收割\\Prefab": {
+      "time": 1773896540449.1914,
+      "uuid": "192380c8-e418-4ea8-b9df-d4af080114d4"
+    },
+    "沙漠火车收割\\shader": {
+      "time": 1773058145054.2307,
+      "uuid": "b061e17d-da31-4881-bf30-0e104358742d"
+    },
+    "沙漠火车收割\\Textures": {
+      "time": 1773140070708.1067,
+      "uuid": "9941e37c-8299-4a23-bc84-5f12eec1f51f"
+    },
+    "沙漠火车收割\\zhujue": {
+      "time": 1773058145178.6648,
+      "uuid": "2e3f41a0-2cfc-4b66-99a6-51cf65ed23d8"
+    },
+    "沙漠火车收割\\丧尸": {
+      "time": 1774009403031.091,
+      "uuid": "a45017b0-e247-4037-a7b5-b4fe3da541f0"
+    },
+    "沙漠火车收割\\主角": {
+      "time": 1773058142644.051,
+      "uuid": "73d0cf35-e98f-4b77-bde7-db657202d23d"
+    },
+    "沙漠火车收割\\商人和骆驼": {
+      "time": 1773140070717.108,
+      "uuid": "fabcdd6f-e57c-461b-bf0e-c404d56e6ded"
+    },
+    "沙漠火车收割\\小麦": {
+      "time": 1773896540452.198,
+      "uuid": "6d5d329a-a6ad-492c-b29e-ea52d1496001"
+    },
+    "沙漠火车收割\\披萨": {
+      "time": 1773685246022.9895,
+      "uuid": "6defde0e-4d48-445e-871b-9edb6d1c14d3"
+    },
+    "沙漠火车收割\\沙漠火车": {
+      "time": 1773680272070.7942,
+      "uuid": "9cf5145e-f1c8-44a8-b1fc-d834b8a075a6"
+    },
+    "GameRes\\fx\\Effect": {
+      "time": 1773370590373.4502,
+      "uuid": "35d81f1a-4bb0-4c27-b86c-1e4acd4a3c2d"
+    },
+    "GameRes\\Image\\img": {
+      "time": 1773837818699.9485,
+      "uuid": "86ac56a1-e8d9-43b7-ba2f-9069e82b65fa"
+    },
+    "GameRes\\Jsyd_map\\mtx": {
+      "time": 1773686086974.0017,
+      "uuid": "ce4efa41-68c9-4b3d-8f6a-122a7314a9e3"
+    },
+    "GameRes\\Prefabs\\Role": {
+      "time": 1773681452256.0632,
+      "uuid": "a373871e-3160-4fe0-b3d7-a0e1151b9992"
+    },
+    "GameRes\\SceneFBX\\Res": {
+      "time": 1773721409716.3145,
+      "uuid": "3f96201d-0ebf-46ff-bd73-796c789e52ea"
+    },
+    "GameRes\\UI2D\\GeneralUI": {
+      "time": 1773370590409.4548,
+      "uuid": "bbcd0e54-67da-47a5-af41-7a7b48ab62f6"
+    },
+    "GameRes\\UI2D\\Logo": {
+      "time": 1773370590413.4546,
+      "uuid": "6da701f5-9f4a-4743-ac87-2404275b560b"
+    },
+    "GameRes\\ydsx_map\\FBX": {
+      "time": 1773620125995.2488,
+      "uuid": "42e12756-80ed-465d-ae34-35ea3687a21f"
+    },
+    "GameRes\\ydsx_map\\mtl": {
+      "time": 1773620125997.2478,
+      "uuid": "2edbeb22-2ab4-41df-abb0-fd5deeff9ebe"
+    },
+    "GameRes\\ydsx_map\\tableundefined": {
+      "time": 1773620125999.2476,
+      "uuid": "66d2c6dd-07f4-48e5-b14d-378b8bb0b62e"
+    },
+    "Res\\Eff\\guide": {
+      "time": 1773838871145.1152,
+      "uuid": "6541a8d8-2a15-40f6-a11f-5aa3894104f4"
+    },
+    "Res\\UI\\Line": {
+      "time": 1773837818709.2083,
+      "uuid": "fce3f676-c0d1-41c1-b323-31e7433e5199"
+    },
+    "Scripts\\Core\\App": {
+      "time": 1772858811967.4458,
+      "uuid": "70b2eac3-eab6-4aec-a95e-c40fa2577584"
+    },
+    "Scripts\\Main\\AI": {
+      "time": 1772858812025.8247,
+      "uuid": "daddb321-a251-485b-b559-b0e007040fd3"
+    },
+    "Scripts\\Main\\Building": {
+      "time": 1773829744549.335,
+      "uuid": "a5886520-4e16-4da3-9d0b-accaf3a135c0"
+    },
+    "Scripts\\Main\\Bullet": {
+      "time": 1772858812095.9087,
+      "uuid": "c2f65ec1-1f03-4e0e-8d2e-c405fb4ebf2f"
+    },
+    "Scripts\\Main\\Camera": {
+      "time": 1772858812103.7153,
+      "uuid": "c14369fd-c198-498b-bce6-d98e04343ce9"
+    },
+    "Scripts\\Main\\Common": {
+      "time": 1772858812151.9639,
+      "uuid": "b13092cf-2916-44a5-af6f-1721f8c10b02"
+    },
+    "Scripts\\Main\\Components": {
+      "time": 1773391458426.562,
+      "uuid": "584b4838-2e6f-47ab-b5bc-57fd26e1e92e"
+    },
+    "Scripts\\Main\\Drop": {
+      "time": 1773613304450.8352,
+      "uuid": "523b857f-0145-46f8-a7a6-14559c7e18bd"
+    },
+    "Scripts\\Main\\Joystick": {
+      "time": 1772858812235.15,
+      "uuid": "397c20a1-601e-48a8-9f3b-967afa6e3e59"
+    },
+    "Scripts\\Main\\Manager": {
+      "time": 1772858812283.1501,
+      "uuid": "10b44751-522f-43ae-a890-e72e3962d6bf"
+    },
+    "Scripts\\Main\\Role": {
+      "time": 1773616652388.4172,
+      "uuid": "a4bc2c5c-1f1c-4262-a3da-490bbe89bf1a"
+    },
+    "Scripts\\Main\\StateMachine": {
+      "time": 1772858812322.544,
+      "uuid": "d76b64f7-95b3-49bc-9a43-137996b507de"
+    },
+    "Scripts\\Main\\Test": {
+      "time": 1772858812333.5444,
+      "uuid": "192c6fa3-836e-4e4a-9e98-79b686e9e06e"
+    },
+    "Scripts\\Main\\Tools": {
+      "time": 1772858812352.544,
+      "uuid": "eeede595-30b3-4aac-b1b2-1cf25482c534"
+    },
+    "Scripts\\Main\\Train": {
+      "time": 1773967996831.1035,
+      "uuid": "1659d54d-4c6b-492e-b3f4-1ca21130d7c0"
+    },
+    "Scripts\\Main\\UI": {
+      "time": 1772858812379.702,
+      "uuid": "15a07650-c3d4-42bc-bbf5-aeb02f24e2ad"
+    },
+    "杀鱼获肉\\杀鱼获肉\\鲨鱼_FBX": {
+      "time": 1773621520731.823,
+      "uuid": "6d1d6bc5-88d8-4b65-8803-1f4746726567"
+    },
+    "沙漠火车收割\\zhujue\\Materials": {
+      "time": 1773058145167.6704,
+      "uuid": "2218ba9e-24b1-49e0-a1be-4ac1815a1f16"
+    },
+    "沙漠火车收割\\沙漠火车\\sell": {
+      "time": 1773680272072.795,
+      "uuid": "c04128d4-0830-4b4b-a14e-8ec4f24cefbc"
+    },
+    "沙漠火车收割\\沙漠火车\\地贴": {
+      "time": 1773995117723.7456,
+      "uuid": "da51f226-5b6a-4a29-98db-b58d3cc608b0"
+    },
+    "沙漠火车收割\\沙漠火车\\地贴触发框": {
+      "time": 1773680272077.7937,
+      "uuid": "f1ac46a1-7610-4f1f-b19e-6275074c71fc"
+    },
+    "GameRes\\fx\\Effect\\winfail": {
+      "time": 1773370590397.4546,
+      "uuid": "5ac1435a-aee5-4074-b2d6-613f5b607f50"
+    },
+    "GameRes\\Jsyd_map\\mtx\\diss": {
+      "time": 1773686086976.004,
+      "uuid": "97580645-d7bd-49d5-aaa5-145348dcb457"
+    },
+    "GameRes\\SceneFBX\\Res\\Eff": {
+      "time": 1773721409717.3137,
+      "uuid": "78ff6b7e-cba8-41ef-95e7-0ef258b3620a"
+    },
+    "Res\\UI\\Line\\ArrowLine": {
+      "time": 1773837818715.8643,
+      "uuid": "2e4a9166-09b6-4c76-a282-1f9765f35737"
+    },
+    "Scripts\\Core\\App\\Components": {
+      "time": 1772858811886.4153,
+      "uuid": "5782a130-0472-451d-8435-4505d139fe0a"
+    },
+    "Scripts\\Core\\App\\Managers": {
+      "time": 1772858811944.4458,
+      "uuid": "9303ff1b-bfe1-4372-9381-d60b2de121a5"
+    },
+    "Scripts\\Core\\App\\UI": {
+      "time": 1772858811964.4458,
+      "uuid": "782c9094-7792-46cb-9db5-a5f600cea759"
+    },
+    "Scripts\\Core\\App\\Utils": {
+      "time": 1772858811981.4453,
+      "uuid": "a49b2e5f-ade4-4695-93f0-6bb7be62bd24"
+    },
+    "GameRes\\fx\\Effect\\winfail\\Dot": {
+      "time": 1773370590376.455,
+      "uuid": "56c3e5a9-4fc6-4c20-b7c0-d2ffa6c5ce24"
+    },
+    "GameRes\\fx\\Effect\\winfail\\end_light": {
+      "time": 1773370590380.4553,
+      "uuid": "41fb48db-d4e8-4e90-bdec-64a46025e76f"
+    },
+    "GameRes\\fx\\Effect\\winfail\\img": {
+      "time": 1773370590386.4585,
+      "uuid": "a5c1d363-2ce3-4275-94e2-b6dbfc532cbe"
+    },
+    "GameRes\\fx\\Effect\\winfail\\prefan": {
+      "time": 1773370590396.4558,
+      "uuid": "16559552-828d-41c3-a03e-d9b4b700006c"
+    },
+    "GameRes\\fx\\Effect\\winfail\\scripts": {
+      "time": 1773370590402.4568,
+      "uuid": "daf2a373-957c-4a4c-8bed-697f0c1a3c16"
+    },
+    "GameRes\\SceneFBX\\Res\\Eff\\diss": {
+      "time": 1773721409717.3137,
+      "uuid": "2ae68fff-ed60-4c01-909c-b51f13f8cbf8"
+    },
+    "Res\\UI\\Line\\ArrowLine\\Shader": {
+      "time": 1773837818713.2795,
+      "uuid": "f6bb6d1c-7a8e-417a-846b-42c92ac96d80"
+    },
+    "Scripts\\Core\\App\\Components\\Adaptation": {
+      "time": 1772858811864.9895,
+      "uuid": "338f5060-36f5-4eb7-a0a5-339f2b9cf1d3"
+    },
+    "Scripts\\Core\\App\\Components\\I18n": {
+      "time": 1772858811882.3982,
+      "uuid": "f446682a-702d-40e8-973c-b6339f84724a"
+    },
+    "Scripts\\Core\\App\\Components\\NetWork": {
+      "time": 1772858811903.635,
+      "uuid": "da2f26d1-af51-4789-a0c5-0a17ff0eaa6f"
+    },
+    "Res\\mtl\\standard-outline.effect": {
+      "time": 1773819306477.03,
+      "uuid": "fc326c29-2aac-4636-a98f-14a734eab966"
+    },
+    "沙漠火车收割\\shader\\standard-outline.effect": {
+      "time": 1766038726237.71,
+      "uuid": "f2eb0bd8-aaa6-41f5-ad70-eb35d8a8818c"
+    },
+    "GameRes\\ydsx_map\\mtl\\standard-outline.effect": {
+      "time": 1773485524115.6606,
+      "uuid": "977fccb7-c004-487e-9dea-a2aea01c0dd5"
+    },
+    "Res\\Eff\\guide\\guide_line.effect": {
+      "time": 1773831944946.3594,
+      "uuid": "921aa962-5083-43cf-b268-42d6a051862d"
+    },
+    "GameRes\\Jsyd_map\\mtx\\diss\\toon_dissolve.effect": {
+      "time": 1773686086975.0017,
+      "uuid": "95b51178-c7c8-4058-82eb-671575219d70"
+    },
+    "GameRes\\SceneFBX\\Res\\Eff\\diss\\toon_dissolve.effect": {
+      "time": 1773819306475.0222,
+      "uuid": "4802ec40-5eca-4323-b205-9975dbb55c8a"
+    },
+    "Res\\UI\\Line\\ArrowLine\\Shader\\noiseMove.effect": {
+      "time": 1773837818713.2795,
+      "uuid": "fd602a3d-4ccd-4124-8838-ea918acfb733"
+    },
+    "Scripts\\NavLineComp.ts": {
+      "time": 1773841558297.43,
+      "uuid": "65d0ca8f-de5c-42a4-8882-780fe7599094"
+    },
+    "Scripts\\super_html_playable.ts": {
+      "time": 1766033924884.8586,
+      "uuid": "e6b78ef7-a08d-4d08-8fa7-f963560df5ac"
+    },
+    "Scripts\\Core\\App\\Core.ts": {
+      "time": 1765423811101.4348,
+      "uuid": "f7f9159e-63a2-443f-9037-5c67ce4482b2"
+    },
+    "Scripts\\Main\\AI\\AutoHuntAIComponent.ts": {
+      "time": 1765880934929.6182,
+      "uuid": "94d4e2ad-2a1e-4265-a623-bd028a477663"
+    },
+    "Scripts\\Main\\AI\\BaseAIComponent.ts": {
+      "time": 1765423811158.7466,
+      "uuid": "71888d18-63f3-4f69-ac4f-0ddde6f286cd"
+    },
+    "Scripts\\Main\\Building\\ArrowTower.ts": {
+      "time": 1774347091344.129,
+      "uuid": "d028d726-3425-41a5-b6eb-8da5c8671103"
+    },
+    "Scripts\\Main\\Building\\BuildingBase.ts": {
+      "time": 1765880937154.1262,
+      "uuid": "48675b07-2ffc-4142-aa90-cf341ea52c3e"
+    },
+    "Scripts\\Main\\Building\\BuildingCommon.ts": {
+      "time": 1765423811232.5828,
+      "uuid": "59d905c6-2b5e-4c40-bee4-bb2fc6a88a34"
+    },
+    "Scripts\\Main\\Building\\BuildingLumberjack.ts": {
+      "time": 1765880937805.3945,
+      "uuid": "ee520198-68b5-4643-a66c-6dc06251e2d1"
+    },
+    "Scripts\\Main\\Building\\BuildingSalesman.ts": {
+      "time": 1773846242249.845,
+      "uuid": "bb2570d5-140f-477e-aff4-55f753cfbf52"
+    },
+    "Scripts\\Main\\Building\\CoinContainer.ts": {
+      "time": 1774321948191.0718,
+      "uuid": "017058b4-d080-4301-9382-6d2fb5a8ee55"
+    },
+    "Scripts\\Main\\Building\\ConveyorBelt.ts": {
+      "time": 1774338520934.7046,
+      "uuid": "707885c7-7060-43c7-97fd-67b0f2420932"
+    },
+    "Scripts\\Main\\Building\\Customer.ts": {
+      "time": 1773705128507.338,
+      "uuid": "523bf99e-95a8-4c1b-a00c-19acfb688220"
+    },
+    "Scripts\\Main\\Building\\Elevator.ts": {
+      "time": 1765880942920.7634,
+      "uuid": "c25d9b83-3c39-4a6d-9279-e1af337aaa2c"
+    },
+    "Scripts\\Main\\Building\\FlatbreadContainer.ts": {
+      "time": 1774345852606.6165,
+      "uuid": "e49c764a-f164-49db-a583-11914cfc8d56"
+    },
+    "Scripts\\Main\\Building\\ProductionBuilding.ts": {
+      "time": 1774353338119.7417,
+      "uuid": "d127fe81-da23-4e91-b3cb-6a0dc00ab5ba"
+    },
+    "Scripts\\Main\\Building\\ShopCommon.ts": {
+      "time": 1774340775152.9526,
+      "uuid": "c057c33d-627c-4378-903e-7a54d36c2170"
+    },
+    "Scripts\\Main\\Building\\SpecialCustomer.ts": {
+      "time": 1773830864719.9778,
+      "uuid": "3a747d59-b402-42a1-87c6-e337bda09c2d"
+    },
+    "Scripts\\Main\\Building\\TurretTower.ts": {
+      "time": 1774004160571.5999,
+      "uuid": "8615de2c-5431-4e9c-a855-08244cd2b870"
+    },
+    "Scripts\\Main\\Building\\UnlockItem.ts": {
+      "time": 1774004214983.546,
+      "uuid": "c010998f-3b0c-45be-81cc-ac0af710d1c4"
+    },
+    "Scripts\\Main\\Building\\Wall.ts": {
+      "time": 1773806084096.3586,
+      "uuid": "152d3159-8f37-401c-b883-eb791bd99436"
+    },
+    "Scripts\\Main\\Building\\WheatContainer.ts": {
+      "time": 1774349018512.5154,
+      "uuid": "3828def2-b628-403b-8aa0-c554e17d93c0"
+    },
+    "Scripts\\Main\\Building\\WoodContainer.ts": {
+      "time": 1774321936845.8071,
+      "uuid": "079a23a8-b1df-4591-ac44-e4cd98f1b7cd"
+    },
+    "Scripts\\Main\\Bullet\\Arraw.ts": {
+      "time": 1773995597899.738,
+      "uuid": "d2226bc0-6b54-4a5b-b5b4-1970a76c6c03"
+    },
+    "Scripts\\Main\\Bullet\\BulletBase.ts": {
+      "time": 1773625798161.6455,
+      "uuid": "aabe095f-1528-411f-8c4a-d65d56f5925c"
+    },
+    "Scripts\\Main\\Bullet\\Shell.ts": {
+      "time": 1765423811259.8125,
+      "uuid": "9e6b1f6f-b733-4290-9876-93341a411982"
+    },
+    "Scripts\\Main\\Camera\\CameraFollow.ts": {
+      "time": 1773991541239.8306,
+      "uuid": "a5720332-7571-4755-810e-81df5558ce6e"
+    },
+    "Scripts\\Main\\Common\\CommonEnum.ts": {
+      "time": 1773996067149.863,
+      "uuid": "891828bb-8828-4c6f-a216-2d028d39ebcb"
+    },
+    "Scripts\\Main\\Common\\CommonInterface.ts": {
+      "time": 1765423811346.8513,
+      "uuid": "e2ac51ed-9f3e-400a-9fc0-b53bae0a2e5f"
+    },
+    "Scripts\\Main\\Common\\ComponentEvents.ts": {
+      "time": 1765423811347.8516,
+      "uuid": "e366a326-43bd-4483-93c9-54237f4a35e2"
+    },
+    "Scripts\\Main\\Common\\ComponentInitializer.ts": {
+      "time": 1765423811348.8518,
+      "uuid": "f461d400-2702-41f1-925f-53a88bc20f64"
+    },
+    "Scripts\\Main\\Common\\Config.ts": {
+      "time": 1765531747700.605,
+      "uuid": "1d22d20e-e33f-462a-815d-ca568debb427"
+    },
+    "Scripts\\Main\\Common\\FlightManager.ts": {
+      "time": 1765423811351.1719,
+      "uuid": "ea534b2f-938d-40d2-8ca9-a6070b67090c"
+    },
+    "Scripts\\Main\\Common\\ItemContainer.ts": {
+      "time": 1765423811352.1863,
+      "uuid": "c36ee898-0946-4772-85fa-2df2be84f9d2"
+    },
+    "Scripts\\Main\\Common\\MainCamera.ts": {
+      "time": 1765423811353.1853,
+      "uuid": "07d697cc-2458-4407-bb51-bbe2c0198b37"
+    },
+    "Scripts\\Main\\Common\\MotionTrail.ts": {
+      "time": 1765423811354.1855,
+      "uuid": "75c72f72-c462-4716-966a-3f59aeff2ab0"
+    },
+    "Scripts\\Main\\Common\\PoolObjectBase.ts": {
+      "time": 1765423811355.1895,
+      "uuid": "2b210cc2-4f91-46bb-a8fa-5a3c03149fd9"
+    },
+    "Scripts\\Main\\Common\\Rotation3DUtils.ts": {
+      "time": 1765423811356.1877,
+      "uuid": "a2ad38e7-aae0-472d-97ca-4c1a73b18a4e"
+    },
+    "Scripts\\Main\\Components\\AnimationComponent.ts": {
+      "time": 1765880949085.4316,
+      "uuid": "9cc4f156-821c-4008-af47-7e49fbac8adc"
+    },
+    "Scripts\\Main\\Components\\AttackComponent.ts": {
+      "time": 1765880950170.1375,
+      "uuid": "8ca9cd34-7800-4486-9946-b0bfd946b63c"
+    },
+    "Scripts\\Main\\Components\\BaseAnimationComponent.ts": {
+      "time": 1765880951168.4202,
+      "uuid": "181853d0-f697-4a0b-86ca-727b6dcdf694"
+    },
+    "Scripts\\Main\\Components\\BaseComponet.ts": {
+      "time": 1765423811499.142,
+      "uuid": "3f754b2e-3b04-4c4c-a1c6-fd703495404a"
+    },
+    "Scripts\\Main\\Components\\FrameAnimationComponent.ts": {
+      "time": 1773559533604.354,
+      "uuid": "21ad59a9-e1cb-4a9e-abda-d610de26d5d2"
+    },
+    "Scripts\\Main\\Components\\GlowController.ts": {
+      "time": 1765880953352.014,
+      "uuid": "a9259500-b620-424a-832b-397873e30900"
+    },
+    "Scripts\\Main\\Components\\HealthBar.ts": {
+      "time": 1773623683439.73,
+      "uuid": "52dbd9a6-45ef-4eb9-8e13-0125e962d77e"
+    },
+    "Scripts\\Main\\Components\\HealthBar_Bar.ts": {
+      "time": 1765880954154.0464,
+      "uuid": "3d2ca2d3-4df3-4ec5-99ff-1cc7987f24d5"
+    },
+    "Scripts\\Main\\Components\\HealthBar_Cycle.ts": {
+      "time": 1765880956222.724,
+      "uuid": "794f50aa-0a34-4532-b68a-fc0b51619e48"
+    },
+    "Scripts\\Main\\Components\\HealthComponent.ts": {
+      "time": 1765435475122.4521,
+      "uuid": "fd70bf75-fae3-44d4-963c-5686fd3beb14"
+    },
+    "Scripts\\Main\\Components\\ModelAnimationComponent.ts": {
+      "time": 1774345033825.9148,
+      "uuid": "962d6bfe-1b54-4af3-852d-e2d39d0ac4df"
+    },
+    "Scripts\\Main\\Components\\MovementComponent.ts": {
+      "time": 1774345033825.9148,
+      "uuid": "5eeaf19d-def0-4aa4-bd51-c19db9384b1a"
+    },
+    "Scripts\\Main\\Components\\PickupComponent.ts": {
+      "time": 1774005642008.9229,
+      "uuid": "4fe140b6-011c-4665-878f-4f72503f8af0"
+    },
+    "Scripts\\Main\\Components\\StateComponent.ts": {
+      "time": 1765423811509.8142,
+      "uuid": "2dcf0abc-6253-4e16-8823-97a4227750c4"
+    },
+    "Scripts\\Main\\Drop\\DropItemCom.ts": {
+      "time": 1773588699436.2048,
+      "uuid": "4e3b88d5-53c8-4dbb-9d41-39b0469fb518"
+    },
+    "Scripts\\Main\\Drop\\DropItemCornKernel.ts": {
+      "time": 1773577008697.7974,
+      "uuid": "438af1c5-e8ba-4529-83d2-62591df82a24"
+    },
+    "Scripts\\Main\\Drop\\DropItemFlatbread.ts": {
+      "time": 1773612846232.3835,
+      "uuid": "14e8ff49-41c0-42b2-a698-c1304eb969b9"
+    },
+    "Scripts\\Main\\Drop\\DropItemWood.ts": {
+      "time": 1773581015742.8306,
+      "uuid": "7d558455-ae46-4e2f-bb9b-3ac4a62893ea"
+    },
+    "Scripts\\Main\\Joystick\\JoystickControl.ts": {
+      "time": 1773556953858.973,
+      "uuid": "3d55d49b-98fc-45a0-be35-a09d63b4bc77"
+    },
+    "Scripts\\Main\\Manager\\Door.ts": {
+      "time": 1765880962054.4958,
+      "uuid": "e2b6a742-1ebf-4465-b873-fea5e657f08b"
+    },
+    "Scripts\\Main\\Manager\\DropManager.ts": {
+      "time": 1765880962632.871,
+      "uuid": "cdaa8828-c1ea-4b45-84df-15cc782326bd"
+    },
+    "Scripts\\Main\\Manager\\EffectManager.ts": {
+      "time": 1773995371141.9944,
+      "uuid": "ea24b543-c076-4f57-9876-16dbed17cb41"
+    },
+    "Scripts\\Main\\Manager\\EnemyManager.ts": {
+      "time": 1774330641616.4688,
+      "uuid": "847783be-ebd5-4f15-a182-eb6e6d4957b0"
+    },
+    "Scripts\\Main\\Manager\\GameManager.ts": {
+      "time": 1774354095896.656,
+      "uuid": "fa5bf0b2-0725-4d32-9aaf-94d70c78c232"
+    },
+    "Scripts\\Main\\Manager\\GuideManager.ts": {
+      "time": 1774348518959.163,
+      "uuid": "dd1bfbcd-2d88-4f56-b652-d765ad3a38cf"
+    },
+    "Scripts\\Main\\Manager\\Manager.ts": {
+      "time": 1765523514692.5803,
+      "uuid": "dac19f80-64bd-4f3f-8c99-7be64d3bea32"
+    },
+    "Scripts\\Main\\Manager\\PoolManager.ts": {
+      "time": 1773578110559.5532,
+      "uuid": "98375d43-4784-4834-b27c-27ed76e2f9c5"
+    },
+    "Scripts\\Main\\Manager\\SAFE.ts": {
+      "time": 1765441593942.0115,
+      "uuid": "08c3d04e-207d-4be8-a700-8e5fa2492a0b"
+    },
+    "Scripts\\Main\\Manager\\TreeManager.ts": {
+      "time": 1765880966500.2659,
+      "uuid": "e290f979-4f48-48bb-9144-c773a64021c1"
+    },
+    "Scripts\\Main\\Manager\\WallManager.ts": {
+      "time": 1765880967385.0005,
+      "uuid": "13c17a81-c965-40f8-a79a-fd18ad8035df"
+    },
+    "Scripts\\Main\\Role\\Character.ts": {
+      "time": 1765880968401.875,
+      "uuid": "b5f2fb22-4d35-4837-b4b9-f567c60fe3b1"
+    },
+    "Scripts\\Main\\Role\\Enemy.ts": {
+      "time": 1774011314988.0698,
+      "uuid": "37166123-3389-4429-95b2-c942fa459685"
+    },
+    "Scripts\\Main\\Role\\EnemyBoss.ts": {
+      "time": 1765880969104.8223,
+      "uuid": "54a7248e-3028-40a6-9e6a-04bba2f22ad3"
+    },
+    "Scripts\\Main\\Role\\Hero.ts": {
+      "time": 1774010383308.298,
+      "uuid": "63ef8f46-bc84-4497-8188-961ef65e6170"
+    },
+    "Scripts\\Main\\Role\\Lumberjack.ts": {
+      "time": 1765880971537.1472,
+      "uuid": "226b554d-bf96-4496-8cce-8ee03e74eaaa"
+    },
+    "Scripts\\Main\\Role\\Salesman.ts": {
+      "time": 1774346532394.262,
+      "uuid": "1a262d83-17be-4806-87ca-cbc40a9a631c"
+    },
+    "Scripts\\Main\\Role\\Tree.ts": {
+      "time": 1774004329841.2673,
+      "uuid": "d736bfd9-a600-4e9f-8561-4eb2b130429b"
+    },
+    "Scripts\\Main\\StateMachine\\StateMachine.ts": {
+      "time": 1765880973333.3752,
+      "uuid": "adbe950b-56f0-4db2-9632-b7f0b3f813bd"
+    },
+    "Scripts\\Main\\Test\\GuideTest.ts": {
+      "time": 1765880979692.532,
+      "uuid": "17753aff-8047-4d1e-a545-10480c0860b7"
+    },
+    "Scripts\\Main\\Test\\Test.ts": {
+      "time": 1765880977006.9253,
+      "uuid": "a8819dbb-b219-41dc-a3fb-7d242fad6b22"
+    },
+    "Scripts\\Main\\Tools\\Dissolve.ts": {
+      "time": 1765423811772.006,
+      "uuid": "f44e1131-8aec-43a9-9986-abd19611c768"
+    },
+    "Scripts\\Main\\Tools\\ItemLayout.ts": {
+      "time": 1774285947546.2002,
+      "uuid": "f89fe094-f2dc-4e08-84e1-e4578b1ce960"
+    },
+    "Scripts\\Main\\Tools\\LookAtCamera.ts": {
+      "time": 1765423811774.3496,
+      "uuid": "cbd442c4-faba-401a-88af-fd2b64693b6f"
+    },
+    "Scripts\\Main\\Tools\\MapCtr.ts": {
+      "time": 1765423811775.354,
+      "uuid": "7de60242-1fc9-4d11-823d-5cda2ac9ef50"
+    },
+    "Scripts\\Main\\Train\\Chainsaw.ts": {
+      "time": 1774349179505.517,
+      "uuid": "d95f18f0-c67e-4339-b81d-8d286f761f7b"
+    },
+    "Scripts\\Main\\Train\\EffectYawFollower.ts": {
+      "time": 1773977806084.2192,
+      "uuid": "a6625eea-36ad-4408-a875-32626c95dbd7"
+    },
+    "Scripts\\Main\\Train\\ResourceFieldManager.ts": {
+      "time": 1773709440185.3188,
+      "uuid": "95bd42d9-a702-4818-aeb0-a4b4db4a3cb4"
+    },
+    "Scripts\\Main\\Train\\Train.ts": {
+      "time": 1774320652473.0527,
+      "uuid": "3641717e-95ca-41d0-8786-96f49a437345"
+    },
+    "Scripts\\Main\\Train\\TrainBoardingTrigger.ts": {
+      "time": 1774288601140.5857,
+      "uuid": "f8ed972f-8d19-4c37-9841-939e64e8b361"
+    },
+    "Scripts\\Main\\Train\\TrainCar.ts": {
+      "time": 1774349167788.2197,
+      "uuid": "8e2cf6f9-6c42-4251-a3bb-12f89e86e032"
+    },
+    "Scripts\\Main\\Train\\TrainManager.ts": {
+      "time": 1774289670762.6067,
+      "uuid": "2cee0e92-06fb-4d45-9a6f-ba6a79d01dae"
+    },
+    "Scripts\\Main\\Train\\TrainTrack.ts": {
+      "time": 1774007076596.0366,
+      "uuid": "c73fa87d-da44-4be5-8ac4-fe98aa732580"
+    },
+    "Scripts\\Main\\Train\\TrainUnloadManager.ts": {
+      "time": 1773843115614.6035,
+      "uuid": "1a768134-609e-4069-8077-f12ccd953471"
+    },
+    "Scripts\\Main\\Train\\TreeFieldManager.ts": {
+      "time": 1774287237127.84,
+      "uuid": "203972cd-6c81-4c0b-a8bc-7a00f237e8eb"
+    },
+    "Scripts\\Main\\Train\\WheatCrop.ts": {
+      "time": 1774287227785.8667,
+      "uuid": "98a8072c-683c-4b67-98e5-22fca2e65235"
+    },
+    "Scripts\\Main\\Train\\WheatFieldManager.ts": {
+      "time": 1773750112325.0444,
+      "uuid": "0fa91663-4f29-4683-9986-8e99ae6aaf0d"
+    },
+    "Scripts\\Main\\UI\\DamageNum.ts": {
+      "time": 1765423811804.8647,
+      "uuid": "f6b15aaf-caee-4966-99db-654a2855e29b"
+    },
+    "Scripts\\Main\\UI\\SelectHeroPanel.ts": {
+      "time": 1765423811805.8655,
+      "uuid": "4ed2162b-436c-43d2-ba78-0865f55ecd71"
+    },
+    "Scripts\\Main\\UI\\TipLabel.ts": {
+      "time": 1765423811806.8652,
+      "uuid": "b213b831-556a-4576-9595-ae383eeedcb5"
+    },
+    "Scripts\\Main\\UI\\Tips.ts": {
+      "time": 1765423811807.8645,
+      "uuid": "a9246277-d37c-453c-a030-f157eaaa7a41"
+    },
+    "Scripts\\Main\\UI\\UI.ts": {
+      "time": 1773996060982.0554,
+      "uuid": "352cf6d5-c845-4af2-883a-afc8a713b3dc"
+    },
+    "Scripts\\Main\\UI\\UIPowerBar.ts": {
+      "time": 1765423811809.8794,
+      "uuid": "0bf9a87e-a57e-4539-9fb0-a1f4e90b11a1"
+    },
+    "Scripts\\Core\\App\\Managers\\AudioMgr.ts": {
+      "time": 1774004034455.7117,
+      "uuid": "5d5e68e5-f818-4272-b77f-cddf2696e015"
+    },
+    "Scripts\\Core\\App\\Managers\\BundleMgr.ts": {
+      "time": 1765423811102.4487,
+      "uuid": "7c9ef057-b428-4874-aad2-c87d4a6bc9c8"
+    },
+    "Scripts\\Core\\App\\Managers\\DataMgr.ts": {
+      "time": 1765423811103.8005,
+      "uuid": "e10967cf-9384-4b47-b518-7f6afa977d59"
+    },
+    "Scripts\\Core\\App\\Managers\\EventMgr.ts": {
+      "time": 1765423811104.804,
+      "uuid": "0006262a-66f3-4af5-9c12-50806101ce1a"
+    },
+    "Scripts\\Core\\App\\Managers\\LangMgr.ts": {
+      "time": 1774007849361.6086,
+      "uuid": "db41cc72-8e80-4240-993b-a0a423f82a1f"
+    },
+    "Scripts\\Core\\App\\Managers\\LogMgr.ts": {
+      "time": 1765423811106.794,
+      "uuid": "e8f640c9-9602-4826-b33e-bcd91a29e2e5"
+    },
+    "Scripts\\Core\\App\\Managers\\ResMgr.ts": {
+      "time": 1773610586454.038,
+      "uuid": "6c5cc77b-4867-4c14-993c-4a6feb591f65"
+    },
+    "Scripts\\Core\\App\\Managers\\TimeMgr.ts": {
+      "time": 1765423811108.7937,
+      "uuid": "c5de7241-128d-4b3b-a7e2-3deb13fcbec4"
+    },
+    "Scripts\\Core\\App\\UI\\UIComp.ts": {
+      "time": 1765423811123.8013,
+      "uuid": "64441f92-c746-491a-b92f-b016751e888f"
+    },
+    "Scripts\\Core\\App\\UI\\UIRoot.ts": {
+      "time": 1765423811124.9446,
+      "uuid": "2cdf396e-d970-40ad-a8ad-f1f4dc6c89e5"
+    },
+    "Scripts\\Core\\App\\UI\\UIScene.ts": {
+      "time": 1765423811125.948,
+      "uuid": "bb3fa5b6-49e9-4d39-9ee9-bdd7f698cb73"
+    },
+    "Scripts\\Core\\App\\UI\\UIView.ts": {
+      "time": 1765423811125.948,
+      "uuid": "381536f6-7c0a-453d-8c58-1f92123f8597"
+    },
+    "Scripts\\Core\\App\\Utils\\Crypt.ts": {
+      "time": 1765423811139.5432,
+      "uuid": "94cdfc81-9977-4631-9ab6-625c0b13988d"
+    },
+    "Scripts\\Core\\App\\Utils\\Json.ts": {
+      "time": 1765423811140.5427,
+      "uuid": "c06f9fa8-dceb-428c-ac20-c04e22af033e"
+    },
+    "Scripts\\Core\\App\\Utils\\Parser.ts": {
+      "time": 1765423811141.5432,
+      "uuid": "c6996da9-521f-4537-9f7b-112b07c1c4dd"
+    },
+    "GameRes\\fx\\Effect\\winfail\\scripts\\LosePanel.ts": {
+      "time": 1774004078484.1584,
+      "uuid": "c9e825b2-ce31-4d57-baf7-e259983d4040"
+    },
+    "GameRes\\fx\\Effect\\winfail\\scripts\\WinPanel.ts": {
+      "time": 1774004083762.3606,
+      "uuid": "3af03622-063f-4a5a-ad3f-8e931541d372"
+    },
+    "Scripts\\Core\\App\\Components\\Adaptation\\global_config.ts": {
+      "time": 1765423811032.7786,
+      "uuid": "77e0b3f7-b123-458e-ba3f-094bc6069375"
+    },
+    "Scripts\\Core\\App\\Components\\Adaptation\\mk_adaptation_canvas.ts": {
+      "time": 1765423811033.839,
+      "uuid": "06912b79-e11a-4ed7-8832-02897f81a684"
+    },
+    "Scripts\\Core\\App\\Components\\Adaptation\\mk_adaptation_node.ts": {
+      "time": 1765423811033.839,
+      "uuid": "3b56abe5-8b34-444d-9abe-a25790d505c0"
+    },
+    "Scripts\\Core\\App\\Components\\Adaptation\\mk_init.ts": {
+      "time": 1765423811035.4297,
+      "uuid": "294a8dbe-c2d6-4df4-9e02-629ee5a77fda"
+    },
+    "Scripts\\Core\\App\\Components\\I18n\\I18nBase.ts": {
+      "time": 1765423811048.1284,
+      "uuid": "1f3ef6e4-6c82-422d-9079-75325eb2f81f"
+    },
+    "Scripts\\Core\\App\\Components\\I18n\\I18nLabel.ts": {
+      "time": 1765423811048.1284,
+      "uuid": "04540f10-5f3e-47e0-bca0-85386e680629"
+    },
+    "Scripts\\Core\\App\\Components\\I18n\\I18nSprite.ts": {
+      "time": 1765423811049.1282,
+      "uuid": "c5d4cffe-5afe-4228-9ddb-6329c1ad26c8"
+    },
+    "Scripts\\Core\\App\\Components\\NetWork\\Http.ts": {
+      "time": 1765423811064.1687,
+      "uuid": "c9fd78f9-b387-4f33-a171-4c4fdc3d1ef7"
+    },
+    "Scripts\\Core\\App\\Components\\NetWork\\ISocket.ts": {
+      "time": 1765423811064.1687,
+      "uuid": "91b42de6-0db3-46fb-98d1-1d8b19aff1c9"
+    },
+    "Scripts\\Core\\App\\Components\\NetWork\\Ws.ts": {
+      "time": 1765423811065.4185,
+      "uuid": "901c4e99-cebf-47a6-9846-823bcda40fb2"
+    },
+    "Scripts\\Core\\App\\Components\\NetWork\\WsCoder.ts": {
+      "time": 1765423811066.7502,
+      "uuid": "ad007e19-d3a1-429a-9964-705a117ee6d6"
+    },
+    "A-texiao.meta": {
+      "time": 1773979776123.4138
+    },
+    "animations.meta": {
+      "time": 1772611420172.8047
+    },
+    "Art.meta": {
+      "time": 1773721409699.313
+    },
+    "audio.meta": {
+      "time": 1772611420172.8047
+    },
+    "cocos_effect.meta": {
+      "time": 1773908773192.71
+    },
+    "Game.meta": {
+      "time": 1773686086961.0022
+    },
+    "GameRes.meta": {
+      "time": 1773831944929.7563
+    },
+    "materials.meta": {
+      "time": 1772611420173.8052
+    },
+    "models.meta": {
+      "time": 1772611420173.8052
+    },
+    "NPC(1).meta": {
+      "time": 1773485524125.6616
+    },
+    "NPC_FBX(1).meta": {
+      "time": 1773485524117.66
+    },
+    "prefabs.meta": {
+      "time": 1772611420174.8057
+    },
+    "Res.meta": {
+      "time": 1773837818703.0479
+    },
+    "resources.meta": {
+      "time": 1774003890049.0547
+    },
+    "scenes.meta": {
+      "time": 1772611420175.8052
+    },
+    "Scripts.meta": {
+      "time": 1772858814902.9756
+    },
+    "textures.meta": {
+      "time": 1772611420177.806
+    },
+    "杀鱼获肉.meta": {
+      "time": 1773621520722.5667
+    },
+    "沙漠火车收割.meta": {
+      "time": 1772982794439.4575
+    },
+    "A-texiao\\Fab.meta": {
+      "time": 1773979776126.12
+    },
+    "A-texiao\\mat.meta": {
+      "time": 1773979776130.7183
+    },
+    "A-texiao\\mech.meta": {
+      "time": 1773979776144.5317
+    },
+    "A-texiao\\tex.meta": {
+      "time": 1773979776147.2573
+    },
+    "Art\\Fbx.meta": {
+      "time": 1773721409701.3137
+    },
+    "Art\\Mat.meta": {
+      "time": 1773721409704.3127
+    },
+    "Art\\Material.meta": {
+      "time": 1773575426927.0603
+    },
+    "Art\\Pre.meta": {
+      "time": 1773721409706.312
+    },
+    "Art\\Prefab.meta": {
+      "time": 1773614709163.352
+    },
+    "Art\\Tex.meta": {
+      "time": 1773721409710.3115
+    },
+    "cocos_effect\\Materials.meta": {
+      "time": 1773908773194.7068
+    },
+    "cocos_effect\\Models.meta": {
+      "time": 1773908773205.998
+    },
+    "cocos_effect\\Prefab.meta": {
+      "time": 1773908773207.9988
+    },
+    "cocos_effect\\Textures.meta": {
+      "time": 1773908773215.5823
+    },
+    "Game\\FBX.meta": {
+      "time": 1773686086963.0017
+    },
+    "Game\\Mat.meta": {
+      "time": 1773686086965.0015
+    },
+    "Game\\Pre.meta": {
+      "time": 1773686086968.0024
+    },
+    "Game\\Tex.meta": {
+      "time": 1773686086970.0015
+    },
+    "GameRes\\Anim.meta": {
+      "time": 1773370590361.7166
+    },
+    "GameRes\\Fbx.meta": {
+      "time": 1773831944933.2732
+    },
+    "GameRes\\Font.meta": {
+      "time": 1773370590364.716
+    },
+    "GameRes\\fx.meta": {
+      "time": 1773370590370.7239
+    },
+    "GameRes\\Image.meta": {
+      "time": 1773837818694.0566
+    },
+    "GameRes\\Jsyd_map.meta": {
+      "time": 1773686086973.0017
+    },
+    "GameRes\\Material.meta": {
+      "time": 1773395891915.6738
+    },
+    "GameRes\\Prefabs.meta": {
+      "time": 1773370590403.455
+    },
+    "GameRes\\SceneFBX.meta": {
+      "time": 1773721409712.3125
+    },
+    "GameRes\\UI2D.meta": {
+      "time": 1773370590406.4543
+    },
+    "GameRes\\ydsx_map.meta": {
+      "time": 1773485524114.661
+    },
+    "NPC_FBX(1)\\NPC_FBX.meta": {
+      "time": 1773485524117.66
+    },
+    "Res\\Eff.meta": {
+      "time": 1773837818703.0479
+    },
+    "Res\\mtl.meta": {
+      "time": 1773575426937.019
+    },
+    "Res\\UI.meta": {
+      "time": 1773837818707.6775
+    },
+    "resources\\audio.meta": {
+      "time": 1774003955302.3206
+    },
+    "Scripts\\Core.meta": {
+      "time": 1765423811157.4446
+    },
+    "Scripts\\Main.meta": {
+      "time": 1765423811815.4626
+    },
+    "杀鱼获肉\\杀鱼获肉.meta": {
+      "time": 1773621520723.566
+    },
+    "沙漠火车收割\\Models.meta": {
+      "time": 1772904176674.496
+    },
+    "沙漠火车收割\\Mtl.meta": {
+      "time": 1772904231172.213
+    },
+    "沙漠火车收割\\Prefab.meta": {
+      "time": 1772716289527.613
+    },
+    "沙漠火车收割\\shader.meta": {
+      "time": 1772774883387.3865
+    },
+    "沙漠火车收割\\Textures.meta": {
+      "time": 1772904342133.4717
+    },
+    "沙漠火车收割\\zhujue.meta": {
+      "time": 1772976581199.1262
+    },
+    "沙漠火车收割\\丧尸.meta": {
+      "time": 1772976581199.1262
+    },
+    "沙漠火车收割\\主角.meta": {
+      "time": 1773053734129.7373
+    },
+    "沙漠火车收割\\商人和骆驼.meta": {
+      "time": 1773055361704.308
+    },
+    "沙漠火车收割\\小麦.meta": {
+      "time": 1773683812105.505
+    },
+    "沙漠火车收割\\披萨.meta": {
+      "time": 1773685246021.4834
+    },
+    "沙漠火车收割\\沙漠火车.meta": {
+      "time": 1773680272068.7954
+    },
+    "GameRes\\fx\\Effect.meta": {
+      "time": 1773370590371.685
+    },
+    "GameRes\\Image\\img.meta": {
+      "time": 1773837818696.921
+    },
+    "GameRes\\Jsyd_map\\mtx.meta": {
+      "time": 1773686086974.0017
+    },
+    "GameRes\\Prefabs\\Role.meta": {
+      "time": 1773485524101.661
+    },
+    "GameRes\\SceneFBX\\Res.meta": {
+      "time": 1773831947856.805
+    },
+    "GameRes\\UI2D\\GeneralUI.meta": {
+      "time": 1773370590407.455
+    },
+    "GameRes\\UI2D\\Logo.meta": {
+      "time": 1773370590410.4553
+    },
+    "GameRes\\ydsx_map\\FBX.meta": {
+      "time": 1773620125994.2483
+    },
+    "GameRes\\ydsx_map\\mtl.meta": {
+      "time": 1773485524115.6606
+    },
+    "GameRes\\ydsx_map\\tableundefined.meta": {
+      "time": 1773620125998.2473
+    },
+    "Res\\Eff\\guide.meta": {
+      "time": 1773831944944.8513
+    },
+    "Res\\UI\\Line.meta": {
+      "time": 1773837818707.6775
+    },
+    "Scripts\\Core\\App.meta": {
+      "time": 1765423811147.5417
+    },
+    "Scripts\\Main\\AI.meta": {
+      "time": 1765423811230.572
+    },
+    "Scripts\\Main\\Building.meta": {
+      "time": 1765423811257.089
+    },
+    "Scripts\\Main\\Bullet.meta": {
+      "time": 1765423811265.9678
+    },
+    "Scripts\\Main\\Camera.meta": {
+      "time": 1765423811345.8513
+    },
+    "Scripts\\Main\\Common.meta": {
+      "time": 1765423811494.809
+    },
+    "Scripts\\Main\\Components.meta": {
+      "time": 1765423811518.198
+    },
+    "Scripts\\Main\\Drop.meta": {
+      "time": 1765423811525.4983
+    },
+    "Scripts\\Main\\Joystick.meta": {
+      "time": 1765423811664.8418
+    },
+    "Scripts\\Main\\Manager.meta": {
+      "time": 1765423811719.2349
+    },
+    "Scripts\\Main\\Role.meta": {
+      "time": 1765423811736.8264
+    },
+    "Scripts\\Main\\StateMachine.meta": {
+      "time": 1765423811745.1802
+    },
+    "Scripts\\Main\\Test.meta": {
+      "time": 1765423811772.006
+    },
+    "Scripts\\Main\\Tools.meta": {
+      "time": 1765423811804.8647
+    },
+    "Scripts\\Main\\Train.meta": {
+      "time": 1773220315235.0674
+    },
+    "Scripts\\Main\\UI.meta": {
+      "time": 1765423811812.4104
+    },
+    "杀鱼获肉\\杀鱼获肉\\鲨鱼_FBX.meta": {
+      "time": 1773621520724.5657
+    },
+    "沙漠火车收割\\zhujue\\Materials.meta": {
+      "time": 1772976581200.3188
+    },
+    "沙漠火车收割\\沙漠火车\\sell.meta": {
+      "time": 1773680272068.7954
+    },
+    "沙漠火车收割\\沙漠火车\\地贴.meta": {
+      "time": 1773680272068.7954
+    },
+    "沙漠火车收割\\沙漠火车\\地贴触发框.meta": {
+      "time": 1773680272069.7947
+    },
+    "GameRes\\fx\\Effect\\winfail.meta": {
+      "time": 1773370590373.4502
+    },
+    "GameRes\\Jsyd_map\\mtx\\diss.meta": {
+      "time": 1773686086974.0017
+    },
+    "GameRes\\SceneFBX\\Res\\Eff.meta": {
+      "time": 1773837821794.0115
+    },
+    "Res\\UI\\Line\\ArrowLine.meta": {
+      "time": 1773837818709.2083
+    },
+    "Scripts\\Core\\App\\Components.meta": {
+      "time": 1765423811100.2563
+    },
+    "Scripts\\Core\\App\\Managers.meta": {
+      "time": 1765423811122.8015
+    },
+    "Scripts\\Core\\App\\UI.meta": {
+      "time": 1765423811138.5427
+    },
+    "Scripts\\Core\\App\\Utils.meta": {
+      "time": 1765423811144.5425
+    },
+    "GameRes\\fx\\Effect\\winfail\\Dot.meta": {
+      "time": 1773370590374.4548
+    },
+    "GameRes\\fx\\Effect\\winfail\\end_light.meta": {
+      "time": 1773370590378.4539
+    },
+    "GameRes\\fx\\Effect\\winfail\\img.meta": {
+      "time": 1773370590381.4546
+    },
+    "GameRes\\fx\\Effect\\winfail\\prefan.meta": {
+      "time": 1773370590389.4558
+    },
+    "GameRes\\fx\\Effect\\winfail\\scripts.meta": {
+      "time": 1773370590398.4558
+    },
+    "GameRes\\SceneFBX\\Res\\Eff\\diss.meta": {
+      "time": 1773721409717.3137
+    },
+    "Res\\UI\\Line\\ArrowLine\\Shader.meta": {
+      "time": 1773837818709.2083
+    },
+    "Scripts\\Core\\App\\Components\\Adaptation.meta": {
+      "time": 1765423811047.1284
+    },
+    "Scripts\\Core\\App\\Components\\I18n.meta": {
+      "time": 1765423811063.1687
+    },
+    "Scripts\\Core\\App\\Components\\NetWork.meta": {
+      "time": 1765423811069.4827
+    },
+    "Res\\mtl\\standard-outline.effect.meta": {
+      "time": 1773575426938.019
+    },
+    "GameRes\\ydsx_map\\mtl\\standard-outline.effect.meta": {
+      "time": 1773485524116.6604
+    },
+    "沙漠火车收割\\shader\\standard-outline.effect.meta": {
+      "time": 1766038726237.71
+    },
+    "Res\\Eff\\guide\\guide_line.effect.meta": {
+      "time": 1773831944946.3594
+    },
+    "GameRes\\Jsyd_map\\mtx\\diss\\toon_dissolve.effect.meta": {
+      "time": 1773686086976.004
+    },
+    "Scripts\\NavLineComp.ts.meta": {
+      "time": 1773838026835.956
+    },
+    "Scripts\\super_html_playable.ts.meta": {
+      "time": 1766033402747.825
+    },
+    "GameRes\\SceneFBX\\Res\\Eff\\diss\\toon_dissolve.effect.meta": {
+      "time": 1773721409717.3137
+    },
+    "Scripts\\Core\\App\\Core.ts.meta": {
+      "time": 1765423811101.4348
+    },
+    "Res\\UI\\Line\\ArrowLine\\Shader\\noiseMove.effect.meta": {
+      "time": 1773837818713.2795
+    },
+    "Scripts\\Main\\AI\\AutoHuntAIComponent.ts.meta": {
+      "time": 1765423811157.4446
+    },
+    "Scripts\\Main\\AI\\BaseAIComponent.ts.meta": {
+      "time": 1765423811158.7466
+    },
+    "Scripts\\Main\\Building\\ArrowTower.ts.meta": {
+      "time": 1765423811231.5828
+    },
+    "Scripts\\Main\\Building\\BuildingBase.ts.meta": {
+      "time": 1765423811232.5828
+    },
+    "Scripts\\Main\\Building\\BuildingCommon.ts.meta": {
+      "time": 1765423811233.5818
+    },
+    "Scripts\\Main\\Building\\BuildingLumberjack.ts.meta": {
+      "time": 1765423811234.919
+    },
+    "Scripts\\Main\\Building\\BuildingSalesman.ts.meta": {
+      "time": 1773617164181.2095
+    },
+    "Scripts\\Main\\Building\\CoinContainer.ts.meta": {
+      "time": 1765423811235.9512
+    },
+    "Scripts\\Main\\Building\\ConveyorBelt.ts.meta": {
+      "time": 1773818459640.9575
+    },
+    "Scripts\\Main\\Building\\Customer.ts.meta": {
+      "time": 1765423811235.9512
+    },
+    "Scripts\\Main\\Building\\Elevator.ts.meta": {
+      "time": 1765423811237.115
+    },
+    "Scripts\\Main\\Building\\FlatbreadContainer.ts.meta": {
+      "time": 1773613304454.8364
+    },
+    "Scripts\\Main\\Building\\ProductionBuilding.ts.meta": {
+      "time": 1773614301429.2092
+    },
+    "Scripts\\Main\\Building\\ShopCommon.ts.meta": {
+      "time": 1765423811239.1204
+    },
+    "Scripts\\Main\\Building\\SpecialCustomer.ts.meta": {
+      "time": 1773829744550.8982
+    },
+    "Scripts\\Main\\Building\\TurretTower.ts.meta": {
+      "time": 1765423811240.1191
+    },
+    "Scripts\\Main\\Building\\UnlockItem.ts.meta": {
+      "time": 1765423811241.1199
+    },
+    "Scripts\\Main\\Building\\Wall.ts.meta": {
+      "time": 1765423811243.1199
+    },
+    "Scripts\\Main\\Building\\WheatContainer.ts.meta": {
+      "time": 1773609308233.3672
+    },
+    "Scripts\\Main\\Building\\WoodContainer.ts.meta": {
+      "time": 1773609308233.3672
+    },
+    "Scripts\\Main\\Bullet\\Arraw.ts.meta": {
+      "time": 1765423811258.808
+    },
+    "Scripts\\Main\\Bullet\\BulletBase.ts.meta": {
+      "time": 1765423811259.8125
+    },
+    "Scripts\\Main\\Bullet\\Shell.ts.meta": {
+      "time": 1765423811259.8125
+    },
+    "Scripts\\Main\\Camera\\CameraFollow.ts.meta": {
+      "time": 1765423811266.9727
+    },
+    "Scripts\\Main\\Common\\CommonEnum.ts.meta": {
+      "time": 1765423811346.8513
+    },
+    "Scripts\\Main\\Common\\CommonInterface.ts.meta": {
+      "time": 1765423811347.8516
+    },
+    "Scripts\\Main\\Common\\ComponentEvents.ts.meta": {
+      "time": 1765423811348.8518
+    },
+    "Scripts\\Main\\Common\\ComponentInitializer.ts.meta": {
+      "time": 1765423811349.8513
+    },
+    "Scripts\\Main\\Common\\Config.ts.meta": {
+      "time": 1765423811351.1719
+    },
+    "Scripts\\Main\\Common\\FlightManager.ts.meta": {
+      "time": 1765423811351.1719
+    },
+    "Scripts\\Main\\Common\\ItemContainer.ts.meta": {
+      "time": 1765423811352.1863
+    },
+    "Scripts\\Main\\Common\\MainCamera.ts.meta": {
+      "time": 1765423811353.1853
+    },
+    "Scripts\\Main\\Common\\MotionTrail.ts.meta": {
+      "time": 1765423811354.1855
+    },
+    "Scripts\\Main\\Common\\PoolObjectBase.ts.meta": {
+      "time": 1765423811355.1895
+    },
+    "Scripts\\Main\\Common\\Rotation3DUtils.ts.meta": {
+      "time": 1765423811356.1877
+    },
+    "Scripts\\Main\\Components\\AnimationComponent.ts.meta": {
+      "time": 1765423811495.8093
+    },
+    "Scripts\\Main\\Components\\AttackComponent.ts.meta": {
+      "time": 1765423811496.8447
+    },
+    "Scripts\\Main\\Components\\BaseAnimationComponent.ts.meta": {
+      "time": 1765423811498.3262
+    },
+    "Scripts\\Main\\Components\\BaseComponet.ts.meta": {
+      "time": 1765423811499.142
+    },
+    "Scripts\\Main\\Components\\FrameAnimationComponent.ts.meta": {
+      "time": 1765423811500.1475
+    },
+    "Scripts\\Main\\Components\\GlowController.ts.meta": {
+      "time": 1765423811501.146
+    },
+    "Scripts\\Main\\Components\\HealthBar.ts.meta": {
+      "time": 1765423811502.7961
+    },
+    "Scripts\\Main\\Components\\HealthBar_Bar.ts.meta": {
+      "time": 1765423811503.8145
+    },
+    "Scripts\\Main\\Components\\HealthBar_Cycle.ts.meta": {
+      "time": 1765423811504.8145
+    },
+    "Scripts\\Main\\Components\\HealthComponent.ts.meta": {
+      "time": 1765423811505.8142
+    },
+    "Scripts\\Main\\Components\\ModelAnimationComponent.ts.meta": {
+      "time": 1765423811506.816
+    },
+    "Scripts\\Main\\Components\\MovementComponent.ts.meta": {
+      "time": 1765423811508.8142
+    },
+    "Scripts\\Main\\Components\\PickupComponent.ts.meta": {
+      "time": 1765423811509.8142
+    },
+    "Scripts\\Main\\Components\\StateComponent.ts.meta": {
+      "time": 1765423811509.8142
+    },
+    "Scripts\\Main\\Drop\\DropItemCom.ts.meta": {
+      "time": 1765423811519.2178
+    },
+    "Scripts\\Main\\Drop\\DropItemCornKernel.ts.meta": {
+      "time": 1773577186921.7986
+    },
+    "Scripts\\Main\\Drop\\DropItemFlatbread.ts.meta": {
+      "time": 1773613304455.84
+    },
+    "Scripts\\Main\\Drop\\DropItemWood.ts.meta": {
+      "time": 1765423811520.2168
+    },
+    "Scripts\\Main\\Joystick\\JoystickControl.ts.meta": {
+      "time": 1765423811526.5034
+    },
+    "Scripts\\Main\\Manager\\Door.ts.meta": {
+      "time": 1765423811665.84
+    },
+    "Scripts\\Main\\Manager\\DropManager.ts.meta": {
+      "time": 1765423811666.84
+    },
+    "Scripts\\Main\\Manager\\EffectManager.ts.meta": {
+      "time": 1765423811667.9626
+    },
+    "Scripts\\Main\\Manager\\EnemyManager.ts.meta": {
+      "time": 1765423811669.1392
+    },
+    "Scripts\\Main\\Manager\\GameManager.ts.meta": {
+      "time": 1765423811669.1392
+    },
+    "Scripts\\Main\\Manager\\GuideManager.ts.meta": {
+      "time": 1765423811671.1394
+    },
+    "Scripts\\Main\\Manager\\Manager.ts.meta": {
+      "time": 1765423811672.141
+    },
+    "Scripts\\Main\\Manager\\PoolManager.ts.meta": {
+      "time": 1765423811673.616
+    },
+    "Scripts\\Main\\Manager\\SAFE.ts.meta": {
+      "time": 1765423811674.619
+    },
+    "Scripts\\Main\\Manager\\TreeManager.ts.meta": {
+      "time": 1765423811674.619
+    },
+    "Scripts\\Main\\Manager\\WallManager.ts.meta": {
+      "time": 1765423811675.8503
+    },
+    "Scripts\\Main\\Role\\Character.ts.meta": {
+      "time": 1765423811719.2349
+    },
+    "Scripts\\Main\\Role\\Enemy.ts.meta": {
+      "time": 1765423811720.4238
+    },
+    "Scripts\\Main\\Role\\EnemyBoss.ts.meta": {
+      "time": 1765423811722.4268
+    },
+    "Scripts\\Main\\Role\\Hero.ts.meta": {
+      "time": 1765423811723.6128
+    },
+    "Scripts\\Main\\Role\\Lumberjack.ts.meta": {
+      "time": 1765423811724.1177
+    },
+    "Scripts\\Main\\Role\\Salesman.ts.meta": {
+      "time": 1773616652487.6167
+    },
+    "Scripts\\Main\\Role\\Tree.ts.meta": {
+      "time": 1765423811726.1233
+    },
+    "Scripts\\Main\\StateMachine\\StateMachine.ts.meta": {
+      "time": 1765423811737.827
+    },
+    "Scripts\\Main\\Test\\GuideTest.ts.meta": {
+      "time": 1765423811746.1794
+    },
+    "Scripts\\Main\\Test\\Test.ts.meta": {
+      "time": 1765423811747.224
+    },
+    "Scripts\\Main\\Tools\\Dissolve.ts.meta": {
+      "time": 1765423811773.0066
+    },
+    "Scripts\\Main\\Tools\\ItemLayout.ts.meta": {
+      "time": 1765423811773.0066
+    },
+    "Scripts\\Main\\Tools\\LookAtCamera.ts.meta": {
+      "time": 1765423811774.3496
+    },
+    "Scripts\\Main\\Tools\\MapCtr.ts.meta": {
+      "time": 1765423811775.354
+    },
+    "Scripts\\Main\\Train\\Chainsaw.ts.meta": {
+      "time": 1773516875258.3772
+    },
+    "Scripts\\Main\\Train\\EffectYawFollower.ts.meta": {
+      "time": 1773967996833.6157
+    },
+    "Scripts\\Main\\Train\\ResourceFieldManager.ts.meta": {
+      "time": 1773516875259.376
+    },
+    "Scripts\\Main\\Train\\Train.ts.meta": {
+      "time": 1773220315239.0679
+    },
+    "Scripts\\Main\\Train\\TrainBoardingTrigger.ts.meta": {
+      "time": 1773556802595.2317
+    },
+    "Scripts\\Main\\Train\\TrainCar.ts.meta": {
+      "time": 1773220315240.0752
+    },
+    "Scripts\\Main\\Train\\TrainManager.ts.meta": {
+      "time": 1773293325984.6382
+    },
+    "Scripts\\Main\\Train\\TrainTrack.ts.meta": {
+      "time": 1773220315241.076
+    },
+    "Scripts\\Main\\Train\\TrainUnloadManager.ts.meta": {
+      "time": 1773580989270.8616
+    },
+    "Scripts\\Main\\Train\\TreeFieldManager.ts.meta": {
+      "time": 1773549803842.4976
+    },
+    "Scripts\\Main\\Train\\WheatCrop.ts.meta": {
+      "time": 1773516875259.376
+    },
+    "Scripts\\Main\\Train\\WheatFieldManager.ts.meta": {
+      "time": 1773549803843.5046
+    },
+    "Scripts\\Main\\UI\\DamageNum.ts.meta": {
+      "time": 1765423811805.8655
+    },
+    "Scripts\\Main\\UI\\SelectHeroPanel.ts.meta": {
+      "time": 1765423811806.8652
+    },
+    "Scripts\\Main\\UI\\TipLabel.ts.meta": {
+      "time": 1765423811807.8645
+    },
+    "Scripts\\Main\\UI\\Tips.ts.meta": {
+      "time": 1765423811808.8733
+    },
+    "Scripts\\Main\\UI\\UI.ts.meta": {
+      "time": 1765423811809.8794
+    },
+    "Scripts\\Main\\UI\\UIPowerBar.ts.meta": {
+      "time": 1765423811810.8796
+    },
+    "Scripts\\Core\\App\\Managers\\AudioMgr.ts.meta": {
+      "time": 1765423811102.4487
+    },
+    "Scripts\\Core\\App\\Managers\\BundleMgr.ts.meta": {
+      "time": 1765423811103.8005
+    },
+    "Scripts\\Core\\App\\Managers\\DataMgr.ts.meta": {
+      "time": 1765423811104.804
+    },
+    "Scripts\\Core\\App\\Managers\\EventMgr.ts.meta": {
+      "time": 1765423811105.7888
+    },
+    "Scripts\\Core\\App\\Managers\\LangMgr.ts.meta": {
+      "time": 1765423811106.794
+    },
+    "Scripts\\Core\\App\\Managers\\LogMgr.ts.meta": {
+      "time": 1765423811107.7942
+    },
+    "Scripts\\Core\\App\\Managers\\ResMgr.ts.meta": {
+      "time": 1765423811108.7937
+    },
+    "Scripts\\Core\\App\\Managers\\TimeMgr.ts.meta": {
+      "time": 1765423811109.7937
+    },
+    "Scripts\\Core\\App\\UI\\UIComp.ts.meta": {
+      "time": 1765423811123.8013
+    },
+    "Scripts\\Core\\App\\UI\\UIRoot.ts.meta": {
+      "time": 1765423811124.9446
+    },
+    "Scripts\\Core\\App\\UI\\UIScene.ts.meta": {
+      "time": 1765423811125.948
+    },
+    "Scripts\\Core\\App\\UI\\UIView.ts.meta": {
+      "time": 1765423811127.2368
+    },
+    "Scripts\\Core\\App\\Utils\\Crypt.ts.meta": {
+      "time": 1765423811139.5432
+    },
+    "Scripts\\Core\\App\\Utils\\Json.ts.meta": {
+      "time": 1765423811140.5427
+    },
+    "Scripts\\Core\\App\\Utils\\Parser.ts.meta": {
+      "time": 1765423811141.5432
+    },
+    "GameRes\\fx\\Effect\\winfail\\scripts\\LosePanel.ts.meta": {
+      "time": 1773370590400.4585
+    },
+    "GameRes\\fx\\Effect\\winfail\\scripts\\WinPanel.ts.meta": {
+      "time": 1773370590402.4568
+    },
+    "Scripts\\Core\\App\\Components\\Adaptation\\global_config.ts.meta": {
+      "time": 1765423811032.7786
+    },
+    "Scripts\\Core\\App\\Components\\Adaptation\\mk_adaptation_canvas.ts.meta": {
+      "time": 1765423811033.839
+    },
+    "Scripts\\Core\\App\\Components\\Adaptation\\mk_adaptation_node.ts.meta": {
+      "time": 1765423811035.4297
+    },
+    "Scripts\\Core\\App\\Components\\Adaptation\\mk_init.ts.meta": {
+      "time": 1765423811036.4333
+    },
+    "Scripts\\Core\\App\\Components\\I18n\\I18nBase.ts.meta": {
+      "time": 1765423811048.1284
+    },
+    "Scripts\\Core\\App\\Components\\I18n\\I18nLabel.ts.meta": {
+      "time": 1765423811049.1282
+    },
+    "Scripts\\Core\\App\\Components\\I18n\\I18nSprite.ts.meta": {
+      "time": 1765423811050.1272
+    },
+    "Scripts\\Core\\App\\Components\\NetWork\\Http.ts.meta": {
+      "time": 1765423811064.1687
+    },
+    "Scripts\\Core\\App\\Components\\NetWork\\ISocket.ts.meta": {
+      "time": 1765423811065.4185
+    },
+    "Scripts\\Core\\App\\Components\\NetWork\\Ws.ts.meta": {
+      "time": 1765423811065.4185
+    },
+    "Scripts\\Core\\App\\Components\\NetWork\\WsCoder.ts.meta": {
+      "time": 1765423811066.7502
+    },
+    "animations\\lv1.anim": {
+      "time": 1773560014162.822,
+      "uuid": "f9baf2e2-ac50-4c87-b28e-27af89156866"
+    },
+    "audio\\读秒.ogg": {
+      "time": 1772611234517.4016,
+      "uuid": "7d3b1318-b8be-5dfb-a809-1b59f37dcf35"
+    },
+    "materials\\__u4ED9_u4EBA_u638C_1_.mtl": {
+      "time": 1772611234535.2544,
+      "uuid": "b1786379-16e8-5b48-5821-0e2d95168623"
+    },
+    "materials\\__u56F4_u680F-03_.mtl": {
+      "time": 1772611234536.8472,
+      "uuid": "7c8ae2a7-714e-14ac-e931-d9b05936afb2"
+    },
+    "materials\\__u5730_u626303_.mtl": {
+      "time": 1772611234548.9487,
+      "uuid": "bbe6167d-51a0-9533-cb82-98245f0f1b48"
+    },
+    "materials\\__u5E95_u827201_.mtl": {
+      "time": 1772611234524.8687,
+      "uuid": "d9e08f31-7c93-f3f1-1bde-5c1f3bacdf8f"
+    },
+    "materials\\__u5E95_u827202_.mtl": {
+      "time": 1772611234524.1768,
+      "uuid": "7282e93c-e706-80a5-a923-85062daecacc"
+    },
+    "materials\\__u65A7_u5B501_.mtl": {
+      "time": 1772611234527.4312,
+      "uuid": "feaa3570-81fe-30f5-414e-dfa928964ffd"
+    },
+    "materials\\__u677E_u681102_.mtl": {
+      "time": 1772611234541.907,
+      "uuid": "cd114cb2-24d5-6519-305c-0d260a366b56"
+    },
+    "materials\\__u677E_u6811_.mtl": {
+      "time": 1772611234522.8787,
+      "uuid": "6a05ddfa-a68f-0380-ad88-2c06b771acd2"
+    },
+    "materials\\__u67AF_u6811_u6869_.mtl": {
+      "time": 1772611234544.5972,
+      "uuid": "510e1dae-a284-2773-f712-62ff54268aa1"
+    },
+    "materials\\__u684C_u5B50_.mtl": {
+      "time": 1772611234532.5283,
+      "uuid": "10c6c12a-c3fc-aad7-3625-ce97a9f293e0"
+    },
+    "materials\\__u706B_u8F66_u5934_.mtl": {
+      "time": 1772611234540.2131,
+      "uuid": "f30ec0a6-ec51-a5bb-9f34-97bf21889680"
+    },
+    "materials\\__u70E7_u70E4_u67B6_.mtl": {
+      "time": 1772611234552.8433,
+      "uuid": "26b40904-4fe2-d353-1441-7acd81a5a4bf"
+    },
+    "materials\\__u7535_u5854_.mtl": {
+      "time": 1772611234546.184,
+      "uuid": "3d989157-e18e-c061-c423-835d8f20478b"
+    },
+    "materials\\__u77F3_u5934_u96EA01_.mtl": {
+      "time": 1772611234531.2317,
+      "uuid": "322f027e-96bd-24bf-f066-34f55527b217"
+    },
+    "materials\\__u8272_u536102_.mtl": {
+      "time": 1772611234547.2676,
+      "uuid": "86b2f1b3-ce14-457c-8251-570282f82ebd"
+    },
+    "materials\\__u82E6_u5DE5_4_.mtl": {
+      "time": 1772611234526.1877,
+      "uuid": "5d648325-6c62-9922-2305-c3c9edadc686"
+    },
+    "materials\\__u8349_.mtl": {
+      "time": 1772611234528.819,
+      "uuid": "b62516b9-a332-603a-064a-1ee75d630534"
+    },
+    "materials\\__u8349_u5E3DNPC_2_.mtl": {
+      "time": 1772611234518.377,
+      "uuid": "2f713cf2-dc19-1df5-bf07-e5448d43a310"
+    },
+    "materials\\__u8428_u683C_.mtl": {
+      "time": 1772611234520.3193,
+      "uuid": "0d106eb5-c1e7-ebc4-5ce4-12eef1137c84"
+    },
+    "materials\\__u8F6601_.mtl": {
+      "time": 1772611234551.7173,
+      "uuid": "08707a98-b8f6-a513-6ae3-083de5ce13c6"
+    },
+    "materials\\__u8F6603_.mtl": {
+      "time": 1772611234550.6377,
+      "uuid": "2ad8ea02-1b89-e576-6437-4a49c7060877"
+    },
+    "materials\\__u952F_u7247_u989C_u8272_.mtl": {
+      "time": 1772611234533.5535,
+      "uuid": "30e4a5db-969d-82f1-299a-9e5b34f4b36b"
+    },
+    "materials\\__u95E8002_.mtl": {
+      "time": 1772611234521.1282,
+      "uuid": "5a5fc538-ba5a-5e8a-b497-3388c3425ae9"
+    },
+    "models\\JinBi.FBX": {
+      "time": 1772611234375.8184,
+      "uuid": "e93a62f8-7a49-3686-6b8e-be7f3751f696"
+    },
+    "models\\mutou.fbx": {
+      "time": 1772611234375.2546,
+      "uuid": "7405b2bd-676e-1851-3415-39ce59132fe2"
+    },
+    "models\\人.fbx": {
+      "time": 1772611234369.1208,
+      "uuid": "30486ccd-0ff6-83a1-5940-7801036511fd"
+    },
+    "models\\人骆驼_待机.fbx": {
+      "time": 1772611234370.23,
+      "uuid": "5daf55ff-4193-b673-9741-529d0e1acbdb"
+    },
+    "models\\人骆驼_移动.fbx": {
+      "time": 1772611234371.914,
+      "uuid": "203ba9cb-2c2a-3657-d1a7-57277dba6aa0"
+    },
+    "models\\仙人掌.FBX": {
+      "time": 1772611234349.0894,
+      "uuid": "815f5da1-e0a6-6ef1-24f6-509fb9e556c0"
+    },
+    "models\\仙人掌_1.fbx": {
+      "time": 1772611234350.0994,
+      "uuid": "fcc211de-5721-2b75-af89-b55bc74929db"
+    },
+    "models\\仙人掌_2.fbx": {
+      "time": 1772611234350.0994,
+      "uuid": "a18ed1ba-9d52-0845-ee91-658f1e1ec9f1"
+    },
+    "models\\传送带.fbx": {
+      "time": 1774089806000,
+      "uuid": "715727d5-389a-44e6-b50f-3629535230bc"
+    },
+    "models\\传送带.png": {
+      "time": 1774089854000,
+      "uuid": "cc89b9a2-1525-4130-8f37-a763051508a7"
+    },
+    "models\\农民_待机.fbx": {
+      "time": 1772611234348.0876,
+      "uuid": "86a4b35f-7f19-84a8-404f-c7136f66d51b"
+    },
+    "models\\围栏_A.FBX": {
+      "time": 1772611234352.1138,
+      "uuid": "d5d548a1-ff2e-3d91-c724-039072741f86"
+    },
+    "models\\地块-01.FBX": {
+      "time": 1772611234352.1138,
+      "uuid": "1955445a-b2ee-49e0-68cf-86b1d1643cfa"
+    },
+    "models\\地块-02.FBX": {
+      "time": 1772611234353.0881,
+      "uuid": "185cfbef-db97-1700-bb8a-b5c1ce5a6ee7"
+    },
+    "models\\地表.FBX": {
+      "time": 1772611234350.0994,
+      "uuid": "5daddde6-7d61-ec4c-7230-5fffc2fc6ac2"
+    },
+    "models\\小桌子.FBX": {
+      "time": 1772611234353.0881,
+      "uuid": "da26ea49-c055-88dc-63d4-a1446c1bf742"
+    },
+    "models\\小麦01.FBX": {
+      "time": 1772611234354.089,
+      "uuid": "a82ad81d-7ca6-a568-6a77-9953e2728810"
+    },
+    "models\\小麦处理机.FBX": {
+      "time": 1772611234354.7334,
+      "uuid": "e44349a1-e82f-5ad3-fad5-706b8fcfce61"
+    },
+    "models\\工程僵尸_待机.fbx": {
+      "time": 1772611234355.255,
+      "uuid": "e27ad46a-d746-71d7-0e0b-e4064b7da59f"
+    },
+    "models\\底座.fbx": {
+      "time": 1774339276133.6523,
+      "uuid": "8ac73de4-defb-4714-9536-6d95b2f84ca1"
+    },
+    "models\\拖车01.FBX": {
+      "time": 1772611234356.3762,
+      "uuid": "eb27cde0-7383-bc34-8482-a456ffcbb392"
+    },
+    "models\\收银机.fbx": {
+      "time": 1772611234356.88,
+      "uuid": "33f21cf2-f5ac-754f-b3d5-321aa5fb9a0a"
+    },
+    "models\\木制围墙组02.FBX": {
+      "time": 1772611234357.4458,
+      "uuid": "0dd499a8-b3c1-9665-1d03-b549d2904f41"
+    },
+    "models\\木制围墙组04.FBX": {
+      "time": 1772611234357.5066,
+      "uuid": "9de3a866-c3cd-ffa2-7d7e-340a5b9bd70a"
+    },
+    "models\\木堆.FBX": {
+      "time": 1772611234358.0605,
+      "uuid": "8d152416-186e-f6ae-e412-d7e82732ac55"
+    },
+    "models\\松树-01.FBX": {
+      "time": 1772611234358.5808,
+      "uuid": "9a5ee6c0-744e-f075-ff6a-ca4bebc2d193"
+    },
+    "models\\松树02.FBX": {
+      "time": 1772611234359.1296,
+      "uuid": "cb2447f2-7be7-8449-5c6c-6ac18b4f2607"
+    },
+    "models\\枯树04.fbx": {
+      "time": 1772611234359.6836,
+      "uuid": "02714555-3707-9851-091c-0bfa3faf157f"
+    },
+    "models\\灶台.fbx": {
+      "time": 1772611234360.208,
+      "uuid": "9e35e60d-5d1d-8735-780f-7fd32b767bbd"
+    },
+    "models\\烤架001.fbx": {
+      "time": 1772611234360.7834,
+      "uuid": "b0569847-20a5-a551-e14d-da5a5b508b5c"
+    },
+    "models\\牛排.fbx": {
+      "time": 1772611234349.0894,
+      "uuid": "c09cbb82-706b-9c20-c4d6-64e267f78f39"
+    },
+    "models\\电塔.FBX": {
+      "time": 1772611234351.0898,
+      "uuid": "d6795a23-5b5d-5b0f-e1c6-ca1b305da11a"
+    },
+    "models\\石头.FBX": {
+      "time": 1772611234351.0898,
+      "uuid": "3ffa15b3-6987-1564-40ea-125c95cfbe76"
+    },
+    "models\\石头_黄_02.FBX": {
+      "time": 1772611234361.3423,
+      "uuid": "3c9db89f-57f0-f7c3-39dc-9fb0f9269aab"
+    },
+    "models\\石头雪01.FBX": {
+      "time": 1772611234361.9072,
+      "uuid": "bdec4871-c62d-8c2d-7a8c-d9a63c9ed490"
+    },
+    "models\\箭塔(2) 2.fbx": {
+      "time": 1774244842184.777,
+      "uuid": "a8494636-337c-4c10-9703-f4a824f0ff24"
+    },
+    "models\\箭塔.fbx": {
+      "time": 1774339275505.0422,
+      "uuid": "ad9ac102-6a19-421c-0f5d-913e686913c9"
+    },
+    "models\\箭头.fbx": {
+      "time": 1772611234375.2546,
+      "uuid": "19f29aed-a26e-6016-1c05-1318d96c055a"
+    },
+    "models\\苦工.fbx": {
+      "time": 1772611234346.088,
+      "uuid": "3ac51f29-e3f1-5cb3-7e11-68f89690a192"
+    },
+    "models\\草.FBX": {
+      "time": 1772611234352.1138,
+      "uuid": "c506a7c7-c13e-cd1c-b4d7-ad7f1396a748"
+    },
+    "models\\草03.fbx": {
+      "time": 1772611234362.458,
+      "uuid": "b54cc201-c9e5-1629-d1b0-5b732a82474f"
+    },
+    "models\\草帽NPC.fbx": {
+      "time": 1772611234347.0896,
+      "uuid": "03b09ca0-78b3-32d1-4022-1727b757200f"
+    },
+    "models\\萨格.fbx": {
+      "time": 1772611234347.0896,
+      "uuid": "e5edf8c5-f340-b464-8a13-21a652f86fb7"
+    },
+    "models\\货运列车_拖车.fbx": {
+      "time": 1772611234363.0312,
+      "uuid": "f6e001f8-142d-5ff3-9b0f-b10b76e0e700"
+    },
+    "models\\车03.FBX": {
+      "time": 1772611234363.5854,
+      "uuid": "87a9418f-e632-1ef5-3154-87143646e167"
+    },
+    "models\\车厢.FBX": {
+      "time": 1772611234364.106,
+      "uuid": "7902bd97-99a8-40a1-48a5-314c8f3ea904"
+    },
+    "models\\车头.FBX": {
+      "time": 1772611234364.6572,
+      "uuid": "bd8841b0-c0a7-aab4-2303-1999da12fc33"
+    },
+    "models\\铁轨01.fbx": {
+      "time": 1772611234365.7424,
+      "uuid": "b80e293a-91c0-68d7-7552-60e116a344c7"
+    },
+    "models\\铁轨02.FBX": {
+      "time": 1772611234366.3562,
+      "uuid": "7dd43ba7-6ee2-82c2-40dc-0f05c9ca7b7e"
+    },
+    "models\\铁轨弯.FBX": {
+      "time": 1772611234366.916,
+      "uuid": "4cc7e3cd-a84d-72c1-0e93-3ba86143d67b"
+    },
+    "models\\铁轨短.FBX": {
+      "time": 1772611234367.4785,
+      "uuid": "19919687-b3a6-9f21-973d-6e69b00232f6"
+    },
+    "models\\锯片001.fbx": {
+      "time": 1772611234368.027,
+      "uuid": "18561312-8c8a-5ec0-5ba6-e8fd9e779bc9"
+    },
+    "models\\门02.fbx": {
+      "time": 1772611234368.578,
+      "uuid": "f46864e9-56b9-0188-bde7-d39fa8cdb347"
+    },
+    "models\\骆驼.fbx": {
+      "time": 1772611234372.464,
+      "uuid": "84849604-e9dc-62d5-38da-aa8c5b133e1f"
+    },
+    "NPC(1)\\material.mtl": {
+      "time": 1773485524126.6619,
+      "uuid": "d9087618-eaa3-4096-99ad-2e812aea8294"
+    },
+    "NPC(1)\\NPC.jpg": {
+      "time": 1773485524127.661,
+      "uuid": "15090553-0f01-4ecf-9e76-29420733366d"
+    },
+    "prefabs\\Game.prefab": {
+      "time": 1773299599580.413,
+      "uuid": "b683d00a-c3c5-44bc-9ce3-9fb90e217f20"
+    },
+    "prefabs\\GuideManager.prefab": {
+      "time": 1773837818717.4077,
+      "uuid": "90308d1a-8d57-4c3b-9483-f4eaf3496a2d"
+    },
+    "scenes\\game.scene": {
+      "time": 1772611689903.037,
+      "uuid": "98279ad9-13b4-dbd7-4668-3f131ac61cef"
+    },
+    "scenes\\test.scene": {
+      "time": 1772860804743.8948,
+      "uuid": "165ed221-a592-4c52-8410-692c58b75b41"
+    },
+    "textures\\0.png": {
+      "time": 1772611234507.915,
+      "uuid": "2ef8cde6-f5c4-2e55-6410-c03857b0107f"
+    },
+    "textures\\01.jpg": {
+      "time": 1772611234515.3792,
+      "uuid": "73e5ce3e-03ba-e5ce-da40-78f103482b9d"
+    },
+    "textures\\02.jpg": {
+      "time": 1772611234516.3792,
+      "uuid": "75feb2ca-b2bd-54dd-2d42-d9d3964ab2e7"
+    },
+    "textures\\03.jpg": {
+      "time": 1772611234516.3792,
+      "uuid": "197ba60d-54a2-3dda-4019-d0b8324097e1"
+    },
+    "textures\\1.png": {
+      "time": 1772611234507.915,
+      "uuid": "a3e5e11e-5e4c-9617-e471-1f4b0b0ebbee"
+    },
+    "textures\\2.png": {
+      "time": 1772611234508.8574,
+      "uuid": "dd725d7e-0ae0-7a1b-6820-6ddfc6401018"
+    },
+    "textures\\3.png": {
+      "time": 1772611234508.8574,
+      "uuid": "f3427537-223d-3131-b699-2c835f25146d"
+    },
+    "textures\\4.png": {
+      "time": 1772611234509.8594,
+      "uuid": "9419c305-6e0a-75ad-75f3-81ad29423238"
+    },
+    "textures\\5.png": {
+      "time": 1772611234509.8594,
+      "uuid": "068a4ee8-3ab0-fa27-6edf-ad69ee42dc31"
+    },
+    "textures\\6.png": {
+      "time": 1772611234510.437,
+      "uuid": "8503c85f-babd-d0ae-16e2-704a5449d1c4"
+    },
+    "textures\\7.png": {
+      "time": 1772611234510.437,
+      "uuid": "05ba4ba9-0f52-9ce2-27b4-8bd25ea93190"
+    },
+    "textures\\8.png": {
+      "time": 1772611234511.379,
+      "uuid": "07b52387-1f1f-9d36-acd4-6c39ff3702f2"
+    },
+    "textures\\9.png": {
+      "time": 1772611234511.379,
+      "uuid": "969be346-fc21-a343-64aa-054483abab3d"
+    },
+    "textures\\Axe00_diff.jpg": {
+      "time": 1772611234496.1006,
+      "uuid": "fcf5f4d7-b295-cf3d-57c0-77823c3dad9d"
+    },
+    "textures\\blackSquare.png": {
+      "time": 1772611234441.0154,
+      "uuid": "7081cb69-e78d-4d05-3fb5-76bcd88461cf"
+    },
+    "textures\\blackSquareAlpha10.png": {
+      "time": 1772611234441.5662,
+      "uuid": "3d1555a3-cac6-5901-154a-28de1b3c8fbc"
+    },
+    "textures\\blackSquareAlpha15.png": {
+      "time": 1772611234442.1292,
+      "uuid": "9a733679-b421-fca3-7cc1-65762dd444ac"
+    },
+    "textures\\blackSquareAlpha25.png": {
+      "time": 1772611234442.7002,
+      "uuid": "e46e2f49-1b42-2855-3159-036f8cfecf1b"
+    },
+    "textures\\blackSquareAlpha50.png": {
+      "time": 1772611234443.205,
+      "uuid": "2511c7d7-015f-d401-8650-c2405198e114"
+    },
+    "textures\\blackSquareAlpha80.png": {
+      "time": 1772611234443.2715,
+      "uuid": "c3aa91d9-4e0d-4ac7-959a-bf4ef110301b"
+    },
+    "textures\\blueSquare.png": {
+      "time": 1772611234443.8481,
+      "uuid": "e98f1ee4-4c83-6355-3716-e19c8ebf3553"
+    },
+    "textures\\circle.png": {
+      "time": 1772611234444.4133,
+      "uuid": "272a1af6-1dec-d904-2df5-990965f26332"
+    },
+    "textures\\circle_dashedBorderEmpty.png": {
+      "time": 1772611234444.9822,
+      "uuid": "4ae699dd-ddce-8eee-1786-c01c3cd56ac2"
+    },
+    "textures\\DOTweenIcon.png": {
+      "time": 1772611234438.7686,
+      "uuid": "a9b805c4-77b3-0b74-7e4e-b5f0362ec703"
+    },
+    "textures\\DOTweenMiniIcon.png": {
+      "time": 1772611234438.7686,
+      "uuid": "e0ef2559-d5fb-43e2-35e5-fd92a4dbc858"
+    },
+    "textures\\dotweenpro_logo.png": {
+      "time": 1772611234441.0154,
+      "uuid": "063102e4-a596-07a4-ec79-0507bdd44a88"
+    },
+    "textures\\EmojiOne.png": {
+      "time": 1772611234513.3792,
+      "uuid": "f5906a3f-8739-813a-5df0-d4c8d80c2321"
+    },
+    "textures\\Footer.png": {
+      "time": 1772611234439.33,
+      "uuid": "8ca71fb6-336b-5c07-8d9e-7e1947e1642a"
+    },
+    "textures\\Footer_dark.png": {
+      "time": 1772611234439.894,
+      "uuid": "3d2d9362-bbdb-d667-7447-26ad3d3df4a7"
+    },
+    "textures\\greenSquare.png": {
+      "time": 1772611234444.9822,
+      "uuid": "9647274a-c1d0-dac7-5ce9-cb9febab9fce"
+    },
+    "textures\\grid_bright.png": {
+      "time": 1772611234445.5464,
+      "uuid": "c19224ad-f54e-583d-8b0b-52974ed92770"
+    },
+    "textures\\grid_dark.png": {
+      "time": 1772611234446.0967,
+      "uuid": "49e14db7-21a4-755f-4cc9-bb079628eb80"
+    },
+    "textures\\Header.jpg": {
+      "time": 1772611234440.4668,
+      "uuid": "9b4c6a7d-7196-4c93-3738-fad84ad40f51"
+    },
+    "textures\\ico_alert.png": {
+      "time": 1772611234446.65,
+      "uuid": "dbd0816a-28f0-233f-436b-695a916cd5a6"
+    },
+    "textures\\ico_alignB.png": {
+      "time": 1772611234447.1545,
+      "uuid": "517969d9-0f89-3826-3919-11c17a2a104e"
+    },
+    "textures\\ico_alignBC.png": {
+      "time": 1772611234447.2134,
+      "uuid": "3aebe907-ded8-0954-7ca5-8e6f481209ca"
+    },
+    "textures\\ico_alignBL.png": {
+      "time": 1772611234447.7476,
+      "uuid": "36e9984e-1f84-417a-7936-569acd86745a"
+    },
+    "textures\\ico_alignBR.png": {
+      "time": 1772611234448.3135,
+      "uuid": "0f68ec70-354d-64da-5031-7c73d44100f6"
+    },
+    "textures\\ico_alignCC.png": {
+      "time": 1772611234449.3118,
+      "uuid": "183d8ccb-3240-1793-043f-7046fc291752"
+    },
+    "textures\\ico_alignCL.png": {
+      "time": 1772611234449.3118,
+      "uuid": "dddcfb0b-c6c2-155b-393c-dd05df907b83"
+    },
+    "textures\\ico_alignCR.png": {
+      "time": 1772611234449.3118,
+      "uuid": "5e272a83-b5e8-a13c-77cf-fbd8418a3aed"
+    },
+    "textures\\ico_alignHC.png": {
+      "time": 1772611234450.2585,
+      "uuid": "5a1bb62f-774b-cdfd-1990-47ea1a4436da"
+    },
+    "textures\\ico_alignL.png": {
+      "time": 1772611234450.2585,
+      "uuid": "24bd6750-1010-b8c7-9e67-0d87c08becb0"
+    },
+    "textures\\ico_alignR.png": {
+      "time": 1772611234451.3315,
+      "uuid": "a35589ea-965a-7f8c-7c6d-d86aaf20b23b"
+    },
+    "textures\\ico_alignT.png": {
+      "time": 1772611234451.3315,
+      "uuid": "242fcfe2-5661-665b-5581-34ed50a24061"
+    },
+    "textures\\ico_alignTC.png": {
+      "time": 1772611234452.2598,
+      "uuid": "6e6c125e-1f6d-9748-3c58-8d83696d94aa"
+    },
+    "textures\\ico_alignTL.png": {
+      "time": 1772611234452.2598,
+      "uuid": "061ff3a1-e52b-a505-749f-9c6042854574"
+    },
+    "textures\\ico_alignTR.png": {
+      "time": 1772611234452.2598,
+      "uuid": "c7bef7a8-0c71-a77a-0307-89708286f46b"
+    },
+    "textures\\ico_alignVC.png": {
+      "time": 1772611234453.2598,
+      "uuid": "6f9e5dea-621e-cc88-8937-5c3ea7867e43"
+    },
+    "textures\\ico_atlas.png": {
+      "time": 1772611234468.2588,
+      "uuid": "77129f20-7db4-c8bd-745e-dfcd909ded97"
+    },
+    "textures\\ico_audio.png": {
+      "time": 1772611234469.2588,
+      "uuid": "a89ae62b-ef12-2af0-4ab1-f8fcda33e1f1"
+    },
+    "textures\\ico_bundle.png": {
+      "time": 1772611234469.2588,
+      "uuid": "20927742-7b3e-10f0-274b-e6d89fb01c9a"
+    },
+    "textures\\ico_camera.png": {
+      "time": 1772611234453.2598,
+      "uuid": "27258bf8-77c6-a969-281f-0e0af796d8d3"
+    },
+    "textures\\ico_camera_border.png": {
+      "time": 1772611234454.2598,
+      "uuid": "2169b188-224e-12e1-a37f-011a375d7d93"
+    },
+    "textures\\ico_cog.png": {
+      "time": 1772611234470.2588,
+      "uuid": "a757930a-5213-0d31-d4fb-61dffa47de09"
+    },
+    "textures\\ico_cog_border.png": {
+      "time": 1772611234455.259,
+      "uuid": "2cdf1784-dddd-9699-e468-0aa338627834"
+    },
+    "textures\\ico_comment.png": {
+      "time": 1772611234455.259,
+      "uuid": "0c0d84d4-974a-2fc2-f3a1-bec81d039ac1"
+    },
+    "textures\\ico_comment_border.png": {
+      "time": 1772611234456.2605,
+      "uuid": "af7eba21-5cc8-8f73-f777-4601d3d63622"
+    },
+    "textures\\ico_cross.png": {
+      "time": 1772611234470.2588,
+      "uuid": "f54a8448-e046-9ac5-1c97-77923cc83b43"
+    },
+    "textures\\ico_delete.png": {
+      "time": 1772611234456.2605,
+      "uuid": "4f6d8a5b-f844-56ba-e1c1-76022f82723d"
+    },
+    "textures\\ico_demigiant.png": {
+      "time": 1772611234471.2632,
+      "uuid": "b54322bc-8936-a5f5-4916-c8b60aae7539"
+    },
+    "textures\\ico_distributeHAlignT.png": {
+      "time": 1772611234457.2593,
+      "uuid": "ad7ccbdf-41eb-ed93-17c3-d3d03f5ce7d5"
+    },
+    "textures\\ico_distributeVAlignL.png": {
+      "time": 1772611234457.2593,
+      "uuid": "5391b48e-ed1f-6f70-d9de-fdb40af7e557"
+    },
+    "textures\\ico_doing.png": {
+      "time": 1772611234458.259,
+      "uuid": "6cc7b2cc-571f-7c34-7e86-e4929dd47b06"
+    },
+    "textures\\ico_end.png": {
+      "time": 1772611234458.259,
+      "uuid": "18834967-d571-bded-33d7-dc2d5396dbca"
+    },
+    "textures\\ico_flipV.png": {
+      "time": 1772611234458.259,
+      "uuid": "729a4600-7fa1-1b82-b55e-cb3f2c55a591"
+    },
+    "textures\\ico_folder.png": {
+      "time": 1772611234471.2632,
+      "uuid": "54bbb22f-cc25-e454-254c-fc86ab90354e"
+    },
+    "textures\\ico_foldout_closed.png": {
+      "time": 1772611234459.2588,
+      "uuid": "8d20374c-792e-9708-426d-e8f545fdd17b"
+    },
+    "textures\\ico_foldout_open.png": {
+      "time": 1772611234459.2588,
+      "uuid": "2d4ad918-d354-b2f0-c6fd-fcfa8845363b"
+    },
+    "textures\\ico_fonts.png": {
+      "time": 1772611234472.042,
+      "uuid": "3f56733c-fe68-0427-78fa-d8317443654a"
+    },
+    "textures\\ico_heart.png": {
+      "time": 1772611234472.584,
+      "uuid": "816899d9-530f-c82b-c3e1-841dead673b9"
+    },
+    "textures\\ico_heart_border.png": {
+      "time": 1772611234460.2588,
+      "uuid": "5366df0c-d6b5-cc2d-ba1f-c4186e2e0b85"
+    },
+    "textures\\ico_light.png": {
+      "time": 1772611234461.259,
+      "uuid": "ebfdc450-1474-1fcc-cd70-6cb7fd21b000"
+    },
+    "textures\\ico_light_border.png": {
+      "time": 1772611234461.259,
+      "uuid": "cc7de427-c863-f5bc-6a57-da4664c99675"
+    },
+    "textures\\ico_lock.png": {
+      "time": 1772611234461.259,
+      "uuid": "e9ebf6f1-841e-60da-172e-a374d4e437cf"
+    },
+    "textures\\ico_lock_open.png": {
+      "time": 1772611234462.259,
+      "uuid": "a17ed621-d5fe-d91e-5676-5e6f4835c5ee"
+    },
+    "textures\\ico_materials.png": {
+      "time": 1772611234473.154,
+      "uuid": "be12c39a-dc97-f66d-d171-a6fba05d760b"
+    },
+    "textures\\ico_models.png": {
+      "time": 1772611234473.154,
+      "uuid": "2f9d8f84-43df-62ad-2984-032cf0a84932"
+    },
+    "textures\\ico_nodeArrow.png": {
+      "time": 1772611234462.259,
+      "uuid": "6713f547-5c2f-0161-2d70-f0d07fe43b0f"
+    },
+    "textures\\ico_ok.png": {
+      "time": 1772611234463.259,
+      "uuid": "be403e67-051c-7766-1c87-33c9005e93dc"
+    },
+    "textures\\ico_optionsDropdown.png": {
+      "time": 1772611234463.259,
+      "uuid": "0682dd37-ec0f-1af9-d516-28e9b5890103"
+    },
+    "textures\\ico_particles.png": {
+      "time": 1772611234473.6987,
+      "uuid": "2094f6df-d7f3-6184-6d62-9cfa0b1bcab7"
+    },
+    "textures\\ico_play.png": {
+      "time": 1772611234474.2637,
+      "uuid": "8168514f-425d-c8bc-51b0-91ddb2da6827"
+    },
+    "textures\\ico_play_border.png": {
+      "time": 1772611234464.259,
+      "uuid": "1c6d203f-e365-e55b-1dee-19741cd37e0d"
+    },
+    "textures\\ico_prefab.png": {
+      "time": 1772611234474.8083,
+      "uuid": "bfd4245e-bf92-77f0-705c-a4bcc2858852"
+    },
+    "textures\\ico_scripts.png": {
+      "time": 1772611234475.348,
+      "uuid": "629a02bf-11cf-f516-4d6c-dfb973654ef3"
+    },
+    "textures\\ico_shaders.png": {
+      "time": 1772611234475.348,
+      "uuid": "bbf3f257-a765-a2de-1ca2-018c58e14b1b"
+    },
+    "textures\\ico_skull.png": {
+      "time": 1772611234475.909,
+      "uuid": "2942885b-2833-3e3c-dfb2-0c729c81628f"
+    },
+    "textures\\ico_skull_border.png": {
+      "time": 1772611234465.259,
+      "uuid": "f64d876b-8d20-6203-e4bb-8f23faf26298"
+    },
+    "textures\\ico_star.png": {
+      "time": 1772611234476.4546,
+      "uuid": "23b129b5-80f9-298e-1821-6b0894b75c6e"
+    },
+    "textures\\ico_star_border.png": {
+      "time": 1772611234466.2585,
+      "uuid": "188f5e36-4414-2da6-c406-4dd7685c7537"
+    },
+    "textures\\ico_terrains.png": {
+      "time": 1772611234477.0198,
+      "uuid": "3d3c3f8d-46d7-5c1d-154f-f2bfd287f700"
+    },
+    "textures\\ico_textures.png": {
+      "time": 1772611234477.5288,
+      "uuid": "0ba77232-16eb-2816-3d98-f6da7618b95c"
+    },
+    "textures\\ico_todo.png": {
+      "time": 1772611234466.2585,
+      "uuid": "221eec94-bb76-16bc-3b4d-bd898741afaa"
+    },
+    "textures\\ico_ui.png": {
+      "time": 1772611234466.2585,
+      "uuid": "73d2ce93-d860-55d3-6806-18ec0d6f9113"
+    },
+    "textures\\ico_ui_border.png": {
+      "time": 1772611234467.2588,
+      "uuid": "ae9190e0-13d0-90d7-8661-6efe919d7e4c"
+    },
+    "textures\\ico_visibility.png": {
+      "time": 1772611234467.2588,
+      "uuid": "7bc6d81c-5a72-0b81-1cbd-44a2bf9a6e63"
+    },
+    "textures\\ico_visibility_off.png": {
+      "time": 1772611234468.2588,
+      "uuid": "6453ebdd-9b67-472f-78b0-495b26ad8c0a"
+    },
+    "textures\\JinBi_01.png": {
+      "time": 1772611234502.7336,
+      "uuid": "540085a5-67c7-ee50-43b0-9f3a412747c1"
+    },
+    "textures\\muwenli.PNG": {
+      "time": 1772611234502.1895,
+      "uuid": "52b3ac92-776b-945e-8182-eb4a08a8c9cc"
+    },
+    "textures\\NiuPai_1_BC.png": {
+      "time": 1772611234499.9365,
+      "uuid": "9733075a-f81f-9a50-1f05-887826188fc6"
+    },
+    "textures\\NiuPai_1_BCN.png": {
+      "time": 1772611234500.5105,
+      "uuid": "86c19f4a-4ffc-d29e-8155-277efe572ff9"
+    },
+    "textures\\NiuPai_1_N.png": {
+      "time": 1772611234501.0764,
+      "uuid": "7c7e8bcd-b446-40bf-e86d-428bc47ec3c4"
+    },
+    "textures\\orangeSquare.png": {
+      "time": 1772611234468.2588,
+      "uuid": "48ff96f6-a386-6dac-73c3-283f5e17e462"
+    },
+    "textures\\purpleSquare.png": {
+      "time": 1772611234477.5945,
+      "uuid": "12c78b66-6807-70ca-5ee3-7d66b81befe2"
+    },
+    "textures\\RedShirt_Man_CM.jpg": {
+      "time": 1772611234497.2083,
+      "uuid": "cf5e4979-c349-1e22-a492-397b240ae91e"
+    },
+    "textures\\redSquare.png": {
+      "time": 1772611234478.1377,
+      "uuid": "9ac4fa13-0b60-c8fa-3136-e9ee250247ba"
+    },
+    "textures\\squareBorder.png": {
+      "time": 1772611234478.6738,
+      "uuid": "f0795e0e-66ea-af51-1799-5679fe9a3629"
+    },
+    "textures\\squareBorderAlpha15.png": {
+      "time": 1772611234479.209,
+      "uuid": "34dcfb4a-8e63-596d-692f-0399a7278c71"
+    },
+    "textures\\squareBorderCurved.png": {
+      "time": 1772611234479.7188,
+      "uuid": "0c71cff2-af8c-ca20-fe92-8eb0bfdb347b"
+    },
+    "textures\\squareBorderCurved02.png": {
+      "time": 1772611234479.7761,
+      "uuid": "afad659c-d0a5-717c-f937-39f1a55319c3"
+    },
+    "textures\\squareBorderCurved02_darkBorders.png": {
+      "time": 1772611234480.324,
+      "uuid": "3c693bdd-6347-7d4e-a4b1-5fe44699f430"
+    },
+    "textures\\squareBorderCurvedAlpha.png": {
+      "time": 1772611234480.8948,
+      "uuid": "43d086ed-9692-39f1-e64f-c206fb32ab4b"
+    },
+    "textures\\squareBorderCurvedEmpty.png": {
+      "time": 1772611234481.452,
+      "uuid": "01caa682-6ed5-cdc1-53e5-06efd22252ed"
+    },
+    "textures\\squareBorderCurvedEmpty02.png": {
+      "time": 1772611234481.452,
+      "uuid": "cf7085b3-01c4-0fe9-5bf7-b67232bfecc5"
+    },
+    "textures\\squareBorderCurvedEmptyThick.png": {
+      "time": 1772611234482.0205,
+      "uuid": "5cbc259f-439e-e401-73cd-6c38762a4809"
+    },
+    "textures\\squareBorderCurved_darkBorders.png": {
+      "time": 1772611234482.5564,
+      "uuid": "ef5ded04-f8c9-9687-74c1-632c0e4ae36a"
+    },
+    "textures\\squareBorderCurved_darkBordersAlpha.png": {
+      "time": 1772611234483.0896,
+      "uuid": "2b81fc06-ed65-79fa-0660-65ae52571f96"
+    },
+    "textures\\squareBorderEmpty.png": {
+      "time": 1772611234483.6316,
+      "uuid": "4ee2160f-e41d-e0df-f4f6-ca041428e40a"
+    },
+    "textures\\squareBorderEmpty01.png": {
+      "time": 1772611234483.6316,
+      "uuid": "7495386f-470e-6b21-f688-9b04768e569a"
+    },
+    "textures\\squareBorderEmpty02.png": {
+      "time": 1772611234484.1917,
+      "uuid": "10adcb80-f134-38c5-f567-34e8146f698b"
+    },
+    "textures\\squareBorderEmpty03.png": {
+      "time": 1772611234484.841,
+      "uuid": "06153d78-16f9-d34c-d24d-c16193aab6a3"
+    },
+    "textures\\squareBorderThickEmpty.png": {
+      "time": 1772611234485.4226,
+      "uuid": "4c6fbe8a-e1f2-a94d-777e-fee543f31b27"
+    },
+    "textures\\squareBorderThickerEmpty.png": {
+      "time": 1772611234485.9978,
+      "uuid": "f1af5a9d-701f-6c2c-2d2a-8ab3390692eb"
+    },
+    "textures\\squareCorners03.png": {
+      "time": 1772611234486.5303,
+      "uuid": "a1d0a930-f548-64ab-0ad3-20b8b479b7bf"
+    },
+    "textures\\squareCornersEmpty02.png": {
+      "time": 1772611234486.5303,
+      "uuid": "a73748e5-036a-006d-3e2a-4d7746062559"
+    },
+    "textures\\tileBars_empty.png": {
+      "time": 1772611234487.0952,
+      "uuid": "75b52e33-bedc-8f0a-7686-5a6ba8f1f119"
+    },
+    "textures\\tileBars_slanted.png": {
+      "time": 1772611234487.6587,
+      "uuid": "d777ab21-7f96-4463-490a-03c43d5521d5"
+    },
+    "textures\\tileBars_slanted_alpha.png": {
+      "time": 1772611234488.2202,
+      "uuid": "11b0b17e-a176-5641-f842-beb0d8bd075b"
+    },
+    "textures\\transparentSquare.png": {
+      "time": 1772611234488.2202,
+      "uuid": "6439534c-0e0d-0def-d23c-db67499eeadb"
+    },
+    "textures\\URP.png": {
+      "time": 1772611234514.3794,
+      "uuid": "a7313d54-f71c-34e2-a04e-258d77107b32"
+    },
+    "textures\\whiteDot.png": {
+      "time": 1772611234488.7976,
+      "uuid": "5dc4e737-cd22-2584-7258-193bc0c8310a"
+    },
+    "textures\\whiteDot_darkBorder.png": {
+      "time": 1772611234489.351,
+      "uuid": "8f40b4d9-816e-662c-91cd-f6047d6eeac6"
+    },
+    "textures\\whiteDot_whiteBorderAlpha.png": {
+      "time": 1772611234489.9263,
+      "uuid": "7f73d8ce-7a21-a889-bada-3105f6a73e64"
+    },
+    "textures\\whiteSquare.png": {
+      "time": 1772611234489.9263,
+      "uuid": "8598e330-450a-54ca-c8a5-f2d29b362203"
+    },
+    "textures\\whiteSquareAlpha10.png": {
+      "time": 1772611234490.5032,
+      "uuid": "2d555b5f-908d-cf30-965b-c6aa449b6765"
+    },
+    "textures\\whiteSquareAlpha15.png": {
+      "time": 1772611234491.0378,
+      "uuid": "8472c503-c937-9441-5b2e-4a003875ee6d"
+    },
+    "textures\\whiteSquareAlpha25.png": {
+      "time": 1772611234491.6033,
+      "uuid": "5b12402e-c958-067b-a708-3d87106d729f"
+    },
+    "textures\\whiteSquareAlpha50.png": {
+      "time": 1772611234492.1707,
+      "uuid": "1ce379eb-eee1-8556-c505-e7856d3ad944"
+    },
+    "textures\\whiteSquareAlpha80.png": {
+      "time": 1772611234492.1877,
+      "uuid": "786d8093-1be6-7a7e-3d3a-48ea4ac42788"
+    },
+    "textures\\whiteSquareCurved.png": {
+      "time": 1772611234492.7085,
+      "uuid": "24558b0b-903f-0090-2789-f9ed01929227"
+    },
+    "textures\\whiteSquareCurved02.png": {
+      "time": 1772611234493.4812,
+      "uuid": "5931f6a7-c951-0932-847b-a4dd98bb7a98"
+    },
+    "textures\\whiteSquare_fadeOut_bt.png": {
+      "time": 1772611234493.4812,
+      "uuid": "fe3bce8c-ccbd-3a24-07e9-1739632b6db5"
+    },
+    "textures\\XiaoMai_1.tga": {
+      "time": 1772611234391.042,
+      "uuid": "085c37da-3070-5b99-c031-6ab44b1ba115"
+    },
+    "textures\\xieshi_sangshi02_D.PNG": {
+      "time": 1772611234495.5396,
+      "uuid": "7c9c7130-6e18-0bc1-c1f5-5bd635bd6cdd"
+    },
+    "textures\\yellowSquare.png": {
+      "time": 1772611234494.0098,
+      "uuid": "7946c51d-7590-4e08-602a-240136a8ff0a"
+    },
+    "textures\\人_BC.png": {
+      "time": 1772611234432.1885,
+      "uuid": "33bdde47-d088-2445-4c0b-d0045ba4da24"
+    },
+    "textures\\人_BCN.png": {
+      "time": 1772611234433.2322,
+      "uuid": "727bf7cd-567d-3686-b9b2-a008b0861274"
+    },
+    "textures\\人_MS.png": {
+      "time": 1772611234433.2322,
+      "uuid": "12426e70-7653-d519-74b9-9c37a0d06608"
+    },
+    "textures\\人_N.png": {
+      "time": 1772611234434.3386,
+      "uuid": "dc3195d0-e065-64d6-c5fd-8e9a783878b2"
+    },
+    "textures\\仙人掌_1 1.png": {
+      "time": 1772611234391.1702,
+      "uuid": "28da2852-5683-6333-bf34-4dd3a9e50cbd"
+    },
+    "textures\\仙人掌_1.png": {
+      "time": 1772611234534.6902,
+      "uuid": "62a5a40d-7fd4-9b54-01da-47f12f12bb90"
+    },
+    "textures\\农民_棕_BC.png": {
+      "time": 1772611234437.094,
+      "uuid": "a02aac61-fd80-2b9a-8d17-ac16e3a4e83f"
+    },
+    "textures\\围栏.psd": {
+      "time": 1772611234392.5327,
+      "uuid": "99e25ab4-f513-cb97-5de8-c0b88c8e8244"
+    },
+    "textures\\围栏_03.png": {
+      "time": 1772611234536.328,
+      "uuid": "90adbe44-5bc5-c094-422a-95289ea0390b"
+    },
+    "textures\\地块-增加售货员.png": {
+      "time": 1772611234503.2986,
+      "uuid": "929ffebd-d4a4-cf39-1dc0-765211aff619"
+    },
+    "textures\\地块框-绿.png": {
+      "time": 1772611234503.8796,
+      "uuid": "daaf663d-693c-1c95-305c-61ff2ee82ce6"
+    },
+    "textures\\地块框.png": {
+      "time": 1772611234504.448,
+      "uuid": "25a88409-988a-9efb-9f13-a78f5854538d"
+    },
+    "textures\\地扣01_BC.PNG": {
+      "time": 1772611234524.8687,
+      "uuid": "4023c616-c204-005f-6ef8-a60c2b4df6ba"
+    },
+    "textures\\地扣02_BC 1.PNG": {
+      "time": 1772611234394.255,
+      "uuid": "82c55aa4-e367-ce38-8dbf-6d840ba5fe3f"
+    },
+    "textures\\地扣02_BC 2.PNG": {
+      "time": 1772611234523.4707,
+      "uuid": "232e95df-9950-8c96-45f6-ffaeff82f816"
+    },
+    "textures\\地扣02_BC 3.PNG": {
+      "time": 1772611234395.1943,
+      "uuid": "a6e8c92a-84a8-be32-0836-c2b6dbab6532"
+    },
+    "textures\\地扣02_BC.PNG": {
+      "time": 1772611234396.1968,
+      "uuid": "166a97af-c072-80fb-b073-7e96ccf4de14"
+    },
+    "textures\\地扣04_BC 1.bmp": {
+      "time": 1772611234548.3914,
+      "uuid": "f11d29d6-cd6e-ba07-703b-d23a8a9d040e"
+    },
+    "textures\\地扣04_BC.bmp": {
+      "time": 1772611234396.7537,
+      "uuid": "5f1c89f8-67f1-4f33-86ef-0dac7ed7ca18"
+    },
+    "textures\\地面.png": {
+      "time": 1772611234497.755,
+      "uuid": "74fafdc7-3fc3-d4f9-c86c-d3e6a7522871"
+    },
+    "textures\\子弹.png": {
+      "time": 1772611234511.379,
+      "uuid": "d85eb9e8-b980-cc25-21c2-2b16c1a43a53"
+    },
+    "textures\\对钩气泡.png": {
+      "time": 1772611234504.448,
+      "uuid": "26b3e2f9-4393-8125-a398-4ad8575a97af"
+    },
+    "textures\\小桌子.jpg": {
+      "time": 1772611234532.5283,
+      "uuid": "40564d31-7085-0fe9-82cf-a698895cb5fb"
+    },
+    "textures\\工程僵尸_BC 1.png": {
+      "time": 1772611234397.7153,
+      "uuid": "58ece714-e464-f42f-bb4b-6568e3841840"
+    },
+    "textures\\工程僵尸_BC.png": {
+      "time": 1772611234398.7156,
+      "uuid": "30d77cf0-f3b6-4e01-861b-65d1f571c8bf"
+    },
+    "textures\\底框.png": {
+      "time": 1772611234505.612,
+      "uuid": "42cc6751-aa89-2948-c705-4ad9d6cdccf9"
+    },
+    "textures\\引导箭头.png": {
+      "time": 1772611234512.3794,
+      "uuid": "a6c7c81b-581e-17e5-a009-dff4f282a474"
+    },
+    "textures\\微信图片_20211021150605.png": {
+      "time": 1772611234514.3794,
+      "uuid": "222ba655-a4c1-c233-cce8-84aaaeaf9029"
+    },
+    "textures\\微信图片_20211021150614.png": {
+      "time": 1772611234514.3794,
+      "uuid": "34bac7a6-fbe3-f974-c3f7-f0db696c624e"
+    },
+    "textures\\微信图片_20211021150619.png": {
+      "time": 1772611234515.3792,
+      "uuid": "e986af0a-90d7-3230-61e9-bd6a05babac1"
+    },
+    "textures\\手指.png": {
+      "time": 1772611234506.1208,
+      "uuid": "072684e8-85e1-beb8-dd83-8c1a76a7233d"
+    },
+    "textures\\指引线 - 副本.png": {
+      "time": 1772611234437.6501,
+      "uuid": "cb8917a6-5ea8-d9e4-c97f-d54eb369034e"
+    },
+    "textures\\摇杆.png": {
+      "time": 1772611234506.1755,
+      "uuid": "744fe5af-d171-8092-6bd2-e28604af36a0"
+    },
+    "textures\\摇杆底.png": {
+      "time": 1772611234506.7632,
+      "uuid": "c759d64f-6f4d-5f39-41c9-1c713b752497"
+    },
+    "textures\\收银机.jpg": {
+      "time": 1772611234399.7156,
+      "uuid": "96dd9fcb-99c5-aca1-2f63-1429de39411e"
+    },
+    "textures\\斧子1.jpg": {
+      "time": 1772611234527.4312,
+      "uuid": "1ebea1ec-00be-29dc-bd84-8fe9e541d444"
+    },
+    "textures\\木堆.PNG": {
+      "time": 1772611234399.7156,
+      "uuid": "5bafddbc-a09a-76ac-bfd5-e87eccd877af"
+    },
+    "textures\\木堆_N.PNG": {
+      "time": 1772611234403.7146,
+      "uuid": "293f2f40-8a1a-8443-7615-cca6ad106e85"
+    },
+    "textures\\松树.jpg": {
+      "time": 1772611234522.3547,
+      "uuid": "8a139b5e-4beb-c780-0c42-1db8528d3b71"
+    },
+    "textures\\松树02 1.PNG": {
+      "time": 1772611234541.346,
+      "uuid": "1e32e189-1d4f-2612-edab-7b6752e607f8"
+    },
+    "textures\\松树02.PNG": {
+      "time": 1772611234405.7153,
+      "uuid": "8835f2b9-89a1-f763-6a5a-dc9f29aab132"
+    },
+    "textures\\枯树03.PNG": {
+      "time": 1772611234544.075,
+      "uuid": "440f97cb-8522-318f-d4d4-5d953fce714b"
+    },
+    "textures\\枯树桩.png": {
+      "time": 1772611234408.7158,
+      "uuid": "5e1039c7-71ae-3a82-6552-665b62e024ec"
+    },
+    "textures\\气泡进度.png": {
+      "time": 1772611234505.0315,
+      "uuid": "bce60f76-0300-9e4b-e96d-ee9c15b34923"
+    },
+    "textures\\流沙_N.jpg": {
+      "time": 1772611234410.714,
+      "uuid": "180d056c-c2da-cac3-b315-8143b410ddbd"
+    },
+    "textures\\流沙地表 1.PNG": {
+      "time": 1772611234410.714,
+      "uuid": "7eb6cb81-72c1-8281-6729-9ed55b957a56"
+    },
+    "textures\\流沙地表.PNG": {
+      "time": 1772611234411.715,
+      "uuid": "c49f9de4-73b0-a13c-e00b-ed411cfd8616"
+    },
+    "textures\\火车头.PNG": {
+      "time": 1772611234540.2131,
+      "uuid": "a7185b03-bb71-7949-8853-2f9ad504275a"
+    },
+    "textures\\灶台01.jpg": {
+      "time": 1772611234412.7156,
+      "uuid": "50568b23-3972-1126-1076-b4a44e803356"
+    },
+    "textures\\灶台02_BC.jpg": {
+      "time": 1772611234413.7156,
+      "uuid": "b08fa7ac-8ba8-502d-1364-0e9d28c57880"
+    },
+    "textures\\烤架_AO.png": {
+      "time": 1772611234413.7156,
+      "uuid": "fc82fc72-73dc-8ab5-6c8a-860ff46f43bf"
+    },
+    "textures\\烤架_BC.png": {
+      "time": 1772611234552.8433,
+      "uuid": "68306713-90ca-9f33-6ada-1d98a719c79e"
+    },
+    "textures\\烤架_N.png": {
+      "time": 1772611234414.7163,
+      "uuid": "f3c13a7c-759a-924a-2fcc-17f378dbfca7"
+    },
+    "textures\\电塔.png": {
+      "time": 1772611234545.6511,
+      "uuid": "2885a7b1-4171-4205-3d4d-bbe1ae5c946e"
+    },
+    "textures\\石墙03.PNG": {
+      "time": 1772611234417.785,
+      "uuid": "7c72e17f-2c65-37be-5294-27c12fe8347d"
+    },
+    "textures\\石头.psd": {
+      "time": 1772611234418.909,
+      "uuid": "70f9da98-b36f-89df-5d3e-12e238e92684"
+    },
+    "textures\\石头雪.psd": {
+      "time": 1772611234530.6628,
+      "uuid": "336e2a6b-cd46-2fab-9f79-0e54f1c27d99"
+    },
+    "textures\\箭塔BC 1.PNG": {
+      "time": 1772611234377.5178,
+      "uuid": "0bd7d68c-2fbc-2260-062b-5e8aac7b9e11"
+    },
+    "textures\\箭塔BC.PNG": {
+      "time": 1772611234386.0303,
+      "uuid": "1e30a578-579d-1c99-ef19-f3d5cbe41a70"
+    },
+    "textures\\箭塔底座BC 1.PNG": {
+      "time": 1772611234386.5923,
+      "uuid": "ae89f110-c121-486c-2720-74dda6b944d6"
+    },
+    "textures\\箭塔底座BC.PNG": {
+      "time": 1772611234387.1145,
+      "uuid": "a03f9f51-722f-5de1-5520-4573bf9109fd"
+    },
+    "textures\\组BC.PNG": {
+      "time": 1772611234422.2815,
+      "uuid": "4552d3f7-cb3b-7409-779f-72c459562073"
+    },
+    "textures\\色卡02.png": {
+      "time": 1772611234546.7068,
+      "uuid": "c5379315-0c3b-6a2b-f1c0-ed292a45a177"
+    },
+    "textures\\苦工_4.jpg": {
+      "time": 1772611234526.0674,
+      "uuid": "f15284b6-e421-c1c3-5001-e65d2b4df47d"
+    },
+    "textures\\草.tga": {
+      "time": 1772611234528.819,
+      "uuid": "6112fdee-3bad-ecb1-e9d3-e34a3dda8cf1"
+    },
+    "textures\\草03BC.png": {
+      "time": 1772611234424.0571,
+      "uuid": "2c3539f7-a3cc-37d1-35ef-1d1098f3c797"
+    },
+    "textures\\草帽NPC_2.jpg": {
+      "time": 1772611234517.4016,
+      "uuid": "9815b8d3-8779-770c-8b79-a3e7115c8942"
+    },
+    "textures\\萨格 1.png": {
+      "time": 1772611234519.4014,
+      "uuid": "9cc239fc-c280-b1de-56db-13f25fc52f3c"
+    },
+    "textures\\萨格.png": {
+      "time": 1772611234390.3855,
+      "uuid": "df5a8ce1-84b8-369c-ee18-7b3f626a5dab"
+    },
+    "textures\\血条.png": {
+      "time": 1772611234512.3794,
+      "uuid": "9b887e82-9980-c656-06ee-08577d84b406"
+    },
+    "textures\\血条底.png": {
+      "time": 1772611234513.3792,
+      "uuid": "bd858d49-a020-152a-d90e-e6a997e92811"
+    },
+    "textures\\警告边框.png": {
+      "time": 1772611234507.3381,
+      "uuid": "589704b9-24e3-5045-1a16-b345fca35590"
+    },
+    "textures\\货运列车01_BC.PNG": {
+      "time": 1772611234424.6099,
+      "uuid": "9cdbf0d3-48c4-b165-4626-d8cd5c899619"
+    },
+    "textures\\车01.jpg": {
+      "time": 1772611234551.185,
+      "uuid": "a44438b6-7c90-5c0a-966f-20c4664bfcf9"
+    },
+    "textures\\车03.JPG": {
+      "time": 1772611234550.0642,
+      "uuid": "92f85486-1ad6-8d39-00b1-50a2465b5491"
+    },
+    "textures\\车厢.PNG": {
+      "time": 1772611234425.8308,
+      "uuid": "10949d5c-73e4-808c-0ad2-fff04a05ccbd"
+    },
+    "textures\\通用贴图.PNG": {
+      "time": 1772611234427.8398,
+      "uuid": "7529b91a-5089-d75f-f7a5-bdeb7975fa6d"
+    },
+    "textures\\金币.png": {
+      "time": 1772611234507.915,
+      "uuid": "38956095-e2e9-4d21-bae9-bf779797492a"
+    },
+    "textures\\锯片颜色.jpg": {
+      "time": 1772611234533.5535,
+      "uuid": "828ec79e-7805-bb8b-40a5-7c2dd45928b6"
+    },
+    "textures\\门02.jpg": {
+      "time": 1772611234521.1282,
+      "uuid": "98deade9-617e-e4fa-a39c-5568ad82f211"
+    },
+    "textures\\雾.tga": {
+      "time": 1772611234429.4402,
+      "uuid": "c2ad7eda-081e-e436-5da9-8d329391aca5"
+    },
+    "textures\\食桌01N.PNG": {
+      "time": 1772611234432.1685,
+      "uuid": "c016f146-3ba8-43a9-b7d0-63c510caccef"
+    },
+    "textures\\骆驼_BC.png": {
+      "time": 1772611234434.858,
+      "uuid": "8eb15726-d15f-b14d-8d0c-a0ab717d0f67"
+    },
+    "textures\\骆驼_BCN.png": {
+      "time": 1772611234435.428,
+      "uuid": "8381fbf0-5d4d-3d2c-6eb4-f885e96e4a26"
+    },
+    "textures\\骆驼_MS.png": {
+      "time": 1772611234435.9863,
+      "uuid": "958d47e7-26b8-49fc-12db-e7215c584129"
+    },
+    "textures\\骆驼_N.png": {
+      "time": 1772611234436.532,
+      "uuid": "6db53e54-68f8-5ca5-32bd-c96a230260d2"
+    },
+    "沙漠火车收割\\沙漠火车收割.scene": {
+      "time": 1774357357287.0972,
+      "uuid": "02de8a93-f137-482d-8545-a7eb9957d3ce"
+    },
+    "A-texiao\\Fab\\shengji.prefab": {
+      "time": 1773979776129.7122,
+      "uuid": "d4e35cfc-bccc-44da-a862-9531b7c1dda1"
+    },
+    "A-texiao\\mat\\glow-add-001.mtl": {
+      "time": 1773979776130.7183,
+      "uuid": "ce856576-6a3c-4e54-af8b-4e0bab1eb0c1"
+    },
+    "A-texiao\\mat\\glow-add-yuan-001.mtl": {
+      "time": 1773979776134.0447,
+      "uuid": "00a80b33-d439-486c-9bb3-df8094d1199b"
+    },
+    "A-texiao\\mat\\glow-add-yuan.mtl": {
+      "time": 1773979776132.4934,
+      "uuid": "aff24f1b-e1d9-4fb0-b483-4c342ab6b9f9"
+    },
+    "A-texiao\\mat\\glow-blend.mtl": {
+      "time": 1773979776135.2793,
+      "uuid": "9c1e0e4c-a142-4ffc-9832-d9a8d64e165e"
+    },
+    "A-texiao\\mat\\jiantou-add.mtl": {
+      "time": 1773979776136.8008,
+      "uuid": "afae95f9-936d-434a-a80d-d4c8ee1be097"
+    },
+    "A-texiao\\mat\\sji-yuan-add.mtl": {
+      "time": 1773979776139.888,
+      "uuid": "f7eeb0c9-54e3-4bb4-b7c3-d26e0335ad96"
+    },
+    "A-texiao\\mat\\sji-yuan.mtl": {
+      "time": 1773979776138.3584,
+      "uuid": "e9494f13-12ce-4216-8847-f0ac62fcee83"
+    },
+    "A-texiao\\mat\\spark-add.mtl": {
+      "time": 1773979776139.888,
+      "uuid": "c81b1f52-7c47-4830-a5fc-27b41d1d1d9f"
+    },
+    "A-texiao\\mat\\star-add.mtl": {
+      "time": 1773979776142.9407,
+      "uuid": "1ee732da-7390-44e8-ad5f-28c0a7ad163f"
+    },
+    "A-texiao\\mech\\yuan-huan.FBX": {
+      "time": 1773979776144.5317,
+      "uuid": "9bd40adc-57ea-41ba-8449-f8eb9c563670"
+    },
+    "A-texiao\\tex\\Glow_CPgt_wlt_059.png": {
+      "time": 1773979776147.2573,
+      "uuid": "7fbfbb1b-ef0c-4bd1-88d9-1371f3881571"
+    },
+    "A-texiao\\tex\\glow_wjf_014.png": {
+      "time": 1773979776148.759,
+      "uuid": "80c0ab8e-5cd3-4d1b-98ea-0e0b37e6318a"
+    },
+    "A-texiao\\tex\\glow_wx_05.png": {
+      "time": 1773979776148.759,
+      "uuid": "2b4256c6-e863-4847-b46d-97b4db983fbe"
+    },
+    "A-texiao\\tex\\jiantou_key_001.png": {
+      "time": 1773979776150.3545,
+      "uuid": "835d3e4b-7d10-46f6-86f6-21e0ee0d4c29"
+    },
+    "A-texiao\\tex\\star.png": {
+      "time": 1773979776151.8867,
+      "uuid": "b7860061-93cd-4b84-a9ae-af97ae16965e"
+    },
+    "A-texiao\\tex\\Tex_Glow_03.PNG.png": {
+      "time": 1773979776152.4026,
+      "uuid": "546fb9a0-ea51-44e3-a180-dad8864ba9ad"
+    },
+    "A-texiao\\tex\\trail_CPxs_kx_038 - 副本.png": {
+      "time": 1773979776153.0159,
+      "uuid": "6b5b53ee-2dd7-481b-8e6d-20171c497cd3"
+    },
+    "Art\\Fbx\\BaoShiA.fbx": {
+      "time": 1773575426923.02,
+      "uuid": "c284b6f5-7e48-4621-9b07-8ebe7a2a6cfa"
+    },
+    "Art\\Fbx\\chuansongdai.FBX": {
+      "time": 1773819306463.4675,
+      "uuid": "64efafae-7a76-4b27-9f36-be793fabedb8"
+    },
+    "Art\\Fbx\\JinBiPD.fbx": {
+      "time": 1773614709148.327,
+      "uuid": "bcb09c73-9de1-4665-8f57-df976644407a"
+    },
+    "Art\\Fbx\\mu01.FBX": {
+      "time": 1773721409703.312,
+      "uuid": "e163547c-68d6-48fe-a269-5f81c3153c0e"
+    },
+    "Art\\Mat\\chuansong.mtl": {
+      "time": 1773819306465.977,
+      "uuid": "caf2386c-8e18-4808-8ddd-17d251f54c14"
+    },
+    "Art\\Mat\\mu01.mtl": {
+      "time": 1773974547033.3223,
+      "uuid": "0289362c-852a-4a35-86f9-810d43221f8f"
+    },
+    "Art\\Material\\baoshi.mtl": {
+      "time": 1773575426928.0684,
+      "uuid": "18315d8e-6f7f-4289-a234-ce80e7d94520"
+    },
+    "Art\\Material\\jibi.mtl": {
+      "time": 1773974514371.3738,
+      "uuid": "1489f703-d90d-4e0c-9037-059f4f2ab4c7"
+    },
+    "Art\\Pre\\chuansongdai.prefab": {
+      "time": 1773819306468.9927,
+      "uuid": "60c6b475-0119-4d7e-97e5-1665ac9794e8"
+    },
+    "Art\\Pre\\mu01.prefab": {
+      "time": 1773721409707.3115,
+      "uuid": "159af582-e456-4e16-88aa-47f1e32b743e"
+    },
+    "Art\\Pre\\mu01_2.prefab": {
+      "time": 1773721409708.3115,
+      "uuid": "433e3db6-7b7f-41c4-82fa-229e98131a39"
+    },
+    "Art\\Prefab\\JinBiPD.prefab": {
+      "time": 1773614709164.352,
+      "uuid": "8fafcff4-ba0f-445d-99e5-7baecc444524"
+    },
+    "Art\\Tex\\1_di_JB_D.jpg": {
+      "time": 1773614709165.0708,
+      "uuid": "e353f6f5-c56a-4016-9278-8e563b6c724f"
+    },
+    "Art\\Tex\\BS_D.jpg": {
+      "time": 1773575426930.0188,
+      "uuid": "0495aeee-363a-4549-a515-fe65b9404714"
+    },
+    "Art\\Tex\\color_qian.png": {
+      "time": 1773819306471.004,
+      "uuid": "53c5394d-675d-47e4-9e44-c3d87288adfc"
+    },
+    "cocos_effect\\Materials\\glow01.mtl": {
+      "time": 1774238027131.8025,
+      "uuid": "d0801375-3c34-4a22-9cc8-c41804d1b808"
+    },
+    "cocos_effect\\Materials\\glow01_alpha.mtl": {
+      "time": 1773908773195.985,
+      "uuid": "d3530306-83df-47ac-9533-43237ab4507b"
+    },
+    "cocos_effect\\Materials\\lizi00.mtl": {
+      "time": 1773996413841.6775,
+      "uuid": "ca2596f1-b990-46a4-ab82-11f1b981f77c"
+    },
+    "cocos_effect\\Materials\\lizi01.mtl": {
+      "time": 1774238027133.8015,
+      "uuid": "49146fcc-c4ae-47ef-9d56-dfca36efa0cf"
+    },
+    "cocos_effect\\Materials\\quan60.mtl": {
+      "time": 1773996413844.307,
+      "uuid": "aecd739d-7bc1-4ed2-8dc0-e833479b4870"
+    },
+    "cocos_effect\\Materials\\quan66.mtl": {
+      "time": 1773996413845.4087,
+      "uuid": "322d3c5e-f768-44e7-bf7d-28b55d9269ad"
+    },
+    "cocos_effect\\Materials\\shuidi02.mtl": {
+      "time": 1773908773198.5977,
+      "uuid": "c62dfe6e-fe70-4382-8b53-8021ab6fb252"
+    },
+    "cocos_effect\\Materials\\smoke01.mtl": {
+      "time": 1773996413845.4087,
+      "uuid": "849ec081-bf0d-4e0d-a6d8-2fd7ee1c394c"
+    },
+    "cocos_effect\\Materials\\smoke22.mtl": {
+      "time": 1773996413847.0925,
+      "uuid": "f3067cf8-a643-48e5-9f0f-a26ff5df5bc3"
+    },
+    "cocos_effect\\Materials\\xulie_huo01_4x4.mtl": {
+      "time": 1774238027135.803,
+      "uuid": "5228a44d-d6a8-4ac6-9c7e-c5272a7d04e1"
+    },
+    "cocos_effect\\Materials\\xulie_juchi01_1x4.mtl": {
+      "time": 1773908773199.635,
+      "uuid": "976249bd-74d2-4b35-81ba-2c8ded9a1434"
+    },
+    "cocos_effect\\Materials\\xulie_juchi01_1x4_2.mtl": {
+      "time": 1773908773200.6326,
+      "uuid": "ecfb66a8-0f8e-4545-b539-3dcb17401ba7"
+    },
+    "cocos_effect\\Materials\\xulie_shandian41_1x4_2.mtl": {
+      "time": 1773908773201.9993,
+      "uuid": "c144d38e-73b9-4b81-8e32-3b6417ffac52"
+    },
+    "cocos_effect\\Materials\\xulie_shitou07_2x2.mtl": {
+      "time": 1773996413848.6348,
+      "uuid": "0fc69fee-611b-4dc6-a477-7a623bd6c0f5"
+    },
+    "cocos_effect\\Materials\\xulie_shui01_3x3.mtl": {
+      "time": 1773908773202.9985,
+      "uuid": "86eed522-2d48-4634-8247-c737c64d38f5"
+    },
+    "cocos_effect\\Materials\\xulie_suikuai01_4x4.mtl": {
+      "time": 1773908773203.9985,
+      "uuid": "24508a45-9756-4d32-9c76-a1de0a239125"
+    },
+    "cocos_effect\\Models\\fbx_jupian01.fbx": {
+      "time": 1773974211804.1252,
+      "uuid": "af047684-f1d3-4e81-aa9e-dbb8c0acd0ab"
+    },
+    "cocos_effect\\Models\\fbx_jupian02.fbx": {
+      "time": 1773974211807.1448,
+      "uuid": "e1a31c61-4328-4fd5-a50b-7726bc71dfc2"
+    },
+    "cocos_effect\\Prefab\\命中_喷血01_2.prefab": {
+      "time": 1773908773209.0002,
+      "uuid": "c39321a1-978d-46af-9941-7f78e8324635"
+    },
+    "cocos_effect\\Prefab\\地面_沙漠_钻出01.prefab": {
+      "time": 1773996413850.161,
+      "uuid": "4a4ec928-284a-4d61-a145-112a59727e0c"
+    },
+    "cocos_effect\\Prefab\\烤炉烟火01.prefab": {
+      "time": 1774238027138.8015,
+      "uuid": "ed4c6b68-ac2a-4423-99f1-57d412a6d5ff"
+    },
+    "cocos_effect\\Prefab\\锯片01.prefab": {
+      "time": 1773974211810.2744,
+      "uuid": "4224c348-b307-4203-b99f-8ad9494a4f7d"
+    },
+    "cocos_effect\\Prefab\\锯片02.prefab": {
+      "time": 1773974211811.8132,
+      "uuid": "b68e23c2-d14d-4134-b4c2-1d9dbd84078d"
+    },
+    "cocos_effect\\Textures\\glow01.png": {
+      "time": 1774238027140.8015,
+      "uuid": "6db74600-dce4-4038-a25c-7c3d90ee419a"
+    },
+    "cocos_effect\\Textures\\lizi00.png": {
+      "time": 1773996413851.69,
+      "uuid": "184f514f-d19e-4537-8854-4f19c4ad3f83"
+    },
+    "cocos_effect\\Textures\\lizi01.png": {
+      "time": 1774238027140.8015,
+      "uuid": "4f85a203-212e-484a-9f09-d6a26e7faf4a"
+    },
+    "cocos_effect\\Textures\\quan60.png": {
+      "time": 1773996413853.7344,
+      "uuid": "cc31aec8-c5f1-4cc0-b4c8-7ec74f5e570c"
+    },
+    "cocos_effect\\Textures\\quan66.png": {
+      "time": 1773996413855.9048,
+      "uuid": "e8a64c42-e960-4b30-93a3-55f90aa77ac5"
+    },
+    "cocos_effect\\Textures\\shuidi02.png": {
+      "time": 1773908773217.0918,
+      "uuid": "74d49624-b4de-4816-8fcd-d555c32de424"
+    },
+    "cocos_effect\\Textures\\smoke01.png": {
+      "time": 1773996413857.435,
+      "uuid": "7e4d4ff3-e225-4063-8f19-80cd754987da"
+    },
+    "cocos_effect\\Textures\\smoke22.png": {
+      "time": 1774238027141.8267,
+      "uuid": "e6285664-c02b-4499-bacf-f0ba803c8cde"
+    },
+    "cocos_effect\\Textures\\xulie_huo01_4x4.png": {
+      "time": 1774238027144.8286,
+      "uuid": "ecc33fc1-8d4f-460c-b9d5-367e45d5bb4a"
+    },
+    "cocos_effect\\Textures\\xulie_juchi01_1x4.png": {
+      "time": 1773974211813.9265,
+      "uuid": "7ca51d72-ae56-44fd-85b6-21105f3a97b6"
+    },
+    "cocos_effect\\Textures\\xulie_shandian41_1x4_2.png": {
+      "time": 1773974211815.658,
+      "uuid": "9dcab803-aeee-4b3a-96e9-f8b4240cdabb"
+    },
+    "cocos_effect\\Textures\\xulie_shitou07_2x2.png": {
+      "time": 1773996413858.9673,
+      "uuid": "e6a6a024-5f03-4816-915c-b5a991502479"
+    },
+    "cocos_effect\\Textures\\xulie_shui01_3x3.png": {
+      "time": 1773908773222.651,
+      "uuid": "60630624-7988-4955-831e-6b6a8b481ead"
+    },
+    "cocos_effect\\Textures\\xulie_suikuai01_4x4.png": {
+      "time": 1773908773223.65,
+      "uuid": "1599da71-a481-4b32-963a-8bfe6d73eca0"
+    },
+    "Game\\FBX\\table_small.fbx": {
+      "time": 1773686086964.0015,
+      "uuid": "d5bf4566-402a-4e2d-aa66-8e5ba537bdba"
+    },
+    "Game\\Mat\\zhuozi.mtl": {
+      "time": 1773686086966.0024,
+      "uuid": "aa29c492-c70f-49c8-895c-2deedefbc74d"
+    },
+    "Game\\Pre\\table_small.prefab": {
+      "time": 1773686086968.0024,
+      "uuid": "2e4ffa7b-2fd6-4475-b184-c0f46d5b6973"
+    },
+    "Game\\Tex\\xiong_taizi.jpg": {
+      "time": 1773686086970.0015,
+      "uuid": "388a4aa1-5d44-4a5c-a19d-b8dfe74ca207"
+    },
+    "GameRes\\Anim\\arr.anim": {
+      "time": 1773837818689.3564,
+      "uuid": "37f2c3d1-3441-4684-8f4c-9505e7401190"
+    },
+    "GameRes\\Anim\\JoystickAni.anim": {
+      "time": 1773370590362.7166,
+      "uuid": "95ea41e5-1a79-4818-81b1-bbb804e930e1"
+    },
+    "GameRes\\Fbx\\JianTou.fbx": {
+      "time": 1773837818692.475,
+      "uuid": "c0b3c53f-33c7-40f1-b064-350d19958fae"
+    },
+    "GameRes\\Font\\PASSIONONE-REGULAR.TTF": {
+      "time": 1773370590365.7163,
+      "uuid": "9c9a8dd1-dc35-408e-a3ee-f137a257d6f7"
+    },
+    "GameRes\\Material\\MaterSprite2D.mtl": {
+      "time": 1773395891917.681,
+      "uuid": "91b7e352-f63a-4c04-bf09-27798ffffcae"
+    },
+    "GameRes\\Prefabs\\Arraw.prefab": {
+      "time": 1773625899102.351,
+      "uuid": "0f1fb2f2-abb2-48e6-987c-a08c48402850"
+    },
+    "GameRes\\Prefabs\\CoinContatiner.prefab": {
+      "time": 1773395891920.677,
+      "uuid": "38fbf0e6-3464-47f1-9ee0-519ebf1b753f"
+    },
+    "GameRes\\Prefabs\\DropItemCoin.prefab": {
+      "time": 1773697547077.153,
+      "uuid": "ebafc659-cbf8-41fe-b1c2-38516b94ec71"
+    },
+    "GameRes\\Prefabs\\DropItemCornKernel.prefab": {
+      "time": 1774007800187.2988,
+      "uuid": "6d3923bc-92ac-4c58-b4b8-a7a6c6255cb1"
+    },
+    "GameRes\\Prefabs\\DropItemFlatbread.prefab": {
+      "time": 1774007770635.1782,
+      "uuid": "c032d70c-a1e4-48c0-b37e-db51fe206a7f"
+    },
+    "GameRes\\Prefabs\\DropItemWood.prefab": {
+      "time": 1773722060029.1196,
+      "uuid": "ec145e77-6801-45f0-93ce-c68337d949e0"
+    },
+    "GameRes\\Prefabs\\GuideManager.prefab": {
+      "time": 1773831944938.8064,
+      "uuid": "a6180258-0fc9-4bb3-b6a0-cfdf0969f8f1"
+    },
+    "GameRes\\Prefabs\\UI_Canvas.prefab": {
+      "time": 1773370590405.4546,
+      "uuid": "0c4a160a-37c9-4870-9641-791eef073741"
+    },
+    "GameRes\\Prefabs\\UnlockItem.prefab": {
+      "time": 1773618109382.403,
+      "uuid": "efcb8e75-62b4-463b-bacc-1e23e37bc5c8"
+    },
+    "GameRes\\UI2D\\arraw.png": {
+      "time": 1773831944940.8164,
+      "uuid": "c2821409-9c17-438b-8720-ceb75e84dc24"
+    },
+    "GameRes\\UI2D\\arrow.png": {
+      "time": 1773620125992.253,
+      "uuid": "59c95f2f-76ae-46f3-8275-53aeedda4da7"
+    },
+    "GameRes\\UI2D\\bg.png": {
+      "time": 1773618109385.4026,
+      "uuid": "ec3ffba7-34c2-4f0c-8b04-357d65b37091"
+    },
+    "GameRes\\UI2D\\box.png": {
+      "time": 1773395891922.6755,
+      "uuid": "03d5c229-4dbd-4800-8279-fde2d8fbeebb"
+    },
+    "GameRes\\UI2D\\fg.png": {
+      "time": 1773618109386.4028,
+      "uuid": "af9b06cd-2dcd-4fc1-9c3e-dbdbd255374e"
+    },
+    "GameRes\\UI2D\\hhh.png": {
+      "time": 1773485524106.6611,
+      "uuid": "e6fce2c8-b919-4c26-b6cc-0a562e970501"
+    },
+    "GameRes\\UI2D\\img_shakeRed.png": {
+      "time": 1762769888000,
+      "uuid": "d06b83c3-ac0b-4518-995e-1e42041b492d"
+    },
+    "GameRes\\UI2D\\jinbi.png": {
+      "time": 1773618109387.4023,
+      "uuid": "7d4bd97d-2da9-4da1-a511-70ab3fb889e1"
+    },
+    "GameRes\\UI2D\\pop.png": {
+      "time": 1773485524109.6616,
+      "uuid": "cbd67adb-809f-42d6-857b-07f4f2894622"
+    },
+    "GameRes\\UI2D\\q箭头绿.png": {
+      "time": 1773831944941.8347,
+      "uuid": "86a20fa9-f681-4a5a-b317-49cc483664f7"
+    },
+    "GameRes\\UI2D\\spl.png": {
+      "time": 1773370590415.454,
+      "uuid": "eab015e2-6bc6-4ea3-a95f-9c347c9c1ac2"
+    },
+    "GameRes\\UI2D\\topBar.png": {
+      "time": 1773370590417.455,
+      "uuid": "18e69fef-a58c-4c0a-a9f4-c1423a077d9c"
+    },
+    "GameRes\\UI2D\\图层 49.png": {
+      "time": 1773485524110.661,
+      "uuid": "2c5ad2c7-5b1f-4ac1-9cd6-9b68e2fba3b8"
+    },
+    "GameRes\\UI2D\\工人.png": {
+      "time": 1773618109388.4045,
+      "uuid": "76df5771-f9a8-4d7d-ab74-9ed68a0952c4"
+    },
+    "GameRes\\UI2D\\引导.png": {
+      "time": 1773370590419.4548,
+      "uuid": "df854636-3934-4a1e-8c99-24a595765bef"
+    },
+    "GameRes\\UI2D\\生气.png": {
+      "time": 1773485524111.661,
+      "uuid": "2bae1f41-6f2e-4f12-ad8f-43a7a0ccb186"
+    },
+    "GameRes\\UI2D\\生肉.png": {
+      "time": 1773485524113.661,
+      "uuid": "471067f3-e933-4002-b315-9c1598d7ea48"
+    },
+    "GameRes\\UI2D\\矿石.png": {
+      "time": 1773370590421.455,
+      "uuid": "6b8cead0-914f-4c9b-bf4c-64e93fe0140b"
+    },
+    "GameRes\\UI2D\\血条值.png": {
+      "time": 1773621520713.566,
+      "uuid": "200fdc61-3d7a-491b-bdbf-df46f3766eb9"
+    },
+    "GameRes\\UI2D\\血条框.png": {
+      "time": 1773621520720.5667,
+      "uuid": "616172ed-e56b-4068-8be1-13ae8686f074"
+    },
+    "GameRes\\UI2D\\黑底线框.png": {
+      "time": 1765963553826.5127,
+      "uuid": "d368cc8f-b7bb-4ea4-847c-9523ab69eb31"
+    },
+    "NPC_FBX(1)\\NPC_FBX\\npc_skin.fbx": {
+      "time": 1773485524119.66,
+      "uuid": "134189ce-9666-46a3-a72e-d9d0ff0bc169"
+    },
+    "NPC_FBX(1)\\NPC_FBX\\npc_xiangqianyou.fbx": {
+      "time": 1773485524121.66,
+      "uuid": "83ad49d0-ebbc-4cc9-9b13-d3a7e6dcc434"
+    },
+    "NPC_FBX(1)\\NPC_FBX\\npc_youyong_idle.fbx": {
+      "time": 1773485524122.6604,
+      "uuid": "fec71124-4ad8-485a-a0d4-7a5c18d1c60e"
+    },
+    "resources\\audio\\BGM.mp3": {
+      "time": 1753434184000,
+      "uuid": "3e6adbc5-c513-4c42-ab1a-5761cc69e1ee"
+    },
+    "resources\\audio\\GetRes.mp3": {
+      "time": 1750734178000,
+      "uuid": "84fa7f75-9d74-4248-84a7-16b8f7abb6c9"
+    },
+    "resources\\audio\\gold.mp3": {
+      "time": 1754362420000,
+      "uuid": "8a1795da-8b81-4d56-a28b-07e933d7b3a6"
+    },
+    "resources\\audio\\hit.mp3": {
+      "time": 1747120938000,
+      "uuid": "8d6ac0ec-534c-412b-aeb8-d66dd39a1289"
+    },
+    "resources\\audio\\SetRes.mp3": {
+      "time": 1750734380000,
+      "uuid": "f8d2f670-3bcd-4171-bebf-637cc38ed633"
+    },
+    "resources\\audio\\UPLV.mp3": {
+      "time": 1750749008000,
+      "uuid": "74cafbe0-0280-4c0c-9115-ebad3e3e0f8e"
+    },
+    "resources\\audio\\Win.mp3": {
+      "time": 1737016502000,
+      "uuid": "eb4b7c12-54b0-47d9-aaf1-1c55cddc191f"
+    },
+    "resources\\audio\\ye.mp3": {
+      "time": 1773992128257.4983,
+      "uuid": "d8366e87-b648-4318-9e28-3040f49d9f96"
+    },
+    "resources\\audio\\射箭.mp3": {
+      "time": 1773991837316.4575,
+      "uuid": "a998d110-1ad2-48a3-8ddf-ff61c0acfb01"
+    },
+    "resources\\audio\\烘烤.mp3": {
+      "time": 1774074427294.7239,
+      "uuid": "6b120126-5a17-4949-99b4-a7bc7b134cfd"
+    },
+    "resources\\audio\\电锯.mp3": {
+      "time": 1773991801399.455,
+      "uuid": "56734851-5c54-415a-89e1-ff676b7e8618"
+    },
+    "沙漠火车收割\\Models\\仙人掌_1.fbx": {
+      "time": 1772631231138.541,
+      "uuid": "3b2e7125-aa20-4795-855e-b7278737fa83"
+    },
+    "沙漠火车收割\\Models\\仙人掌_2.fbx": {
+      "time": 1772631231138.541,
+      "uuid": "ab25313c-9db8-4b54-860b-14f674aa9c34"
+    },
+    "沙漠火车收割\\Models\\围栏_A.FBX": {
+      "time": 1772631231141.3901,
+      "uuid": "ed2fd5ae-0fb9-4986-b37a-ab6766885edb"
+    },
+    "沙漠火车收割\\Models\\小桌子.FBX": {
+      "time": 1772631231144.9062,
+      "uuid": "42a96e8c-bb98-404a-95e8-afe9bc54aec3"
+    },
+    "沙漠火车收割\\Models\\拖车01.FBX": {
+      "time": 1772631231154.0195,
+      "uuid": "21172496-e2d5-4dbc-a1d2-83c045def434"
+    },
+    "沙漠火车收割\\Models\\收银机.fbx": {
+      "time": 1772631231156.858,
+      "uuid": "7cb2a5ca-4140-490c-8436-3620edfb70f9"
+    },
+    "沙漠火车收割\\Models\\木堆.FBX": {
+      "time": 1772631231158.8713,
+      "uuid": "8848fb40-b5b6-4f10-a232-c6e97de10bef"
+    },
+    "沙漠火车收割\\Models\\树.fbx": {
+      "time": 1772774292113.8462,
+      "uuid": "ebae9ba1-8c80-4a96-86a0-97f7a7b51103"
+    },
+    "沙漠火车收割\\Models\\灶台.fbx": {
+      "time": 1772631231163.3928,
+      "uuid": "68757c4b-d9ca-4ae4-be02-46e5e6e84473"
+    },
+    "沙漠火车收割\\Models\\烤架001.fbx": {
+      "time": 1772631231163.3928,
+      "uuid": "4088b16b-49f9-47b1-8448-63387494387e"
+    },
+    "沙漠火车收割\\Models\\电塔.FBX": {
+      "time": 1772631231168.0063,
+      "uuid": "35aca9d5-0ee6-4234-9b97-ad5424164d7f"
+    },
+    "沙漠火车收割\\Models\\石头.FBX": {
+      "time": 1772631231168.0063,
+      "uuid": "738d43bf-fa78-435a-b66e-0fe2cfbfbbeb"
+    },
+    "沙漠火车收割\\Models\\箭塔.fbx": {
+      "time": 1772631231173.9373,
+      "uuid": "9fc41bd6-c8fd-45e6-b3c3-d7e94fd8c3fb"
+    },
+    "沙漠火车收割\\Models\\草.FBX": {
+      "time": 1772631231179.4895,
+      "uuid": "8ac83d3d-e8fc-4e43-ac3a-1a84246f048d"
+    },
+    "沙漠火车收割\\Models\\货运列车_拖车.fbx": {
+      "time": 1772631231186.639,
+      "uuid": "df3e0df6-4e7c-4ba1-8f53-722269225771"
+    },
+    "沙漠火车收割\\Models\\车03.FBX": {
+      "time": 1772631231186.639,
+      "uuid": "cc25f25e-973b-4389-b520-dfd31ed75208"
+    },
+    "沙漠火车收割\\Models\\车头.FBX": {
+      "time": 1772631231188.696,
+      "uuid": "9f53698c-22a1-455a-8d16-4dc3fc35d561"
+    },
+    "沙漠火车收割\\Models\\铁轨弯.FBX": {
+      "time": 1772631231190.3716,
+      "uuid": "90d4d20c-7260-462d-b0e7-b2b0f38121e9"
+    },
+    "沙漠火车收割\\Models\\铁轨短.FBX": {
+      "time": 1772631231191.3767,
+      "uuid": "8028b622-ee36-44a3-93ad-874b03cbe9c7"
+    },
+    "沙漠火车收割\\Models\\锯片001.fbx": {
+      "time": 1772631231195.1252,
+      "uuid": "09e4dbc5-fee2-4d9a-9f98-8318b1cebcdb"
+    },
+    "沙漠火车收割\\Models\\锯片002.fbx": {
+      "time": 1773140070689.1123,
+      "uuid": "225fecf2-235b-487e-a17a-9da9632dcef0"
+    },
+    "沙漠火车收割\\Models\\门02.fbx": {
+      "time": 1772631231196.1301,
+      "uuid": "cd0cd867-ba77-4cac-b0c4-52277bdda582"
+    },
+    "沙漠火车收割\\Models\\麦子.fbx": {
+      "time": 1772623142085.7239,
+      "uuid": "85bb8f79-0021-491a-9d0a-6c0e4ea9738e"
+    },
+    "沙漠火车收割\\Mtl\\bing.mtl": {
+      "time": 1774007731607.803,
+      "uuid": "c5c04a2e-f44f-43d4-a1fb-f9a273e6a3b6"
+    },
+    "沙漠火车收割\\Mtl\\lanse.mtl": {
+      "time": 1772787819554.1562,
+      "uuid": "3c841d2c-e84e-4e08-9fb0-e868f5d26895"
+    },
+    "沙漠火车收割\\Mtl\\zhongxindiban.mtl": {
+      "time": 1773842796783.639,
+      "uuid": "08891e21-c066-43b7-8d02-c999d3aae689"
+    },
+    "沙漠火车收割\\Mtl\\zise.mtl": {
+      "time": 1773140070690.1047,
+      "uuid": "b169ec7a-f9dc-475a-99f0-75853de810c7"
+    },
+    "沙漠火车收割\\Mtl\\仙人掌.mtl": {
+      "time": 1773459927657.385,
+      "uuid": "f53cf7e8-2f31-4407-8765-fff9744556eb"
+    },
+    "沙漠火车收割\\Mtl\\围栏-03.mtl": {
+      "time": 1773459919013.1274,
+      "uuid": "2df43dcf-ab96-43f9-8da4-28de710c86cc"
+    },
+    "沙漠火车收割\\Mtl\\底色.mtl": {
+      "time": 1773052101136.0286,
+      "uuid": "63097768-9f09-4e19-9667-0d8ab3bbce0b"
+    },
+    "沙漠火车收割\\Mtl\\拖车01.mtl": {
+      "time": 1773140070691.1118,
+      "uuid": "e8500209-132f-4dcd-b948-2d2c915c3f24"
+    },
+    "沙漠火车收割\\Mtl\\收银机.mtl": {
+      "time": 1772784481577.9717,
+      "uuid": "b9608572-cb04-42b2-aadc-47fc0b53bf9f"
+    },
+    "沙漠火车收割\\Mtl\\木堆.mtl": {
+      "time": 1773460058215.2036,
+      "uuid": "06d187ae-b7ac-43e6-be06-2764b2e0a0e1"
+    },
+    "沙漠火车收割\\Mtl\\树_BC.mtl": {
+      "time": 1773460060875.4092,
+      "uuid": "3415d229-3880-43e5-9ba3-ac278ef561a0"
+    },
+    "沙漠火车收割\\Mtl\\桌子.mtl": {
+      "time": 1773047643433.6768,
+      "uuid": "a3e57d25-ebb4-499e-a414-4240a900aed7"
+    },
+    "沙漠火车收割\\Mtl\\流沙地表.mtl": {
+      "time": 1773052091029.234,
+      "uuid": "98d4c9aa-2ffe-49f6-a0ac-567e6855127a"
+    },
+    "沙漠火车收割\\Mtl\\火车头.mtl": {
+      "time": 1772908575804.9485,
+      "uuid": "731602b8-0194-4194-a2ec-061dd01b97b3"
+    },
+    "沙漠火车收割\\Mtl\\灶台02.mtl": {
+      "time": 1773028496357.7588,
+      "uuid": "35296049-1754-4848-8bb7-5c2a1c7ff213"
+    },
+    "沙漠火车收割\\Mtl\\烧烤架.mtl": {
+      "time": 1772906523088.5112,
+      "uuid": "2701ce08-d941-4701-92ff-7bc7b5a68a77"
+    },
+    "沙漠火车收割\\Mtl\\电塔.mtl": {
+      "time": 1772909421832.4382,
+      "uuid": "42ac2b90-5331-41c4-a13f-a08dd9ef8944"
+    },
+    "沙漠火车收割\\Mtl\\石头.mtl": {
+      "time": 1773057605023.1355,
+      "uuid": "d33394ec-cf7c-43ab-9397-d136b8cab5f4"
+    },
+    "沙漠火车收割\\Mtl\\箭塔.mtl": {
+      "time": 1773460040449.545,
+      "uuid": "ad2f7e51-70d4-44f1-ae2e-27fc119ea1d6"
+    },
+    "沙漠火车收割\\Mtl\\箭塔底座BC.mtl": {
+      "time": 1773460043657.7798,
+      "uuid": "b36f2584-c7e0-4201-820c-71b10d9443b5"
+    },
+    "沙漠火车收割\\Mtl\\色卡02.mtl": {
+      "time": 1773460037518.6348,
+      "uuid": "c5995089-4435-4740-acb5-c41a0d2a60f3"
+    },
+    "沙漠火车收割\\Mtl\\草-001.mtl": {
+      "time": 1773460048489.1182,
+      "uuid": "94463f4d-9a3a-4478-9183-7331e67079ff"
+    },
+    "沙漠火车收割\\Mtl\\草.mtl": {
+      "time": 1773460051094.0469,
+      "uuid": "c3da5ebc-f821-464e-b2d8-9570cf886885"
+    },
+    "沙漠火车收割\\Mtl\\货运列车01_BC.mtl": {
+      "time": 1772870057515.9473,
+      "uuid": "8273ead7-2f87-4acd-9c94-801a4aa875da"
+    },
+    "沙漠火车收割\\Mtl\\车01.mtl": {
+      "time": 1773053719787.4182,
+      "uuid": "1e90d13c-21af-4823-b2e1-c56664cb6d86"
+    },
+    "沙漠火车收割\\Mtl\\车03.mtl": {
+      "time": 1773140070691.1118,
+      "uuid": "26787280-1eab-4640-984a-5305abb5a94d"
+    },
+    "沙漠火车收割\\Mtl\\车04.mtl": {
+      "time": 1773140070691.1118,
+      "uuid": "1a5f219e-6ddc-4d7f-8faf-71bd9457fc67"
+    },
+    "沙漠火车收割\\Mtl\\锯片颜色.mtl": {
+      "time": 1772901663723.8196,
+      "uuid": "0d5c3602-bb8f-4419-9688-88551ec3b2b2"
+    },
+    "沙漠火车收割\\Mtl\\锯片颜色zise.mtl": {
+      "time": 1773140070692.1118,
+      "uuid": "a4854730-a91f-4fbc-b9ec-8e8c5ec9d42f"
+    },
+    "沙漠火车收割\\Mtl\\门02.mtl": {
+      "time": 1772908130697.6282,
+      "uuid": "f5dbf36e-e387-4eee-945f-283d2800a25e"
+    },
+    "沙漠火车收割\\Mtl\\麦子_BC.mtl": {
+      "time": 1773459909488.9763,
+      "uuid": "3e11b845-9693-4ff6-91f2-45e477097cc9"
+    },
+    "沙漠火车收割\\Prefab\\maizikuai.prefab": {
+      "time": 1772733150023.4604,
+      "uuid": "235b82f2-49db-48f9-a2fe-8f4d36d059d6"
+    },
+    "沙漠火车收割\\Prefab\\sangshi02.prefab": {
+      "time": 1773140070694.112,
+      "uuid": "f9f3b87d-9f98-4537-846e-ccd0ca8f4212"
+    },
+    "沙漠火车收割\\Prefab\\主角.prefab": {
+      "time": 1773140070694.112,
+      "uuid": "1f2db7c5-39a8-43ec-b631-472c6d5f8834"
+    },
+    "沙漠火车收割\\Prefab\\仙人掌_1.prefab": {
+      "time": 1772876154449.7502,
+      "uuid": "18e2a7ef-2c2c-417b-9bc8-e491d28493fb"
+    },
+    "沙漠火车收割\\Prefab\\仙人掌_2.prefab": {
+      "time": 1772876160057.4507,
+      "uuid": "0852f60d-d764-4e25-9417-ebd1fcec51de"
+    },
+    "沙漠火车收割\\Prefab\\围栏_A.prefab": {
+      "time": 1772783075920.4663,
+      "uuid": "6b7bf7dc-2644-47b3-b093-2c5375dd3770"
+    },
+    "沙漠火车收割\\Prefab\\拖车01.prefab": {
+      "time": 1772876113251.366,
+      "uuid": "5507e5d5-b37f-4b22-8381-28ed5d143893"
+    },
+    "沙漠火车收割\\Prefab\\树.prefab": {
+      "time": 1772774603674.6062,
+      "uuid": "92c386c3-79cd-426a-804d-2868be20cbe7"
+    },
+    "沙漠火车收割\\Prefab\\石头.prefab": {
+      "time": 1772871262980.5085,
+      "uuid": "bf166ae3-0deb-441b-bcd5-e1f276530245"
+    },
+    "沙漠火车收割\\Prefab\\箭塔.prefab": {
+      "time": 1772783514518.359,
+      "uuid": "9254336e-ce61-49f8-8654-5d36e7872423"
+    },
+    "沙漠火车收割\\Prefab\\草.prefab": {
+      "time": 1772876205913.8958,
+      "uuid": "3ec4fa46-b298-49e8-a829-bb4ee329ce13"
+    },
+    "沙漠火车收割\\Prefab\\车03.prefab": {
+      "time": 1773140070695.1118,
+      "uuid": "a1b6c93a-9f2c-446c-8fc5-4ca63db1685c"
+    },
+    "沙漠火车收割\\Prefab\\铁轨弯.prefab": {
+      "time": 1772876040139.9512,
+      "uuid": "0c61c5d7-66db-4c3f-86cd-9fe581738c36"
+    },
+    "沙漠火车收割\\Prefab\\铁轨短.prefab": {
+      "time": 1772876022448.984,
+      "uuid": "9bbd8dec-ab16-4d73-8759-32efd6758df7"
+    },
+    "沙漠火车收割\\Prefab\\锯片1.prefab": {
+      "time": 1773140070696.1118,
+      "uuid": "c52ef641-091a-458c-8e12-973a428e4c00"
+    },
+    "沙漠火车收割\\Prefab\\锯片2.prefab": {
+      "time": 1773140070696.1118,
+      "uuid": "6e7261a5-b870-4b59-b16a-0b29aa76d12c"
+    },
+    "沙漠火车收割\\Prefab\\锯片3.prefab": {
+      "time": 1773140070697.1118,
+      "uuid": "e794f0f6-03ee-4520-bdd3-a6e60b0008bb"
+    },
+    "沙漠火车收割\\Prefab\\麦子.prefab": {
+      "time": 1773141852704.9878,
+      "uuid": "bb9c4b8f-27fc-4c26-9ae9-816a4e2a2d70"
+    },
+    "沙漠火车收割\\Textures\\仙人掌_1.png": {
+      "time": 1772631231300.1233,
+      "uuid": "1f0ff2b5-d240-40f7-81d8-6748234b6b56"
+    },
+    "沙漠火车收割\\Textures\\围栏_03.png": {
+      "time": 1772631231307.0088,
+      "uuid": "5575e4c8-e872-45ff-991f-daa03ba6802f"
+    },
+    "沙漠火车收割\\Textures\\地扣02_BC 2.PNG": {
+      "time": 1773031002133.1003,
+      "uuid": "3ebc7016-7008-47f0-93ac-32653600633c"
+    },
+    "沙漠火车收割\\Textures\\小桌子.jpg": {
+      "time": 1772631231322.434,
+      "uuid": "bf75ddeb-a59f-41e1-84b1-06168359a723"
+    },
+    "沙漠火车收割\\Textures\\收银机.jpg": {
+      "time": 1772631231331.2847,
+      "uuid": "bc93203c-9a4d-474d-ad64-46309e33819c"
+    },
+    "沙漠火车收割\\Textures\\木堆.PNG": {
+      "time": 1772631231333.026,
+      "uuid": "b7da119f-f664-4d7f-8a74-438c49bd8b5f"
+    },
+    "沙漠火车收割\\Textures\\树_BC.png": {
+      "time": 1772622526517.9304,
+      "uuid": "264dd697-c5f6-45d3-8c61-21e88580697b"
+    },
+    "沙漠火车收割\\Textures\\流沙地表.PNG": {
+      "time": 1772631231386.4285,
+      "uuid": "93482581-9129-4e9d-b3e2-1bfc701fb622"
+    },
+    "沙漠火车收割\\Textures\\火车头.PNG": {
+      "time": 1772631231387.9333,
+      "uuid": "58ba967a-ad08-4df0-b89e-664b50f62ee4"
+    },
+    "沙漠火车收割\\Textures\\灶台02_BC.jpg": {
+      "time": 1772631231389.9578,
+      "uuid": "97caf507-be98-4157-a0f2-b8b2954d0e87"
+    },
+    "沙漠火车收割\\Textures\\烤架_BC.png": {
+      "time": 1772631231390.4102,
+      "uuid": "12ffdbc3-cabb-43b3-a99c-146e8d344b2c"
+    },
+    "沙漠火车收割\\Textures\\电塔.png": {
+      "time": 1772631231398.0889,
+      "uuid": "b4cda2d1-1f8a-4134-9ba0-b79d1b73c023"
+    },
+    "沙漠火车收割\\Textures\\石墙03.PNG": {
+      "time": 1773140070706.107,
+      "uuid": "be1c6546-76e7-4c56-9848-0ac9e1c6ec4b"
+    },
+    "沙漠火车收割\\Textures\\石头.psd": {
+      "time": 1772631231411.5103,
+      "uuid": "eaee9092-3c8d-47aa-b14e-1d5203f73ab1"
+    },
+    "沙漠火车收割\\Textures\\箭塔BC 1.PNG": {
+      "time": 1772901802880.339,
+      "uuid": "ed301e69-f8b9-496c-86ae-1707049401e4"
+    },
+    "沙漠火车收割\\Textures\\箭塔底座BC.PNG": {
+      "time": 1772631231475.1912,
+      "uuid": "9a2eec95-0779-4e22-aa84-be72d0e9f982"
+    },
+    "沙漠火车收割\\Textures\\色卡02.png": {
+      "time": 1772631231483.6155,
+      "uuid": "8671178f-ace2-482e-bc92-7e7b768c6b14"
+    },
+    "沙漠火车收割\\Textures\\草.tga": {
+      "time": 1772631231485.6194,
+      "uuid": "88df2780-2dad-4d94-96b2-f2e1cdd44552"
+    },
+    "沙漠火车收割\\Textures\\货运列车01_BC.PNG": {
+      "time": 1772631231497.0242,
+      "uuid": "0284d76d-75c5-4ffc-b02f-a2cb7ab9efad"
+    },
+    "沙漠火车收割\\Textures\\车01.jpg": {
+      "time": 1772631231500.0403,
+      "uuid": "79c931a8-9760-4c53-b510-5a4c2a336d73"
+    },
+    "沙漠火车收割\\Textures\\车03.JPG": {
+      "time": 1772631231501.545,
+      "uuid": "95479789-4024-4b76-888b-683951fa52ad"
+    },
+    "沙漠火车收割\\Textures\\车04.png": {
+      "time": 1773140070708.1067,
+      "uuid": "099fa2a0-c8b8-4819-8d48-d7265b8591de"
+    },
+    "沙漠火车收割\\Textures\\锯片颜色.jpg": {
+      "time": 1772631231512.7798,
+      "uuid": "16003328-53b6-4694-b0fa-b085b08c0cf2"
+    },
+    "沙漠火车收割\\Textures\\锯片颜色zise.png": {
+      "time": 1773140070708.1067,
+      "uuid": "aa99504b-2837-472c-b05e-0050e8bb6b9b"
+    },
+    "沙漠火车收割\\Textures\\门02.jpg": {
+      "time": 1772631231514.8154,
+      "uuid": "5d05971d-30e3-4c38-a488-eed5ffb8e989"
+    },
+    "沙漠火车收割\\Textures\\麦子_BC.png": {
+      "time": 1772622469958.189,
+      "uuid": "a8f29b6e-635b-49b7-ba0e-68547b789772"
+    },
+    "沙漠火车收割\\zhujue\\Axe00_diff.jpg": {
+      "time": 1771914794054.0237,
+      "uuid": "e5692bf6-fed0-4b0e-92cf-f4851745ea94"
+    },
+    "沙漠火车收割\\zhujue\\RedShirt_Man.fbx": {
+      "time": 1772977025586.3308,
+      "uuid": "8c634093-6c2d-4ab5-8733-ec1570314a45"
+    },
+    "沙漠火车收割\\zhujue\\RedShirt_Man_CM.jpg": {
+      "time": 1771914795007.62,
+      "uuid": "4ce329e9-a63b-4646-8cd6-555f4732ffde"
+    },
+    "沙漠火车收割\\zhujue\\主角.fbx": {
+      "time": 1773050482138.5562,
+      "uuid": "3f43840c-1643-4a7f-9885-d634cabab8e4"
+    },
+    "沙漠火车收割\\zhujue\\主角.txt": {
+      "time": 1773050481601.3152,
+      "uuid": "0b7b8e56-b8b3-4c8e-b5da-86f8a59adc66"
+    },
+    "沙漠火车收割\\丧尸\\73773b6f324db3c6c8d67fd41e501dec.jpg": {
+      "time": 1773680577249.4177,
+      "uuid": "01e2f51d-13aa-4716-8e13-6c3c0bafd22b"
+    },
+    "沙漠火车收割\\丧尸\\sangshi02.fbx": {
+      "time": 1772977283579.8005,
+      "uuid": "2c5a120f-58aa-45e8-adc3-a70b6bf3b930"
+    },
+    "沙漠火车收割\\丧尸\\xieshi_sangshi02_D-001.mtl": {
+      "time": 1773974351787.864,
+      "uuid": "6982c56e-bdea-445a-9d9f-4504e9d5f67d"
+    },
+    "沙漠火车收割\\丧尸\\xieshi_sangshi02_D.mtl": {
+      "time": 1773140070709.1067,
+      "uuid": "1336daa0-0aa0-48da-b6f9-81cacca4208e"
+    },
+    "沙漠火车收割\\丧尸\\xieshi_sangshi02_D.PNG": {
+      "time": 1771914793979.779,
+      "uuid": "4f51e73a-5edb-47da-8a9f-b43b105a8476"
+    },
+    "沙漠火车收割\\丧尸\\僵尸.fbx": {
+      "time": 1774008175496.8196,
+      "uuid": "33f3b4db-e146-40bf-8374-ab70cd003792"
+    },
+    "沙漠火车收割\\丧尸\\僵尸.txt": {
+      "time": 1774008177037.4045,
+      "uuid": "e25879e8-860f-4aab-806c-c651f716d308"
+    },
+    "沙漠火车收割\\丧尸\\僵尸@钻出(2).fbx": {
+      "time": 1774009371033.4946,
+      "uuid": "34c83176-63ed-4214-ac25-c1c4f31a3508"
+    },
+    "沙漠火车收割\\主角\\1.mtl": {
+      "time": 1773053842918.1167,
+      "uuid": "c698388b-4077-44ba-b675-2275f94bc021"
+    },
+    "沙漠火车收割\\主角\\2.mtl": {
+      "time": 1773054190972.199,
+      "uuid": "3d513c90-aadd-4963-acf8-7b3d201df36d"
+    },
+    "沙漠火车收割\\主角\\3.mtl": {
+      "time": 1773053864998.094,
+      "uuid": "15f090a4-d68c-457e-8b7f-8d055c9213fa"
+    },
+    "沙漠火车收割\\主角\\internal.jpg": {
+      "time": 1773053696583.6917,
+      "uuid": "536d1c29-1bc9-4ca6-a2de-1429821bf665"
+    },
+    "沙漠火车收割\\主角\\主角.fbx": {
+      "time": 1773050484043.6,
+      "uuid": "f834c55f-637e-4a33-8103-af971f2bfd86"
+    },
+    "沙漠火车收割\\主角\\微信图片_20260309182144_631_471.jpg": {
+      "time": 1773053692717.7925,
+      "uuid": "941d76a5-e0a7-4706-8606-1b2009967de9"
+    },
+    "沙漠火车收割\\商人和骆驼\\人_BC.mtl": {
+      "time": 1773140070709.1067,
+      "uuid": "e6bdc770-0e74-4c2d-9c63-193742b5d6da"
+    },
+    "沙漠火车收割\\商人和骆驼\\人_BC.png": {
+      "time": 1772191272000,
+      "uuid": "db42d049-fc71-4792-a526-388f83acf7ce"
+    },
+    "沙漠火车收割\\商人和骆驼\\商人和骆驼(2).fbx": {
+      "time": 1773140070716.1045,
+      "uuid": "5e210bb1-0c0d-4399-8ec2-182e0e33169c"
+    },
+    "沙漠火车收割\\商人和骆驼\\骆驼_BC.mtl": {
+      "time": 1773140070717.108,
+      "uuid": "207e59a8-c29e-4031-bedc-c0937caf1ce5"
+    },
+    "沙漠火车收割\\商人和骆驼\\骆驼_BC.png": {
+      "time": 1772191310000,
+      "uuid": "aefcb938-4977-4e8b-8934-4273ab0bd97e"
+    },
+    "沙漠火车收割\\小麦\\小麦卷.FBX": {
+      "time": 1763709123763.862,
+      "uuid": "f5fd7343-58c2-49b5-8af0-95115e69a4c3"
+    },
+    "沙漠火车收割\\小麦\\小麦卷.mtl": {
+      "time": 1774007807845.171,
+      "uuid": "6a01f3cb-f852-47f7-9818-03811ebf01b0"
+    },
+    "沙漠火车收割\\小麦\\小麦卷01_BC.jpg": {
+      "time": 1772263725833.7607,
+      "uuid": "47f9b65f-cf01-48cb-a0d9-6bcbf5545bda"
+    },
+    "沙漠火车收割\\小麦\\小麦卷02_BC.jpg": {
+      "time": 1772263725927.3264,
+      "uuid": "5050dad0-de47-41fb-911d-ec067e47a7ff"
+    },
+    "沙漠火车收割\\披萨\\披萨01.FBX": {
+      "time": 1773640590701.994,
+      "uuid": "67f8e454-ca34-4483-b7c6-7f277595df25"
+    },
+    "沙漠火车收割\\披萨\\披萨01_BC.png": {
+      "time": 1773640511631.6963,
+      "uuid": "2bca1350-9e89-44d1-9252-746a9ae3a144"
+    },
+    "沙漠火车收割\\沙漠火车\\emoji着急.png": {
+      "time": 1773645104000,
+      "uuid": "9245d55b-d6ff-4cfd-a820-f794943d73ce"
+    },
+    "沙漠火车收割\\沙漠火车\\emoji美味表情.png": {
+      "time": 1773645098000,
+      "uuid": "a4fbb304-3326-4c1a-a883-7313f13cca68"
+    },
+    "沙漠火车收割\\沙漠火车\\emo饥饿.png": {
+      "time": 1773645110000,
+      "uuid": "9811e923-3916-4bc1-8356-6af3ed23610f"
+    },
+    "GameRes\\Image\\img\\imf_jjiantou.png": {
+      "time": 1773837818697.3723,
+      "uuid": "159bf523-aedd-416a-af72-63be5636ae66"
+    },
+    "GameRes\\Image\\img\\img_arrow_1.png": {
+      "time": 1773837818698.3796,
+      "uuid": "38b91bb6-9769-4b68-b2c8-cfb4067961f2"
+    },
+    "GameRes\\Prefabs\\Role\\Customer.prefab": {
+      "time": 1773995160366.8604,
+      "uuid": "87a90790-167b-4b54-8816-af6a50baa4f1"
+    },
+    "GameRes\\Prefabs\\Role\\enemy_1.prefab": {
+      "time": 1774323069169.08,
+      "uuid": "397f13ee-f183-4cf5-a879-85bca83ea3b9"
+    },
+    "GameRes\\UI2D\\GeneralUI\\joystickBack.png": {
+      "time": 1773370590408.4553,
+      "uuid": "d4f637d2-2472-495f-a73e-1c62d3709eb3"
+    },
+    "GameRes\\UI2D\\GeneralUI\\joystickPint.png": {
+      "time": 1773370590409.4548,
+      "uuid": "87120153-faf6-4acf-9679-c1e6672ebaa5"
+    },
+    "GameRes\\UI2D\\Logo\\LOGO11.webp": {
+      "time": 1773370590411.4553,
+      "uuid": "8a9dd0a0-5553-4446-89e3-0a05c8ca8f37"
+    },
+    "GameRes\\UI2D\\Logo\\韩语LOGO.png": {
+      "time": 1773370590412.4546,
+      "uuid": "c6d5158a-4e30-4dce-9172-b67e53df33c8"
+    },
+    "GameRes\\ydsx_map\\FBX\\jianta.fbx": {
+      "time": 1773620125995.2488,
+      "uuid": "04f5a2a9-9135-4e13-a6bb-4e9fb69a7c1a"
+    },
+    "GameRes\\ydsx_map\\mtl\\jianta_02.mtl": {
+      "time": 1773620125996.2483,
+      "uuid": "fe8f1f84-d8c5-4eba-b1fb-8c172c244a4a"
+    },
+    "GameRes\\ydsx_map\\tableundefined\\SSD_S_T_JianTa_C.png": {
+      "time": 1773620125999.2476,
+      "uuid": "a8ee7055-96cc-41e5-a566-0acb22e6d8fc"
+    },
+    "Res\\Eff\\guide\\guide_line.mtl": {
+      "time": 1773839022741.5842,
+      "uuid": "33c09614-4169-4ada-933e-0c68d8601066"
+    },
+    "Scripts\\Main\\Building\\pop-002.prefab": {
+      "time": 1765423811243.1199,
+      "uuid": "fb4c0290-696b-47a5-81ac-f173a1d87056"
+    },
+    "杀鱼获肉\\杀鱼获肉\\鲨鱼_FBX\\shayu.jpg": {
+      "time": 1773621520724.5657,
+      "uuid": "17313d99-1368-48d9-b5f2-7d42ecbe3b3e"
+    },
+    "杀鱼获肉\\杀鱼获肉\\鲨鱼_FBX\\shayu_attack.fbx": {
+      "time": 1773621520726.5662,
+      "uuid": "47d048dc-5b2a-4e75-84b3-f8c7e9d3259f"
+    },
+    "杀鱼获肉\\杀鱼获肉\\鲨鱼_FBX\\shayu_die.fbx": {
+      "time": 1773621520727.566,
+      "uuid": "6ae72fdb-7102-40a2-8530-aa279e0475d2"
+    },
+    "杀鱼获肉\\杀鱼获肉\\鲨鱼_FBX\\shayu_idle.fbx": {
+      "time": 1773621520729.3142,
+      "uuid": "1948a453-7d22-4d20-8ee4-1d6dfe18b7d8"
+    },
+    "杀鱼获肉\\杀鱼获肉\\鲨鱼_FBX\\shayu_move.fbx": {
+      "time": 1773621520729.8179,
+      "uuid": "88dc63a5-ac1d-48f2-87bd-7e33607fa094"
+    },
+    "杀鱼获肉\\杀鱼获肉\\鲨鱼_FBX\\shayu_skin.fbx": {
+      "time": 1773621520731.823,
+      "uuid": "d6943401-a7b1-4f6b-9943-7d3643e58da8"
+    },
+    "沙漠火车收割\\zhujue\\Materials\\Axe00_diff.mat": {
+      "time": 1771914794056.5283,
+      "uuid": "f4026375-b3d7-4d38-8e8e-de688813c921"
+    },
+    "沙漠火车收割\\zhujue\\Materials\\Hammer.mat": {
+      "time": 1771914794058.536,
+      "uuid": "601e4090-9ad8-43c8-8de4-e5369a2e7c55"
+    },
+    "沙漠火车收割\\zhujue\\Materials\\RedShirt_Man_CM.mat": {
+      "time": 1771914794060.5283,
+      "uuid": "21f67960-0b4a-44f2-9214-13ff5403bf71"
+    },
+    "沙漠火车收割\\沙漠火车\\sell\\sell.png": {
+      "time": 1773646040000,
+      "uuid": "c6d7e7d7-07e2-4062-b66d-ed2c648f719a"
+    },
+    "沙漠火车收割\\沙漠火车\\sell\\灰.png": {
+      "time": 1773646052000,
+      "uuid": "b10e3ab8-75f3-4081-96cd-42c830dbd754"
+    },
+    "沙漠火车收割\\沙漠火车\\sell\\绿.png": {
+      "time": 1773646046000,
+      "uuid": "e22d7ca7-1a32-43d7-926c-cfb5556135be"
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\dabing.png": {
+      "time": 1773905986000,
+      "uuid": "11e507e0-6da2-4f05-acd8-f6a746ec8089"
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\NPC.png": {
+      "time": 1773645756000,
+      "uuid": "c4d33766-22c9-4079-8bac-05a372aa2224"
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\大饼.png": {
+      "time": 1773645192000,
+      "uuid": "19f47dfd-9aac-422b-b806-2dd8d2377a31"
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\大饼售卖.png": {
+      "time": 1773645186000,
+      "uuid": "aafe10a9-e27f-4eee-af5e-a7ba78c767b0"
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\小麦.png": {
+      "time": 1773645198000,
+      "uuid": "fd601a8b-1e49-4616-b4bc-4a0f412c5c26"
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\扩张.png": {
+      "time": 1773645208000,
+      "uuid": "9722b71b-1002-4012-9146-ea045af247ac"
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\木头.png": {
+      "time": 1773645214000,
+      "uuid": "80d132f4-e46b-4b17-9587-3c5edb305e7d"
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\木头堆.png": {
+      "time": 1773905998000,
+      "uuid": "cf1d6ba0-2e3e-43b4-8750-191b2738ae96"
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\气泡.png": {
+      "time": 1773892524000,
+      "uuid": "1c68f96a-1c08-47c1-9b93-efdce47afb62"
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\水.png": {
+      "time": 1773645202000,
+      "uuid": "ef95c9a4-7960-4448-9c95-e79be68644df"
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\水滴.png": {
+      "time": 1773905994000,
+      "uuid": "a6e06520-fe1d-4870-8780-b00e12899ed1"
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\火车升级.png": {
+      "time": 1773920808000,
+      "uuid": "e4b0a1ba-034a-4dd7-922c-c9d432d3d779"
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\稻草.png": {
+      "time": 1773906002000,
+      "uuid": "2d71f127-ec7c-455c-bd53-09f4762a4b96"
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\箭塔.png": {
+      "time": 1773920808000,
+      "uuid": "2fce1fbf-b69d-4bea-99c4-652c1129276a"
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\红色闪光.png": {
+      "time": 1773906556000,
+      "uuid": "5b331b11-2070-442e-8c4c-765e4817ebb0"
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\资源框1-进度.png": {
+      "time": 1773645220000,
+      "uuid": "1ddc7f06-c817-4a2c-acad-28cabebc48fc"
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\资源框1.png": {
+      "time": 1773645224000,
+      "uuid": "c7544d7a-2b4f-4d38-9957-f159330abc3e"
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\进火车.png": {
+      "time": 1773645182000,
+      "uuid": "0525e67d-ba84-4b55-a4c9-6af4dd1dee51"
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\金币.png": {
+      "time": 1773645174000,
+      "uuid": "df798867-5082-46ba-a158-856f92c52c00"
+    },
+    "沙漠火车收割\\沙漠火车\\地贴触发框\\组 2 拷贝 2.png": {
+      "time": 1773646010000,
+      "uuid": "14359ef4-4210-44c6-acbe-7cc91e31556c"
+    },
+    "沙漠火车收割\\沙漠火车\\地贴触发框\\组 2.png": {
+      "time": 1773645992000,
+      "uuid": "3acc3f11-e6f9-4ed7-8b81-47266ce24e75"
+    },
+    "Res\\UI\\Line\\ArrowLine\\line.fbx": {
+      "time": 1773837818714.285,
+      "uuid": "8ea2087a-bdab-47bf-a55b-143e4a9ff0c3"
+    },
+    "Res\\UI\\Line\\ArrowLine\\NavLine.prefab": {
+      "time": 1773842203341.5757,
+      "uuid": "4a5d627f-1830-4b12-a733-cb86ee6dfa52"
+    },
+    "GameRes\\fx\\Effect\\winfail\\Dot\\Dot.mtl": {
+      "time": 1773370590375.455,
+      "uuid": "acea4f3d-e5db-4867-bc36-d30c1f69447a"
+    },
+    "GameRes\\fx\\Effect\\winfail\\Dot\\Dot.png": {
+      "time": 1773370590376.455,
+      "uuid": "70870134-1a39-47cd-9b87-fe00b6791d71"
+    },
+    "GameRes\\fx\\Effect\\winfail\\end_light\\end_light.mtl": {
+      "time": 1773370590378.4539,
+      "uuid": "76e39aed-faf1-4b5e-9bb0-7f532519ebd4"
+    },
+    "GameRes\\fx\\Effect\\winfail\\end_light\\end_light.png": {
+      "time": 1773370590379.4543,
+      "uuid": "336baa8d-2664-4b2a-a843-957517b5e715"
+    },
+    "GameRes\\fx\\Effect\\winfail\\img\\图层 796.png": {
+      "time": 1773370590382.4543,
+      "uuid": "d6aa7525-43f9-4da9-befb-902d5ff8abd0"
+    },
+    "GameRes\\fx\\Effect\\winfail\\img\\图层 801.png": {
+      "time": 1773370590385.4587,
+      "uuid": "f7217e8e-e743-4e7d-ab09-712f9c819819"
+    },
+    "GameRes\\fx\\Effect\\winfail\\prefan\\DownloadBtn.prefab": {
+      "time": 1773370590389.4558,
+      "uuid": "6ff77d24-f63c-4a80-b3e1-78bd2278eb22"
+    },
+    "GameRes\\fx\\Effect\\winfail\\prefan\\end_light.prefab": {
+      "time": 1773370590391.4548,
+      "uuid": "fd725541-8021-47cb-9f8b-c6c9216b44b4"
+    },
+    "GameRes\\fx\\Effect\\winfail\\prefan\\LosePanel.prefab": {
+      "time": 1773370590392.4548,
+      "uuid": "ada0d2d1-c214-472f-a638-e5d4f8a4af02"
+    },
+    "GameRes\\fx\\Effect\\winfail\\prefan\\TopLogo.prefab": {
+      "time": 1773370590393.454,
+      "uuid": "61f2aa93-52cb-4125-aab7-93399ca3b89f"
+    },
+    "GameRes\\fx\\Effect\\winfail\\prefan\\WinPanel.prefab": {
+      "time": 1773370590395.4548,
+      "uuid": "a7e4d4b2-54a0-4cba-b8b7-b4a44d1d0265"
+    },
+    "Res\\UI\\Line\\ArrowLine\\Shader\\arrow.mtl": {
+      "time": 1773842748789.7393,
+      "uuid": "6b1e3edb-c333-488b-9176-301a500cf7be"
+    },
+    "materials\\__u5730_u626303_.mtl.meta": {
+      "time": 1772611430418.4622
+    },
+    "materials\\__u56F4_u680F-03_.mtl.meta": {
+      "time": 1772611430417.464
+    },
+    "materials\\__u4ED9_u4EBA_u638C_1_.mtl.meta": {
+      "time": 1772611430443.461
+    },
+    "materials\\__u5E95_u827201_.mtl.meta": {
+      "time": 1772611430434.4612
+    },
+    "animations\\lv1.anim.meta": {
+      "time": 1773559931969.0032
+    },
+    "materials\\__u5E95_u827202_.mtl.meta": {
+      "time": 1772611430463.4612
+    },
+    "materials\\__u65A7_u5B501_.mtl.meta": {
+      "time": 1772611430452.4617
+    },
+    "audio\\读秒.ogg.meta": {
+      "time": 1772611430508.4604
+    },
+    "materials\\__u677E_u681102_.mtl.meta": {
+      "time": 1772611430479.4604
+    },
+    "materials\\__u677E_u6811_.mtl.meta": {
+      "time": 1772611430471.4622
+    },
+    "materials\\__u67AF_u6811_u6869_.mtl.meta": {
+      "time": 1772611430479.4604
+    },
+    "materials\\__u706B_u8F66_u5934_.mtl.meta": {
+      "time": 1772611430501.4607
+    },
+    "materials\\__u684C_u5B50_.mtl.meta": {
+      "time": 1772611430493.4612
+    },
+    "materials\\__u70E7_u70E4_u67B6_.mtl.meta": {
+      "time": 1772611430516.4602
+    },
+    "materials\\__u7535_u5854_.mtl.meta": {
+      "time": 1772611430516.4602
+    },
+    "materials\\__u77F3_u5934_u96EA01_.mtl.meta": {
+      "time": 1772611430531.4612
+    },
+    "materials\\__u8272_u536102_.mtl.meta": {
+      "time": 1772611430593.4592
+    },
+    "materials\\__u82E6_u5DE5_4_.mtl.meta": {
+      "time": 1772611430594.4614
+    },
+    "materials\\__u8428_u683C_.mtl.meta": {
+      "time": 1772611430611.4607
+    },
+    "materials\\__u8349_.mtl.meta": {
+      "time": 1772611430610.4597
+    },
+    "materials\\__u8349_u5E3DNPC_2_.mtl.meta": {
+      "time": 1772611430626.4587
+    },
+    "materials\\__u8F6601_.mtl.meta": {
+      "time": 1772611430628.4602
+    },
+    "materials\\__u8F6603_.mtl.meta": {
+      "time": 1772611430630.4604
+    },
+    "materials\\__u952F_u7247_u989C_u8272_.mtl.meta": {
+      "time": 1772611430632.4614
+    },
+    "materials\\__u95E8002_.mtl.meta": {
+      "time": 1772611430634.4602
+    },
+    "models\\JinBi.FBX.meta": {
+      "time": 1772611430790.3677
+    },
+    "models\\人.fbx.meta": {
+      "time": 1772611430861.3657
+    },
+    "models\\mutou.fbx.meta": {
+      "time": 1772611430859.3655
+    },
+    "models\\仙人掌.FBX.meta": {
+      "time": 1772611431008.3662
+    },
+    "models\\仙人掌_2.fbx.meta": {
+      "time": 1772611431143.3643
+    },
+    "models\\仙人掌_1.fbx.meta": {
+      "time": 1772611431020.3645
+    },
+    "models\\传送带.png.meta": {
+      "time": 1774259766767.5977
+    },
+    "models\\传送带.fbx.meta": {
+      "time": 1774337478884.7812
+    },
+    "models\\围栏_A.FBX.meta": {
+      "time": 1772611431213.3647
+    },
+    "models\\地块-01.FBX.meta": {
+      "time": 1772611431309.3674
+    },
+    "models\\地块-02.FBX.meta": {
+      "time": 1772611431401.8745
+    },
+    "models\\地表.FBX.meta": {
+      "time": 1772611431446.8745
+    },
+    "models\\人骆驼_移动.fbx.meta": {
+      "time": 1772611432239.876
+    },
+    "models\\农民_待机.fbx.meta": {
+      "time": 1772611431737.8794
+    },
+    "models\\小桌子.FBX.meta": {
+      "time": 1772611431626.8748
+    },
+    "models\\人骆驼_待机.fbx.meta": {
+      "time": 1772611432815.058
+    },
+    "models\\小麦01.FBX.meta": {
+      "time": 1772611431650.8743
+    },
+    "models\\小麦处理机.FBX.meta": {
+      "time": 1772611431856.8784
+    },
+    "models\\底座.fbx.meta": {
+      "time": 1774346716384.1465
+    },
+    "models\\木制围墙组02.FBX.meta": {
+      "time": 1772611432544.8728
+    },
+    "models\\收银机.fbx.meta": {
+      "time": 1772611432156.8772
+    },
+    "models\\木制围墙组04.FBX.meta": {
+      "time": 1772611432614.8728
+    },
+    "models\\工程僵尸_待机.fbx.meta": {
+      "time": 1772611432619.8735
+    },
+    "models\\拖车01.FBX.meta": {
+      "time": 1772611432535.8738
+    },
+    "models\\木堆.FBX.meta": {
+      "time": 1772611432902.0593
+    },
+    "models\\松树02.FBX.meta": {
+      "time": 1772611432894.058
+    },
+    "models\\松树-01.FBX.meta": {
+      "time": 1772611432927.0593
+    },
+    "models\\枯树04.fbx.meta": {
+      "time": 1772611432933.0579
+    },
+    "models\\灶台.fbx.meta": {
+      "time": 1772611432987.0593
+    },
+    "models\\牛排.fbx.meta": {
+      "time": 1772611433086.0588
+    },
+    "models\\烤架001.fbx.meta": {
+      "time": 1772611433105.0586
+    },
+    "models\\石头.FBX.meta": {
+      "time": 1772611433137.0586
+    },
+    "models\\电塔.FBX.meta": {
+      "time": 1772611433263.0574
+    },
+    "models\\石头_黄_02.FBX.meta": {
+      "time": 1772611433277.056
+    },
+    "models\\石头雪01.FBX.meta": {
+      "time": 1772611433288.0566
+    },
+    "models\\箭头.fbx.meta": {
+      "time": 1772611433410.058
+    },
+    "models\\箭塔(2) 2.fbx.meta": {
+      "time": 1774330783984.2732
+    },
+    "models\\箭塔.fbx.meta": {
+      "time": 1774346758194.794
+    },
+    "models\\草.FBX.meta": {
+      "time": 1772611433490.0854
+    },
+    "models\\草03.fbx.meta": {
+      "time": 1772611433515.0862
+    },
+    "models\\苦工.fbx.meta": {
+      "time": 1772611433864.5034
+    },
+    "models\\货运列车_拖车.fbx.meta": {
+      "time": 1772611433703.3027
+    },
+    "models\\草帽NPC.fbx.meta": {
+      "time": 1772611433966.5034
+    },
+    "models\\萨格.fbx.meta": {
+      "time": 1772611434126.504
+    },
+    "models\\车厢.FBX.meta": {
+      "time": 1772611434182.5027
+    },
+    "models\\车头.FBX.meta": {
+      "time": 1772611434210.503
+    },
+    "models\\车03.FBX.meta": {
+      "time": 1772611434185.5024
+    },
+    "models\\铁轨01.fbx.meta": {
+      "time": 1772611434216.5032
+    },
+    "models\\铁轨02.FBX.meta": {
+      "time": 1772611434265.5063
+    },
+    "models\\铁轨弯.FBX.meta": {
+      "time": 1772611434507.4998
+    },
+    "NPC(1)\\material.mtl.meta": {
+      "time": 1773485524127.661
+    },
+    "NPC(1)\\NPC.jpg.meta": {
+      "time": 1773485524128.6606
+    },
+    "prefabs\\Game.prefab.meta": {
+      "time": 1773299599583.42
+    },
+    "prefabs\\GuideManager.prefab.meta": {
+      "time": 1773837818717.4077
+    },
+    "scenes\\game.scene.meta": {
+      "time": 1772611434441.5002
+    },
+    "models\\铁轨短.FBX.meta": {
+      "time": 1772611434348.5017
+    },
+    "scenes\\test.scene.meta": {
+      "time": 1772858701652.215
+    },
+    "textures\\0.png.meta": {
+      "time": 1772611434521.5005
+    },
+    "textures\\01.jpg.meta": {
+      "time": 1772611434554.5012
+    },
+    "textures\\02.jpg.meta": {
+      "time": 1772611434574.4995
+    },
+    "textures\\03.jpg.meta": {
+      "time": 1772611434598.4988
+    },
+    "textures\\2.png.meta": {
+      "time": 1772611434618.5017
+    },
+    "textures\\1.png.meta": {
+      "time": 1772611434606.5002
+    },
+    "models\\锯片001.fbx.meta": {
+      "time": 1772611434610.501
+    },
+    "textures\\3.png.meta": {
+      "time": 1772611434628.4995
+    },
+    "textures\\4.png.meta": {
+      "time": 1772611434631.5
+    },
+    "textures\\5.png.meta": {
+      "time": 1772611434634.4988
+    },
+    "models\\门02.fbx.meta": {
+      "time": 1772611434626.4998
+    },
+    "textures\\6.png.meta": {
+      "time": 1772611434638.498
+    },
+    "textures\\7.png.meta": {
+      "time": 1772611434644.5015
+    },
+    "textures\\8.png.meta": {
+      "time": 1772611434646.4993
+    },
+    "textures\\9.png.meta": {
+      "time": 1772611434650.4998
+    },
+    "textures\\Axe00_diff.jpg.meta": {
+      "time": 1772611434652.4988
+    },
+    "textures\\blackSquare.png.meta": {
+      "time": 1772611434656.4988
+    },
+    "textures\\blackSquareAlpha10.png.meta": {
+      "time": 1772611434661.4988
+    },
+    "models\\骆驼.fbx.meta": {
+      "time": 1772611434614.4985
+    },
+    "textures\\blackSquareAlpha15.png.meta": {
+      "time": 1772611434662.4988
+    },
+    "textures\\blackSquareAlpha25.png.meta": {
+      "time": 1772611434667.499
+    },
+    "textures\\blackSquareAlpha80.png.meta": {
+      "time": 1772611434672.5012
+    },
+    "textures\\blackSquareAlpha50.png.meta": {
+      "time": 1772611434670.4985
+    },
+    "textures\\blueSquare.png.meta": {
+      "time": 1772611434677.499
+    },
+    "textures\\circle.png.meta": {
+      "time": 1772611434679.4988
+    },
+    "textures\\circle_dashedBorderEmpty.png.meta": {
+      "time": 1772611434684.4995
+    },
+    "textures\\DOTweenMiniIcon.png.meta": {
+      "time": 1772611434690.193
+    },
+    "textures\\DOTweenIcon.png.meta": {
+      "time": 1772611434688.1946
+    },
+    "textures\\dotweenpro_logo.png.meta": {
+      "time": 1772611434695.1924
+    },
+    "textures\\Footer.png.meta": {
+      "time": 1772611434701.191
+    },
+    "textures\\EmojiOne.png.meta": {
+      "time": 1772611434698.1912
+    },
+    "textures\\greenSquare.png.meta": {
+      "time": 1772611434707.1929
+    },
+    "textures\\Footer_dark.png.meta": {
+      "time": 1772611434705.193
+    },
+    "textures\\grid_bright.png.meta": {
+      "time": 1772611434712.1902
+    },
+    "textures\\grid_dark.png.meta": {
+      "time": 1772611434715.1914
+    },
+    "textures\\Header.jpg.meta": {
+      "time": 1772611434718.1907
+    },
+    "textures\\ico_alert.png.meta": {
+      "time": 1772611434725.8555
+    },
+    "textures\\ico_alignB.png.meta": {
+      "time": 1772611434722.8542
+    },
+    "textures\\ico_alignBC.png.meta": {
+      "time": 1772611434728.855
+    },
+    "textures\\ico_alignBL.png.meta": {
+      "time": 1772611434731.8552
+    },
+    "textures\\ico_alignCC.png.meta": {
+      "time": 1772611434742.8542
+    },
+    "textures\\ico_alignCL.png.meta": {
+      "time": 1772611434740.855
+    },
+    "textures\\ico_alignBR.png.meta": {
+      "time": 1772611434736.8555
+    },
+    "textures\\ico_alignCR.png.meta": {
+      "time": 1772611434750.8545
+    },
+    "textures\\ico_alignHC.png.meta": {
+      "time": 1772611434747.8547
+    },
+    "textures\\ico_alignL.png.meta": {
+      "time": 1772611434753.8545
+    },
+    "textures\\ico_alignT.png.meta": {
+      "time": 1772611434759.8555
+    },
+    "textures\\ico_alignR.png.meta": {
+      "time": 1772611434757.8567
+    },
+    "textures\\ico_alignTC.png.meta": {
+      "time": 1772611434764.8557
+    },
+    "textures\\ico_alignVC.png.meta": {
+      "time": 1772611434776.3672
+    },
+    "textures\\ico_alignTL.png.meta": {
+      "time": 1772611434766.8574
+    },
+    "textures\\ico_alignTR.png.meta": {
+      "time": 1772611434772.855
+    },
+    "textures\\ico_atlas.png.meta": {
+      "time": 1772611434778.368
+    },
+    "textures\\ico_audio.png.meta": {
+      "time": 1772611434784.369
+    },
+    "textures\\ico_camera.png.meta": {
+      "time": 1772611434788.3682
+    },
+    "textures\\ico_cog.png.meta": {
+      "time": 1772611434793.368
+    },
+    "textures\\ico_bundle.png.meta": {
+      "time": 1772611434782.3687
+    },
+    "textures\\ico_camera_border.png.meta": {
+      "time": 1772611434795.3672
+    },
+    "textures\\ico_cog_border.png.meta": {
+      "time": 1772611434803.368
+    },
+    "textures\\ico_cross.png.meta": {
+      "time": 1772611434810.3672
+    },
+    "textures\\ico_comment_border.png.meta": {
+      "time": 1772611434806.3687
+    },
+    "textures\\ico_demigiant.png.meta": {
+      "time": 1772611434818.3684
+    },
+    "textures\\ico_delete.png.meta": {
+      "time": 1772611434815.3677
+    },
+    "textures\\ico_comment.png.meta": {
+      "time": 1772611434801.369
+    },
+    "textures\\ico_distributeHAlignT.png.meta": {
+      "time": 1772611434821.3687
+    },
+    "textures\\ico_flipV.png.meta": {
+      "time": 1772611434839.3694
+    },
+    "textures\\ico_doing.png.meta": {
+      "time": 1772611434828.3677
+    },
+    "textures\\ico_end.png.meta": {
+      "time": 1772611434835.37
+    },
+    "textures\\ico_distributeVAlignL.png.meta": {
+      "time": 1772611434823.3667
+    },
+    "textures\\ico_foldout_open.png.meta": {
+      "time": 1772611434846.3672
+    },
+    "textures\\ico_foldout_closed.png.meta": {
+      "time": 1772611434842.3699
+    },
+    "textures\\ico_fonts.png.meta": {
+      "time": 1772611434852.3687
+    },
+    "textures\\ico_folder.png.meta": {
+      "time": 1772611434837.3684
+    },
+    "textures\\ico_heart.png.meta": {
+      "time": 1772611434854.3665
+    },
+    "textures\\ico_light.png.meta": {
+      "time": 1772611434858.3684
+    },
+    "textures\\ico_heart_border.png.meta": {
+      "time": 1772611434856.3667
+    },
+    "textures\\ico_lock.png.meta": {
+      "time": 1772611434870.3684
+    },
+    "textures\\ico_lock_open.png.meta": {
+      "time": 1772611434873.3684
+    },
+    "textures\\ico_light_border.png.meta": {
+      "time": 1772611434864.37
+    },
+    "textures\\ico_materials.png.meta": {
+      "time": 1772611434878.3684
+    },
+    "textures\\ico_models.png.meta": {
+      "time": 1772611434875.3694
+    },
+    "textures\\ico_optionsDropdown.png.meta": {
+      "time": 1772611434890.3682
+    },
+    "textures\\ico_ok.png.meta": {
+      "time": 1772611434888.3684
+    },
+    "textures\\ico_nodeArrow.png.meta": {
+      "time": 1772611434885.369
+    },
+    "textures\\ico_play.png.meta": {
+      "time": 1772611434895.3674
+    },
+    "textures\\ico_prefab.png.meta": {
+      "time": 1772611434903.3677
+    },
+    "textures\\ico_play_border.png.meta": {
+      "time": 1772611434905.368
+    },
+    "textures\\ico_scripts.png.meta": {
+      "time": 1772611434907.3687
+    },
+    "textures\\ico_particles.png.meta": {
+      "time": 1772611434893.3674
+    },
+    "textures\\ico_shaders.png.meta": {
+      "time": 1772611434910.367
+    },
+    "textures\\ico_skull_border.png.meta": {
+      "time": 1772611434919.3672
+    },
+    "textures\\ico_star_border.png.meta": {
+      "time": 1772611434922.3665
+    },
+    "textures\\ico_skull.png.meta": {
+      "time": 1772611434912.3674
+    },
+    "textures\\ico_star.png.meta": {
+      "time": 1772611434927.3682
+    },
+    "textures\\ico_terrains.png.meta": {
+      "time": 1772611434924.3684
+    },
+    "textures\\ico_ui.png.meta": {
+      "time": 1772611434938.3662
+    },
+    "textures\\ico_todo.png.meta": {
+      "time": 1772611434941.3684
+    },
+    "textures\\ico_textures.png.meta": {
+      "time": 1772611434930.3682
+    },
+    "textures\\ico_ui_border.png.meta": {
+      "time": 1772611434944.3677
+    },
+    "textures\\ico_visibility.png.meta": {
+      "time": 1772611434945.3694
+    },
+    "textures\\JinBi_01.png.meta": {
+      "time": 1772611434953.3672
+    },
+    "textures\\ico_visibility_off.png.meta": {
+      "time": 1772611434949.368
+    },
+    "textures\\NiuPai_1_BC.png.meta": {
+      "time": 1772611434959.3672
+    },
+    "textures\\muwenli.PNG.meta": {
+      "time": 1772611434963.3672
+    },
+    "textures\\NiuPai_1_BCN.png.meta": {
+      "time": 1772611434961.371
+    },
+    "textures\\orangeSquare.png.meta": {
+      "time": 1772611434971.366
+    },
+    "textures\\purpleSquare.png.meta": {
+      "time": 1772611434976.3696
+    },
+    "textures\\NiuPai_1_N.png.meta": {
+      "time": 1772611434967.3684
+    },
+    "textures\\redSquare.png.meta": {
+      "time": 1772611434978.3665
+    },
+    "textures\\RedShirt_Man_CM.jpg.meta": {
+      "time": 1772611434982.3682
+    },
+    "textures\\squareBorder.png.meta": {
+      "time": 1772611434985.3674
+    },
+    "textures\\squareBorderAlpha15.png.meta": {
+      "time": 1772611434988.3674
+    },
+    "textures\\squareBorderCurved.png.meta": {
+      "time": 1772611434993.3665
+    },
+    "textures\\squareBorderCurved02.png.meta": {
+      "time": 1772611434995.3677
+    },
+    "textures\\squareBorderCurved02_darkBorders.png.meta": {
+      "time": 1772611434997.368
+    },
+    "textures\\squareBorderCurvedAlpha.png.meta": {
+      "time": 1772611435001.367
+    },
+    "textures\\squareBorderCurvedEmpty.png.meta": {
+      "time": 1772611435005.3682
+    },
+    "textures\\squareBorderCurvedEmpty02.png.meta": {
+      "time": 1772611435007.3655
+    },
+    "textures\\squareBorderCurvedEmptyThick.png.meta": {
+      "time": 1772611435012.3684
+    },
+    "textures\\squareBorderCurved_darkBorders.png.meta": {
+      "time": 1772611435013.368
+    },
+    "textures\\squareBorderCurved_darkBordersAlpha.png.meta": {
+      "time": 1772611435019.3674
+    },
+    "textures\\squareBorderEmpty.png.meta": {
+      "time": 1772611435025.368
+    },
+    "textures\\squareBorderEmpty01.png.meta": {
+      "time": 1772611435027.3662
+    },
+    "textures\\squareBorderEmpty02.png.meta": {
+      "time": 1772611435029.3667
+    },
+    "textures\\squareBorderEmpty03.png.meta": {
+      "time": 1772611435028.3657
+    },
+    "textures\\squareBorderThickEmpty.png.meta": {
+      "time": 1772611435034.3662
+    },
+    "textures\\squareBorderThickerEmpty.png.meta": {
+      "time": 1772611435041.368
+    },
+    "textures\\squareCornersEmpty02.png.meta": {
+      "time": 1772611435044.368
+    },
+    "textures\\squareCorners03.png.meta": {
+      "time": 1772611435042.366
+    },
+    "textures\\tileBars_empty.png.meta": {
+      "time": 1772611435046.3667
+    },
+    "textures\\tileBars_slanted.png.meta": {
+      "time": 1772611435051.3696
+    },
+    "textures\\tileBars_slanted_alpha.png.meta": {
+      "time": 1772611435055.3706
+    },
+    "textures\\transparentSquare.png.meta": {
+      "time": 1772611435059.3672
+    },
+    "textures\\URP.png.meta": {
+      "time": 1772611435061.3667
+    },
+    "textures\\whiteDot.png.meta": {
+      "time": 1772611435062.3699
+    },
+    "textures\\whiteDot_darkBorder.png.meta": {
+      "time": 1772611435068.368
+    },
+    "textures\\whiteDot_whiteBorderAlpha.png.meta": {
+      "time": 1772611435073.3655
+    },
+    "textures\\whiteSquare.png.meta": {
+      "time": 1772611435075.3667
+    },
+    "textures\\whiteSquareAlpha10.png.meta": {
+      "time": 1772611435077.365
+    },
+    "textures\\whiteSquareAlpha15.png.meta": {
+      "time": 1772611435077.365
+    },
+    "textures\\whiteSquareAlpha25.png.meta": {
+      "time": 1772611435085.3667
+    },
+    "textures\\whiteSquareAlpha50.png.meta": {
+      "time": 1772611435090.3672
+    },
+    "textures\\whiteSquareAlpha80.png.meta": {
+      "time": 1772611435093.3672
+    },
+    "textures\\whiteSquareCurved.png.meta": {
+      "time": 1772611435103.3657
+    },
+    "textures\\whiteSquareCurved02.png.meta": {
+      "time": 1772611435094.368
+    },
+    "textures\\whiteSquare_fadeOut_bt.png.meta": {
+      "time": 1772611435108.367
+    },
+    "textures\\XiaoMai_1.tga.meta": {
+      "time": 1772611435112.3657
+    },
+    "textures\\yellowSquare.png.meta": {
+      "time": 1772611435115.3665
+    },
+    "textures\\xieshi_sangshi02_D.PNG.meta": {
+      "time": 1772611435120.3657
+    },
+    "textures\\人_BC.png.meta": {
+      "time": 1772611435117.3662
+    },
+    "textures\\人_BCN.png.meta": {
+      "time": 1772611435124.3662
+    },
+    "textures\\人_MS.png.meta": {
+      "time": 1772611435129.365
+    },
+    "textures\\仙人掌_1 1.png.meta": {
+      "time": 1772611435131.365
+    },
+    "textures\\人_N.png.meta": {
+      "time": 1772611435136.366
+    },
+    "textures\\仙人掌_1.png.meta": {
+      "time": 1772611435134.3657
+    },
+    "textures\\农民_棕_BC.png.meta": {
+      "time": 1772611435152.3672
+    },
+    "textures\\地块-增加售货员.png.meta": {
+      "time": 1772611435159.3662
+    },
+    "textures\\围栏_03.png.meta": {
+      "time": 1772611435160.3672
+    },
+    "textures\\围栏.psd.meta": {
+      "time": 1772611435165.8513
+    },
+    "textures\\地块框-绿.png.meta": {
+      "time": 1772611435163.1238
+    },
+    "textures\\地块框.png.meta": {
+      "time": 1772611435169.3645
+    },
+    "textures\\地扣01_BC.PNG.meta": {
+      "time": 1772611435175.367
+    },
+    "textures\\地扣02_BC 1.PNG.meta": {
+      "time": 1772611435183.3674
+    },
+    "textures\\地扣02_BC 2.PNG.meta": {
+      "time": 1772611435182.3662
+    },
+    "textures\\地扣02_BC 3.PNG.meta": {
+      "time": 1772611435190.3674
+    },
+    "textures\\地扣02_BC.PNG.meta": {
+      "time": 1772611435195.3677
+    },
+    "textures\\地面.png.meta": {
+      "time": 1772611435202.3645
+    },
+    "textures\\子弹.png.meta": {
+      "time": 1772611435203.3645
+    },
+    "textures\\对钩气泡.png.meta": {
+      "time": 1772611435207.3674
+    },
+    "textures\\小桌子.jpg.meta": {
+      "time": 1772611435214.8733
+    },
+    "textures\\工程僵尸_BC 1.png.meta": {
+      "time": 1772611435216.8713
+    },
+    "textures\\工程僵尸_BC.png.meta": {
+      "time": 1772611435219.8708
+    },
+    "textures\\底框.png.meta": {
+      "time": 1772611435225.8704
+    },
+    "textures\\引导箭头.png.meta": {
+      "time": 1772611435229.8726
+    },
+    "textures\\微信图片_20211021150605.png.meta": {
+      "time": 1772611435233.8704
+    },
+    "textures\\微信图片_20211021150614.png.meta": {
+      "time": 1772611435240.8706
+    },
+    "textures\\微信图片_20211021150619.png.meta": {
+      "time": 1772611435245.8706
+    },
+    "textures\\地扣04_BC 1.bmp.meta": {
+      "time": 1772611435243.8706
+    },
+    "textures\\手指.png.meta": {
+      "time": 1772611435249.87
+    },
+    "textures\\指引线 - 副本.png.meta": {
+      "time": 1772611435258.8706
+    },
+    "textures\\摇杆.png.meta": {
+      "time": 1772611435261.8723
+    },
+    "textures\\地扣04_BC.bmp.meta": {
+      "time": 1772611435255.87
+    },
+    "textures\\摇杆底.png.meta": {
+      "time": 1772611435263.87
+    },
+    "textures\\收银机.jpg.meta": {
+      "time": 1772611435267.8706
+    },
+    "textures\\斧子1.jpg.meta": {
+      "time": 1772611435272.8706
+    },
+    "textures\\木堆.PNG.meta": {
+      "time": 1772611435275.871
+    },
+    "textures\\松树.jpg.meta": {
+      "time": 1772611435279.8718
+    },
+    "textures\\松树02 1.PNG.meta": {
+      "time": 1772611435284.8716
+    },
+    "textures\\松树02.PNG.meta": {
+      "time": 1772611435292.8696
+    },
+    "textures\\木堆_N.PNG.meta": {
+      "time": 1772611435290.871
+    },
+    "textures\\枯树03.PNG.meta": {
+      "time": 1772611435303.8723
+    },
+    "textures\\气泡进度.png.meta": {
+      "time": 1772611435302.8718
+    },
+    "textures\\枯树桩.png.meta": {
+      "time": 1772611435298.8706
+    },
+    "textures\\流沙地表 1.PNG.meta": {
+      "time": 1772611435310.8704
+    },
+    "textures\\流沙_N.jpg.meta": {
+      "time": 1772611435321.87
+    },
+    "textures\\火车头.PNG.meta": {
+      "time": 1772611435317.8696
+    },
+    "textures\\流沙地表.PNG.meta": {
+      "time": 1772611435323.87
+    },
+    "textures\\灶台01.jpg.meta": {
+      "time": 1772611435319.8696
+    },
+    "textures\\灶台02_BC.jpg.meta": {
+      "time": 1772611435329.8718
+    },
+    "textures\\烤架_AO.png.meta": {
+      "time": 1772611435336.8699
+    },
+    "textures\\烤架_N.png.meta": {
+      "time": 1772611435343.8716
+    },
+    "textures\\烤架_BC.png.meta": {
+      "time": 1772611435340.8706
+    },
+    "textures\\电塔.png.meta": {
+      "time": 1772611435528.8694
+    },
+    "textures\\石墙03.PNG.meta": {
+      "time": 1772611435703.647
+    },
+    "textures\\箭塔BC 1.PNG.meta": {
+      "time": 1772611435708.647
+    },
+    "textures\\石头.psd.meta": {
+      "time": 1772611435733.344
+    },
+    "textures\\石头雪.psd.meta": {
+      "time": 1772611435752.3433
+    },
+    "textures\\箭塔底座BC.PNG.meta": {
+      "time": 1772611435746.3438
+    },
+    "textures\\箭塔底座BC 1.PNG.meta": {
+      "time": 1772611435726.645
+    },
+    "textures\\色卡02.png.meta": {
+      "time": 1772611435779.3445
+    },
+    "textures\\苦工_4.jpg.meta": {
+      "time": 1772611435790.3423
+    },
+    "textures\\组BC.PNG.meta": {
+      "time": 1772611435791.3425
+    },
+    "textures\\箭塔BC.PNG.meta": {
+      "time": 1772611435788.3442
+    },
+    "textures\\草.tga.meta": {
+      "time": 1772611435804.343
+    },
+    "textures\\草03BC.png.meta": {
+      "time": 1772611435801.342
+    },
+    "textures\\草帽NPC_2.jpg.meta": {
+      "time": 1772611435812.344
+    },
+    "textures\\萨格 1.png.meta": {
+      "time": 1772611435816.3435
+    },
+    "textures\\血条.png.meta": {
+      "time": 1772611435829.3435
+    },
+    "textures\\血条底.png.meta": {
+      "time": 1772611435833.343
+    },
+    "textures\\萨格.png.meta": {
+      "time": 1772611435817.3445
+    },
+    "textures\\警告边框.png.meta": {
+      "time": 1772611435840.3425
+    },
+    "textures\\货运列车01_BC.PNG.meta": {
+      "time": 1772611435844.3447
+    },
+    "textures\\车01.jpg.meta": {
+      "time": 1772611435850.3445
+    },
+    "textures\\车03.JPG.meta": {
+      "time": 1772611435853.3428
+    },
+    "textures\\车厢.PNG.meta": {
+      "time": 1772611435855.3423
+    },
+    "textures\\金币.png.meta": {
+      "time": 1772611435880.9678
+    },
+    "textures\\通用贴图.PNG.meta": {
+      "time": 1772611435888.9683
+    },
+    "textures\\锯片颜色.jpg.meta": {
+      "time": 1772611435886.9695
+    },
+    "textures\\门02.jpg.meta": {
+      "time": 1772611435883.968
+    },
+    "textures\\雾.tga.meta": {
+      "time": 1772611435893.9692
+    },
+    "textures\\骆驼_BC.png.meta": {
+      "time": 1772611435903.9683
+    },
+    "textures\\骆驼_BCN.png.meta": {
+      "time": 1772611435905.9678
+    },
+    "textures\\骆驼_MS.png.meta": {
+      "time": 1772611435906.9685
+    },
+    "textures\\食桌01N.PNG.meta": {
+      "time": 1772611435908.9688
+    },
+    "A-texiao\\mat\\glow-add-001.mtl.meta": {
+      "time": 1773979776132.4934
+    },
+    "沙漠火车收割\\沙漠火车收割.scene.meta": {
+      "time": 1772734391391.1526
+    },
+    "A-texiao\\Fab\\shengji.prefab.meta": {
+      "time": 1773979776129.7122
+    },
+    "A-texiao\\mat\\glow-add-yuan-001.mtl.meta": {
+      "time": 1773979776135.2793
+    },
+    "textures\\骆驼_N.png.meta": {
+      "time": 1772611435909.9683
+    },
+    "A-texiao\\mat\\glow-add-yuan.mtl.meta": {
+      "time": 1773979776134.0447
+    },
+    "A-texiao\\mat\\glow-blend.mtl.meta": {
+      "time": 1773979776136.8008
+    },
+    "A-texiao\\mat\\sji-yuan-add.mtl.meta": {
+      "time": 1773979776139.888
+    },
+    "A-texiao\\mat\\jiantou-add.mtl.meta": {
+      "time": 1773979776138.3584
+    },
+    "A-texiao\\mat\\sji-yuan.mtl.meta": {
+      "time": 1773979776138.3584
+    },
+    "A-texiao\\mat\\spark-add.mtl.meta": {
+      "time": 1773979776141.4177
+    },
+    "A-texiao\\mat\\star-add.mtl.meta": {
+      "time": 1773979776142.9407
+    },
+    "A-texiao\\tex\\glow_wx_05.png.meta": {
+      "time": 1773979776150.3545
+    },
+    "A-texiao\\tex\\Glow_CPgt_wlt_059.png.meta": {
+      "time": 1773979776148.2566
+    },
+    "A-texiao\\tex\\glow_wjf_014.png.meta": {
+      "time": 1773979776148.759
+    },
+    "A-texiao\\tex\\jiantou_key_001.png.meta": {
+      "time": 1773979776150.3545
+    },
+    "A-texiao\\tex\\Tex_Glow_03.PNG.png.meta": {
+      "time": 1773979776153.0159
+    },
+    "A-texiao\\tex\\star.png.meta": {
+      "time": 1773979776152.4026
+    },
+    "A-texiao\\tex\\trail_CPxs_kx_038 - 副本.png.meta": {
+      "time": 1773979776153.0159
+    },
+    "A-texiao\\mech\\yuan-huan.FBX.meta": {
+      "time": 1773979782293.0183
+    },
+    "Art\\Mat\\chuansong.mtl.meta": {
+      "time": 1773819306466.48
+    },
+    "Art\\Mat\\mu01.mtl.meta": {
+      "time": 1773721409706.312
+    },
+    "Art\\Material\\baoshi.mtl.meta": {
+      "time": 1773575426929.0762
+    },
+    "Art\\Material\\jibi.mtl.meta": {
+      "time": 1773614709156.3337
+    },
+    "Art\\Pre\\chuansongdai.prefab.meta": {
+      "time": 1773819306469.4963
+    },
+    "Art\\Fbx\\BaoShiA.fbx.meta": {
+      "time": 1773575433139.5405
+    },
+    "Art\\Fbx\\chuansongdai.FBX.meta": {
+      "time": 1773819313303.695
+    },
+    "Art\\Fbx\\JinBiPD.fbx.meta": {
+      "time": 1773614716860.1533
+    },
+    "Art\\Pre\\mu01.prefab.meta": {
+      "time": 1773721409708.3115
+    },
+    "Art\\Prefab\\JinBiPD.prefab.meta": {
+      "time": 1773614709164.352
+    },
+    "Art\\Fbx\\mu01.FBX.meta": {
+      "time": 1773721416225.4014
+    },
+    "Art\\Pre\\mu01_2.prefab.meta": {
+      "time": 1773721409709.3115
+    },
+    "cocos_effect\\Materials\\glow01.mtl.meta": {
+      "time": 1774238027132.8018
+    },
+    "cocos_effect\\Materials\\glow01_alpha.mtl.meta": {
+      "time": 1773908773197.4978
+    },
+    "cocos_effect\\Materials\\lizi00.mtl.meta": {
+      "time": 1773996413843.3022
+    },
+    "cocos_effect\\Materials\\lizi01.mtl.meta": {
+      "time": 1774238027134.8015
+    },
+    "cocos_effect\\Materials\\quan60.mtl.meta": {
+      "time": 1773996413844.307
+    },
+    "cocos_effect\\Materials\\quan66.mtl.meta": {
+      "time": 1773996413845.4087
+    },
+    "Art\\Tex\\1_di_JB_D.jpg.meta": {
+      "time": 1773614709167.6018
+    },
+    "cocos_effect\\Materials\\shuidi02.mtl.meta": {
+      "time": 1773908773199.635
+    },
+    "cocos_effect\\Materials\\smoke01.mtl.meta": {
+      "time": 1773996413847.0925
+    },
+    "Art\\Tex\\color_qian.png.meta": {
+      "time": 1773721409711.312
+    },
+    "cocos_effect\\Materials\\smoke22.mtl.meta": {
+      "time": 1773996413847.0925
+    },
+    "Art\\Tex\\BS_D.jpg.meta": {
+      "time": 1773575426931.018
+    },
+    "cocos_effect\\Materials\\xulie_huo01_4x4.mtl.meta": {
+      "time": 1774238027136.8015
+    },
+    "cocos_effect\\Materials\\xulie_juchi01_1x4_2.mtl.meta": {
+      "time": 1773908773201.9993
+    },
+    "cocos_effect\\Materials\\xulie_juchi01_1x4.mtl.meta": {
+      "time": 1773908773200.6326
+    },
+    "cocos_effect\\Materials\\xulie_shandian41_1x4_2.mtl.meta": {
+      "time": 1773908773202.9985
+    },
+    "cocos_effect\\Materials\\xulie_shitou07_2x2.mtl.meta": {
+      "time": 1773996413848.6348
+    },
+    "cocos_effect\\Materials\\xulie_shui01_3x3.mtl.meta": {
+      "time": 1773908773203.9985
+    },
+    "cocos_effect\\Materials\\xulie_suikuai01_4x4.mtl.meta": {
+      "time": 1773908773204.9983
+    },
+    "cocos_effect\\Prefab\\命中_喷血01_2.prefab.meta": {
+      "time": 1773908773209.0002
+    },
+    "cocos_effect\\Prefab\\地面_沙漠_钻出01.prefab.meta": {
+      "time": 1773996413851.69
+    },
+    "cocos_effect\\Prefab\\烤炉烟火01.prefab.meta": {
+      "time": 1774238027138.8015
+    },
+    "cocos_effect\\Prefab\\锯片01.prefab.meta": {
+      "time": 1773908773210.5056
+    },
+    "cocos_effect\\Prefab\\锯片02.prefab.meta": {
+      "time": 1773908773213.5205
+    },
+    "cocos_effect\\Textures\\glow01.png.meta": {
+      "time": 1773908773215.5823
+    },
+    "cocos_effect\\Textures\\lizi00.png.meta": {
+      "time": 1773996413853.225
+    },
+    "cocos_effect\\Textures\\lizi01.png.meta": {
+      "time": 1774238027141.8267
+    },
+    "cocos_effect\\Textures\\quan60.png.meta": {
+      "time": 1773996413855.9048
+    },
+    "cocos_effect\\Textures\\shuidi02.png.meta": {
+      "time": 1773908773218.0977
+    },
+    "cocos_effect\\Textures\\quan66.png.meta": {
+      "time": 1773996413857.435
+    },
+    "cocos_effect\\Textures\\smoke01.png.meta": {
+      "time": 1773996413857.435
+    },
+    "cocos_effect\\Textures\\smoke22.png.meta": {
+      "time": 1773996413858.9673
+    },
+    "cocos_effect\\Textures\\xulie_huo01_4x4.png.meta": {
+      "time": 1774238027144.8286
+    },
+    "cocos_effect\\Textures\\xulie_juchi01_1x4.png.meta": {
+      "time": 1773908773219.1
+    },
+    "cocos_effect\\Textures\\xulie_shitou07_2x2.png.meta": {
+      "time": 1773996413859.9712
+    },
+    "cocos_effect\\Textures\\xulie_shandian41_1x4_2.png.meta": {
+      "time": 1773908773222.651
+    },
+    "cocos_effect\\Textures\\xulie_shui01_3x3.png.meta": {
+      "time": 1773908773223.65
+    },
+    "Game\\Mat\\zhuozi.mtl.meta": {
+      "time": 1773686086967.0017
+    },
+    "cocos_effect\\Textures\\xulie_suikuai01_4x4.png.meta": {
+      "time": 1773908773224.6511
+    },
+    "Game\\Pre\\table_small.prefab.meta": {
+      "time": 1773686086969.0017
+    },
+    "GameRes\\Anim\\arr.anim.meta": {
+      "time": 1773831950633.8943
+    },
+    "Game\\Tex\\xiong_taizi.jpg.meta": {
+      "time": 1773686086971.0012
+    },
+    "GameRes\\Anim\\JoystickAni.anim.meta": {
+      "time": 1773370596180.113
+    },
+    "cocos_effect\\Models\\fbx_jupian01.fbx.meta": {
+      "time": 1773908773207.0005
+    },
+    "GameRes\\Material\\MaterSprite2D.mtl.meta": {
+      "time": 1773395891918.6826
+    },
+    "GameRes\\Font\\PASSIONONE-REGULAR.TTF.meta": {
+      "time": 1773370590368.7205
+    },
+    "GameRes\\Prefabs\\Arraw.prefab.meta": {
+      "time": 1773620125990.2507
+    },
+    "GameRes\\Prefabs\\CoinContatiner.prefab.meta": {
+      "time": 1773395891921.6748
+    },
+    "GameRes\\Prefabs\\DropItemCoin.prefab.meta": {
+      "time": 1773614709170.7278
+    },
+    "GameRes\\Prefabs\\DropItemCornKernel.prefab.meta": {
+      "time": 1773577209140.2583
+    },
+    "cocos_effect\\Models\\fbx_jupian02.fbx.meta": {
+      "time": 1773908773207.9988
+    },
+    "GameRes\\Prefabs\\DropItemFlatbread.prefab.meta": {
+      "time": 1773613349118.057
+    },
+    "GameRes\\Prefabs\\DropItemWood.prefab.meta": {
+      "time": 1773575426934.0205
+    },
+    "GameRes\\Prefabs\\GuideManager.prefab.meta": {
+      "time": 1773831944939.309
+    },
+    "GameRes\\Prefabs\\UI_Canvas.prefab.meta": {
+      "time": 1773370590405.4546
+    },
+    "GameRes\\Prefabs\\UnlockItem.prefab.meta": {
+      "time": 1773618109383.4055
+    },
+    "GameRes\\UI2D\\arraw.png.meta": {
+      "time": 1773839067304.717
+    },
+    "GameRes\\UI2D\\arrow.png.meta": {
+      "time": 1773620125992.253
+    },
+    "GameRes\\UI2D\\bg.png.meta": {
+      "time": 1773618109385.4026
+    },
+    "GameRes\\UI2D\\box.png.meta": {
+      "time": 1773395891923.6746
+    },
+    "GameRes\\UI2D\\fg.png.meta": {
+      "time": 1773618109386.4028
+    },
+    "GameRes\\UI2D\\hhh.png.meta": {
+      "time": 1773485524107.6597
+    },
+    "GameRes\\UI2D\\img_shakeRed.png.meta": {
+      "time": 1766746587030.6416
+    },
+    "GameRes\\UI2D\\jinbi.png.meta": {
+      "time": 1773370590414.4548
+    },
+    "Game\\FBX\\table_small.fbx.meta": {
+      "time": 1773686086964.0015
+    },
+    "GameRes\\UI2D\\pop.png.meta": {
+      "time": 1773485524110.661
+    },
+    "GameRes\\UI2D\\q箭头绿.png.meta": {
+      "time": 1773831944941.8347
+    },
+    "GameRes\\UI2D\\spl.png.meta": {
+      "time": 1773370590416.4558
+    },
+    "GameRes\\UI2D\\topBar.png.meta": {
+      "time": 1773370590418.455
+    },
+    "GameRes\\UI2D\\图层 49.png.meta": {
+      "time": 1773485524111.661
+    },
+    "GameRes\\UI2D\\引导.png.meta": {
+      "time": 1773370590419.4548
+    },
+    "GameRes\\UI2D\\工人.png.meta": {
+      "time": 1773618109389.402
+    },
+    "GameRes\\UI2D\\生气.png.meta": {
+      "time": 1773485524112.6602
+    },
+    "GameRes\\Fbx\\JianTou.fbx.meta": {
+      "time": 1773837818692.475
+    },
+    "GameRes\\UI2D\\生肉.png.meta": {
+      "time": 1773370590420.4553
+    },
+    "GameRes\\UI2D\\血条值.png.meta": {
+      "time": 1773621520714.5657
+    },
+    "GameRes\\UI2D\\矿石.png.meta": {
+      "time": 1773370590422.4546
+    },
+    "GameRes\\UI2D\\血条框.png.meta": {
+      "time": 1773621520721.5684
+    },
+    "GameRes\\UI2D\\黑底线框.png.meta": {
+      "time": 1773459614832.339
+    },
+    "resources\\audio\\BGM.mp3.meta": {
+      "time": 1774003980578.1377
+    },
+    "resources\\audio\\GetRes.mp3.meta": {
+      "time": 1774003980573.609
+    },
+    "resources\\audio\\gold.mp3.meta": {
+      "time": 1774003980575.1167
+    },
+    "resources\\audio\\hit.mp3.meta": {
+      "time": 1774003980575.1167
+    },
+    "resources\\audio\\SetRes.mp3.meta": {
+      "time": 1774003980578.1377
+    },
+    "resources\\audio\\UPLV.mp3.meta": {
+      "time": 1774003980590.5688
+    },
+    "resources\\audio\\Win.mp3.meta": {
+      "time": 1774003980589.1858
+    },
+    "resources\\audio\\ye.mp3.meta": {
+      "time": 1774003980592.0918
+    },
+    "resources\\audio\\射箭.mp3.meta": {
+      "time": 1774003980593.6035
+    },
+    "resources\\audio\\烘烤.mp3.meta": {
+      "time": 1774349794051.7327
+    },
+    "resources\\audio\\电锯.mp3.meta": {
+      "time": 1774003980593.0984
+    },
+    "NPC_FBX(1)\\NPC_FBX\\npc_youyong_idle.fbx.meta": {
+      "time": 1773485530807.0293
+    },
+    "NPC_FBX(1)\\NPC_FBX\\npc_xiangqianyou.fbx.meta": {
+      "time": 1773485530834.1653
+    },
+    "沙漠火车收割\\Models\\仙人掌_1.fbx.meta": {
+      "time": 1773058147571.5156
+    },
+    "沙漠火车收割\\Models\\仙人掌_2.fbx.meta": {
+      "time": 1773058147573.5176
+    },
+    "NPC_FBX(1)\\NPC_FBX\\npc_skin.fbx.meta": {
+      "time": 1773485530954.6753
+    },
+    "沙漠火车收割\\Models\\小桌子.FBX.meta": {
+      "time": 1773058147684.516
+    },
+    "沙漠火车收割\\Models\\围栏_A.FBX.meta": {
+      "time": 1773058147607.518
+    },
+    "沙漠火车收割\\Models\\收银机.fbx.meta": {
+      "time": 1773058147713.519
+    },
+    "沙漠火车收割\\Models\\拖车01.FBX.meta": {
+      "time": 1773058147847.5173
+    },
+    "沙漠火车收割\\Models\\木堆.FBX.meta": {
+      "time": 1773058147835.5156
+    },
+    "沙漠火车收割\\Models\\树.fbx.meta": {
+      "time": 1774005582446.368
+    },
+    "沙漠火车收割\\Models\\灶台.fbx.meta": {
+      "time": 1773058147915.5178
+    },
+    "沙漠火车收割\\Models\\烤架001.fbx.meta": {
+      "time": 1773058147945.5151
+    },
+    "沙漠火车收割\\Models\\石头.FBX.meta": {
+      "time": 1773058148032.517
+    },
+    "沙漠火车收割\\Models\\电塔.FBX.meta": {
+      "time": 1773058148028.5188
+    },
+    "沙漠火车收割\\Models\\货运列车_拖车.fbx.meta": {
+      "time": 1773058148238.7778
+    },
+    "沙漠火车收割\\Models\\草.FBX.meta": {
+      "time": 1773058148291.7766
+    },
+    "沙漠火车收割\\Models\\箭塔.fbx.meta": {
+      "time": 1773058148127.7783
+    },
+    "沙漠火车收割\\Models\\车头.FBX.meta": {
+      "time": 1773058148385.7773
+    },
+    "沙漠火车收割\\Models\\铁轨弯.FBX.meta": {
+      "time": 1773058148393.7769
+    },
+    "沙漠火车收割\\Models\\铁轨短.FBX.meta": {
+      "time": 1773058148428.777
+    },
+    "沙漠火车收割\\Models\\车03.FBX.meta": {
+      "time": 1773058148451.364
+    },
+    "沙漠火车收割\\Mtl\\bing.mtl.meta": {
+      "time": 1773896540451.1982
+    },
+    "沙漠火车收割\\Mtl\\lanse.mtl.meta": {
+      "time": 1772786919166.6414
+    },
+    "沙漠火车收割\\Mtl\\zhongxindiban.mtl.meta": {
+      "time": 1772779121881.7446
+    },
+    "沙漠火车收割\\Mtl\\zise.mtl.meta": {
+      "time": 1773140070690.1047
+    },
+    "沙漠火车收割\\Mtl\\仙人掌.mtl.meta": {
+      "time": 1772869038728.9475
+    },
+    "沙漠火车收割\\Models\\锯片001.fbx.meta": {
+      "time": 1773058148566.3647
+    },
+    "沙漠火车收割\\Mtl\\围栏-03.mtl.meta": {
+      "time": 1772782964881.6003
+    },
+    "沙漠火车收割\\Mtl\\底色.mtl.meta": {
+      "time": 1772905433170.2798
+    },
+    "沙漠火车收割\\Mtl\\拖车01.mtl.meta": {
+      "time": 1772786806396.3054
+    },
+    "沙漠火车收割\\Mtl\\收银机.mtl.meta": {
+      "time": 1772783686065.125
+    },
+    "沙漠火车收割\\Mtl\\木堆.mtl.meta": {
+      "time": 1772870684587.5984
+    },
+    "沙漠火车收割\\Mtl\\树_BC.mtl.meta": {
+      "time": 1772733460874.6887
+    },
+    "沙漠火车收割\\Mtl\\桌子.mtl.meta": {
+      "time": 1772779344627.315
+    },
+    "沙漠火车收割\\Mtl\\流沙地表.mtl.meta": {
+      "time": 1772904598692.2961
+    },
+    "沙漠火车收割\\Mtl\\火车头.mtl.meta": {
+      "time": 1772908473415.2725
+    },
+    "沙漠火车收割\\Mtl\\灶台02.mtl.meta": {
+      "time": 1772905736217.4854
+    },
+    "沙漠火车收割\\Mtl\\烧烤架.mtl.meta": {
+      "time": 1772906272874.7498
+    },
+    "沙漠火车收割\\Mtl\\电塔.mtl.meta": {
+      "time": 1772909359158.9192
+    },
+    "沙漠火车收割\\Mtl\\石头.mtl.meta": {
+      "time": 1772871069699.6519
+    },
+    "沙漠火车收割\\Mtl\\箭塔.mtl.meta": {
+      "time": 1772779624439.9734
+    },
+    "沙漠火车收割\\Mtl\\箭塔底座BC.mtl.meta": {
+      "time": 1772779459068.8623
+    },
+    "沙漠火车收割\\Mtl\\色卡02.mtl.meta": {
+      "time": 1772780045878.656
+    },
+    "沙漠火车收割\\Mtl\\草-001.mtl.meta": {
+      "time": 1772902130308.1758
+    },
+    "沙漠火车收割\\Mtl\\草.mtl.meta": {
+      "time": 1772870353593.4116
+    },
+    "沙漠火车收割\\Mtl\\货运列车01_BC.mtl.meta": {
+      "time": 1772870000273.8787
+    },
+    "沙漠火车收割\\Mtl\\车01.mtl.meta": {
+      "time": 1772784928196.269
+    },
+    "沙漠火车收割\\Mtl\\车03.mtl.meta": {
+      "time": 1772785548625.938
+    },
+    "沙漠火车收割\\Mtl\\车04.mtl.meta": {
+      "time": 1773140070692.1118
+    },
+    "沙漠火车收割\\Mtl\\锯片颜色.mtl.meta": {
+      "time": 1772784831966.0378
+    },
+    "沙漠火车收割\\Mtl\\锯片颜色zise.mtl.meta": {
+      "time": 1773140070693.112
+    },
+    "沙漠火车收割\\Mtl\\门02.mtl.meta": {
+      "time": 1772907984869.2578
+    },
+    "沙漠火车收割\\Mtl\\麦子_BC.mtl.meta": {
+      "time": 1772730171882.4026
+    },
+    "沙漠火车收割\\Prefab\\maizikuai.prefab.meta": {
+      "time": 1772733150025.464
+    },
+    "沙漠火车收割\\Prefab\\sangshi02.prefab.meta": {
+      "time": 1773140070694.112
+    },
+    "沙漠火车收割\\Prefab\\主角.prefab.meta": {
+      "time": 1773140070695.1118
+    },
+    "沙漠火车收割\\Models\\门02.fbx.meta": {
+      "time": 1773058148606.3645
+    },
+    "沙漠火车收割\\Prefab\\仙人掌_1.prefab.meta": {
+      "time": 1772869321924.0764
+    },
+    "沙漠火车收割\\Prefab\\仙人掌_2.prefab.meta": {
+      "time": 1772869321964.5398
+    },
+    "沙漠火车收割\\Prefab\\拖车01.prefab.meta": {
+      "time": 1772787108677.056
+    },
+    "沙漠火车收割\\Prefab\\围栏_A.prefab.meta": {
+      "time": 1772725277628.7883
+    },
+    "沙漠火车收割\\Models\\麦子.fbx.meta": {
+      "time": 1772908676559.411
+    },
+    "沙漠火车收割\\Prefab\\树.prefab.meta": {
+      "time": 1772733533730.3457
+    },
+    "沙漠火车收割\\Prefab\\石头.prefab.meta": {
+      "time": 1772871201139.9563
+    },
+    "沙漠火车收割\\Prefab\\箭塔.prefab.meta": {
+      "time": 1772727975948.7173
+    },
+    "沙漠火车收割\\Prefab\\草.prefab.meta": {
+      "time": 1772870448085.5312
+    },
+    "沙漠火车收割\\Prefab\\车03.prefab.meta": {
+      "time": 1773140070695.1118
+    },
+    "沙漠火车收割\\Prefab\\铁轨弯.prefab.meta": {
+      "time": 1772780245078.436
+    },
+    "沙漠火车收割\\Prefab\\铁轨短.prefab.meta": {
+      "time": 1772780245020.2073
+    },
+    "沙漠火车收割\\Prefab\\锯片1.prefab.meta": {
+      "time": 1773140070696.1118
+    },
+    "沙漠火车收割\\Prefab\\锯片2.prefab.meta": {
+      "time": 1773140070696.1118
+    },
+    "沙漠火车收割\\Prefab\\麦子.prefab.meta": {
+      "time": 1772730403865.1501
+    },
+    "沙漠火车收割\\Prefab\\锯片3.prefab.meta": {
+      "time": 1773140070697.1118
+    },
+    "沙漠火车收割\\Textures\\仙人掌_1.png.meta": {
+      "time": 1773058148901.529
+    },
+    "沙漠火车收割\\Textures\\地扣02_BC 2.PNG.meta": {
+      "time": 1773058148909.5305
+    },
+    "沙漠火车收割\\Textures\\围栏_03.png.meta": {
+      "time": 1773058148909.5305
+    },
+    "沙漠火车收割\\Textures\\小桌子.jpg.meta": {
+      "time": 1773058148906.5308
+    },
+    "沙漠火车收割\\Textures\\收银机.jpg.meta": {
+      "time": 1773058148908.531
+    },
+    "沙漠火车收割\\Textures\\木堆.PNG.meta": {
+      "time": 1773058148916.5295
+    },
+    "沙漠火车收割\\Textures\\树_BC.png.meta": {
+      "time": 1772730106493.0696
+    },
+    "沙漠火车收割\\Textures\\流沙地表.PNG.meta": {
+      "time": 1773058148922.532
+    },
+    "沙漠火车收割\\Textures\\火车头.PNG.meta": {
+      "time": 1773058148920.53
+    },
+    "沙漠火车收割\\Textures\\灶台02_BC.jpg.meta": {
+      "time": 1773058148921.5293
+    },
+    "沙漠火车收割\\Textures\\烤架_BC.png.meta": {
+      "time": 1773058149018.5303
+    },
+    "沙漠火车收割\\Textures\\电塔.png.meta": {
+      "time": 1773058149024.532
+    },
+    "沙漠火车收割\\Textures\\石墙03.PNG.meta": {
+      "time": 1773140070707.1064
+    },
+    "沙漠火车收割\\Textures\\箭塔BC 1.PNG.meta": {
+      "time": 1773058149033.5298
+    },
+    "沙漠火车收割\\Textures\\箭塔底座BC.PNG.meta": {
+      "time": 1773058149032.532
+    },
+    "沙漠火车收割\\Textures\\色卡02.png.meta": {
+      "time": 1773058149046.531
+    },
+    "沙漠火车收割\\Textures\\石头.psd.meta": {
+      "time": 1773058149048.5327
+    },
+    "沙漠火车收割\\Textures\\货运列车01_BC.PNG.meta": {
+      "time": 1773058149050.5322
+    },
+    "沙漠火车收割\\Textures\\草.tga.meta": {
+      "time": 1773058149055.5305
+    },
+    "沙漠火车收割\\Textures\\车01.jpg.meta": {
+      "time": 1773058149052.5295
+    },
+    "沙漠火车收割\\Textures\\车03.JPG.meta": {
+      "time": 1773058149060.5317
+    },
+    "沙漠火车收割\\Textures\\车04.png.meta": {
+      "time": 1773140070708.1067
+    },
+    "沙漠火车收割\\Textures\\锯片颜色.jpg.meta": {
+      "time": 1773058149062.531
+    },
+    "沙漠火车收割\\Textures\\锯片颜色zise.png.meta": {
+      "time": 1773140070708.1067
+    },
+    "沙漠火车收割\\Textures\\门02.jpg.meta": {
+      "time": 1773058149067.5315
+    },
+    "沙漠火车收割\\zhujue\\Axe00_diff.jpg.meta": {
+      "time": 1772976581367.0007
+    },
+    "沙漠火车收割\\Textures\\麦子_BC.png.meta": {
+      "time": 1772730106491.832
+    },
+    "沙漠火车收割\\zhujue\\主角.txt.meta": {
+      "time": 1773050683553.4177
+    },
+    "沙漠火车收割\\zhujue\\RedShirt_Man_CM.jpg.meta": {
+      "time": 1772976581369.098
+    },
+    "沙漠火车收割\\丧尸\\73773b6f324db3c6c8d67fd41e501dec.jpg.meta": {
+      "time": 1773680596833.482
+    },
+    "沙漠火车收割\\丧尸\\xieshi_sangshi02_D-001.mtl.meta": {
+      "time": 1773680607901.762
+    },
+    "沙漠火车收割\\Models\\锯片002.fbx.meta": {
+      "time": 1773140070690.1047
+    },
+    "沙漠火车收割\\丧尸\\xieshi_sangshi02_D.mtl.meta": {
+      "time": 1773140070709.1067
+    },
+    "沙漠火车收割\\丧尸\\xieshi_sangshi02_D.PNG.meta": {
+      "time": 1772976581371.112
+    },
+    "沙漠火车收割\\丧尸\\僵尸.txt.meta": {
+      "time": 1774008377109.849
+    },
+    "沙漠火车收割\\丧尸\\sangshi02.fbx.meta": {
+      "time": 1772977346997.2039
+    },
+    "沙漠火车收割\\主角\\1.mtl.meta": {
+      "time": 1773053820034.8896
+    },
+    "沙漠火车收割\\主角\\2.mtl.meta": {
+      "time": 1773053821519.6978
+    },
+    "沙漠火车收割\\主角\\3.mtl.meta": {
+      "time": 1773053822954.8945
+    },
+    "沙漠火车收割\\主角\\internal.jpg.meta": {
+      "time": 1773054219603.677
+    },
+    "沙漠火车收割\\丧尸\\僵尸@钻出(2).fbx.meta": {
+      "time": 1774009466520.8474
+    },
+    "沙漠火车收割\\zhujue\\主角.fbx.meta": {
+      "time": 1773050832726.4453
+    },
+    "沙漠火车收割\\商人和骆驼\\人_BC.mtl.meta": {
+      "time": 1773055410142.5452
+    },
+    "沙漠火车收割\\主角\\微信图片_20260309182144_631_471.jpg.meta": {
+      "time": 1773053734253.8208
+    },
+    "沙漠火车收割\\商人和骆驼\\人_BC.png.meta": {
+      "time": 1773055368320.4067
+    },
+    "沙漠火车收割\\商人和骆驼\\骆驼_BC.mtl.meta": {
+      "time": 1773055402199.2249
+    },
+    "沙漠火车收割\\商人和骆驼\\骆驼_BC.png.meta": {
+      "time": 1773055368312.943
+    },
+    "沙漠火车收割\\zhujue\\RedShirt_Man.fbx.meta": {
+      "time": 1772977054526.7769
+    },
+    "沙漠火车收割\\小麦\\小麦卷.mtl.meta": {
+      "time": 1773896540452.198
+    },
+    "沙漠火车收割\\小麦\\小麦卷.FBX.meta": {
+      "time": 1773974528094.9265
+    },
+    "沙漠火车收割\\小麦\\小麦卷01_BC.jpg.meta": {
+      "time": 1773683812193.48
+    },
+    "沙漠火车收割\\小麦\\小麦卷02_BC.jpg.meta": {
+      "time": 1773683812191.4788
+    },
+    "沙漠火车收割\\披萨\\披萨01_BC.png.meta": {
+      "time": 1773685246113.945
+    },
+    "沙漠火车收割\\主角\\主角.fbx.meta": {
+      "time": 1773371213197.4143
+    },
+    "沙漠火车收割\\沙漠火车\\emoji着急.png.meta": {
+      "time": 1773680296566.2817
+    },
+    "沙漠火车收割\\沙漠火车\\emoji美味表情.png.meta": {
+      "time": 1773680296567.2827
+    },
+    "沙漠火车收割\\沙漠火车\\emo饥饿.png.meta": {
+      "time": 1773680296569.283
+    },
+    "GameRes\\Image\\img\\img_arrow_1.png.meta": {
+      "time": 1773837818699.9485
+    },
+    "GameRes\\Image\\img\\imf_jjiantou.png.meta": {
+      "time": 1773837818698.3796
+    },
+    "GameRes\\Prefabs\\Role\\Customer.prefab.meta": {
+      "time": 1773485524105.66
+    },
+    "GameRes\\Prefabs\\Role\\enemy_1.prefab.meta": {
+      "time": 1773621520712.566
+    },
+    "GameRes\\UI2D\\GeneralUI\\joystickPint.png.meta": {
+      "time": 1773370590409.4548
+    },
+    "GameRes\\UI2D\\GeneralUI\\joystickBack.png.meta": {
+      "time": 1773370590408.4553
+    },
+    "沙漠火车收割\\丧尸\\僵尸.fbx.meta": {
+      "time": 1774008600399.5325
+    },
+    "GameRes\\UI2D\\Logo\\韩语LOGO.png.meta": {
+      "time": 1773370590413.4546
+    },
+    "GameRes\\ydsx_map\\mtl\\jianta_02.mtl.meta": {
+      "time": 1773620125997.2478
+    },
+    "GameRes\\UI2D\\Logo\\LOGO11.webp.meta": {
+      "time": 1773370590412.4546
+    },
+    "Res\\Eff\\guide\\guide_line.mtl.meta": {
+      "time": 1773831944945.856
+    },
+    "沙漠火车收割\\披萨\\披萨01.FBX.meta": {
+      "time": 1773974536807.1921
+    },
+    "Scripts\\Main\\Building\\pop-002.prefab.meta": {
+      "time": 1765423811244.1199
+    },
+    "GameRes\\ydsx_map\\tableundefined\\SSD_S_T_JianTa_C.png.meta": {
+      "time": 1773620125999.2476
+    },
+    "杀鱼获肉\\杀鱼获肉\\鲨鱼_FBX\\shayu.jpg.meta": {
+      "time": 1773621520725.5667
+    },
+    "GameRes\\ydsx_map\\FBX\\jianta.fbx.meta": {
+      "time": 1773620131735.2778
+    },
+    "杀鱼获肉\\杀鱼获肉\\鲨鱼_FBX\\shayu_attack.fbx.meta": {
+      "time": 1773621526174.862
+    },
+    "杀鱼获肉\\杀鱼获肉\\鲨鱼_FBX\\shayu_idle.fbx.meta": {
+      "time": 1773621526184.9946
+    },
+    "杀鱼获肉\\杀鱼获肉\\鲨鱼_FBX\\shayu_die.fbx.meta": {
+      "time": 1773621526169.9233
+    },
+    "沙漠火车收割\\zhujue\\Materials\\Axe00_diff.mat.meta": {
+      "time": 1772976581375.151
+    },
+    "沙漠火车收割\\zhujue\\Materials\\Hammer.mat.meta": {
+      "time": 1772976581376.8171
+    },
+    "沙漠火车收割\\zhujue\\Materials\\RedShirt_Man_CM.mat.meta": {
+      "time": 1772976581381.0464
+    },
+    "杀鱼获肉\\杀鱼获肉\\鲨鱼_FBX\\shayu_move.fbx.meta": {
+      "time": 1773621526176.9734
+    },
+    "沙漠火车收割\\商人和骆驼\\商人和骆驼(2).fbx.meta": {
+      "time": 1773830725317.1145
+    },
+    "沙漠火车收割\\沙漠火车\\sell\\sell.png.meta": {
+      "time": 1773680296486.2815
+    },
+    "沙漠火车收割\\沙漠火车\\sell\\灰.png.meta": {
+      "time": 1773680296485.2812
+    },
+    "沙漠火车收割\\沙漠火车\\sell\\绿.png.meta": {
+      "time": 1773680296491.283
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\dabing.png.meta": {
+      "time": 1773995135941.6052
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\NPC.png.meta": {
+      "time": 1773680296483.2827
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\大饼.png.meta": {
+      "time": 1773680334403.1936
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\大饼售卖.png.meta": {
+      "time": 1773680296490.283
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\扩张.png.meta": {
+      "time": 1773680296512.2827
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\小麦.png.meta": {
+      "time": 1773680296512.2827
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\气泡.png.meta": {
+      "time": 1773995078347.477
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\木头.png.meta": {
+      "time": 1773680296516.2827
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\木头堆.png.meta": {
+      "time": 1773995135941.6052
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\水.png.meta": {
+      "time": 1773680296517.2844
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\火车升级.png.meta": {
+      "time": 1773994959570.18
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\水滴.png.meta": {
+      "time": 1773995135944.1777
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\稻草.png.meta": {
+      "time": 1773995135940.0408
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\箭塔.png.meta": {
+      "time": 1773994959570.6826
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\红色闪光.png.meta": {
+      "time": 1773995078349.0247
+    },
+    "杀鱼获肉\\杀鱼获肉\\鲨鱼_FBX\\shayu_skin.fbx.meta": {
+      "time": 1773621526263.8916
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\资源框1-进度.png.meta": {
+      "time": 1773680296547.282
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\资源框1.png.meta": {
+      "time": 1773680296544.2825
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\进火车.png.meta": {
+      "time": 1773680296546.2798
+    },
+    "沙漠火车收割\\沙漠火车\\地贴\\金币.png.meta": {
+      "time": 1773680296552.2827
+    },
+    "沙漠火车收割\\沙漠火车\\地贴触发框\\组 2 拷贝 2.png.meta": {
+      "time": 1773680296564.2827
+    },
+    "GameRes\\fx\\Effect\\winfail\\Dot\\Dot.mtl.meta": {
+      "time": 1773370590375.455
+    },
+    "沙漠火车收割\\沙漠火车\\地贴触发框\\组 2.png.meta": {
+      "time": 1773680296550.2837
+    },
+    "Res\\UI\\Line\\ArrowLine\\NavLine.prefab.meta": {
+      "time": 1773837818715.8643
+    },
+    "GameRes\\fx\\Effect\\winfail\\end_light\\end_light.mtl.meta": {
+      "time": 1773370590379.4543
+    },
+    "GameRes\\fx\\Effect\\winfail\\Dot\\Dot.png.meta": {
+      "time": 1773370590377.4546
+    },
+    "GameRes\\fx\\Effect\\winfail\\end_light\\end_light.png.meta": {
+      "time": 1773370590380.4553
+    },
+    "GameRes\\fx\\Effect\\winfail\\prefan\\DownloadBtn.prefab.meta": {
+      "time": 1773370590390.4548
+    },
+    "GameRes\\fx\\Effect\\winfail\\prefan\\end_light.prefab.meta": {
+      "time": 1773370590391.4548
+    },
+    "GameRes\\fx\\Effect\\winfail\\img\\图层 796.png.meta": {
+      "time": 1773370590384.459
+    },
+    "GameRes\\fx\\Effect\\winfail\\img\\图层 801.png.meta": {
+      "time": 1773370590387.4597
+    },
+    "GameRes\\fx\\Effect\\winfail\\prefan\\LosePanel.prefab.meta": {
+      "time": 1773370590393.454
+    },
+    "Res\\UI\\Line\\ArrowLine\\Shader\\arrow.mtl.meta": {
+      "time": 1773837818711.4644
+    },
+    "GameRes\\fx\\Effect\\winfail\\prefan\\TopLogo.prefab.meta": {
+      "time": 1773370590394.4546
+    },
+    "GameRes\\fx\\Effect\\winfail\\prefan\\WinPanel.prefab.meta": {
+      "time": 1773370590396.4558
+    },
+    "Res\\UI\\Line\\ArrowLine\\line.fbx.meta": {
+      "time": 1773837818714.285
+    }
+  },
+  "missing": {}
+}

@@ -1,0 +1,464 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 3207,
+      "max": [
+        0.1651090681552887,
+        0.8754244446754456,
+        0.48471367359161377
+      ],
+      "min": [
+        -0.1651090681552887,
+        7.702678885834757e-06,
+        -0.4847135543823242
+      ],
+      "name": "luotuo/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 3207,
+      "name": "luotuo/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 3207,
+      "name": "luotuo/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5123,
+      "count": 12774,
+      "name": "luotuo/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 102624,
+      "byteStride": 32,
+      "name": "luotuo",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 25548,
+      "byteOffset": 102624,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 128172,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 24.0,
+      "fbxFileHeaderInfo": {
+        "creationTimeStamp": {
+          "day": 27,
+          "hour": 19,
+          "millisecond": 467,
+          "minute": 39,
+          "month": 2,
+          "second": 6,
+          "year": 2026
+        },
+        "creator": "FBX SDK/FBX Plugins version 2020.3.2",
+        "sceneInfo": {
+          "author": "",
+          "comment": "",
+          "keywords": "",
+          "original": {
+            "applicationName": "Maya",
+            "applicationVendor": "Autodesk",
+            "applicationVersion": "2024",
+            "fileName": "E:\\2026索游\\审核\\dongri\\提交(7)\\提交\\骆驼.fbx"
+          },
+          "revision": "",
+          "subject": "",
+          "title": "",
+          "url": "D:\\Project\\shamohuocheshouge\\Client\\cocos\\SMHCSG\\assets\\models\\骆驼.fbx"
+        }
+      }
+    }
+  },
+  "materials": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "raw": {
+            "properties": {
+              "Maya": {
+                "value": {
+                  "FBXASC229FBXASC144FBXASC175FBXASC231FBXASC148FBXASC168": {
+                    "value": false
+                  },
+                  "TypeId": {
+                    "value": 1138001
+                  },
+                  "aiEnableMatte": {
+                    "value": false
+                  },
+                  "aiMatteColor": {
+                    "value": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  },
+                  "aiMatteColorA": {
+                    "value": 0.0
+                  },
+                  "aovId1": {
+                    "value": ""
+                  },
+                  "aovId2": {
+                    "value": ""
+                  },
+                  "aovId3": {
+                    "value": ""
+                  },
+                  "aovId4": {
+                    "value": ""
+                  },
+                  "aovId5": {
+                    "value": ""
+                  },
+                  "aovId6": {
+                    "value": ""
+                  },
+                  "aovId7": {
+                    "value": ""
+                  },
+                  "aovId8": {
+                    "value": ""
+                  },
+                  "base": {
+                    "value": 1.0
+                  },
+                  "baseColor": {
+                    "value": [
+                      0.7338129878044128,
+                      0.6546762585639954,
+                      0.5
+                    ]
+                  },
+                  "caustics": {
+                    "value": false
+                  },
+                  "coat": {
+                    "value": 0.0
+                  },
+                  "coatAffectColor": {
+                    "value": 0.5
+                  },
+                  "coatAffectRoughness": {
+                    "value": 0.5
+                  },
+                  "coatAnisotropy": {
+                    "value": 0.0
+                  },
+                  "coatColor": {
+                    "value": [
+                      1.0,
+                      1.0,
+                      1.0
+                    ]
+                  },
+                  "coatIOR": {
+                    "value": 1.5
+                  },
+                  "coatNormal": {
+                    "value": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  },
+                  "coatRotation": {
+                    "value": 0.0
+                  },
+                  "coatRoughness": {
+                    "value": 0.11999999731779099
+                  },
+                  "dielectricPriority": {
+                    "value": 0
+                  },
+                  "diffuseRoughness": {
+                    "value": 0.0
+                  },
+                  "emission": {
+                    "value": 0.0
+                  },
+                  "emissionColor": {
+                    "value": [
+                      1.0,
+                      1.0,
+                      1.0
+                    ]
+                  },
+                  "exitToBackground": {
+                    "value": false
+                  },
+                  "id1": {
+                    "value": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  },
+                  "id2": {
+                    "value": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  },
+                  "id3": {
+                    "value": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  },
+                  "id4": {
+                    "value": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  },
+                  "id5": {
+                    "value": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  },
+                  "id6": {
+                    "value": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  },
+                  "id7": {
+                    "value": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  },
+                  "id8": {
+                    "value": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  },
+                  "indirectDiffuse": {
+                    "value": 1.0
+                  },
+                  "indirectSpecular": {
+                    "value": 1.0
+                  },
+                  "internalReflections": {
+                    "value": true
+                  },
+                  "metalness": {
+                    "value": 0.0
+                  },
+                  "normalCamera": {
+                    "value": [
+                      1.0,
+                      1.0,
+                      1.0
+                    ]
+                  },
+                  "normalCameraFactor": {
+                    "value": 0.0
+                  },
+                  "normalCameraUsedAs": {
+                    "value": 0
+                  },
+                  "opacity": {
+                    "value": [
+                      1.0,
+                      1.0,
+                      1.0
+                    ]
+                  },
+                  "outAlpha": {
+                    "value": 0.0
+                  },
+                  "sheen": {
+                    "value": 0.0
+                  },
+                  "sheenColor": {
+                    "value": [
+                      1.0,
+                      1.0,
+                      1.0
+                    ]
+                  },
+                  "sheenRoughness": {
+                    "value": 0.30000001192092896
+                  },
+                  "specular": {
+                    "value": 1.0
+                  },
+                  "specularAnisotropy": {
+                    "value": 0.0
+                  },
+                  "specularColor": {
+                    "value": [
+                      1.0,
+                      1.0,
+                      1.0
+                    ]
+                  },
+                  "specularIOR": {
+                    "value": 1.399999976158142
+                  },
+                  "specularRotation": {
+                    "value": 0.0
+                  },
+                  "specularRoughness": {
+                    "value": 0.25595328211784363
+                  },
+                  "subsurface": {
+                    "value": 0.0
+                  },
+                  "subsurfaceAnisotropy": {
+                    "value": 0.0
+                  },
+                  "subsurfaceColor": {
+                    "value": [
+                      1.0,
+                      1.0,
+                      1.0
+                    ]
+                  },
+                  "subsurfaceRadius": {
+                    "value": [
+                      100.0,
+                      50.0,
+                      25.0
+                    ]
+                  },
+                  "subsurfaceScale": {
+                    "value": 1.0
+                  },
+                  "tangent": {
+                    "value": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  },
+                  "thinFilmIOR": {
+                    "value": 1.5
+                  },
+                  "thinFilmThickness": {
+                    "value": 0.0
+                  },
+                  "thinWalled": {
+                    "value": false
+                  },
+                  "transmission": {
+                    "value": 0.0
+                  },
+                  "transmissionColor": {
+                    "value": [
+                      1.0,
+                      1.0,
+                      1.0
+                    ]
+                  },
+                  "transmissionDepth": {
+                    "value": 0.0
+                  },
+                  "transmissionDispersion": {
+                    "value": 0.0
+                  },
+                  "transmissionExtraRoughness": {
+                    "value": 0.0
+                  },
+                  "transmissionScatter": {
+                    "value": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  },
+                  "transmissionScatterAnisotropy": {
+                    "value": 0.0
+                  },
+                  "transmitAovs": {
+                    "value": false
+                  }
+                }
+              },
+              "MultiLayer": {
+                "value": false
+              },
+              "ShadingModel": {
+                "value": ""
+              },
+              "启用": {
+                "value": false
+              }
+            }
+          }
+        }
+      },
+      "name": "luotuo"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "luotuo",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "luotuo"
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

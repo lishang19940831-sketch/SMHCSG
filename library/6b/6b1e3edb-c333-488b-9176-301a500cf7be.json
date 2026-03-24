@@ -1,0 +1,68 @@
+{
+  "__type__": "cc.Material",
+  "_name": "arrow",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "fd602a3d-4ccd-4124-8838-ea918acfb733",
+    "__expectedType__": "cc.EffectAsset"
+  },
+  "_techIdx": 1,
+  "_defines": [
+    {
+      "USE_VERTEX_COLOR": true,
+      "USE_TEXTURE": true,
+      "USE_TEXTURE_MOVE": true,
+      "USE_ALPHA_GRADIENT": true
+    }
+  ],
+  "_states": [
+    {
+      "rasterizerState": {
+        "isDiscard": true
+      },
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      }
+    }
+  ],
+  "_props": [
+    {
+      "noiseTexture": {
+        "__uuid__": "38b91bb6-9769-4b68-b2c8-cfb4067961f2@6c48a",
+        "__expectedType__": "cc.Texture2D"
+      },
+      "mainTexture": {
+        "__uuid__": "38b91bb6-9769-4b68-b2c8-cfb4067961f2@6c48a",
+        "__expectedType__": "cc.Texture2D"
+      },
+      "textureMoveSpeed": {
+        "__type__": "cc.Vec2",
+        "x": 0,
+        "y": 2
+      },
+      "tilingOffset": {
+        "__type__": "cc.Vec2",
+        "x": 1,
+        "y": 10
+      },
+      "noiseMoveSpeed": {
+        "__type__": "cc.Vec2",
+        "x": 0.1,
+        "y": 0
+      },
+      "alphaGradient": {
+        "__type__": "cc.Vec4",
+        "x": 1,
+        "y": 1,
+        "z": 0,
+        "w": 1
+      },
+      "gradientAxis": 1
+    }
+  ]
+}

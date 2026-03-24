@@ -1,0 +1,238 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        -0.006758902221918106,
+        0.3687075674533844,
+        0.0
+      ],
+      "min": [
+        -2.956418752670288,
+        -0.3687075078487396,
+        0.0
+      ],
+      "name": "pi/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 8,
+      "name": "pi/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 8,
+      "name": "pi/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "count": 8,
+      "name": "pi/COLOR_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5123,
+      "count": 18,
+      "name": "pi/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 384,
+      "byteStride": 48,
+      "name": "pi",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 36,
+      "byteOffset": 384,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 420,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 24.0
+    }
+  },
+  "materials": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "originalMaterial": {
+            "properties": {
+              "Maya": {
+                "TypeId": 1398031443,
+                "base": 1.0,
+                "baseColor": [
+                  0.4000000059604645,
+                  0.4000000059604645,
+                  0.4000000059604645
+                ],
+                "coat": 0.0,
+                "coatAffectColor": 0.0,
+                "coatAffectRoughness": 0.0,
+                "coatAnisotropy": 0.0,
+                "coatColor": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "coatIOR": 1.5,
+                "coatNormal": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "coatRotation": 0.0,
+                "coatRoughness": 0.10000000149011612,
+                "diffuseRoughness": 0.0,
+                "emission": 0.0,
+                "emissionColor": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "frozenAffected": false,
+                "hardwareShader": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "metalness": 0.0,
+                "normalCamera": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "normalCameraFactor": 0.0,
+                "normalCameraUsedAs": 0,
+                "opacity": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "sheen": 0.0,
+                "sheenColor": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "sheenRoughness": 0.30000001192092896,
+                "specular": 1.0,
+                "specularAnisotropy": 0.0,
+                "specularColor": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "specularIOR": 1.5,
+                "specularRotation": 0.0,
+                "specularRoughness": 0.5,
+                "subsurface": 0.0,
+                "subsurfaceAnisotropy": 0.0,
+                "subsurfaceColor": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "subsurfaceRadius": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "subsurfaceScale": 1.0,
+                "thinFilmIOR": 1.5,
+                "thinFilmThickness": 0.0,
+                "thinWalled": false,
+                "transmission": 0.0,
+                "transmissionColor": [
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "transmissionDepth": 0.0,
+                "transmissionDispersion": 0.0,
+                "transmissionExtraRoughness": 0.0,
+                "transmissionScatter": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "transmissionScatterAnisotropy": 0.0
+              },
+              "MultiLayer": false,
+              "ShadingModel": ""
+            }
+          }
+        }
+      },
+      "name": "standardSurface1",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.7262687683105469,
+          0.7262687683105469,
+          0.7262687683105469,
+          1.0
+        ],
+        "metallicFactor": 0.742013156414032,
+        "roughnessFactor": 0.6228205561637878
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "pi",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 3,
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "pi"
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

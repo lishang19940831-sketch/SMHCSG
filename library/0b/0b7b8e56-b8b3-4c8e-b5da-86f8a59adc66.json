@@ -1,0 +1,8 @@
+{
+  "__type__": "cc.TextAsset",
+  "_name": "主角",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "text": "待机  0-40\t\r\n移动  45-61"
+}

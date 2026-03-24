@@ -1,0 +1,698 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 716,
+      "max": [
+        1.0541220903396606,
+        1.143269419670105,
+        2.088733673095703
+      ],
+      "min": [
+        -1.0541218519210815,
+        -0.8230580687522888,
+        -0.0016580444062128663
+      ],
+      "name": "fbx_jianta_01/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 716,
+      "name": "fbx_jianta_01/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 716,
+      "name": "fbx_jianta_01/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5123,
+      "count": 1722,
+      "name": "fbx_jianta_01/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 264,
+      "max": [
+        1.4678951501846313,
+        0.7822503447532654,
+        2.8787784576416016
+      ],
+      "min": [
+        -1.4678951501846313,
+        -0.5421507954597473,
+        2.0677874088287354
+      ],
+      "name": "fbx_jianta_02/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 264,
+      "name": "fbx_jianta_02/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 264,
+      "name": "fbx_jianta_02/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 822,
+      "name": "fbx_jianta_02/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 192,
+      "max": [
+        0.2931942641735077,
+        2.030784845352173,
+        3.061866283416748
+      ],
+      "min": [
+        -0.2931942045688629,
+        -0.4196180999279022,
+        2.65275502204895
+      ],
+      "name": "fbx_jianta_03/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 192,
+      "name": "fbx_jianta_03/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 192,
+      "name": "fbx_jianta_03/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5123,
+      "count": 636,
+      "name": "fbx_jianta_03/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 22912,
+      "byteStride": 32,
+      "name": "fbx_jianta_01",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3444,
+      "byteOffset": 22912,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8448,
+      "byteOffset": 26356,
+      "byteStride": 32,
+      "name": "fbx_jianta_02",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1644,
+      "byteOffset": 34804,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 6144,
+      "byteOffset": 36448,
+      "byteStride": 32,
+      "name": "fbx_jianta_03",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1272,
+      "byteOffset": 42592,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 43864,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 30.0,
+      "fbxFileHeaderInfo": {
+        "creationTimeStamp": {
+          "day": 3,
+          "hour": 10,
+          "millisecond": 891,
+          "minute": 22,
+          "month": 9,
+          "second": 47,
+          "year": 2025
+        },
+        "creator": "FBX SDK/FBX Plugins version 2020.3.1",
+        "sceneInfo": {
+          "author": "",
+          "comment": "",
+          "keywords": "",
+          "original": {
+            "applicationName": "3ds Max",
+            "applicationVendor": "Autodesk",
+            "applicationVersion": "2023",
+            "fileName": "C:\\PlayableAD\\Cocos\\SSD\\2025822_YDSX\\YDSX\\assets\\GameRes\\ydsx_map\\FBX\\jianta.fbx"
+          },
+          "revision": "",
+          "subject": "",
+          "title": "",
+          "url": "D:\\Project\\shamohuocheshouge\\Client\\cocos\\SMHCSG\\assets\\GameRes\\ydsx_map\\FBX\\jianta.fbx"
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "C:\\Users\\aaaaa\\Desktop\\箭塔\\箭塔_宋泽元\\SSD_S_T_JianTa_C.jpg",
+          "relativeFileName": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Users\\aaaaa\\Desktop\\箭塔\\箭塔_宋泽元\\SSD_S_T_JianTa_C.jpg"
+        }
+      },
+      "name": "贴图 #1",
+      "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+    }
+  ],
+  "materials": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "raw": {
+            "properties": {
+              "3dsMax": {
+                "value": {
+                  "ClassIDa": {
+                    "value": 1030429932
+                  },
+                  "ClassIDb": {
+                    "value": -559038463
+                  },
+                  "ORIGINAL_MTL": {
+                    "value": "PHYSICAL_MTL"
+                  },
+                  "Parameters": {
+                    "value": {
+                      "aniso_angle_map_on": {
+                        "value": true
+                      },
+                      "aniso_channel": {
+                        "value": 0
+                      },
+                      "aniso_mode": {
+                        "value": 0
+                      },
+                      "anisoangle": {
+                        "value": 0.25
+                      },
+                      "anisotropy": {
+                        "value": 0.0
+                      },
+                      "anisotropy_map_on": {
+                        "value": true
+                      },
+                      "base_color": {
+                        "value": [
+                          0.5,
+                          0.5,
+                          0.5,
+                          1.0
+                        ]
+                      },
+                      "base_color_map": {
+                        "value": {
+                          "index": 0
+                        }
+                      },
+                      "base_color_map_on": {
+                        "value": true
+                      },
+                      "base_weight": {
+                        "value": 1.0
+                      },
+                      "base_weight_map_on": {
+                        "value": true
+                      },
+                      "brdf_curve": {
+                        "value": 5.0
+                      },
+                      "brdf_high": {
+                        "value": 1.0
+                      },
+                      "brdf_low": {
+                        "value": 0.05000000074505806
+                      },
+                      "brdf_mode": {
+                        "value": true
+                      },
+                      "coat_affect_color": {
+                        "value": 0.5
+                      },
+                      "coat_affect_roughness": {
+                        "value": 0.5
+                      },
+                      "coat_aniso_angle_map_on": {
+                        "value": true
+                      },
+                      "coat_aniso_map_on": {
+                        "value": true
+                      },
+                      "coat_anisoangle": {
+                        "value": 0.25
+                      },
+                      "coat_anisotropy": {
+                        "value": 0.0
+                      },
+                      "coat_color": {
+                        "value": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          1.0
+                        ]
+                      },
+                      "coat_color_map_on": {
+                        "value": true
+                      },
+                      "coat_ior": {
+                        "value": 1.5199999809265137
+                      },
+                      "coat_map_on": {
+                        "value": true
+                      },
+                      "coat_rough_map_on": {
+                        "value": true
+                      },
+                      "coat_roughness": {
+                        "value": 0.0
+                      },
+                      "coat_roughness_inv": {
+                        "value": false
+                      },
+                      "coating": {
+                        "value": 0.0
+                      },
+                      "cutout_map_on": {
+                        "value": true
+                      },
+                      "diff_rough_map_on": {
+                        "value": true
+                      },
+                      "diff_roughness": {
+                        "value": 0.0
+                      },
+                      "dispersion": {
+                        "value": 0.0
+                      },
+                      "displacement_map_amt": {
+                        "value": 1.0
+                      },
+                      "displacement_map_on": {
+                        "value": true
+                      },
+                      "emission": {
+                        "value": 1.0
+                      },
+                      "emission_map_on": {
+                        "value": true
+                      },
+                      "emit_color": {
+                        "value": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          1.0
+                        ]
+                      },
+                      "emit_color_map_on": {
+                        "value": true
+                      },
+                      "emit_kelvin": {
+                        "value": 6500.0
+                      },
+                      "emit_luminance": {
+                        "value": 1500.0
+                      },
+                      "material_mode": {
+                        "value": 2
+                      },
+                      "metalness": {
+                        "value": 0.0
+                      },
+                      "metalness_map_on": {
+                        "value": true
+                      },
+                      "refl_color": {
+                        "value": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          1.0
+                        ]
+                      },
+                      "refl_color_map_on": {
+                        "value": true
+                      },
+                      "reflectivity": {
+                        "value": 1.0
+                      },
+                      "reflectivity_map_on": {
+                        "value": true
+                      },
+                      "roughness": {
+                        "value": 0.0
+                      },
+                      "roughness_inv": {
+                        "value": false
+                      },
+                      "roughness_map_on": {
+                        "value": true
+                      },
+                      "scattering": {
+                        "value": 0.0
+                      },
+                      "scattering_map_on": {
+                        "value": true
+                      },
+                      "sheen": {
+                        "value": 0.0
+                      },
+                      "sheen_color": {
+                        "value": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          1.0
+                        ]
+                      },
+                      "sheen_color_map_on": {
+                        "value": true
+                      },
+                      "sheen_map_on": {
+                        "value": true
+                      },
+                      "sheen_rough_map_on": {
+                        "value": true
+                      },
+                      "sheen_roughness": {
+                        "value": 0.30000001192092896
+                      },
+                      "sss_color": {
+                        "value": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          1.0
+                        ]
+                      },
+                      "sss_color_map_on": {
+                        "value": true
+                      },
+                      "sss_depth": {
+                        "value": 10.0
+                      },
+                      "sss_scale": {
+                        "value": 1.0
+                      },
+                      "sss_scale_map_on": {
+                        "value": true
+                      },
+                      "sss_scatter_color": {
+                        "value": [
+                          100000000.0,
+                          50000000.0,
+                          25000000.0,
+                          1.0
+                        ]
+                      },
+                      "thin_film": {
+                        "value": 0.0
+                      },
+                      "thin_film_ior": {
+                        "value": 1.2999999523162842
+                      },
+                      "thin_film_ior_map_on": {
+                        "value": true
+                      },
+                      "thin_film_map_on": {
+                        "value": true
+                      },
+                      "thin_film_thickness": {
+                        "value": 0.0
+                      },
+                      "thin_walled": {
+                        "value": false
+                      },
+                      "trans_color": {
+                        "value": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          1.0
+                        ]
+                      },
+                      "trans_color_map_on": {
+                        "value": true
+                      },
+                      "trans_depth": {
+                        "value": 0.0
+                      },
+                      "trans_ior": {
+                        "value": 1.5199999809265137
+                      },
+                      "trans_ior_map_on": {
+                        "value": true
+                      },
+                      "trans_rough_map_on": {
+                        "value": true
+                      },
+                      "trans_roughness": {
+                        "value": 0.0
+                      },
+                      "trans_roughness_inv": {
+                        "value": false
+                      },
+                      "trans_roughness_lock": {
+                        "value": true
+                      },
+                      "trans_scatter_aniso": {
+                        "value": 0.0
+                      },
+                      "trans_scatter_color": {
+                        "value": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          1.0
+                        ]
+                      },
+                      "transparency": {
+                        "value": 0.0
+                      },
+                      "transparency_map_on": {
+                        "value": true
+                      }
+                    }
+                  },
+                  "SuperClassID": {
+                    "value": 3072
+                  }
+                }
+              },
+              "AmbientColor": {
+                "value": [
+                  0.5,
+                  0.5,
+                  0.5
+                ]
+              },
+              "DiffuseColor": {
+                "texture": {
+                  "index": 0
+                },
+                "value": [
+                  0.5,
+                  0.5,
+                  0.5
+                ]
+              },
+              "EmissiveColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "EmissiveFactor": {
+                "value": 0.0
+              },
+              "MultiLayer": {
+                "value": false
+              },
+              "ShadingModel": {
+                "value": "unknown"
+              },
+              "ShininessExponent": {
+                "value": 1024.0
+              },
+              "SpecularColor": {
+                "value": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              "SpecularFactor": {
+                "value": 2.0
+              },
+              "TransparencyFactor": {
+                "value": 0.0
+              }
+            }
+          }
+        }
+      },
+      "name": "Material #25"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "fbx_jianta_01",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "fbx_jianta_02",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "fbx_jianta_03",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "fbx_jianta_01",
+      "rotation": [
+        -0.7071067690849304,
+        -0.0,
+        0.0,
+        0.7071067690849304
+      ]
+    },
+    {
+      "mesh": 1,
+      "name": "fbx_jianta_02",
+      "rotation": [
+        -0.7071067690849304,
+        -0.0,
+        0.0,
+        0.7071067690849304
+      ]
+    },
+    {
+      "mesh": 2,
+      "name": "fbx_jianta_03",
+      "rotation": [
+        -0.7071067690849304,
+        -0.0,
+        0.0,
+        0.7071067690849304
+      ]
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "贴图 #1",
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}

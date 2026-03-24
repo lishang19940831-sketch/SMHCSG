@@ -1,0 +1,569 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 12,
+      "max": [
+        0.6584115028381348,
+        0.055738504976034164,
+        0.743192732334137
+      ],
+      "min": [
+        -0.4992140829563141,
+        -3.1263468265533447,
+        -0.5849082469940186
+      ],
+      "name": "Tree_SongShu_D/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 12,
+      "name": "Tree_SongShu_D/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 12,
+      "name": "Tree_SongShu_D/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5123,
+      "count": 36,
+      "name": "Tree_SongShu_D/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 158,
+      "max": [
+        1.7941533327102661,
+        -7.948753356933594,
+        1.8292827606201172
+      ],
+      "min": [
+        -1.875930905342102,
+        -12.97414493560791,
+        -1.6202384233474731
+      ],
+      "name": "Tree_SongShu_A/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 158,
+      "name": "Tree_SongShu_A/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 158,
+      "name": "Tree_SongShu_A/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 873,
+      "name": "Tree_SongShu_A/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 156,
+      "max": [
+        2.1110639572143555,
+        -5.30732536315918,
+        2.1552793979644775
+      ],
+      "min": [
+        -2.207435369491577,
+        -8.824082374572754,
+        -2.0365042686462402
+      ],
+      "name": "Tree_SongShu_B/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 156,
+      "name": "Tree_SongShu_B/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 156,
+      "name": "Tree_SongShu_B/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5123,
+      "count": 861,
+      "name": "Tree_SongShu_B/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 191,
+      "max": [
+        2.546381950378418,
+        -2.7091517448425293,
+        2.6732330322265625
+      ],
+      "min": [
+        -2.546382188796997,
+        -6.306417465209961,
+        -2.6732330322265625
+      ],
+      "name": "Tree_SongShu_C/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 191,
+      "name": "Tree_SongShu_C/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 191,
+      "name": "Tree_SongShu_C/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5123,
+      "count": 1053,
+      "name": "Tree_SongShu_C/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 1,
+      "name": "Tree_SongShu_D/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 1,
+      "max": [
+        3.3333332538604736
+      ],
+      "min": [
+        3.3333332538604736
+      ],
+      "name": "Tree_SongShu_D/rotation/Input",
+      "type": "SCALAR"
+    }
+  ],
+  "animations": [
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 0,
+            "path": "rotation"
+          }
+        }
+      ],
+      "name": "Take 001",
+      "samplers": [
+        {
+          "input": 17,
+          "output": 16
+        }
+      ]
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 384,
+      "byteStride": 32,
+      "name": "Tree_SongShu_D",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 72,
+      "byteOffset": 384,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5056,
+      "byteOffset": 456,
+      "byteStride": 32,
+      "name": "Tree_SongShu_A",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1746,
+      "byteOffset": 5512,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4992,
+      "byteOffset": 7258,
+      "byteStride": 32,
+      "name": "Tree_SongShu_B",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1722,
+      "byteOffset": 12250,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 6112,
+      "byteOffset": 13972,
+      "byteStride": 32,
+      "name": "Tree_SongShu_C",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2106,
+      "byteOffset": 20084,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 16,
+      "byteOffset": 22190
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4,
+      "byteOffset": 22206
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 22210,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 30.0,
+      "fbxFileHeaderInfo": {
+        "creationTimeStamp": {
+          "day": 27,
+          "hour": 18,
+          "millisecond": 24,
+          "minute": 36,
+          "month": 4,
+          "second": 25,
+          "year": 2025
+        },
+        "creator": "FBX SDK/FBX Plugins version 2016.0",
+        "sceneInfo": {
+          "author": "",
+          "comment": "",
+          "keywords": "",
+          "original": {
+            "applicationName": "3ds Max",
+            "applicationVendor": "Autodesk",
+            "applicationVersion": "2014",
+            "fileName": "E:\\Work_SVN\\zuofanjingying\\Assets\\Art\\New\\FBX\\Tree_SongShu_01.FBX"
+          },
+          "revision": "",
+          "subject": "",
+          "title": "",
+          "url": "D:\\Project\\shamohuocheshouge\\Client\\cocos\\SMHCSG\\assets\\models\\松树-01.FBX"
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "E:\\Work_SVN\\zuofanjingying\\Assets\\Art\\New\\Texture\\Color.jpg",
+          "relativeFileName": "..\\Texture\\Color.jpg"
+        }
+      },
+      "name": "贴图 #23",
+      "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+    }
+  ],
+  "materials": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "raw": {
+            "properties": {
+              "ambient": {
+                "value": [
+                  0.5879999995231628,
+                  0.5879999995231628,
+                  0.5879999995231628
+                ]
+              },
+              "ambientFactor": {
+                "value": 0.0
+              },
+              "bump": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "bumpFactor": {
+                "value": 1.0
+              },
+              "diffuse": {
+                "texture": {
+                  "index": 0
+                },
+                "value": [
+                  0.5879999995231628,
+                  0.5879999995231628,
+                  0.5879999995231628
+                ]
+              },
+              "diffuseFactor": {
+                "value": 1.0
+              },
+              "displacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "displacementFactor": {
+                "value": 1.0
+              },
+              "emissive": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "emissiveFactor": {
+                "value": 0.0
+              },
+              "normalMap": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "reflection": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "reflectionFactor": {
+                "value": 1.0
+              },
+              "shadingModel": "phong",
+              "shininess": {
+                "value": 2.0
+              },
+              "specular": {
+                "value": [
+                  0.8999999761581421,
+                  0.8999999761581421,
+                  0.8999999761581421
+                ]
+              },
+              "specularFactor": {
+                "value": 0.0
+              },
+              "transparencyFactor": {
+                "value": 0.0
+              },
+              "transparentColor": {
+                "value": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              "vectorDisplacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "vectorDisplacementFactor": {
+                "value": 1.0
+              }
+            },
+            "type": "phong"
+          }
+        }
+      },
+      "name": "Material #62"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Tree_SongShu_D",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Tree_SongShu_A",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Tree_SongShu_B",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Tree_SongShu_C",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Tree_SongShu_D",
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        2.1855694143368964e-08
+      ],
+      "scale": [
+        1.2515499591827393,
+        1.2515499591827393,
+        1.2515499591827393
+      ]
+    },
+    {
+      "mesh": 1,
+      "name": "Tree_SongShu_A",
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        -5.962440319251527e-09
+      ]
+    },
+    {
+      "mesh": 2,
+      "name": "Tree_SongShu_B",
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        -5.962440319251527e-09
+      ]
+    },
+    {
+      "mesh": 3,
+      "name": "Tree_SongShu_C",
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        -5.962440319251527e-09
+      ]
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "贴图 #23",
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}

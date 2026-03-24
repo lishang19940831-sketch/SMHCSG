@@ -2,5 +2,106 @@
   "__version__": "1.3.9",
   "log": {
     "level": 4
+  },
+  "common": {
+    "binGroupConfig": {
+      "threshold": 16,
+      "enable": false
+    },
+    "polyfills": {
+      "asyncFunctions": true
+    },
+    "buildPath": "project://build",
+    "outputName": "web-mobile",
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "web-mobile",
+    "scenes": [
+      {
+        "url": "db://assets/沙漠火车收割/沙漠火车收割.scene",
+        "uuid": "02de8a93-f137-482d-8545-a7eb9957d3ce"
+      }
+    ],
+    "startScene": "02de8a93-f137-482d-8545-a7eb9957d3ce",
+    "nativeCodeBundleMode": "asmjs",
+    "overwriteProjectSettings": {
+      "includeModules": {
+        "gfx-webgl2": "off"
+      }
+    }
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1773747423416": {
+        "type": "build",
+        "id": "1773747423416",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2026-3-20 20:56:07 build success in 46 s!",
+        "detailMessage": "[super-html] : \rs_out_dir D:\\Project\\shamohuocheshouge\\Client\\cocos\\SMHCSG\\build\\super-html\r",
+        "options": {
+          "name": "unity2cocos-output",
+          "server": "",
+          "engineModulesConfigKey": "defaultConfig",
+          "platform": "web-mobile",
+          "buildPath": "project://build",
+          "debug": false,
+          "buildMode": "normal",
+          "mangleProperties": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "includeModules": {
+              "gfx-webgl2": "off",
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting"
+            },
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            }
+          },
+          "nativeCodeBundleMode": "asmjs",
+          "polyfills": {
+            "asyncFunctions": true
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "inlineEnum": true,
+          "useBuiltinServer": false,
+          "md5CacheOptions": {
+            "excludes": [],
+            "includes": [],
+            "replaceOnly": [],
+            "handleTemplateMd5Link": true
+          },
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "02de8a93-f137-482d-8545-a7eb9957d3ce",
+          "outputName": "web-mobile",
+          "taskName": "web-mobile",
+          "scenes": [
+            {
+              "url": "db://assets/沙漠火车收割/沙漠火车收割.scene",
+              "uuid": "02de8a93-f137-482d-8545-a7eb9957d3ce"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "binGroupConfig": {
+            "threshold": 16,
+            "enable": false
+          },
+          "packages": {},
+          "__version__": "1.3.9",
+          "logDest": "project://temp/builder/log/web-mobile2026-3-17 19-37.log"
+        },
+        "time": "2026-3-20 20:55:20",
+        "dirty": false
+      }
+    }
   }
 }

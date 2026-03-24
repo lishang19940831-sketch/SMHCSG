@@ -1,0 +1,695 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 2060,
+      "max": [
+        123.1218032836914,
+        111.14240264892578,
+        212.01531982421875
+      ],
+      "min": [
+        -123.1218032836914,
+        -89.99850463867188,
+        -276.96649169921875
+      ],
+      "name": "ShaYuPD_Body_Geo001/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 2060,
+      "name": "ShaYuPD_Body_Geo001/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 2060,
+      "name": "ShaYuPD_Body_Geo001/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5123,
+      "count": 2060,
+      "name": "ShaYuPD_Body_Geo001/JOINTS_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 40,
+      "componentType": 5126,
+      "count": 2060,
+      "name": "ShaYuPD_Body_Geo001/WEIGHTS_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5123,
+      "count": 8304,
+      "name": "ShaYuPD_Body_Geo001/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 7,
+      "name": "/InverseBindMatrices",
+      "type": "MAT4"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 115360,
+      "byteStride": 56,
+      "name": "ShaYuPD_Body_Geo001",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 16608,
+      "byteOffset": 115360,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 448,
+      "byteOffset": 131968
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 132416,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 30.0,
+      "fbxFileHeaderInfo": {
+        "creationTimeStamp": {
+          "day": 4,
+          "hour": 23,
+          "millisecond": 386,
+          "minute": 14,
+          "month": 12,
+          "second": 8,
+          "year": 2025
+        },
+        "creator": "FBX SDK/FBX Plugins version 2020.1.1",
+        "sceneInfo": {
+          "author": "",
+          "comment": "",
+          "keywords": "",
+          "original": {
+            "applicationName": "3ds Max",
+            "applicationVendor": "Autodesk",
+            "applicationVersion": "2022",
+            "fileName": "C:\\Users\\Administrator\\Desktop\\shayu\\鲨鱼_FBX\\shayu_skin.fbx"
+          },
+          "revision": "",
+          "subject": "",
+          "title": "",
+          "url": "D:\\Project\\shamohuocheshouge\\Client\\cocos\\SMHCSG\\assets\\杀鱼获肉\\杀鱼获肉\\鲨鱼_FBX\\shayu_skin.fbx"
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "C:\\Users\\Administrator\\Desktop\\shayu\\shayu.jpg",
+          "relativeFileName": "..\\shayu.jpg"
+        }
+      },
+      "name": "Map #1",
+      "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+    }
+  ],
+  "materials": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "raw": {
+            "properties": {
+              "3dsMax": {
+                "value": {
+                  "ClassIDa": {
+                    "value": 2121471519
+                  },
+                  "ClassIDb": {
+                    "value": 1660373836
+                  },
+                  "ORIGINAL_MTL": {
+                    "value": "PHYSICAL_MTL"
+                  },
+                  "Parameters": {
+                    "value": {
+                      "aniso_angle_map_on": {
+                        "value": true
+                      },
+                      "aniso_channel": {
+                        "value": 0
+                      },
+                      "aniso_mode": {
+                        "value": 0
+                      },
+                      "anisoangle": {
+                        "value": 0.0
+                      },
+                      "anisotropy": {
+                        "value": 0.0
+                      },
+                      "anisotropy_map_on": {
+                        "value": true
+                      },
+                      "base_color": {
+                        "value": [
+                          0.5,
+                          0.5,
+                          0.5,
+                          1.0
+                        ]
+                      },
+                      "base_color_map": {
+                        "value": {
+                          "index": 0
+                        }
+                      },
+                      "base_color_map_on": {
+                        "value": true
+                      },
+                      "base_weight": {
+                        "value": 1.0
+                      },
+                      "base_weight_map_on": {
+                        "value": true
+                      },
+                      "brdf_curve": {
+                        "value": 5.0
+                      },
+                      "brdf_high": {
+                        "value": 1.0
+                      },
+                      "brdf_low": {
+                        "value": 0.05000000074505806
+                      },
+                      "brdf_mode": {
+                        "value": true
+                      },
+                      "coat_affect_color": {
+                        "value": 0.5
+                      },
+                      "coat_affect_roughness": {
+                        "value": 0.5
+                      },
+                      "coat_color": {
+                        "value": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          1.0
+                        ]
+                      },
+                      "coat_color_map_on": {
+                        "value": true
+                      },
+                      "coat_ior": {
+                        "value": 1.5199999809265137
+                      },
+                      "coat_map_on": {
+                        "value": true
+                      },
+                      "coat_rough_map_on": {
+                        "value": true
+                      },
+                      "coat_roughness": {
+                        "value": 0.0
+                      },
+                      "coat_roughness_inv": {
+                        "value": false
+                      },
+                      "coating": {
+                        "value": 0.0
+                      },
+                      "cutout_map_on": {
+                        "value": true
+                      },
+                      "diff_rough_map_on": {
+                        "value": true
+                      },
+                      "diff_roughness": {
+                        "value": 0.0
+                      },
+                      "displacement_map_amt": {
+                        "value": 1.0
+                      },
+                      "displacement_map_on": {
+                        "value": true
+                      },
+                      "emission": {
+                        "value": 1.0
+                      },
+                      "emission_map_on": {
+                        "value": true
+                      },
+                      "emit_color": {
+                        "value": [
+                          0.0,
+                          0.0,
+                          0.0,
+                          1.0
+                        ]
+                      },
+                      "emit_color_map_on": {
+                        "value": true
+                      },
+                      "emit_kelvin": {
+                        "value": 6500.0
+                      },
+                      "emit_luminance": {
+                        "value": 1500.0
+                      },
+                      "material_mode": {
+                        "value": 0
+                      },
+                      "metalness": {
+                        "value": 0.0
+                      },
+                      "metalness_map_on": {
+                        "value": true
+                      },
+                      "refl_color": {
+                        "value": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          1.0
+                        ]
+                      },
+                      "refl_color_map_on": {
+                        "value": true
+                      },
+                      "reflectivity": {
+                        "value": 1.0
+                      },
+                      "reflectivity_map_on": {
+                        "value": true
+                      },
+                      "roughness": {
+                        "value": 0.0
+                      },
+                      "roughness_inv": {
+                        "value": false
+                      },
+                      "roughness_map_on": {
+                        "value": true
+                      },
+                      "scattering": {
+                        "value": 0.0
+                      },
+                      "scattering_map_on": {
+                        "value": true
+                      },
+                      "sss_color": {
+                        "value": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          1.0
+                        ]
+                      },
+                      "sss_color_map_on": {
+                        "value": true
+                      },
+                      "sss_depth": {
+                        "value": 10.0
+                      },
+                      "sss_scale": {
+                        "value": 1.0
+                      },
+                      "sss_scale_map_on": {
+                        "value": true
+                      },
+                      "sss_scatter_color": {
+                        "value": [
+                          100.0,
+                          50.0,
+                          25.0,
+                          1.0
+                        ]
+                      },
+                      "thin_walled": {
+                        "value": false
+                      },
+                      "trans_color": {
+                        "value": [
+                          1.0,
+                          1.0,
+                          1.0,
+                          1.0
+                        ]
+                      },
+                      "trans_color_map_on": {
+                        "value": true
+                      },
+                      "trans_depth": {
+                        "value": 0.0
+                      },
+                      "trans_ior": {
+                        "value": 1.5199999809265137
+                      },
+                      "trans_ior_map_on": {
+                        "value": true
+                      },
+                      "trans_rough_map_on": {
+                        "value": true
+                      },
+                      "trans_roughness": {
+                        "value": 0.0
+                      },
+                      "trans_roughness_inv": {
+                        "value": false
+                      },
+                      "trans_roughness_lock": {
+                        "value": true
+                      },
+                      "transparency": {
+                        "value": 0.0
+                      },
+                      "transparency_map_on": {
+                        "value": true
+                      }
+                    }
+                  },
+                  "SuperClassID": {
+                    "value": 3072
+                  }
+                }
+              },
+              "AmbientColor": {
+                "value": [
+                  0.5,
+                  0.5,
+                  0.5
+                ]
+              },
+              "DiffuseColor": {
+                "texture": {
+                  "index": 0
+                },
+                "value": [
+                  0.5,
+                  0.5,
+                  0.5
+                ]
+              },
+              "EmissiveColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "EmissiveFactor": {
+                "value": 0.0
+              },
+              "MultiLayer": {
+                "value": false
+              },
+              "ShadingModel": {
+                "value": "unknown"
+              },
+              "ShininessExponent": {
+                "value": 1024.0
+              },
+              "SpecularColor": {
+                "value": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              "SpecularFactor": {
+                "value": 2.0
+              },
+              "TransparencyFactor": {
+                "value": 0.0
+              }
+            }
+          }
+        }
+      },
+      "name": "01 - Default"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "ShaYuPD_Body_Geo001",
+      "primitives": [
+        {
+          "attributes": {
+            "JOINTS_0": 3,
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2,
+            "WEIGHTS_0": 4
+          },
+          "indices": 5,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "root",
+      "rotation": [
+        -0.7071067690849304,
+        -0.0,
+        0.0,
+        0.7071067690849304
+      ]
+    },
+    {
+      "children": [
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone001",
+      "rotation": [
+        -0.509548008441925,
+        -0.4902660846710205,
+        0.509548008441925,
+        0.4902661144733429
+      ],
+      "translation": [
+        -3.821285687877207e-08,
+        -0.8742082715034485,
+        0.045937906950712204
+      ]
+    },
+    {
+      "children": [
+        3
+      ],
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone002",
+      "rotation": [
+        1.767828244902958e-10,
+        1.5756420168600016e-08,
+        -0.011219027452170849,
+        0.9999370574951172
+      ],
+      "translation": [
+        1.3205676078796387,
+        -3.110617399215698e-07,
+        -4.194501457277511e-08
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone003",
+      "rotation": [
+        -3.3678071182513536e-12,
+        1.960019091473697e-10,
+        0.017184516414999962,
+        0.9998523592948914
+      ],
+      "translation": [
+        1.0524110794067383,
+        7.636845111846924e-08,
+        -8.76382300063483e-15
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone006(mirrored)",
+      "rotation": [
+        0.8297194838523865,
+        0.4133824110031128,
+        -0.1472853571176529,
+        0.3449457883834839
+      ],
+      "translation": [
+        0.5826101303100586,
+        0.29357606172561646,
+        -0.6779999136924744
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone006",
+      "rotation": [
+        0.3449458181858063,
+        -0.14728549122810364,
+        0.41338232159614563,
+        0.8297194838523865
+      ],
+      "translation": [
+        0.5826102495193481,
+        0.29357612133026123,
+        0.6776825189590454
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone005",
+      "rotation": [
+        -1.287404714787321e-16,
+        4.56480507775005e-16,
+        0.9964839816093445,
+        0.08378368616104126
+      ],
+      "translation": [
+        -0.13182097673416138,
+        -0.25293052196502686,
+        -1.7763568394002505e-15
+      ]
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "skeleton": {
+            "skeletonType": "LimbNode"
+          }
+        }
+      },
+      "name": "Bone004",
+      "rotation": [
+        3.261331826820424e-08,
+        1.1832067770001231e-07,
+        0.9640487432479858,
+        0.2657255530357361
+      ],
+      "translation": [
+        -0.05724930763244629,
+        0.1390877366065979,
+        -1.7763568394002505e-15
+      ]
+    },
+    {
+      "mesh": 0,
+      "name": "ShaYuPD_Body_Geo001",
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "skin": 0,
+      "translation": [
+        0.0,
+        0.0,
+        4.621149241046396e-09
+      ]
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        8
+      ]
+    }
+  ],
+  "skins": [
+    {
+      "inverseBindMatrices": 6,
+      "joints": [
+        1,
+        7,
+        6,
+        4,
+        3,
+        2,
+        5
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "Map #1",
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}

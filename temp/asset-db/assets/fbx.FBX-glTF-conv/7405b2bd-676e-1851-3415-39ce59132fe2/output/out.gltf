@@ -1,0 +1,566 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 35,
+      "max": [
+        1.1615771055221558,
+        0.3752152919769287,
+        0.4202806353569031
+      ],
+      "min": [
+        -1.0892939567565918,
+        -0.425118088722229,
+        -0.3840247392654419
+      ],
+      "name": "Low_Log/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 35,
+      "name": "Low_Log/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 35,
+      "name": "Low_Log/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5123,
+      "count": 90,
+      "name": "Low_Log/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1,
+      "name": "Low_Log/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1,
+      "max": [
+        3.3333332538604736
+      ],
+      "min": [
+        3.3333332538604736
+      ],
+      "name": "Low_Log/rotation/Input",
+      "type": "SCALAR"
+    }
+  ],
+  "animations": [
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 0,
+            "path": "rotation"
+          }
+        }
+      ],
+      "name": "Take 001",
+      "samplers": [
+        {
+          "input": 5,
+          "output": 4
+        }
+      ]
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1120,
+      "byteStride": 32,
+      "name": "Low_Log",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 180,
+      "byteOffset": 1120,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 16,
+      "byteOffset": 1300
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4,
+      "byteOffset": 1316
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1320,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 30.0,
+      "fbxFileHeaderInfo": {
+        "creationTimeStamp": {
+          "day": 17,
+          "hour": 16,
+          "millisecond": 840,
+          "minute": 34,
+          "month": 6,
+          "second": 16,
+          "year": 2025
+        },
+        "creator": "FBX SDK/FBX Plugins version 2019.2",
+        "sceneInfo": {
+          "author": "",
+          "comment": "",
+          "keywords": "",
+          "original": {
+            "applicationName": "3ds Max",
+            "applicationVendor": "Autodesk",
+            "applicationVersion": "2020",
+            "fileName": "E:\\suoyou\\suoquanjiuren\\Client\\Assets\\Scenes\\models\\mutou.fbx"
+          },
+          "revision": "",
+          "subject": "",
+          "title": "",
+          "url": "D:\\Project\\shamohuocheshouge\\Client\\cocos\\SMHCSG\\assets\\models\\mutou.fbx"
+        }
+      }
+    }
+  },
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "F:\\www\\huodui\\DSPLSM3DWB415_所需模型\\未减面\\jianmian\\unity\\My project\\Assets\\Scenes\\tex\\bake_albedo.jpg",
+          "relativeFileName": "F:\\www\\huodui\\DSPLSM3DWB415_所需模型\\未减面\\jianmian\\unity\\My project\\Assets\\Scenes\\tex\\bake_albedo.jpg"
+        }
+      },
+      "name": "贴图 #3",
+      "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+    }
+  ],
+  "materials": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "raw": {
+            "properties": {
+              "3dsMax": {
+                "value": {
+                  "ClassIDa": {
+                    "value": 2121471519
+                  },
+                  "ClassIDb": {
+                    "value": 1660373836
+                  },
+                  "SuperClassID": {
+                    "value": 3072
+                  },
+                  "ai_standard_surface Parameters/Connections": {
+                    "value": {
+                      "aov_id1": {
+                        "value": ""
+                      },
+                      "aov_id2": {
+                        "value": ""
+                      },
+                      "aov_id3": {
+                        "value": ""
+                      },
+                      "aov_id4": {
+                        "value": ""
+                      },
+                      "aov_id5": {
+                        "value": ""
+                      },
+                      "aov_id6": {
+                        "value": ""
+                      },
+                      "aov_id7": {
+                        "value": ""
+                      },
+                      "aov_id8": {
+                        "value": ""
+                      },
+                      "base": {
+                        "value": 1.0
+                      },
+                      "base_color": {
+                        "value": [
+                          0.7338129878044128,
+                          0.6546762585639954,
+                          0.5
+                        ]
+                      },
+                      "base_color.shader": {
+                        "value": {
+                          "index": 0
+                        }
+                      },
+                      "caustics": {
+                        "value": false
+                      },
+                      "coat": {
+                        "value": 0.0
+                      },
+                      "coat_IOR": {
+                        "value": 1.5
+                      },
+                      "coat_affect_color": {
+                        "value": 0.5
+                      },
+                      "coat_affect_roughness": {
+                        "value": 0.5
+                      },
+                      "coat_color": {
+                        "value": [
+                          1.0,
+                          1.0,
+                          1.0
+                        ]
+                      },
+                      "coat_normal": {
+                        "value": [
+                          0.0,
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      "coat_roughness": {
+                        "value": 0.11999999731779099
+                      },
+                      "diffuse_roughness": {
+                        "value": 0.0
+                      },
+                      "emission": {
+                        "value": 0.0
+                      },
+                      "emission_color": {
+                        "value": [
+                          1.0,
+                          1.0,
+                          1.0
+                        ]
+                      },
+                      "exit_to_background": {
+                        "value": false
+                      },
+                      "id1": {
+                        "value": [
+                          0.0,
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      "id2": {
+                        "value": [
+                          0.0,
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      "id3": {
+                        "value": [
+                          0.0,
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      "id4": {
+                        "value": [
+                          0.0,
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      "id5": {
+                        "value": [
+                          0.0,
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      "id6": {
+                        "value": [
+                          0.0,
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      "id7": {
+                        "value": [
+                          0.0,
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      "id8": {
+                        "value": [
+                          0.0,
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      "indirect_diffuse": {
+                        "value": 1.0
+                      },
+                      "indirect_specular": {
+                        "value": 1.0
+                      },
+                      "internal_reflections": {
+                        "value": true
+                      },
+                      "metalness": {
+                        "value": 0.0
+                      },
+                      "normal": {
+                        "value": [
+                          0.0,
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      "opacity": {
+                        "value": [
+                          1.0,
+                          1.0,
+                          1.0
+                        ]
+                      },
+                      "sheen": {
+                        "value": 0.0
+                      },
+                      "sheen_color": {
+                        "value": [
+                          1.0,
+                          1.0,
+                          1.0
+                        ]
+                      },
+                      "sheen_roughness": {
+                        "value": 0.30000001192092896
+                      },
+                      "specular": {
+                        "value": 1.0
+                      },
+                      "specular_IOR": {
+                        "value": 1.399999976158142
+                      },
+                      "specular_anisotropy": {
+                        "value": 0.0
+                      },
+                      "specular_color": {
+                        "value": [
+                          1.0,
+                          1.0,
+                          1.0
+                        ]
+                      },
+                      "specular_rotation": {
+                        "value": 0.0
+                      },
+                      "specular_roughness": {
+                        "value": 0.25595328211784363
+                      },
+                      "subsurface": {
+                        "value": 0.0
+                      },
+                      "subsurface_anisotropy": {
+                        "value": 0.0
+                      },
+                      "subsurface_color": {
+                        "value": [
+                          1.0,
+                          1.0,
+                          1.0
+                        ]
+                      },
+                      "subsurface_radius": {
+                        "value": [
+                          100.0,
+                          50.0,
+                          25.0
+                        ]
+                      },
+                      "subsurface_scale": {
+                        "value": 1.0
+                      },
+                      "subsurface_type": {
+                        "value": 0
+                      },
+                      "tangent": {
+                        "value": [
+                          0.0,
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      "thin_film_IOR": {
+                        "value": 1.5
+                      },
+                      "thin_film_thickness": {
+                        "value": 0.0
+                      },
+                      "thin_walled": {
+                        "value": false
+                      },
+                      "transmission": {
+                        "value": 0.0
+                      },
+                      "transmission_color": {
+                        "value": [
+                          1.0,
+                          1.0,
+                          1.0
+                        ]
+                      },
+                      "transmission_depth": {
+                        "value": 0.0
+                      },
+                      "transmission_dispersion": {
+                        "value": 0.0
+                      },
+                      "transmission_extra_roughness": {
+                        "value": 0.0
+                      },
+                      "transmission_scatter": {
+                        "value": [
+                          0.0,
+                          0.0,
+                          0.0
+                        ]
+                      },
+                      "transmission_scatter_anisotropy": {
+                        "value": 0.0
+                      },
+                      "transmit_aovs": {
+                        "value": false
+                      }
+                    }
+                  }
+                }
+              },
+              "AmbientColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "DiffuseColor": {
+                "value": [
+                  0.7338129878044128,
+                  0.6546762585639954,
+                  0.5
+                ]
+              },
+              "EmissiveColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "EmissiveFactor": {
+                "value": 0.0
+              },
+              "MultiLayer": {
+                "value": false
+              },
+              "ShadingModel": {
+                "value": "unknown"
+              },
+              "ShininessExponent": {
+                "value": 5.895167827606201
+              },
+              "SpecularColor": {
+                "value": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              "SpecularFactor": {
+                "value": 1.0
+              },
+              "TransparencyFactor": {
+                "value": 0.0
+              },
+              "启用": {
+                "value": false
+              }
+            }
+          }
+        }
+      },
+      "name": "huodui"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Low_Log",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Low_Log",
+      "rotation": [
+        -0.7071067690849304,
+        -0.0,
+        0.0,
+        0.7071067690849304
+      ]
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "贴图 #3",
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}

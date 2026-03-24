@@ -1,0 +1,1003 @@
+{
+  "data": {
+    "path": {
+      "Res\\mtl\\standard-outline.effect": [
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\main-functions\\outline-vs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\input-standard.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\decode-standard.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\decode-base.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\data\\unpack.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\morph.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\morph-animation.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-morph.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\skinning.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-skinning.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\skinning-animation-lbs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\local-batch.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local-batched.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\world-transform.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\main-functions\\outline-fs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\standard-vs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\shared-ubos.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\fog-vs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\fog-base.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\fog.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\effect\\fog.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\shadow-map-vs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-shadow.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\shadow-map-base.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\shadow-map.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-csm.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\math\\coordinates.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-shadow-map.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\data\\packing.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\shadow\\native-pcf.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\sh-vs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\lightingmap-vs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\standard-fs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\fog-fs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\standard-surface-entry.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\shading-standard-base.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\texture\\texture-lod.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-environment.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\math\\number.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\lighting\\functions.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-diffusemap.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-reflection-probe.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\probe.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\sh-fs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-sh.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\sh.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output-standard.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\aces.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\shadow-map-fs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\shading-standard-additive.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\lighting.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-forward-light.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\lighting\\attenuation.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\shading-cluster-additive.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\math\\octahedron-transform.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\lightingmap-fs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-light-map.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\lighting\\light-map.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\shadow-caster-vs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\shadow-caster-fs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\planar-shadow-vs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\input.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\decode.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\planar-shadow-fs.chunk",
+        "chunks\\legacy\\main-functions\\outline-vs.chunk",
+        "chunks\\legacy\\input-standard.chunk",
+        "chunks\\legacy\\decode-standard.chunk",
+        "chunks\\legacy\\decode-base.chunk",
+        "chunks\\common\\common-define.chunk",
+        "chunks\\common\\data\\unpack.chunk",
+        "chunks\\legacy\\morph.chunk",
+        "chunks\\builtin\\functionalities\\morph-animation.chunk",
+        "chunks\\builtin\\uniforms\\cc-morph.chunk",
+        "chunks\\legacy\\skinning.chunk",
+        "chunks\\builtin\\uniforms\\cc-skinning.chunk",
+        "chunks\\builtin\\functionalities\\skinning-animation-lbs.chunk",
+        "chunks\\builtin\\uniforms\\cc-global.chunk",
+        "chunks\\legacy\\local-batch.chunk",
+        "chunks\\builtin\\uniforms\\cc-local-batched.chunk",
+        "chunks\\builtin\\uniforms\\cc-local.chunk",
+        "chunks\\builtin\\functionalities\\world-transform.chunk",
+        "chunks\\legacy\\main-functions\\outline-fs.chunk",
+        "chunks\\legacy\\output.chunk",
+        "chunks\\common\\color\\gamma.chunk",
+        "chunks\\standard-vs.chunk",
+        "chunks\\shared-ubos.chunk",
+        "chunks\\legacy\\fog-vs.chunk",
+        "chunks\\legacy\\fog-base.chunk",
+        "chunks\\builtin\\functionalities\\fog.chunk",
+        "chunks\\common\\effect\\fog.chunk",
+        "chunks\\legacy\\shadow-map-vs.chunk",
+        "chunks\\builtin\\uniforms\\cc-shadow.chunk",
+        "chunks\\legacy\\shadow-map-base.chunk",
+        "chunks\\builtin\\functionalities\\shadow-map.chunk",
+        "chunks\\builtin\\uniforms\\cc-csm.chunk",
+        "chunks\\common\\math\\coordinates.chunk",
+        "chunks\\builtin\\uniforms\\cc-shadow-map.chunk",
+        "chunks\\common\\data\\packing.chunk",
+        "chunks\\common\\shadow\\native-pcf.chunk",
+        "chunks\\legacy\\sh-vs.chunk",
+        "chunks\\legacy\\lightingmap-vs.chunk",
+        "chunks\\standard-fs.chunk",
+        "chunks\\legacy\\fog-fs.chunk",
+        "chunks\\legacy\\standard-surface-entry.chunk",
+        "chunks\\legacy\\shading-standard-base.chunk",
+        "chunks\\common\\texture\\texture-lod.chunk",
+        "chunks\\builtin\\uniforms\\cc-environment.chunk",
+        "chunks\\common\\math\\number.chunk",
+        "chunks\\common\\lighting\\functions.chunk",
+        "chunks\\builtin\\uniforms\\cc-diffusemap.chunk",
+        "chunks\\builtin\\uniforms\\cc-reflection-probe.chunk",
+        "chunks\\builtin\\functionalities\\probe.chunk",
+        "chunks\\legacy\\sh-fs.chunk",
+        "chunks\\builtin\\uniforms\\cc-sh.chunk",
+        "chunks\\builtin\\functionalities\\sh.chunk",
+        "chunks\\legacy\\output-standard.chunk",
+        "chunks\\common\\color\\aces.chunk",
+        "chunks\\legacy\\shadow-map-fs.chunk",
+        "chunks\\legacy\\shading-standard-additive.chunk",
+        "chunks\\legacy\\lighting.chunk",
+        "chunks\\builtin\\uniforms\\cc-forward-light.chunk",
+        "chunks\\common\\lighting\\attenuation.chunk",
+        "chunks\\legacy\\shading-cluster-additive.chunk",
+        "chunks\\common\\math\\octahedron-transform.chunk",
+        "chunks\\legacy\\lightingmap-fs.chunk",
+        "chunks\\builtin\\uniforms\\cc-light-map.chunk",
+        "chunks\\common\\lighting\\light-map.chunk",
+        "chunks\\shadow-caster-vs.chunk",
+        "chunks\\shadow-caster-fs.chunk",
+        "chunks\\planar-shadow-vs.chunk",
+        "chunks\\legacy\\input.chunk",
+        "chunks\\legacy\\decode.chunk",
+        "chunks\\planar-shadow-fs.chunk"
+      ],
+      "沙漠火车收割\\shader\\standard-outline.effect": [
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\main-functions\\outline-vs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\input-standard.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\decode-standard.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\decode-base.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\data\\unpack.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\morph.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\morph-animation.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-morph.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\skinning.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-skinning.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\skinning-animation-lbs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\local-batch.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local-batched.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\world-transform.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\main-functions\\outline-fs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\standard-vs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\shared-ubos.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\fog-vs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\fog-base.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\fog.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\effect\\fog.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\shadow-map-vs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-shadow.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\shadow-map-base.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\shadow-map.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-csm.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\math\\coordinates.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-shadow-map.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\data\\packing.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\shadow\\native-pcf.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\sh-vs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\lightingmap-vs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\standard-fs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\fog-fs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\standard-surface-entry.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\shading-standard-base.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\texture\\texture-lod.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-environment.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\math\\number.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\lighting\\functions.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-diffusemap.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-reflection-probe.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\probe.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\sh-fs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-sh.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\sh.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output-standard.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\aces.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\shadow-map-fs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\shading-standard-additive.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\lighting.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-forward-light.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\lighting\\attenuation.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\shading-cluster-additive.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\math\\octahedron-transform.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\lightingmap-fs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-light-map.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\lighting\\light-map.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\shadow-caster-vs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\shadow-caster-fs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\planar-shadow-vs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\input.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\decode.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\planar-shadow-fs.chunk",
+        "chunks\\legacy\\main-functions\\outline-vs.chunk",
+        "chunks\\legacy\\input-standard.chunk",
+        "chunks\\legacy\\decode-standard.chunk",
+        "chunks\\legacy\\decode-base.chunk",
+        "chunks\\common\\common-define.chunk",
+        "chunks\\common\\data\\unpack.chunk",
+        "chunks\\legacy\\morph.chunk",
+        "chunks\\builtin\\functionalities\\morph-animation.chunk",
+        "chunks\\builtin\\uniforms\\cc-morph.chunk",
+        "chunks\\legacy\\skinning.chunk",
+        "chunks\\builtin\\uniforms\\cc-skinning.chunk",
+        "chunks\\builtin\\functionalities\\skinning-animation-lbs.chunk",
+        "chunks\\builtin\\uniforms\\cc-global.chunk",
+        "chunks\\legacy\\local-batch.chunk",
+        "chunks\\builtin\\uniforms\\cc-local-batched.chunk",
+        "chunks\\builtin\\uniforms\\cc-local.chunk",
+        "chunks\\builtin\\functionalities\\world-transform.chunk",
+        "chunks\\legacy\\main-functions\\outline-fs.chunk",
+        "chunks\\legacy\\output.chunk",
+        "chunks\\common\\color\\gamma.chunk",
+        "chunks\\standard-vs.chunk",
+        "chunks\\shared-ubos.chunk",
+        "chunks\\legacy\\fog-vs.chunk",
+        "chunks\\legacy\\fog-base.chunk",
+        "chunks\\builtin\\functionalities\\fog.chunk",
+        "chunks\\common\\effect\\fog.chunk",
+        "chunks\\legacy\\shadow-map-vs.chunk",
+        "chunks\\builtin\\uniforms\\cc-shadow.chunk",
+        "chunks\\legacy\\shadow-map-base.chunk",
+        "chunks\\builtin\\functionalities\\shadow-map.chunk",
+        "chunks\\builtin\\uniforms\\cc-csm.chunk",
+        "chunks\\common\\math\\coordinates.chunk",
+        "chunks\\builtin\\uniforms\\cc-shadow-map.chunk",
+        "chunks\\common\\data\\packing.chunk",
+        "chunks\\common\\shadow\\native-pcf.chunk",
+        "chunks\\legacy\\sh-vs.chunk",
+        "chunks\\legacy\\lightingmap-vs.chunk",
+        "chunks\\standard-fs.chunk",
+        "chunks\\legacy\\fog-fs.chunk",
+        "chunks\\legacy\\standard-surface-entry.chunk",
+        "chunks\\legacy\\shading-standard-base.chunk",
+        "chunks\\common\\texture\\texture-lod.chunk",
+        "chunks\\builtin\\uniforms\\cc-environment.chunk",
+        "chunks\\common\\math\\number.chunk",
+        "chunks\\common\\lighting\\functions.chunk",
+        "chunks\\builtin\\uniforms\\cc-diffusemap.chunk",
+        "chunks\\builtin\\uniforms\\cc-reflection-probe.chunk",
+        "chunks\\builtin\\functionalities\\probe.chunk",
+        "chunks\\legacy\\sh-fs.chunk",
+        "chunks\\builtin\\uniforms\\cc-sh.chunk",
+        "chunks\\builtin\\functionalities\\sh.chunk",
+        "chunks\\legacy\\output-standard.chunk",
+        "chunks\\common\\color\\aces.chunk",
+        "chunks\\legacy\\shadow-map-fs.chunk",
+        "chunks\\legacy\\shading-standard-additive.chunk",
+        "chunks\\legacy\\lighting.chunk",
+        "chunks\\builtin\\uniforms\\cc-forward-light.chunk",
+        "chunks\\common\\lighting\\attenuation.chunk",
+        "chunks\\legacy\\shading-cluster-additive.chunk",
+        "chunks\\common\\math\\octahedron-transform.chunk",
+        "chunks\\legacy\\lightingmap-fs.chunk",
+        "chunks\\builtin\\uniforms\\cc-light-map.chunk",
+        "chunks\\common\\lighting\\light-map.chunk",
+        "chunks\\shadow-caster-vs.chunk",
+        "chunks\\shadow-caster-fs.chunk",
+        "chunks\\planar-shadow-vs.chunk",
+        "chunks\\legacy\\input.chunk",
+        "chunks\\legacy\\decode.chunk",
+        "chunks\\planar-shadow-fs.chunk"
+      ],
+      "GameRes\\ydsx_map\\mtl\\standard-outline.effect": [
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\main-functions\\outline-vs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\input-standard.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\decode-standard.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\decode-base.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\data\\unpack.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\morph.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\morph-animation.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-morph.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\skinning.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-skinning.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\skinning-animation-lbs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\local-batch.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local-batched.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\world-transform.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\main-functions\\outline-fs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\standard-vs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\shared-ubos.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\fog-vs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\fog-base.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\fog.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\effect\\fog.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\shadow-map-vs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-shadow.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\shadow-map-base.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\shadow-map.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-csm.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\math\\coordinates.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-shadow-map.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\data\\packing.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\shadow\\native-pcf.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\sh-vs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\lightingmap-vs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\standard-fs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\fog-fs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\standard-surface-entry.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\shading-standard-base.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\texture\\texture-lod.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-environment.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\math\\number.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\lighting\\functions.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-diffusemap.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-reflection-probe.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\probe.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\sh-fs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-sh.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\sh.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output-standard.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\aces.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\shadow-map-fs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\shading-standard-additive.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\lighting.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-forward-light.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\lighting\\attenuation.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\shading-cluster-additive.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\math\\octahedron-transform.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\lightingmap-fs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-light-map.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\lighting\\light-map.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\shadow-caster-vs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\shadow-caster-fs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\planar-shadow-vs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\input.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\decode.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\planar-shadow-fs.chunk",
+        "chunks\\legacy\\main-functions\\outline-vs.chunk",
+        "chunks\\legacy\\input-standard.chunk",
+        "chunks\\legacy\\decode-standard.chunk",
+        "chunks\\legacy\\decode-base.chunk",
+        "chunks\\common\\common-define.chunk",
+        "chunks\\common\\data\\unpack.chunk",
+        "chunks\\legacy\\morph.chunk",
+        "chunks\\builtin\\functionalities\\morph-animation.chunk",
+        "chunks\\builtin\\uniforms\\cc-morph.chunk",
+        "chunks\\legacy\\skinning.chunk",
+        "chunks\\builtin\\uniforms\\cc-skinning.chunk",
+        "chunks\\builtin\\functionalities\\skinning-animation-lbs.chunk",
+        "chunks\\builtin\\uniforms\\cc-global.chunk",
+        "chunks\\legacy\\local-batch.chunk",
+        "chunks\\builtin\\uniforms\\cc-local-batched.chunk",
+        "chunks\\builtin\\uniforms\\cc-local.chunk",
+        "chunks\\builtin\\functionalities\\world-transform.chunk",
+        "chunks\\legacy\\main-functions\\outline-fs.chunk",
+        "chunks\\legacy\\output.chunk",
+        "chunks\\common\\color\\gamma.chunk",
+        "chunks\\standard-vs.chunk",
+        "chunks\\shared-ubos.chunk",
+        "chunks\\legacy\\fog-vs.chunk",
+        "chunks\\legacy\\fog-base.chunk",
+        "chunks\\builtin\\functionalities\\fog.chunk",
+        "chunks\\common\\effect\\fog.chunk",
+        "chunks\\legacy\\shadow-map-vs.chunk",
+        "chunks\\builtin\\uniforms\\cc-shadow.chunk",
+        "chunks\\legacy\\shadow-map-base.chunk",
+        "chunks\\builtin\\functionalities\\shadow-map.chunk",
+        "chunks\\builtin\\uniforms\\cc-csm.chunk",
+        "chunks\\common\\math\\coordinates.chunk",
+        "chunks\\builtin\\uniforms\\cc-shadow-map.chunk",
+        "chunks\\common\\data\\packing.chunk",
+        "chunks\\common\\shadow\\native-pcf.chunk",
+        "chunks\\legacy\\sh-vs.chunk",
+        "chunks\\legacy\\lightingmap-vs.chunk",
+        "chunks\\standard-fs.chunk",
+        "chunks\\legacy\\fog-fs.chunk",
+        "chunks\\legacy\\standard-surface-entry.chunk",
+        "chunks\\legacy\\shading-standard-base.chunk",
+        "chunks\\common\\texture\\texture-lod.chunk",
+        "chunks\\builtin\\uniforms\\cc-environment.chunk",
+        "chunks\\common\\math\\number.chunk",
+        "chunks\\common\\lighting\\functions.chunk",
+        "chunks\\builtin\\uniforms\\cc-diffusemap.chunk",
+        "chunks\\builtin\\uniforms\\cc-reflection-probe.chunk",
+        "chunks\\builtin\\functionalities\\probe.chunk",
+        "chunks\\legacy\\sh-fs.chunk",
+        "chunks\\builtin\\uniforms\\cc-sh.chunk",
+        "chunks\\builtin\\functionalities\\sh.chunk",
+        "chunks\\legacy\\output-standard.chunk",
+        "chunks\\common\\color\\aces.chunk",
+        "chunks\\legacy\\shadow-map-fs.chunk",
+        "chunks\\legacy\\shading-standard-additive.chunk",
+        "chunks\\legacy\\lighting.chunk",
+        "chunks\\builtin\\uniforms\\cc-forward-light.chunk",
+        "chunks\\common\\lighting\\attenuation.chunk",
+        "chunks\\legacy\\shading-cluster-additive.chunk",
+        "chunks\\common\\math\\octahedron-transform.chunk",
+        "chunks\\legacy\\lightingmap-fs.chunk",
+        "chunks\\builtin\\uniforms\\cc-light-map.chunk",
+        "chunks\\common\\lighting\\light-map.chunk",
+        "chunks\\shadow-caster-vs.chunk",
+        "chunks\\shadow-caster-fs.chunk",
+        "chunks\\planar-shadow-vs.chunk",
+        "chunks\\legacy\\input.chunk",
+        "chunks\\legacy\\decode.chunk",
+        "chunks\\planar-shadow-fs.chunk"
+      ],
+      "Res\\Eff\\guide\\guide_line.effect": [
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-vs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-fs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\alpha-test.chunk",
+        "chunks\\sprite-vs.chunk",
+        "chunks\\builtin\\uniforms\\cc-global.chunk",
+        "chunks\\builtin\\uniforms\\cc-local.chunk",
+        "chunks\\common\\common-define.chunk",
+        "chunks\\sprite-fs.chunk",
+        "chunks\\builtin\\internal\\embedded-alpha.chunk",
+        "chunks\\builtin\\internal\\alpha-test.chunk"
+      ],
+      "GameRes\\Jsyd_map\\mtx\\diss\\toon_dissolve.effect": [
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\main-functions\\outline-vs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\input-standard.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\decode-standard.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\decode-base.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\data\\unpack.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\morph.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\morph-animation.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-morph.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\skinning.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-skinning.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\skinning-animation-lbs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\local-batch.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local-batched.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\world-transform.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\main-functions\\outline-fs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\toon-vs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\shared-ubos.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\shadow-map-vs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-shadow.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\shadow-map-base.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\shadow-map.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-csm.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\math\\coordinates.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-shadow-map.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\data\\packing.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\shadow\\native-pcf.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\toon-fs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\shading-toon.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\lighting.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-forward-light.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\lighting\\attenuation.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\shadow-map-fs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output-standard.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\aces.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\shadow-caster-vs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\shadow-caster-fs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\planar-shadow-vs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\lighting\\functions.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\planar-shadow-fs.chunk",
+        "chunks\\legacy\\main-functions\\outline-vs.chunk",
+        "chunks\\legacy\\input-standard.chunk",
+        "chunks\\legacy\\decode-standard.chunk",
+        "chunks\\legacy\\decode-base.chunk",
+        "chunks\\common\\common-define.chunk",
+        "chunks\\common\\data\\unpack.chunk",
+        "chunks\\legacy\\morph.chunk",
+        "chunks\\builtin\\functionalities\\morph-animation.chunk",
+        "chunks\\builtin\\uniforms\\cc-morph.chunk",
+        "chunks\\legacy\\skinning.chunk",
+        "chunks\\builtin\\uniforms\\cc-skinning.chunk",
+        "chunks\\builtin\\functionalities\\skinning-animation-lbs.chunk",
+        "chunks\\builtin\\uniforms\\cc-global.chunk",
+        "chunks\\legacy\\local-batch.chunk",
+        "chunks\\builtin\\uniforms\\cc-local-batched.chunk",
+        "chunks\\builtin\\uniforms\\cc-local.chunk",
+        "chunks\\builtin\\functionalities\\world-transform.chunk",
+        "chunks\\legacy\\main-functions\\outline-fs.chunk",
+        "chunks\\legacy\\output.chunk",
+        "chunks\\common\\color\\gamma.chunk",
+        "chunks\\toon-vs.chunk",
+        "chunks\\shared-ubos.chunk",
+        "chunks\\legacy\\shadow-map-vs.chunk",
+        "chunks\\builtin\\uniforms\\cc-shadow.chunk",
+        "chunks\\legacy\\shadow-map-base.chunk",
+        "chunks\\builtin\\functionalities\\shadow-map.chunk",
+        "chunks\\builtin\\uniforms\\cc-csm.chunk",
+        "chunks\\common\\math\\coordinates.chunk",
+        "chunks\\builtin\\uniforms\\cc-shadow-map.chunk",
+        "chunks\\common\\data\\packing.chunk",
+        "chunks\\common\\shadow\\native-pcf.chunk",
+        "chunks\\toon-fs.chunk",
+        "chunks\\legacy\\shading-toon.chunk",
+        "chunks\\legacy\\lighting.chunk",
+        "chunks\\builtin\\uniforms\\cc-forward-light.chunk",
+        "chunks\\common\\lighting\\attenuation.chunk",
+        "chunks\\legacy\\shadow-map-fs.chunk",
+        "chunks\\legacy\\output-standard.chunk",
+        "chunks\\common\\color\\aces.chunk",
+        "chunks\\shadow-caster-vs.chunk",
+        "chunks\\shadow-caster-fs.chunk",
+        "chunks\\planar-shadow-vs.chunk",
+        "chunks\\common\\lighting\\functions.chunk",
+        "chunks\\planar-shadow-fs.chunk"
+      ],
+      "GameRes\\SceneFBX\\Res\\Eff\\diss\\toon_dissolve.effect": [
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\main-functions\\outline-vs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\input-standard.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\decode-standard.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\decode-base.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\data\\unpack.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\morph.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\morph-animation.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-morph.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\skinning.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-skinning.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\skinning-animation-lbs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\local-batch.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local-batched.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\world-transform.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\main-functions\\outline-fs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\toon-vs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\shared-ubos.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\shadow-map-vs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-shadow.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\shadow-map-base.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\shadow-map.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-csm.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\math\\coordinates.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-shadow-map.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\data\\packing.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\shadow\\native-pcf.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\toon-fs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\shading-toon.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\lighting.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-forward-light.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\lighting\\attenuation.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\shadow-map-fs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output-standard.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\aces.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\shadow-caster-vs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\shadow-caster-fs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\planar-shadow-vs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\lighting\\functions.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\planar-shadow-fs.chunk",
+        "chunks\\legacy\\main-functions\\outline-vs.chunk",
+        "chunks\\legacy\\input-standard.chunk",
+        "chunks\\legacy\\decode-standard.chunk",
+        "chunks\\legacy\\decode-base.chunk",
+        "chunks\\common\\common-define.chunk",
+        "chunks\\common\\data\\unpack.chunk",
+        "chunks\\legacy\\morph.chunk",
+        "chunks\\builtin\\functionalities\\morph-animation.chunk",
+        "chunks\\builtin\\uniforms\\cc-morph.chunk",
+        "chunks\\legacy\\skinning.chunk",
+        "chunks\\builtin\\uniforms\\cc-skinning.chunk",
+        "chunks\\builtin\\functionalities\\skinning-animation-lbs.chunk",
+        "chunks\\builtin\\uniforms\\cc-global.chunk",
+        "chunks\\legacy\\local-batch.chunk",
+        "chunks\\builtin\\uniforms\\cc-local-batched.chunk",
+        "chunks\\builtin\\uniforms\\cc-local.chunk",
+        "chunks\\builtin\\functionalities\\world-transform.chunk",
+        "chunks\\legacy\\main-functions\\outline-fs.chunk",
+        "chunks\\legacy\\output.chunk",
+        "chunks\\common\\color\\gamma.chunk",
+        "chunks\\toon-vs.chunk",
+        "chunks\\shared-ubos.chunk",
+        "chunks\\legacy\\shadow-map-vs.chunk",
+        "chunks\\builtin\\uniforms\\cc-shadow.chunk",
+        "chunks\\legacy\\shadow-map-base.chunk",
+        "chunks\\builtin\\functionalities\\shadow-map.chunk",
+        "chunks\\builtin\\uniforms\\cc-csm.chunk",
+        "chunks\\common\\math\\coordinates.chunk",
+        "chunks\\builtin\\uniforms\\cc-shadow-map.chunk",
+        "chunks\\common\\data\\packing.chunk",
+        "chunks\\common\\shadow\\native-pcf.chunk",
+        "chunks\\toon-fs.chunk",
+        "chunks\\legacy\\shading-toon.chunk",
+        "chunks\\legacy\\lighting.chunk",
+        "chunks\\builtin\\uniforms\\cc-forward-light.chunk",
+        "chunks\\common\\lighting\\attenuation.chunk",
+        "chunks\\legacy\\shadow-map-fs.chunk",
+        "chunks\\legacy\\output-standard.chunk",
+        "chunks\\common\\color\\aces.chunk",
+        "chunks\\shadow-caster-vs.chunk",
+        "chunks\\shadow-caster-fs.chunk",
+        "chunks\\planar-shadow-vs.chunk",
+        "chunks\\common\\lighting\\functions.chunk",
+        "chunks\\planar-shadow-fs.chunk"
+      ],
+      "Res\\UI\\Line\\ArrowLine\\Shader\\noiseMove.effect": [
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\unlit-vs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\input.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\decode.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\decode-base.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\data\\unpack.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\morph.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\morph-animation.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-morph.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\skinning.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-skinning.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\skinning-animation-lbs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\local-batch.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local-batched.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\world-transform.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\unlit-fs.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+        "..\\..\\..\\..\\..\\..\\cocos\\editors\\Creator\\3.8.8\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+        "chunks\\unlit-vs.chunk",
+        "chunks\\legacy\\input.chunk",
+        "chunks\\legacy\\decode.chunk",
+        "chunks\\legacy\\decode-base.chunk",
+        "chunks\\common\\common-define.chunk",
+        "chunks\\common\\data\\unpack.chunk",
+        "chunks\\legacy\\morph.chunk",
+        "chunks\\builtin\\functionalities\\morph-animation.chunk",
+        "chunks\\builtin\\uniforms\\cc-morph.chunk",
+        "chunks\\legacy\\skinning.chunk",
+        "chunks\\builtin\\uniforms\\cc-skinning.chunk",
+        "chunks\\builtin\\functionalities\\skinning-animation-lbs.chunk",
+        "chunks\\builtin\\uniforms\\cc-global.chunk",
+        "chunks\\legacy\\local-batch.chunk",
+        "chunks\\builtin\\uniforms\\cc-local-batched.chunk",
+        "chunks\\builtin\\uniforms\\cc-local.chunk",
+        "chunks\\builtin\\functionalities\\world-transform.chunk",
+        "chunks\\unlit-fs.chunk",
+        "chunks\\legacy\\output.chunk",
+        "chunks\\common\\color\\gamma.chunk"
+      ],
+      "models\\人骆驼_移动.fbx@a96a6": [
+        "textures\\人_BC.png"
+      ],
+      "models\\人骆驼_待机.fbx@a96a6": [
+        "textures\\人_BC.png"
+      ],
+      "models\\小麦01.FBX@ab932": [
+        "textures\\XiaoMai_1.tga"
+      ],
+      "models\\小麦01.FBX@6e70c": [
+        "textures\\XiaoMai_1.tga"
+      ],
+      "models\\收银机.fbx@d20e9": [
+        "textures\\收银机.jpg"
+      ],
+      "models\\牛排.fbx@d20e9": [
+        "textures\\NiuPai_1_BC.png"
+      ],
+      "沙漠火车收割\\Models\\收银机.fbx@d20e9": [
+        "沙漠火车收割\\Textures\\收银机.jpg"
+      ],
+      "沙漠火车收割\\Models\\树.fbx@4b8d7": [
+        "沙漠火车收割\\Textures\\树_BC.png"
+      ],
+      "沙漠火车收割\\Models\\麦子.fbx@291d4": [
+        "沙漠火车收割\\Textures\\麦子_BC.png"
+      ],
+      "沙漠火车收割\\丧尸\\sangshi02.fbx@d20e9": [
+        "沙漠火车收割\\丧尸\\xieshi_sangshi02_D.PNG"
+      ],
+      "沙漠火车收割\\zhujue\\RedShirt_Man.fbx@f9f48": [
+        "沙漠火车收割\\zhujue\\RedShirt_Man_CM.jpg"
+      ],
+      "沙漠火车收割\\zhujue\\RedShirt_Man.fbx@168ea": [
+        "沙漠火车收割\\zhujue\\Axe00_diff.jpg"
+      ],
+      "杀鱼获肉\\杀鱼获肉\\鲨鱼_FBX\\shayu_skin.fbx@6e70c": [
+        "杀鱼获肉\\杀鱼获肉\\鲨鱼_FBX\\shayu.jpg"
+      ]
+    },
+    "uuid": {
+      "materials\\__u4ED9_u4EBA_u638C_1_.mtl": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ],
+      "materials\\__u56F4_u680F-03_.mtl": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ],
+      "materials\\__u5730_u626303_.mtl": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ],
+      "materials\\__u5E95_u827201_.mtl": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ],
+      "materials\\__u5E95_u827202_.mtl": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ],
+      "materials\\__u65A7_u5B501_.mtl": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ],
+      "materials\\__u677E_u681102_.mtl": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ],
+      "materials\\__u677E_u6811_.mtl": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ],
+      "materials\\__u67AF_u6811_u6869_.mtl": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ],
+      "materials\\__u684C_u5B50_.mtl": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ],
+      "materials\\__u706B_u8F66_u5934_.mtl": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ],
+      "materials\\__u70E7_u70E4_u67B6_.mtl": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ],
+      "materials\\__u7535_u5854_.mtl": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ],
+      "materials\\__u77F3_u5934_u96EA01_.mtl": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ],
+      "materials\\__u8272_u536102_.mtl": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ],
+      "materials\\__u82E6_u5DE5_4_.mtl": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ],
+      "materials\\__u8349_.mtl": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ],
+      "materials\\__u8349_u5E3DNPC_2_.mtl": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ],
+      "materials\\__u8428_u683C_.mtl": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ],
+      "materials\\__u8F6601_.mtl": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ],
+      "materials\\__u8F6603_.mtl": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ],
+      "materials\\__u952F_u7247_u989C_u8272_.mtl": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ],
+      "materials\\__u95E8002_.mtl": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ],
+      "NPC(1)\\material.mtl": [
+        "977fccb7-c004-487e-9dea-a2aea01c0dd5"
+      ],
+      "A-texiao\\mat\\glow-add-001.mtl": [
+        "d1346436-ac96-4271-b863-1f4fdead95b0"
+      ],
+      "A-texiao\\mat\\glow-add-yuan-001.mtl": [
+        "d1346436-ac96-4271-b863-1f4fdead95b0"
+      ],
+      "A-texiao\\mat\\glow-add-yuan.mtl": [
+        "d1346436-ac96-4271-b863-1f4fdead95b0"
+      ],
+      "A-texiao\\mat\\glow-blend.mtl": [
+        "d1346436-ac96-4271-b863-1f4fdead95b0"
+      ],
+      "A-texiao\\mat\\jiantou-add.mtl": [
+        "d1346436-ac96-4271-b863-1f4fdead95b0"
+      ],
+      "A-texiao\\mat\\sji-yuan-add.mtl": [
+        "d1346436-ac96-4271-b863-1f4fdead95b0"
+      ],
+      "A-texiao\\mat\\sji-yuan.mtl": [
+        "d1346436-ac96-4271-b863-1f4fdead95b0"
+      ],
+      "A-texiao\\mat\\spark-add.mtl": [
+        "d1346436-ac96-4271-b863-1f4fdead95b0"
+      ],
+      "A-texiao\\mat\\star-add.mtl": [
+        "d1346436-ac96-4271-b863-1f4fdead95b0"
+      ],
+      "Art\\Mat\\chuansong.mtl": [
+        "fc326c29-2aac-4636-a98f-14a734eab966"
+      ],
+      "Art\\Mat\\mu01.mtl": [
+        "fc326c29-2aac-4636-a98f-14a734eab966"
+      ],
+      "Art\\Material\\baoshi.mtl": [
+        "fc326c29-2aac-4636-a98f-14a734eab966"
+      ],
+      "Art\\Material\\jibi.mtl": [
+        "f2eb0bd8-aaa6-41f5-ad70-eb35d8a8818c"
+      ],
+      "cocos_effect\\Materials\\glow01.mtl": [
+        "d1346436-ac96-4271-b863-1f4fdead95b0"
+      ],
+      "cocos_effect\\Materials\\glow01_alpha.mtl": [
+        "d1346436-ac96-4271-b863-1f4fdead95b0"
+      ],
+      "cocos_effect\\Materials\\lizi00.mtl": [
+        "d1346436-ac96-4271-b863-1f4fdead95b0"
+      ],
+      "cocos_effect\\Materials\\lizi01.mtl": [
+        "d1346436-ac96-4271-b863-1f4fdead95b0"
+      ],
+      "cocos_effect\\Materials\\quan60.mtl": [
+        "d1346436-ac96-4271-b863-1f4fdead95b0"
+      ],
+      "cocos_effect\\Materials\\quan66.mtl": [
+        "d1346436-ac96-4271-b863-1f4fdead95b0"
+      ],
+      "cocos_effect\\Materials\\shuidi02.mtl": [
+        "d1346436-ac96-4271-b863-1f4fdead95b0"
+      ],
+      "cocos_effect\\Materials\\smoke01.mtl": [
+        "d1346436-ac96-4271-b863-1f4fdead95b0"
+      ],
+      "cocos_effect\\Materials\\smoke22.mtl": [
+        "d1346436-ac96-4271-b863-1f4fdead95b0"
+      ],
+      "cocos_effect\\Materials\\xulie_huo01_4x4.mtl": [
+        "d1346436-ac96-4271-b863-1f4fdead95b0"
+      ],
+      "cocos_effect\\Materials\\xulie_juchi01_1x4.mtl": [
+        "d1346436-ac96-4271-b863-1f4fdead95b0"
+      ],
+      "cocos_effect\\Materials\\xulie_juchi01_1x4_2.mtl": [
+        "d1346436-ac96-4271-b863-1f4fdead95b0"
+      ],
+      "cocos_effect\\Materials\\xulie_shandian41_1x4_2.mtl": [
+        "d1346436-ac96-4271-b863-1f4fdead95b0"
+      ],
+      "cocos_effect\\Materials\\xulie_shitou07_2x2.mtl": [
+        "d1346436-ac96-4271-b863-1f4fdead95b0"
+      ],
+      "cocos_effect\\Materials\\xulie_shui01_3x3.mtl": [
+        "d1346436-ac96-4271-b863-1f4fdead95b0"
+      ],
+      "cocos_effect\\Materials\\xulie_suikuai01_4x4.mtl": [
+        "d1346436-ac96-4271-b863-1f4fdead95b0"
+      ],
+      "Game\\Mat\\zhuozi.mtl": [
+        "95b51178-c7c8-4058-82eb-671575219d70"
+      ],
+      "GameRes\\Material\\MaterSprite2D.mtl": [
+        "60f7195c-ec2a-45eb-ba94-8955f60e81d0"
+      ],
+      "沙漠火车收割\\Mtl\\bing.mtl": [
+        "f2eb0bd8-aaa6-41f5-ad70-eb35d8a8818c"
+      ],
+      "沙漠火车收割\\Mtl\\lanse.mtl": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ],
+      "沙漠火车收割\\Mtl\\zhongxindiban.mtl": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ],
+      "沙漠火车收割\\Mtl\\zise.mtl": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ],
+      "沙漠火车收割\\Mtl\\仙人掌.mtl": [
+        "f2eb0bd8-aaa6-41f5-ad70-eb35d8a8818c"
+      ],
+      "沙漠火车收割\\Mtl\\围栏-03.mtl": [
+        "f2eb0bd8-aaa6-41f5-ad70-eb35d8a8818c"
+      ],
+      "沙漠火车收割\\Mtl\\底色.mtl": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ],
+      "沙漠火车收割\\Mtl\\拖车01.mtl": [
+        "f2eb0bd8-aaa6-41f5-ad70-eb35d8a8818c"
+      ],
+      "沙漠火车收割\\Mtl\\收银机.mtl": [
+        "f2eb0bd8-aaa6-41f5-ad70-eb35d8a8818c"
+      ],
+      "沙漠火车收割\\Mtl\\木堆.mtl": [
+        "f2eb0bd8-aaa6-41f5-ad70-eb35d8a8818c"
+      ],
+      "沙漠火车收割\\Mtl\\树_BC.mtl": [
+        "f2eb0bd8-aaa6-41f5-ad70-eb35d8a8818c"
+      ],
+      "沙漠火车收割\\Mtl\\桌子.mtl": [
+        "f2eb0bd8-aaa6-41f5-ad70-eb35d8a8818c"
+      ],
+      "沙漠火车收割\\Mtl\\流沙地表.mtl": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ],
+      "沙漠火车收割\\Mtl\\火车头.mtl": [
+        "f2eb0bd8-aaa6-41f5-ad70-eb35d8a8818c"
+      ],
+      "沙漠火车收割\\Mtl\\灶台02.mtl": [
+        "f2eb0bd8-aaa6-41f5-ad70-eb35d8a8818c"
+      ],
+      "沙漠火车收割\\Mtl\\烧烤架.mtl": [
+        "f2eb0bd8-aaa6-41f5-ad70-eb35d8a8818c"
+      ],
+      "沙漠火车收割\\Mtl\\电塔.mtl": [
+        "f2eb0bd8-aaa6-41f5-ad70-eb35d8a8818c"
+      ],
+      "沙漠火车收割\\Mtl\\石头.mtl": [
+        "f2eb0bd8-aaa6-41f5-ad70-eb35d8a8818c"
+      ],
+      "沙漠火车收割\\Mtl\\箭塔.mtl": [
+        "f2eb0bd8-aaa6-41f5-ad70-eb35d8a8818c"
+      ],
+      "沙漠火车收割\\Mtl\\箭塔底座BC.mtl": [
+        "f2eb0bd8-aaa6-41f5-ad70-eb35d8a8818c"
+      ],
+      "沙漠火车收割\\Mtl\\色卡02.mtl": [
+        "f2eb0bd8-aaa6-41f5-ad70-eb35d8a8818c"
+      ],
+      "沙漠火车收割\\Mtl\\草-001.mtl": [
+        "f2eb0bd8-aaa6-41f5-ad70-eb35d8a8818c"
+      ],
+      "沙漠火车收割\\Mtl\\草.mtl": [
+        "f2eb0bd8-aaa6-41f5-ad70-eb35d8a8818c"
+      ],
+      "沙漠火车收割\\Mtl\\货运列车01_BC.mtl": [
+        "f2eb0bd8-aaa6-41f5-ad70-eb35d8a8818c"
+      ],
+      "沙漠火车收割\\Mtl\\车01.mtl": [
+        "f2eb0bd8-aaa6-41f5-ad70-eb35d8a8818c"
+      ],
+      "沙漠火车收割\\Mtl\\车03.mtl": [
+        "f2eb0bd8-aaa6-41f5-ad70-eb35d8a8818c"
+      ],
+      "沙漠火车收割\\Mtl\\车04.mtl": [
+        "f2eb0bd8-aaa6-41f5-ad70-eb35d8a8818c"
+      ],
+      "沙漠火车收割\\Mtl\\锯片颜色.mtl": [
+        "f2eb0bd8-aaa6-41f5-ad70-eb35d8a8818c"
+      ],
+      "沙漠火车收割\\Mtl\\锯片颜色zise.mtl": [
+        "f2eb0bd8-aaa6-41f5-ad70-eb35d8a8818c"
+      ],
+      "沙漠火车收割\\Mtl\\门02.mtl": [
+        "f2eb0bd8-aaa6-41f5-ad70-eb35d8a8818c"
+      ],
+      "沙漠火车收割\\Mtl\\麦子_BC.mtl": [
+        "f2eb0bd8-aaa6-41f5-ad70-eb35d8a8818c"
+      ],
+      "沙漠火车收割\\丧尸\\xieshi_sangshi02_D-001.mtl": [
+        "f2eb0bd8-aaa6-41f5-ad70-eb35d8a8818c"
+      ],
+      "沙漠火车收割\\丧尸\\xieshi_sangshi02_D.mtl": [
+        "f2eb0bd8-aaa6-41f5-ad70-eb35d8a8818c"
+      ],
+      "沙漠火车收割\\主角\\1.mtl": [
+        "f2eb0bd8-aaa6-41f5-ad70-eb35d8a8818c"
+      ],
+      "沙漠火车收割\\主角\\2.mtl": [
+        "f2eb0bd8-aaa6-41f5-ad70-eb35d8a8818c"
+      ],
+      "沙漠火车收割\\主角\\3.mtl": [
+        "f2eb0bd8-aaa6-41f5-ad70-eb35d8a8818c"
+      ],
+      "沙漠火车收割\\商人和骆驼\\人_BC.mtl": [
+        "f2eb0bd8-aaa6-41f5-ad70-eb35d8a8818c"
+      ],
+      "沙漠火车收割\\商人和骆驼\\骆驼_BC.mtl": [
+        "f2eb0bd8-aaa6-41f5-ad70-eb35d8a8818c"
+      ],
+      "沙漠火车收割\\小麦\\小麦卷.mtl": [
+        "f2eb0bd8-aaa6-41f5-ad70-eb35d8a8818c"
+      ],
+      "GameRes\\ydsx_map\\mtl\\jianta_02.mtl": [
+        "fc326c29-2aac-4636-a98f-14a734eab966"
+      ],
+      "Res\\Eff\\guide\\guide_line.mtl": [
+        "921aa962-5083-43cf-b268-42d6a051862d"
+      ],
+      "GameRes\\fx\\Effect\\winfail\\Dot\\Dot.mtl": [
+        "d1346436-ac96-4271-b863-1f4fdead95b0"
+      ],
+      "GameRes\\fx\\Effect\\winfail\\end_light\\end_light.mtl": [
+        "d1346436-ac96-4271-b863-1f4fdead95b0"
+      ],
+      "Res\\UI\\Line\\ArrowLine\\Shader\\arrow.mtl": [
+        "fd602a3d-4ccd-4124-8838-ea918acfb733"
+      ]
+    }
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,8 @@
+{
+  "__type__": "cc.TextAsset",
+  "_name": "僵尸",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "text": "待机  0-40\t\r\n攻击  50-80\r\n受击  80-100\r\n死亡  120-143\r\n移动  90-115\r\n钻出  150-205"
+}

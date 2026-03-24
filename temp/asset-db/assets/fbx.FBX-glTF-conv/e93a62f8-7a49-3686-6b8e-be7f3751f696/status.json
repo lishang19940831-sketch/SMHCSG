@@ -1,0 +1,14 @@
+{
+  "version": "2.3.14",
+  "sourceTimeStamp": 1772611234375.8184,
+  "outputTimeStamps": {
+    "JinBi_01.png": 1772611234502.7336,
+    "log.json": 1774356895277.841,
+    "out.bin": 1774356895274.728,
+    "out.gltf": 1774356895276.8337
+  },
+  "options": {
+    "smartMaterialEnabled": true,
+    "matchMeshNames": true
+  }
+}

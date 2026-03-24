@@ -1,0 +1,354 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 196,
+      "max": [
+        0.9968792796134949,
+        1.3306289911270142,
+        1.0218708515167236
+      ],
+      "min": [
+        -0.9968791007995605,
+        0.5346027612686157,
+        -1.0218710899353027
+      ],
+      "name": "table_small/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 196,
+      "name": "table_small/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 196,
+      "name": "table_small/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "count": 196,
+      "name": "table_small/TEXCOORD_1",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5123,
+      "count": 498,
+      "name": "table_small/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 7840,
+      "byteStride": 40,
+      "name": "table_small",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 996,
+      "byteOffset": 7840,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 8836,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 24.0,
+      "fbxFileHeaderInfo": {
+        "creationTimeStamp": {
+          "day": 15,
+          "hour": 15,
+          "millisecond": 849,
+          "minute": 48,
+          "month": 9,
+          "second": 46,
+          "year": 2025
+        },
+        "creator": "FBX SDK/FBX Plugins version 2020.1",
+        "sceneInfo": {
+          "author": "",
+          "comment": "",
+          "keywords": "",
+          "original": {
+            "applicationName": "Maya",
+            "applicationVendor": "Autodesk",
+            "applicationVersion": "2022",
+            "fileName": "D:\\工作\\模型制作\\20250912_熊肉\\table_small.fbx"
+          },
+          "revision": "",
+          "subject": "",
+          "title": "",
+          "url": "D:\\Project\\shamohuocheshouge\\Client\\cocos\\SMHCSG\\assets\\Game\\FBX\\table_small.fbx"
+        }
+      }
+    }
+  },
+  "materials": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "raw": {
+            "properties": {
+              "Maya": {
+                "value": {
+                  "FBXASC229FBXASC144FBXASC175FBXASC231FBXASC148FBXASC168": {
+                    "value": false
+                  },
+                  "TypeId": {
+                    "value": 1398031443
+                  },
+                  "base": {
+                    "value": 1.0
+                  },
+                  "baseColor": {
+                    "value": [
+                      0.5,
+                      0.5,
+                      0.5
+                    ]
+                  },
+                  "coat": {
+                    "value": 0.0
+                  },
+                  "coatAffectColor": {
+                    "value": 0.5
+                  },
+                  "coatAffectRoughness": {
+                    "value": 0.5
+                  },
+                  "coatAnisotropy": {
+                    "value": 0.0
+                  },
+                  "coatColor": {
+                    "value": [
+                      1.0,
+                      1.0,
+                      1.0
+                    ]
+                  },
+                  "coatIOR": {
+                    "value": 1.5199999809265137
+                  },
+                  "coatNormal": {
+                    "value": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  },
+                  "coatRotation": {
+                    "value": 0.25
+                  },
+                  "coatRoughness": {
+                    "value": 0.0
+                  },
+                  "diffuseRoughness": {
+                    "value": 0.0
+                  },
+                  "emission": {
+                    "value": 1.0
+                  },
+                  "emissionColor": {
+                    "value": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  },
+                  "metalness": {
+                    "value": 0.0
+                  },
+                  "normalCamera": {
+                    "value": [
+                      1.0,
+                      1.0,
+                      1.0
+                    ]
+                  },
+                  "normalCameraFactor": {
+                    "value": 0.0
+                  },
+                  "normalCameraUsedAs": {
+                    "value": 0
+                  },
+                  "opacity": {
+                    "value": [
+                      1.0,
+                      1.0,
+                      1.0
+                    ]
+                  },
+                  "sheen": {
+                    "value": 0.0
+                  },
+                  "sheenColor": {
+                    "value": [
+                      1.0,
+                      1.0,
+                      1.0
+                    ]
+                  },
+                  "sheenRoughness": {
+                    "value": 0.30000001192092896
+                  },
+                  "specular": {
+                    "value": 1.0
+                  },
+                  "specularAnisotropy": {
+                    "value": 0.0
+                  },
+                  "specularColor": {
+                    "value": [
+                      1.0,
+                      1.0,
+                      1.0
+                    ]
+                  },
+                  "specularIOR": {
+                    "value": 1.5199999809265137
+                  },
+                  "specularRotation": {
+                    "value": 0.25
+                  },
+                  "specularRoughness": {
+                    "value": 0.0
+                  },
+                  "subsurface": {
+                    "value": 0.0
+                  },
+                  "subsurfaceAnisotropy": {
+                    "value": 0.0
+                  },
+                  "subsurfaceColor": {
+                    "value": [
+                      1.0,
+                      1.0,
+                      1.0
+                    ]
+                  },
+                  "subsurfaceRadius": {
+                    "value": [
+                      100.0,
+                      50.0,
+                      25.0
+                    ]
+                  },
+                  "subsurfaceScale": {
+                    "value": 1.0
+                  },
+                  "thinFilmIOR": {
+                    "value": 1.2999999523162842
+                  },
+                  "thinFilmThickness": {
+                    "value": 0.0
+                  },
+                  "thinWalled": {
+                    "value": false
+                  },
+                  "transmission": {
+                    "value": 0.0
+                  },
+                  "transmissionColor": {
+                    "value": [
+                      1.0,
+                      1.0,
+                      1.0
+                    ]
+                  },
+                  "transmissionDepth": {
+                    "value": 0.0
+                  },
+                  "transmissionDispersion": {
+                    "value": 0.0
+                  },
+                  "transmissionExtraRoughness": {
+                    "value": 0.0
+                  },
+                  "transmissionScatter": {
+                    "value": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  },
+                  "transmissionScatterAnisotropy": {
+                    "value": 0.0
+                  }
+                }
+              },
+              "MultiLayer": {
+                "value": false
+              },
+              "ShadingModel": {
+                "value": ""
+              },
+              "启用": {
+                "value": false
+              }
+            }
+          }
+        }
+      },
+      "name": "001"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "table_small",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "table_small",
+      "translation": [
+        0.0,
+        0.0,
+        0.01422092691063881
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
