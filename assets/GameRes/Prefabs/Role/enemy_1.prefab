@@ -1059,7 +1059,7 @@
     "__prefab": {
       "__id__": 54
     },
-    "moveSpeed": 2,
+    "moveSpeed": 1,
     "arriveDistance": 1,
     "groundHeightOffset": 0.02,
     "shadow": null,
@@ -6167,6 +6167,7 @@
       "__id__": 0
     },
     "fileId": "04jBO9vbJLOL27EBgN/d0W",
+    "instance": null,
     "targetOverrides": [
       {
         "__id__": 453

@@ -1050,7 +1050,7 @@
     "__prefab": {
       "__id__": 70
     },
-    "speed": 10,
+    "speed": 15,
     "damage": 10,
     "damageColor": {
       "__type__": "cc.Color",
